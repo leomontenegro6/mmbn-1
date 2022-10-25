@@ -9,9 +9,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! I'm sending
-	more chip data!
-	Give me one turn!
+	MegaMan! Vou mandar
+	mais chips! Me
+	dê mais um turno!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +28,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can't send
-	any more data...
+	Não consigo enviar
+	mais dados...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,8 +80,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Transmission error!
-	Cancelling battle...
+	Erro de transmissão!
+	Cancelando batalha...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +114,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -122,7 +122,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -166,7 +166,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -174,7 +174,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -218,7 +218,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -226,7 +226,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270,7 +270,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -278,7 +278,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -322,7 +322,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -330,7 +330,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -374,7 +374,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -382,7 +382,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -426,7 +426,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -434,7 +434,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -478,7 +478,7 @@ script 14 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -486,7 +486,7 @@ script 14 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -530,7 +530,7 @@ script 16 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -538,7 +538,7 @@ script 16 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -582,7 +582,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -590,7 +590,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -634,7 +634,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -642,7 +642,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -686,7 +686,7 @@ script 22 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -694,7 +694,7 @@ script 22 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -738,7 +738,7 @@ script 24 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -746,7 +746,7 @@ script 24 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -790,7 +790,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -798,7 +798,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -850,7 +850,7 @@ script 30 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -858,7 +858,7 @@ script 30 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -902,7 +902,7 @@ script 32 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -910,7 +910,7 @@ script 32 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -954,7 +954,7 @@ script 34 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -962,7 +962,7 @@ script 34 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1006,7 +1006,7 @@ script 36 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1014,7 +1014,7 @@ script 36 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1058,7 +1058,7 @@ script 38 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1066,7 +1066,7 @@ script 38 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1110,7 +1110,7 @@ script 40 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1118,7 +1118,7 @@ script 40 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1162,7 +1162,7 @@ script 42 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1170,7 +1170,7 @@ script 42 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1214,7 +1214,7 @@ script 44 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1222,7 +1222,7 @@ script 44 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1266,7 +1266,7 @@ script 46 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1274,7 +1274,7 @@ script 46 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1318,7 +1318,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1326,7 +1326,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1370,7 +1370,7 @@ script 50 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1378,7 +1378,7 @@ script 50 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1422,7 +1422,7 @@ script 52 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1430,7 +1430,7 @@ script 52 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1474,7 +1474,7 @@ script 54 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1482,7 +1482,7 @@ script 54 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1526,7 +1526,7 @@ script 56 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1534,7 +1534,7 @@ script 56 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1578,7 +1578,7 @@ script 58 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1586,7 +1586,7 @@ script 58 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1630,7 +1630,7 @@ script 60 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1638,7 +1638,7 @@ script 60 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -2955,213 +2955,214 @@ script 255 mmbn1s {
 
 script 0 mmbn1s {
 	"""
-	Get closer
-	to hit
-	faster
+	Chegue
+	perto pra
+	atingir
 	"""
 	end
 	"  "
 }
 script 1 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um
+	canhãozão!
 	"""
 	end
 	"  "
 }
 script 2 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um
+	canhãozão!
 	"""
 	end
 	"  "
 }
 script 3 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um
+	canhãozão!
 	"""
 	end
 	"  "
 }
 script 4 mmbn1s {
 	"""
-	Cut down
-	enemies!
-	Range=1
+	Corte
+	inimigos!  
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 5 mmbn1s {
 	"""
-	Cut down
-	column!
-	Range=1
+	Corte
+	coluna!   
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 6 mmbn1s {
 	"""
-	Cut down
-	enemies!
-	Range=2
+	Corte
+	inimigos!  
+	Alc.=2
 	"""
 	end
 	"  "
 }
 script 7 mmbn1s {
 	"""
-	Throw a
-	bomb!
-	Depth=3
+	Joga
+	bomba!  
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 8 mmbn1s {
 	"""
-	Cross
-	bomb
-	Depth=3
+	Bomba
+	cruz
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 9 mmbn1s {
 	"""
-	Bomb with
-	a big boom
-	Depth=3
+	Bomba
+	bombás-
+	tica  
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 10 mmbn1s {
 	"""
-	Gun with
-	a 1-panel
-	blast
+	Tiro com
+	exp. de
+	1 qdo
 	"""
 	end
 	"  "
 }
 script 11 mmbn1s {
 	"""
-	Bubbles w/
-	a 1-panel
-	blast
+	Bolhas com
+	exp. de
+	1 qdo
 	"""
 	end
 	"  "
 }
 script 12 mmbn1s {
 	"""
-	Fire with
-	a 1-panel
-	blast
+	Fogo com
+	exp. de
+	1 qdo
 	"""
 	end
 	"  "
 }
 script 13 mmbn1s {
 	"""
-	Throw a
-	bomb!
-	Depth=3
+	Joga
+	bomba!  
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 14 mmbn1s {
 	"""
-	Hits enemy
-	and keeps
-	going 1pnl
+	Atinge e
+	avança
+	1 qd
 	"""
 	end
 	"  "
 }
 script 15 mmbn1s {
 	"""
-	4-panel
+	Tiro
 	diagonal
-	blast
+	4qds
 	"""
 	end
 	"  "
 }
 script 16 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda
+	ter.
+	penetr.
 	"""
 	end
 	"  "
 }
 script 17 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda
+	ter.
+	penetr.
 	"""
 	end
 	"  "
 }
 script 18 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda
+	ter.
+	penetr.
 	"""
 	end
 	"  "
 }
 script 19 mmbn1s {
 	"""
-	Fire that
-	can move
-	up & down
+	Fogo que
+	move baixo e 
+	cima
 	"""
 	end
 	"  "
 }
 script 20 mmbn1s {
 	"""
-	Water that
-	can move
-	up & down
+	Água que
+	move baixo e 
+	cima
 	"""
 	end
 	"  "
 }
 script 21 mmbn1s {
 	"""
-	Log that
-	can move
-	up & down
+	Tora que
+	move baixo e
+	 cima
 	"""
 	end
 	"  "
 }
 script 22 mmbn1s {
 	"""
-	Cracks a
-	panel
-	Depth=3
+	Racha
+	quadro  
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 23 mmbn1s {
 	"""
-	Cracks a
-	panel
-	Depth=3
+	Racha
+	quadro  
+	Alc.=3
 	"""
 	end
 	"  "
@@ -3177,90 +3178,90 @@ script 24 mmbn1s {
 }
 script 25 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna    
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 26 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna    
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 27 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna    
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 28 mmbn1s {
 	"""
-	Knocks
-	stuff over
-	Range=1
+	Derruba
+	coisas   
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 29 mmbn1s {
 	"""
-	Knocks
-	stuff over
-	Range=1
+	Derruba
+	coisas   
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 30 mmbn1s {
 	"""
-	Warrior's
-	sword
-	Range=3
+	Espada de
+	cav. 
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 31 mmbn1s {
 	"""
-	Knock over
-	all in
-	your path!
+	Derruba
+	tudo no
+	caminho!
 	"""
 	end
 	"  "
 }
 script 32 mmbn1s {
 	"""
-	Knight's
-	sword
-	Range=3
+	Espada de
+	cav.
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 33 mmbn1s {
 	"""
-	Legendary
-	sword
-	Range=3
+	Espada
+	lendária
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 34 mmbn1s {
 	"""
-	Hold A Btn
-	for 3 sec
-	defense!
+	Segure A
+	para def.
+	de 3 segds
 	"""
 	end
 	"  "
@@ -3277,90 +3278,90 @@ script 36 mmbn1s {
 }
 script 37 mmbn1s {
 	"""
-	Fires a
-	3-arrow
-	burst
+	Rajada
+	de 3
+	flechas
 	"""
 	end
 	"  "
 }
 script 38 mmbn1s {
 	"""
-	Fires a
-	3-spear
-	burst
+	Rajada
+	de 3
+	flechas
 	"""
 	end
 	"  "
 }
 script 39 mmbn1s {
 	"""
-	Fires a
-	3-lance
-	burst
+	Rajada
+	de 3
+	lanças
 	"""
 	end
 	"  "
 }
 script 40 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	3 hits
+	Cria
+	tornado de
+	3 atqs
 	"""
 	end
 	"  "
 }
 script 41 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	5 hits
+	Cria
+	tornado de
+	5 atqs
 	"""
 	end
 	"  "
 }
 script 42 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	8 hits
+	Cria
+	tornado de
+	8 atqs
 	"""
 	end
 	"  "
 }
 script 43 mmbn1s {
 	"""
-	Breaks
-	panels
-	Depth=3
+	Quebra
+	quadro
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 44 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	gira-
+	tório
 	"""
 	end
 	"  "
 }
 script 45 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	gira-
+	tório
 	"""
 	end
 	"  "
 }
 script 46 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	gira-
+	tório
 	"""
 	end
 	"  "
@@ -3377,36 +3378,36 @@ script 48 mmbn1s {
 }
 script 49 mmbn1s {
 	"""
-	Squirming
-	snake
-	attack!
+	Ataque
+	cobra
+	contorc.
 	"""
 	end
 	"  "
 }
 script 50 mmbn1s {
 	"""
-	Shocking
-	snake
-	attack!
+	Ataque
+	cobra
+	chocante
 	"""
 	end
 	"  "
 }
 script 51 mmbn1s {
 	"""
-	Scorching
-	snake
-	attack!
+	Ataque
+	cobra
+	quente!
 	"""
 	end
 	"  "
 }
 script 52 mmbn1s {
 	"""
-	Breaks
-	cubes
-	Range=1
+	Quebra
+	cubos
+	Alc.=1
 	"""
 	end
 	"  "
@@ -3423,9 +3424,9 @@ script 54 mmbn1s {
 }
 script 55 mmbn1s {
 	"""
-	Engulf all
-	around you
-	in flames!
+	Cerca
+	você com
+	chamas!
 	"""
 	end
 	"  "
@@ -3442,72 +3443,72 @@ script 57 mmbn1s {
 }
 script 58 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 59 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 60 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 61 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 62 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 63 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 64 mmbn1s {
 	"""
-	Erase 1
-	panel
-	Range=1
+	Apaga 1
+	qdo.
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 65 mmbn1s {
 	"""
-	Erase
-	column
-	Range=1
+	Apaga
+	coluna
+	Alc.=1
 	"""
 	end
 	"  "
@@ -3519,7 +3520,7 @@ script 66 mmbn1s {
 }
 script 67 mmbn1s {
 	"""
-	Recover
+	Cura
 	10HP
 	"""
 	end
@@ -3527,7 +3528,7 @@ script 67 mmbn1s {
 }
 script 68 mmbn1s {
 	"""
-	Recover
+	Cura
 	30HP
 	"""
 	end
@@ -3535,7 +3536,7 @@ script 68 mmbn1s {
 }
 script 69 mmbn1s {
 	"""
-	Recover
+	Cura
 	50HP
 	"""
 	end
@@ -3543,7 +3544,7 @@ script 69 mmbn1s {
 }
 script 70 mmbn1s {
 	"""
-	Recover
+	Cura
 	80HP
 	"""
 	end
@@ -3551,7 +3552,7 @@ script 70 mmbn1s {
 }
 script 71 mmbn1s {
 	"""
-	Recover
+	Cura
 	120HP
 	"""
 	end
@@ -3559,7 +3560,7 @@ script 71 mmbn1s {
 }
 script 72 mmbn1s {
 	"""
-	Recover
+	Cura
 	150HP
 	"""
 	end
@@ -3567,7 +3568,7 @@ script 72 mmbn1s {
 }
 script 73 mmbn1s {
 	"""
-	Recover
+	Cura
 	200HP
 	"""
 	end
@@ -3575,7 +3576,7 @@ script 73 mmbn1s {
 }
 script 74 mmbn1s {
 	"""
-	Recover
+	Cura
 	300HP
 	"""
 	end
@@ -3588,9 +3589,9 @@ script 75 mmbn1s {
 }
 script 76 mmbn1s {
 	"""
-	Steal left
-	column of
-	enemy area
+	Rouba
+	coluna esq
+	do inimigo
 	"""
 	end
 	"  "
@@ -3607,18 +3608,18 @@ script 78 mmbn1s {
 }
 script 79 mmbn1s {
 	"""
-	All panels
-	become
-	cracked!
+	Racha
+	todos os
+	quadros!
 	"""
 	end
 	"  "
 }
 script 80 mmbn1s {
 	"""
-	Erases
-	all empty
-	panels
+	Apaga
+	quadros
+	vazios
 	"""
 	end
 	"  "
@@ -3630,44 +3631,44 @@ script 81 mmbn1s {
 }
 script 82 mmbn1s {
 	"""
-	Escape
-	from most
-	enemies
+	Foge de
+	inimigos
+	maior.
 	"""
 	end
 	"  "
 }
 script 83 mmbn1s {
 	"""
-	Destroy
-	enemy chip
-	data
+	Destrói
+	chips
+	inimigos
 	"""
 	end
 	"  "
 }
 script 84 mmbn1s {
 	"""
-	Negate all
-	attacks w/
-	damage<100
+	Nega todos
+	os ataques
+	de dano<100
 	"""
 	end
 	"  "
 }
 script 85 mmbn1s {
 	"""
-	Null<10dmg
-	Weak vs.
-	\[Elec\]
+	Nula<10dn
+	Fraco vs
+	\[Elet\]
 	"""
 	end
 	"  "
 }
 script 86 mmbn1s {
 	"""
-	Null<40dmg
-	Weak vs.
+	Nula<40dn
+	Fraco vs
 	\[Aqua\]
 	"""
 	end
@@ -3675,18 +3676,18 @@ script 86 mmbn1s {
 }
 script 87 mmbn1s {
 	"""
-	Null<80dmg
-	Weak vs.
-	\[Fire\]
+	Nula<80dn
+	Fraco vs
+	\[Fogo\]
 	"""
 	end
 	"  "
 }
 script 88 mmbn1s {
 	"""
-	Repair
-	panels in
-	your area
+	Conserta
+	qdos da
+	sua área
 	"""
 	end
 	"  "
@@ -3703,45 +3704,45 @@ script 90 mmbn1s {
 }
 script 91 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	1 coluna
 	"""
 	end
 	"  "
 }
 script 92 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	1 coluna
 	"""
 	end
 	"  "
 }
 script 93 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	1 coluna
 	"""
 	end
 	"  "
 }
 script 94 mmbn1s {
 	"""
-	Creates an
-	ice cube
-	Range=1
+	Cria cubo
+	de gelo  
+	Alc.=1
 	"""
 	end
 	"  "
 }
 script 95 mmbn1s {
 	"""
-	Creates 3
-	rock cubes
-	randomly
+	Cria 3
+	cubos de
+	pedra aleat.
 	"""
 	end
 	"  "
@@ -3753,60 +3754,60 @@ script 96 mmbn1s {
 }
 script 97 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Põe bomba
+	relógio
+	no inimigo
 	"""
 	end
 	"  "
 }
 script 98 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Põe bomba
+	relógio
+	no inimigo
 	"""
 	end
 	"  "
 }
 script 99 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Põe bomba
+	relógio
+	no inimigo
 	"""
 	end
 	"  "
 }
 script 100 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	tempor.
 	"""
 	end
 	"  "
 }
 script 101 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	tempor.
 	"""
 	end
 	"  "
 }
 script 102 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	tempor.
 	"""
 	end
 	"  "
 }
 script 103 mmbn1s {
 	"""
-	30 seconds
-	stoneshape
-	Defense UP
+	Defesa de
+	pedra por
+	30 segundos
 	"""
 	end
 	"  "
@@ -3818,135 +3819,135 @@ script 104 mmbn1s {
 }
 script 105 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmagar
+	por cont.
+	rem.
 	"""
 	end
 	"  "
 }
 script 106 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmagar
+	por cont.
+	rem.
 	"""
 	end
 	"  "
 }
 script 107 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmagar
+	por cont.
+	rem.
 	"""
 	end
 	"  "
 }
 script 108 mmbn1s {
 	"""
-	1-turn of
+	1turno de
 	MetGuard
-	w/ B Btn.
+	c/ Bt. B
 	"""
 	end
 	"  "
 }
 script 109 mmbn1s {
 	"""
-	1-turn of
+	1turno de
 	MiniBomb
-	w/ B Btn.
+	c/ Bt. B
 	"""
 	end
 	"  "
 }
 script 110 mmbn1s {
 	"""
-	1-turn use
-	of Sword
-	with B Btn
+	1 turno
+	de Sword
+	com o Bt.B
 	"""
 	end
 	"  "
 }
 script 111 mmbn1s {
 	"""
-	1-turn of
+	1 turno de
 	GutsPnch
-	with B Btn.
+	com o Bt.B
 	"""
 	end
 	"  "
 }
 script 112 mmbn1s {
 	"""
-	Lightning
-	circles
-	you once
+	Relâm.o
+	circunda
+	uma vez
 	"""
 	end
 	"  "
 }
 script 113 mmbn1s {
 	"""
-	Lightning
-	circles
-	you twice
+	Relâm.o
+	circunda
+	2 vezes
 	"""
 	end
 	"  "
 }
 script 114 mmbn1s {
 	"""
-	Lightning
-	circles
-	you thrice
+	Relâm.o
+	circunda
+	3 vezes
 	"""
 	end
 	"  "
 }
 script 115 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	recupera
+	certo HP
 	"""
 	end
 	"  "
 }
 script 116 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	recupera
+	certo HP
 	"""
 	end
 	"  "
 }
 script 117 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	recupera
+	certo HP
 	"""
 	end
 	"  "
 }
 script 118 mmbn1s {
 	"""
-	Slows down
-	custom
-	gauge
+	Desacelera
+	bar de
+	com.
 	"""
 	end
 	"  "
 }
 script 119 mmbn1s {
 	"""
-	Speeds up
-	custom
-	gauge
+	Acelera
+	bar. de
+	com.
 	"""
 	end
 	"  "
@@ -3958,198 +3959,195 @@ script 120 mmbn1s {
 }
 script 121 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena HP
+	do inimigo
 	"""
 	end
 	"  "
 }
 script 122 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena HP
+	do inimigo
 	"""
 	end
 	"  "
 }
 script 123 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena HP
+	do inimigo
 	"""
 	end
 	"  "
 }
 script 124 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Esconde
+	mina na
+	área do in
 	"""
 	end
 	"  "
 }
 script 125 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Esconde
+	mina na
+	área do in
 	"""
 	end
 	"  "
 }
 script 126 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Esconde
+	mina na
+	área do in
 	"""
 	end
 	"  "
 }
 script 127 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3-colunas!
 	"""
 	end
 	"  "
 }
 script 128 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3-colunas!
 	"""
 	end
 	"  "
 }
 script 129 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3-colunas!
 	"""
 	end
 	"  "
 }
 script 130 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Parede
+	água.Volta
+	se atacada
 	"""
 	end
 	"  "
 }
 script 131 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Parede
+	água.Volta
+	se atacada
 	"""
 	end
 	"  "
 }
 script 132 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Parede
+	água.Volta
+	se atacada
 	"""
 	end
 	"  "
 }
 script 133 mmbn1s {
 	"""
-	3-row
-	wave!
-	\[Aqua\]
+	Onda
+	3-fil.
+	\[Agua\]
 	"""
 	end
 	"  "
 }
 script 134 mmbn1s {
 	"""
-	3-row
-	lava wave!
-	\[Fire\]
+	Onda-lava
+	3-fil.
+	\[Fogo\]
 	"""
 	end
 	"  "
 }
 script 135 mmbn1s {
 	"""
-	3-row
-	giant wave
-	\[Aqua\]
+	Onda gig
+	3-fil.
+	\[Agua\]
 	"""
 	end
 	"  "
 }
 script 136 mmbn1s {
 	"""
-	Do damage
-	= to your
-	HP loss
+	Cause dan
+	= à perda
+	de HP
 	"""
 	end
 	"  "
 }
 script 137 mmbn1s {
 	"""
-	Invisible
-	until you
-	attack!
+	Invisível
+	até
+	atacar!
 	"""
 	end
 	"  "
 }
 script 138 mmbn1s {
 	"""
-	Invisible
-	when not
-	attacking!
+	Invisível
+	enquanto
+	não atcar!
 	"""
 	end
 	"  "
 }
 script 139 mmbn1s {
 	"""
-	Looks
-	right for
-	enemy
+	Busca
+	inmigos
+	direita
 	"""
 	end
 	"  "
 }
 script 140 mmbn1s {
 	"""
-	Looks
-	diagonally
-	for enemy
+	Busca
+	inimigo
+	diagnalmente
 	"""
 	end
 	"  "
 }
 script 141 mmbn1s {
 	"""
-	Looks up &
-	down for
-	enemy
+	Busca inmg
+	em cima
+	e baixo
 	"""
 	end
 	"  "
 }
 script 142 mmbn1s {
 	"""
-	Set Anubis
-	statue to
-	reduce HP
+	Estátua
+	Anúbis
+	reduz HP
 	"""
 	end
 	"  "
@@ -4166,81 +4164,81 @@ script 144 mmbn1s {
 }
 script 145 mmbn1s {
 	"""
-	Hold btn.
-	to create
-	shield!
+	Segure bt.
+	e crie
+	escudo!
 	"""
 	end
 	"  "
 }
 script 146 mmbn1s {
 	"""
-	Turns dmg
-	from 1 hit
-	into HP
+	Transf.
+	dano de 1
+	atq em HP
 	"""
 	end
 	"  "
 }
 script 147 mmbn1s {
 	"""
-	Nullify
-	1 enemy
-	attack
+	Anula
+	1 ataque
+	inimigo
 	"""
 	end
 	"  "
 }
 script 148 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 149 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 150 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 151 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 para
+	atque est.
 	"""
 	end
 	"  "
 }
 script 152 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 para
+	atque est.
 	"""
 	end
 	"  "
 }
 script 153 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 para
+	atque est.
 	"""
 	end
 	"  "
@@ -4262,384 +4260,384 @@ script 156 mmbn1s {
 }
 script 157 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	inst.?!
 	"""
 	end
 	"  "
 }
 script 158 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	inst.?!
 	"""
 	end
 	"  "
 }
 script 159 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	inst.?!
 	"""
 	end
 	"  "
 }
 script 160 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	inimigo e
+	cura HP
 	"""
 	end
 	"  "
 }
 script 161 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	inimigo e
+	cura HP
 	"""
 	end
 	"  "
 }
 script 162 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	inimigo e
+	cura HP
 	"""
 	end
 	"  "
 }
 script 163 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta   
+	e racha
+	área inimig
 	"""
 	end
 	"  "
 }
 script 164 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta   
+	e racha
+	área inimig
 	"""
 	end
 	"  "
 }
 script 165 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta   
+	e racha
+	área inimig
 	"""
 	end
 	"  "
 }
 script 166 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Atinge col
+	c/ inimigo
+	próx
 	"""
 	end
 	"  "
 }
 script 167 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Atinge col
+	c/ inimigo
+	próx
 	"""
 	end
 	"  "
 }
 script 168 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Atinge col
+	c/ inimigo
+	próx
 	"""
 	end
 	"  "
 }
 script 169 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 170 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 171 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 172 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	fogo 1f
 	"""
 	end
 	"  "
 }
 script 173 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	fogo 1f
 	"""
 	end
 	"  "
 }
 script 174 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	fogo 1f
 	"""
 	end
 	"  "
 }
 script 175 mmbn1s {
 	"""
-	DieRollx10
-	damage to
-	enemy area
+	Dadosx10   
+	dano a
+	área inimiga
 	"""
 	end
 	"  "
 }
 script 176 mmbn1s {
 	"""
-	DieRollx20
-	damage to
-	enemy area
+	Dadosx20   
+	dano a
+	área inimiga
 	"""
 	end
 	"  "
 }
 script 177 mmbn1s {
 	"""
-	DieRollx30
-	damage to
-	enemy area
+	Dadosx30   
+	dano a
+	área inimiga
 	"""
 	end
 	"  "
 }
 script 178 mmbn1s {
 	"""
-	Drops 3x3
-	stones on
-	enemy area
+	Joga
+	pedras 3x3
+	na área inimig
 	"""
 	end
 	"  "
 }
 script 179 mmbn1s {
 	"""
-	Drops 4x3
-	stones on
-	enemy area
+	Joga
+	pedras 4x3
+	na área inimig
 	"""
 	end
 	"  "
 }
 script 180 mmbn1s {
 	"""
-	Drops 5x3
-	stones on
-	enemy area
+	Joga
+	pedras 5x3
+	na área inimig
 	"""
 	end
 	"  "
 }
 script 181 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Ataque
+	nevasca na
+	área inimig
 	"""
 	end
 	"  "
 }
 script 182 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Ataque
+	nevasca na
+	área inimig
 	"""
 	end
 	"  "
 }
 script 183 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Ataque
+	nevasca na
+	área inimig
 	"""
 	end
 	"  "
 }
 script 184 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira em
+	um inimigo
 	"""
 	end
 	"  "
 }
 script 185 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira em
+	um inimigo
 	"""
 	end
 	"  "
 }
 script 186 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira em
+	um inimigo
 	"""
 	end
 	"  "
 }
 script 187 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	\[Água\] &
+	\[Fogo\]!
 	"""
 	end
 	"  "
 }
 script 188 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	\[Água\] &
+	\[Fogo\]!
 	"""
 	end
 	"  "
 }
 script 189 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	\[Água\] &
+	\[Fogo\]!
 	"""
 	end
 	"  "
 }
 script 190 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no inimigo
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 191 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no inimigo
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 192 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no inimigo
+	Alc.=3
 	"""
 	end
 	"  "
 }
 script 193 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 194 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 195 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3-fil.
 	"""
 	end
 	"  "
 }
 script 196 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão
+	atinge
+	qdo. inimigo
 	"""
 	end
 	"  "
 }
 script 197 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão
+	atinge
+	qdo. inimigo
 	"""
 	end
 	"  "
 }
 script 198 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão
+	atinge
+	qdo. inimigo
 	"""
 	end
 	"  "
 }
 script 199 mmbn1s {
 	"""
-	Explodes
-	on entire
-	area!
+	Explode
+	em toda
+	a área!
 	"""
 	end
 	"  "
@@ -5096,7 +5094,7 @@ script 36 mmbn1s {
 	"  "
 }
 script 37 mmbn1s {
-	"@Dad"
+	"@Pai"
 	end
 	"  "
 }
@@ -5366,9 +5364,9 @@ script 0 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Lan's terminal
-	program MegaMan.EXE
-	is installed.
+	O terminal do
+	Lan,MegaMan.EXE
+	está instalado.   
 	"""
 	waitHold
 	"  "
@@ -5380,9 +5378,9 @@ script 1 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Program for making
-	ice inside the net.
-	(charges left:
+	Programa para fazer
+	gelo na rede.   
+	(usos restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5400,8 +5398,9 @@ script 2 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Warning: This water
-	gun is not a toy!
+	Aviso-essa arma
+	d'água não é
+	brinquedo
 	"""
 	waitHold
 	"  "
@@ -5413,9 +5412,9 @@ script 3 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	An ID/time card.
-	All teachers at ACDC
-	elementary carry it.
+	Cartão de ID/horário.
+	Todos os professores
+	de ACDC têm um.
 	"""
 	waitHold
 	"  "
@@ -5427,9 +5426,9 @@ script 4 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	An ID card for the
-	SciLab. This one's
-	Dad's...I think.
+	Cartão de ID do
+	SciLab. Esse é do
+	papai... eu acho.
 	"""
 	waitHold
 	"  "
@@ -5441,9 +5440,9 @@ script 5 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Knob program for
-	the faucet program
-	on the net.
+	Programa da
+	manivela pro
+	programa da torneira. 
 	"""
 	waitHold
 	"  "
@@ -5455,9 +5454,9 @@ script 6 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Message from Froid
-	in 5th grade to his
-	dad: “I'm OK!“
+	Mensagem do Froid
+	da 5a. série pro
+	seu pai: “Tô bem!“
 	"""
 	waitHold
 	"  "
@@ -5469,9 +5468,9 @@ script 7 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Response to Mayl's
-	mail:“I'll go
-	shopping with you!“
+	Resposta pro email
+	da Mayl: “Eu
+	compro com você!“   “
 	"""
 	waitHold
 	"  "
@@ -5483,9 +5482,9 @@ script 8 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Code known only to
-	WWW's friends. Opens
-	lock programs.
+	Código de associados
+	da WWW. Abre
+	programas trancados. 
 	"""
 	waitHold
 	"  "
@@ -5497,9 +5496,9 @@ script 9 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para net-lâmpadas.   
+	(restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5517,9 +5516,9 @@ script 10 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para net-lâmpadas.   
+	(restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5537,9 +5536,9 @@ script 11 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para net-lâmpadas.   
+	(restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5557,9 +5556,9 @@ script 12 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para net-lâmpadas.   
+	(restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5577,9 +5576,9 @@ script 13 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para net-lâmpadas.   
+	(restantes:
 	"""
 	printItemAmount
 		minLength = 0
@@ -5597,15 +5596,15 @@ script 14 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Hand-made generator
-	for recharging 
+	Um gerador
+	manual para recargas
 	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
 	.
-	Not very sturdy.
+	Bem pouco durável.
 	"""
 	waitHold
 	"  "
@@ -5626,9 +5625,9 @@ script 15 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	A Metroline pass...
-	but it doesn't work
-	on normal lines.
+	Um ticket da
+	Metroline...inútil
+	nos metrôs normais.
 	"""
 	waitHold
 	"  "
@@ -5649,8 +5648,8 @@ script 17 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	False teeth for
-	the elderly.
+	Dentes falsos
+	de um idoso.
 	"""
 	waitHold
 	"  "
@@ -5797,9 +5796,9 @@ script 33 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the piano in
-	Mayl's house.
+	Endereço para a
+	rede do piano na
+	casa da Mayl.
 	"""
 	waitHold
 	"  "
@@ -5811,9 +5810,9 @@ script 34 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the portrait in
-	Yai's house.
+	Endereço para a
+	rede do retrato
+	na casa da Yai. 
 	"""
 	waitHold
 	"  "
@@ -5825,9 +5824,9 @@ script 35 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the computer in
-	Dex's house.
+	Endereço para o
+	computador da casa
+	do Dex.      
 	"""
 	waitHold
 	"  "
@@ -5848,9 +5847,9 @@ script 37 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	Dad's computer down
-	at the SciLab.
+	Endereço para o
+	computador do papai
+	no SciLab.        
 	"""
 	waitHold
 	"  "
@@ -5862,9 +5861,9 @@ script 38 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the cash register at
-	Sal's lunch stand.
+	Endereço para a caixa
+	registradora da
+	barraquinha da Sal.  
 	"""
 	waitHold
 	"  "
@@ -5885,9 +5884,9 @@ script 40 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the magnifying glass
-	at Miyu's Antiques.
+	Endereço para a rede
+	da lupa na loja de
+	antiguidades da Miyu 
 	"""
 	waitHold
 	"  "
@@ -5917,8 +5916,9 @@ script 43 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	Masa's fish stand.
+	Endereço para a
+	rede do
+	Masa.         
 	"""
 	waitHold
 	"  "
@@ -5939,8 +5939,8 @@ script 45 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the WWW Labs.
+	Endereço de rede
+	do lab. da WWW 
 	"""
 	waitHold
 	"  "
@@ -5970,9 +5970,9 @@ script 48 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Dex's
-	net links.
+	Passe de acesso
+	aos links do
+	Dex.
 	"""
 	waitHold
 	"  "
@@ -5984,9 +5984,9 @@ script 49 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Sal's
-	net links.
+	Passe de acesso
+	aos links da
+	Sal.
 	"""
 	waitHold
 	"  "
@@ -5998,9 +5998,9 @@ script 50 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Miyu's
-	net links.
+	Passe de acesso
+	aos links da
+	Miyu.
 	"""
 	waitHold
 	"  "
@@ -6021,9 +6021,9 @@ script 52 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(C-level)
+	Passe de acesso
+	aos links da
+	WWW (nível-C)
 	"""
 	waitHold
 	"  "
@@ -6035,9 +6035,9 @@ script 53 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(B-level)
+	Passe de acesso
+	aos links da
+	WWW (nível-B)
 	"""
 	waitHold
 	"  "
@@ -6049,9 +6049,9 @@ script 54 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(A-level)
+	Passe de acesso
+	aos links da
+	WWW (nível-A)
 	"""
 	waitHold
 	"  "
@@ -6063,9 +6063,9 @@ script 55 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(S-level)
+	Passe de acesso
+	aos links da
+	WWW (nível-S)
 	"""
 	waitHold
 	"  "
@@ -6113,9 +6113,9 @@ script 60 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	ACDC station on
-	the Metroline.
+	1 passagem escolar
+	pra estação Metroline
+	ACDC.
 	"""
 	waitHold
 	"  "
@@ -6127,9 +6127,9 @@ script 61 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	Government station
-	on the Metroline.
+	1 passagem escolar
+	pra estação Metroline
+	do Complexo.
 	"""
 	waitHold
 	"  "
@@ -6141,9 +6141,9 @@ script 62 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	Dentown station
-	on the Metroline.
+	1 passagem escolar
+	pra estação Metroline
+	de Dentown.
 	"""
 	waitHold
 	"  "
@@ -6182,9 +6182,9 @@ script 70 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	A Metroline pass
-	that doesn't work.
-	...It's expired.
+	1 passagem da
+	Metroline que não
+	funciona. Vencido.
 	"""
 	waitHold
 	"  "
@@ -6421,8 +6421,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have some time
-	before class starts.
+	Ainda tem tempo
+	até a aula começar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6432,8 +6432,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's chat with
-	everyone!
+	Vamos jogar
+	conversa fora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6460,8 +6460,8 @@ script 5 mmbn1 {
 		animation = 2
 	"""
 	Lan,
-	Jack in with the
-	R Button!
+	conecte-se com
+	o botão R!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6490,9 +6490,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm hungry! Let's
-	have a snack when
-	we get home.
+	Que fome! Vamos
+	lanchar quando
+	chegarmos em casa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6510,7 +6510,10 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey! You don't eat!!"
+	"""
+	Mas você
+	não come!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -6527,7 +6530,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh"
+	"Ah"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -6541,7 +6544,7 @@ script 12 mmbn1 {
 	".\n"
 	mugshotAnimate
 		animation = 2
-	"Yeah..."
+	"É..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -6563,8 +6566,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have some time
-	before class starts.
+	Ainda tem tempo
+	até a próxima aula.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6574,8 +6577,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's chat with
-	everyone!
+	Vamos jogar
+	conversa fora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6607,7 +6610,7 @@ script 20 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wha??"
+	"QUÊ?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -6616,8 +6619,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wanna leave this up
-	to Dex?
+	Vai deixar isso
+	nas mãos do DEX?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6654,8 +6657,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	chairs in 5A?
+	Contou as
+	carteiras na 5A?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6667,7 +6670,7 @@ script 25 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -6675,7 +6678,7 @@ script 25 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -6687,8 +6690,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you have!
+	Ligue de novo
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6705,8 +6708,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK,me diz a
+	senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6735,8 +6738,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Hm? Pode
+	arranjar a senha,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6748,7 +6752,7 @@ script 27 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -6756,7 +6760,7 @@ script 27 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -6767,7 +6771,10 @@ script 27 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK,call me again!"
+	"""
+	OK,ligue
+	de novo!
+	"""
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -6783,7 +6790,7 @@ script 28 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -6794,7 +6801,7 @@ script 28 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -6802,7 +6809,7 @@ script 28 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -6832,8 +6839,8 @@ script 29 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou
+	tentar,então!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6848,7 +6855,7 @@ script 29 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -6857,7 +6864,7 @@ script 29 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -6865,7 +6872,7 @@ script 29 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -6876,7 +6883,7 @@ script 29 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -6884,7 +6891,7 @@ script 29 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -6895,7 +6902,10 @@ script 29 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"""
+	OK! Ligue de
+	novo!
+	"""
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -6912,8 +6922,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Eu vou
+	tentar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6929,8 +6939,8 @@ script 30 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Legal! Deu certo!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -6939,7 +6949,7 @@ script 30 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -6958,7 +6968,7 @@ script 31 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Let's do it!"
+	"Vamos nessa, Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -6973,7 +6983,7 @@ script 32 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Let's do it!"
+	"Vamos nessa, Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -7003,8 +7013,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you get the
-	number of books?
+	Contou o número
+	de livros?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7016,7 +7026,7 @@ script 35 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7024,7 +7034,7 @@ script 35 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7036,8 +7046,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Me liga de novo
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7054,8 +7064,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7084,8 +7094,8 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Hã? Você consegue
+	pegar a senha, né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7097,7 +7107,7 @@ script 37 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7105,7 +7115,7 @@ script 37 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7116,7 +7126,7 @@ script 37 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK,call me again!"
+	"OK, ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7132,7 +7142,7 @@ script 38 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -7143,7 +7153,7 @@ script 38 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7151,7 +7161,7 @@ script 38 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7181,8 +7191,8 @@ script 39 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7197,7 +7207,7 @@ script 39 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -7206,7 +7216,7 @@ script 39 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não prestou"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -7214,7 +7224,7 @@ script 39 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -7225,7 +7235,7 @@ script 39 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7233,7 +7243,7 @@ script 39 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7244,7 +7254,7 @@ script 39 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7261,8 +7271,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Eu vou tentar
+	então!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7278,8 +7288,8 @@ script 40 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7288,7 +7298,7 @@ script 40 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7308,9 +7318,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7327,9 +7337,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7360,8 +7370,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7373,7 +7383,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7381,7 +7391,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7393,8 +7403,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7411,8 +7421,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7441,8 +7451,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7454,7 +7464,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7462,7 +7472,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7473,7 +7483,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7489,7 +7499,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -7500,7 +7510,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7508,7 +7518,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7538,8 +7548,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7554,7 +7564,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -7563,7 +7573,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -7571,7 +7581,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -7582,7 +7592,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -7590,7 +7600,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -7601,7 +7611,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7618,8 +7628,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7635,8 +7645,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7645,7 +7655,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -7664,7 +7674,7 @@ script 51 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Where's Ms.Mari?!"
+	"Cadê a srta.Mari?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -7673,8 +7683,8 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Something isn't
-	right here...!
+	Tem alguma
+	coisa errada aqui...!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7691,9 +7701,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7715,7 +7725,7 @@ script 55 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Let's do it!"
+	"Vamos nessa, Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -7747,9 +7757,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7782,9 +7792,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7833,7 +7843,7 @@ script 70 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"The"
+	"A-a"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -7841,7 +7851,7 @@ script 70 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"AV...room!"
+	"Sala...AV!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -7861,8 +7871,9 @@ script 71 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7879,8 +7890,9 @@ script 72 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7903,8 +7915,8 @@ script 75 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7933,9 +7945,9 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7976,9 +7988,9 @@ script 85 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -7995,9 +8007,9 @@ script 86 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8007,9 +8019,9 @@ script 86 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8027,8 +8039,8 @@ script 87 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8044,7 +8056,7 @@ script 88 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -8093,9 +8105,9 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if the
-	water is safe?
-	Let's ask around!
+	Será que tá tudo
+	bem com a água?
+	Vamos perguntar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8136,9 +8148,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8155,9 +8167,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8178,9 +8190,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8189,7 +8201,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -8208,9 +8220,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8252,9 +8264,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8271,8 +8283,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8299,8 +8311,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -8317,9 +8330,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9418,9 +9431,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9498,8 +9511,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9621,7 +9635,7 @@ script 35 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -9629,7 +9643,7 @@ script 35 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -9641,8 +9655,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9659,8 +9673,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9689,8 +9703,8 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9702,7 +9716,7 @@ script 37 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -9710,7 +9724,7 @@ script 37 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -9737,7 +9751,7 @@ script 38 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -9748,7 +9762,7 @@ script 38 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -9756,7 +9770,7 @@ script 38 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -9786,8 +9800,8 @@ script 39 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9802,7 +9816,7 @@ script 39 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -9811,7 +9825,7 @@ script 39 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -9819,7 +9833,7 @@ script 39 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -9830,7 +9844,7 @@ script 39 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -9838,7 +9852,7 @@ script 39 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -9849,7 +9863,7 @@ script 39 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -9866,8 +9880,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9883,8 +9897,8 @@ script 40 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9893,7 +9907,7 @@ script 40 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -9913,9 +9927,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9932,9 +9946,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9965,8 +9979,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -9978,7 +9992,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -9986,7 +10000,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -9998,8 +10012,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10016,8 +10030,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10046,8 +10060,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10059,7 +10073,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -10067,7 +10081,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -10078,7 +10092,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -10094,7 +10108,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -10105,7 +10119,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -10113,7 +10127,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -10143,8 +10157,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10159,7 +10173,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -10168,7 +10182,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -10176,7 +10190,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -10187,7 +10201,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -10195,7 +10209,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -10206,7 +10220,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -10223,8 +10237,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10240,8 +10254,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10250,7 +10264,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -10296,9 +10310,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10321,8 +10335,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10351,9 +10365,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10394,9 +10408,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10413,9 +10427,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10423,9 +10437,9 @@ script 66 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10443,8 +10457,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10460,7 +10474,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -10596,9 +10610,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10615,9 +10629,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10637,9 +10651,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10648,7 +10662,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -10667,9 +10681,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10711,9 +10725,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10730,8 +10744,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10758,8 +10772,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -10776,9 +10791,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -11890,9 +11905,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -11961,8 +11976,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12077,7 +12093,7 @@ script 35 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12085,7 +12101,7 @@ script 35 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12097,8 +12113,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12115,8 +12131,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12145,8 +12161,8 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12158,7 +12174,7 @@ script 37 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12166,7 +12182,7 @@ script 37 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12193,7 +12209,7 @@ script 38 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -12204,7 +12220,7 @@ script 38 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12212,7 +12228,7 @@ script 38 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12242,8 +12258,8 @@ script 39 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12258,7 +12274,7 @@ script 39 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -12267,7 +12283,7 @@ script 39 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -12275,7 +12291,7 @@ script 39 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -12286,7 +12302,7 @@ script 39 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12294,7 +12310,7 @@ script 39 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12305,7 +12321,7 @@ script 39 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -12322,8 +12338,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12339,8 +12355,8 @@ script 40 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12349,7 +12365,7 @@ script 40 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -12369,9 +12385,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12388,9 +12404,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12421,8 +12437,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12434,7 +12450,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12442,7 +12458,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12454,8 +12470,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12472,8 +12488,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12502,8 +12518,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12515,7 +12531,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12523,7 +12539,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12534,7 +12550,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -12550,7 +12566,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -12561,7 +12577,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12569,7 +12585,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12599,8 +12615,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12615,7 +12631,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -12624,7 +12640,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -12632,7 +12648,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -12643,7 +12659,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -12651,7 +12667,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -12662,7 +12678,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -12679,8 +12695,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12696,8 +12712,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12706,7 +12722,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -12752,9 +12768,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12777,8 +12793,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12807,9 +12823,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12850,9 +12866,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12869,9 +12885,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12881,9 +12897,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12901,8 +12917,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12918,7 +12934,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -14236,9 +14252,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14271,9 +14287,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14346,8 +14362,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14439,7 +14456,7 @@ script 35 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14447,7 +14464,7 @@ script 35 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14459,8 +14476,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14477,8 +14494,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14507,8 +14524,8 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14520,7 +14537,7 @@ script 37 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14528,7 +14545,7 @@ script 37 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14555,7 +14572,7 @@ script 38 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -14566,7 +14583,7 @@ script 38 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14574,7 +14591,7 @@ script 38 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14604,8 +14621,8 @@ script 39 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14620,7 +14637,7 @@ script 39 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -14629,7 +14646,7 @@ script 39 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -14637,7 +14654,7 @@ script 39 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -14648,7 +14665,7 @@ script 39 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14656,7 +14673,7 @@ script 39 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14667,7 +14684,7 @@ script 39 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -14684,8 +14701,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14701,8 +14718,8 @@ script 40 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14711,7 +14728,7 @@ script 40 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -14731,9 +14748,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14750,9 +14767,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14783,8 +14800,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14796,7 +14813,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14804,7 +14821,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14816,8 +14833,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14834,8 +14851,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14864,8 +14881,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14877,7 +14894,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14885,7 +14902,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14896,7 +14913,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -14912,7 +14929,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -14923,7 +14940,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -14931,7 +14948,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -14961,8 +14978,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14977,7 +14994,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -14986,7 +15003,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -14994,7 +15011,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -15005,7 +15022,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -15013,7 +15030,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -15024,7 +15041,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -15041,8 +15058,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15058,8 +15075,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15068,7 +15085,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -15114,9 +15131,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15139,8 +15156,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15169,9 +15186,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15212,9 +15229,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15231,9 +15248,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15243,9 +15260,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15263,8 +15280,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15280,7 +15297,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -15440,9 +15457,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15459,9 +15476,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15482,9 +15499,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15493,7 +15510,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -15512,9 +15529,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15556,9 +15573,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15575,8 +15592,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15603,8 +15620,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -15621,9 +15639,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16696,9 +16714,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16768,8 +16786,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16908,8 +16927,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16921,7 +16940,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -16929,7 +16948,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -16941,8 +16960,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16959,8 +16978,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -16989,8 +17008,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17002,7 +17021,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -17010,7 +17029,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -17021,7 +17040,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -17037,7 +17056,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -17048,7 +17067,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -17056,7 +17075,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -17086,8 +17105,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17102,7 +17121,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -17111,7 +17130,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -17119,7 +17138,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -17130,7 +17149,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -17138,7 +17157,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -17149,7 +17168,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -17166,8 +17185,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17183,8 +17202,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17193,7 +17212,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -17239,9 +17258,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17264,8 +17283,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17294,9 +17313,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17337,9 +17356,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17356,9 +17375,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17368,9 +17387,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17388,8 +17407,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -17405,7 +17424,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -18636,9 +18655,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18708,8 +18727,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18848,8 +18868,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18861,7 +18881,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -18869,7 +18889,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -18881,8 +18901,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18899,8 +18919,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18929,8 +18949,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18942,7 +18962,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -18950,7 +18970,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -18961,7 +18981,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -18977,7 +18997,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -18988,7 +19008,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -18996,7 +19016,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -19026,8 +19046,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19042,7 +19062,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -19051,7 +19071,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -19059,7 +19079,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -19070,7 +19090,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -19078,7 +19098,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -19089,7 +19109,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -19106,8 +19126,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19123,8 +19143,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19133,7 +19153,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -19179,9 +19199,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19204,8 +19224,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19234,9 +19254,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19277,9 +19297,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19296,9 +19316,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19308,9 +19328,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19328,8 +19348,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19345,7 +19365,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -20678,8 +20698,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20818,8 +20839,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20831,7 +20852,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -20839,7 +20860,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -20851,8 +20872,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20869,8 +20890,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20899,8 +20920,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20912,7 +20933,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -20920,7 +20941,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -20931,7 +20952,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -20947,7 +20968,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -20958,7 +20979,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -20966,7 +20987,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -20996,8 +21017,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21012,7 +21033,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -21021,7 +21042,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -21029,7 +21050,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -21040,7 +21061,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -21048,7 +21069,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -21059,7 +21080,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -21076,8 +21097,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21093,8 +21114,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21103,7 +21124,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -21149,9 +21170,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21174,8 +21195,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21204,9 +21225,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21247,9 +21268,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21266,9 +21287,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21278,9 +21299,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21298,8 +21319,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21315,7 +21336,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -21451,9 +21472,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21470,9 +21491,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21492,9 +21513,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21503,7 +21524,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -21522,9 +21543,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21566,9 +21587,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21585,8 +21606,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21613,8 +21634,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21631,9 +21653,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -22846,8 +22868,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -22971,8 +22994,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -22984,7 +23007,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -22992,7 +23015,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -23004,8 +23027,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23022,8 +23045,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23052,8 +23075,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23065,7 +23088,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -23073,7 +23096,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -23084,7 +23107,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -23100,7 +23123,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -23111,7 +23134,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -23119,7 +23142,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -23149,8 +23172,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23165,7 +23188,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -23174,7 +23197,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -23182,7 +23205,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -23193,7 +23216,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -23201,7 +23224,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -23212,7 +23235,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -23229,8 +23252,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23246,8 +23269,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23256,7 +23279,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -23302,9 +23325,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23327,8 +23350,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23357,9 +23380,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23400,9 +23423,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23419,9 +23442,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23431,9 +23454,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23451,8 +23474,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23468,7 +23491,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -23604,9 +23627,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23623,9 +23646,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23646,9 +23669,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23657,7 +23680,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -23676,9 +23699,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23720,9 +23743,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23739,8 +23762,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23767,8 +23790,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23785,9 +23809,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -24958,8 +24982,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25102,8 +25127,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you count the
-	doors in the school?
+	Contou as
+	portas da escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25115,7 +25140,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -25123,7 +25148,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -25135,8 +25160,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me again when
-	you find out!
+	Então me liga
+	quando tiver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25153,8 +25178,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,teach me
-	the passcode!
+	OK, então me
+	diz a senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25183,8 +25208,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? You can get the
-	passcode,right?
+	Huh? Você pode
+	arranjar a senha,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25196,7 +25221,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -25204,7 +25229,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -25215,7 +25240,7 @@ script 47 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -25231,7 +25256,7 @@ script 48 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're sure,right?"
+	"Tem certeza mesmo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -25242,7 +25267,7 @@ script 48 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -25250,7 +25275,7 @@ script 48 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -25280,8 +25305,8 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25296,7 +25321,7 @@ script 49 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 108
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -25305,7 +25330,7 @@ script 49 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Not working"
+	"Não serviu"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25313,7 +25338,7 @@ script 49 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -25324,7 +25349,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -25332,7 +25357,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -25343,7 +25368,7 @@ script 49 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"OK! Call me again!"
+	"OK! Ligue de novo!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -25360,8 +25385,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! I'll give it
-	a try!
+	OK! Vou tentar
+	essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25377,8 +25402,8 @@ script 50 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Cool! It worked!
-	We can get in!
+	Ha! Deu certo!!
+	Podemos entrar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25387,7 +25412,7 @@ script 50 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Thanks,Lan!"
+	"Valeu, Lan!"
 	mugshotAnimate
 		animation = 1
 	passcodeHide
@@ -25433,9 +25458,9 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We haven't
-	stopped the
-	reeducation program!
+	Lan! Ainda não
+	paramos o programa
+	de reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25458,8 +25483,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25488,9 +25513,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25531,9 +25556,9 @@ script 65 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25550,9 +25575,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25562,9 +25587,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25582,8 +25607,8 @@ script 67 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25599,7 +25624,7 @@ script 68 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25759,9 +25784,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25778,9 +25803,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25800,9 +25825,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25811,7 +25836,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25830,9 +25855,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25874,9 +25899,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25893,8 +25918,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25921,8 +25946,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25939,9 +25965,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27063,8 +27089,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27093,8 +27120,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27123,9 +27150,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27166,9 +27193,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27185,9 +27212,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27197,9 +27224,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27217,8 +27244,8 @@ script 22 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27234,7 +27261,7 @@ script 23 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -27529,9 +27556,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27548,9 +27575,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27570,9 +27597,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27581,7 +27608,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -27600,9 +27627,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27644,9 +27671,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27663,8 +27690,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27691,8 +27718,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27709,9 +27737,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28800,8 +28828,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28827,8 +28856,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28857,9 +28886,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28900,9 +28929,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28919,9 +28948,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28931,9 +28960,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28951,8 +28980,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28968,7 +28997,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -29278,9 +29307,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29297,9 +29326,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29320,9 +29349,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29331,7 +29360,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -29350,9 +29379,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29394,9 +29423,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29413,8 +29442,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29441,8 +29470,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29459,9 +29489,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31727,8 +31757,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's stop the
-	reeducation program!
+	Vamos parar o
+	programa de
+	reeducação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31754,8 +31785,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,what a rough
-	day...
+	Cara, que
+	dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31784,9 +31815,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now a Metroline
-	accident? Weird
-	day,huh?
+	Agora um
+	acidente na
+	Metroline? Que dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31827,9 +31858,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31846,9 +31877,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31858,9 +31889,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31878,8 +31909,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31895,7 +31926,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -32205,9 +32236,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32224,9 +32255,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32247,9 +32278,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32258,7 +32289,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -32277,9 +32308,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32321,9 +32352,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32340,8 +32371,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32368,8 +32399,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32386,9 +32418,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33615,9 +33647,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33634,9 +33666,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33646,9 +33678,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33666,8 +33698,8 @@ script 22 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33683,7 +33715,7 @@ script 23 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -33954,9 +33986,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33973,9 +34005,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33995,9 +34027,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34006,7 +34038,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -34025,9 +34057,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34069,9 +34101,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34088,8 +34120,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34116,8 +34148,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34134,9 +34167,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35291,9 +35324,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35310,9 +35343,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35322,9 +35355,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35342,8 +35375,8 @@ script 12 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35359,7 +35392,7 @@ script 13 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -35684,9 +35717,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35703,9 +35736,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35725,9 +35758,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35736,7 +35769,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -35755,9 +35788,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35813,9 +35846,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35832,8 +35865,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35860,8 +35893,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35878,9 +35912,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37375,9 +37409,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37394,9 +37428,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37406,9 +37440,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37426,8 +37460,8 @@ script 47 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37654,9 +37688,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37673,9 +37707,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37695,9 +37729,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37706,7 +37740,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -37725,9 +37759,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37769,9 +37803,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37788,8 +37822,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37816,8 +37850,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37834,9 +37869,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39322,9 +39357,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39341,9 +39376,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39353,9 +39388,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39373,8 +39408,8 @@ script 47 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39601,9 +39636,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39620,9 +39655,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39642,9 +39677,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39653,7 +39688,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -39672,9 +39707,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39716,9 +39751,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39735,8 +39770,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39763,8 +39798,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39781,9 +39817,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40959,9 +40995,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40978,9 +41014,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40990,9 +41026,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41010,8 +41046,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41027,7 +41063,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -41313,9 +41349,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41332,9 +41368,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41355,9 +41391,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41366,7 +41402,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -41385,9 +41421,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41429,9 +41465,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41448,8 +41484,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41476,8 +41512,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41494,9 +41531,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42571,9 +42608,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42590,9 +42627,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42602,9 +42639,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42622,8 +42659,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42639,7 +42676,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -42925,9 +42962,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42944,9 +42981,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42967,9 +43004,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42978,7 +43015,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -42997,9 +43034,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43041,9 +43078,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43060,8 +43097,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43088,8 +43125,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43106,9 +43144,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44182,9 +44220,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44201,9 +44239,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44213,9 +44251,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44233,8 +44271,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44250,7 +44288,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -44536,9 +44574,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44555,9 +44593,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44577,9 +44615,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44588,7 +44626,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -44607,9 +44645,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44651,9 +44689,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44670,8 +44708,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44698,8 +44736,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44716,9 +44755,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45902,9 +45941,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45921,9 +45960,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45933,9 +45972,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45953,8 +45992,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	You've got mail
-	from your Dad!
+	Chegou e-mail
+	do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45970,7 +46009,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -46256,9 +46295,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46275,9 +46314,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46297,9 +46336,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46308,7 +46347,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -46327,9 +46366,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46371,9 +46410,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46390,8 +46429,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46418,8 +46457,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46436,9 +46476,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47826,9 +47866,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47845,9 +47885,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47868,9 +47908,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47879,7 +47919,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -47898,9 +47938,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47942,9 +47982,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47961,8 +48001,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47989,8 +48029,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48007,9 +48048,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49155,9 +49196,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49174,9 +49215,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49186,9 +49227,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49204,7 +49245,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -49508,9 +49549,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49527,9 +49568,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49549,9 +49590,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49560,7 +49601,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -49579,9 +49620,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49636,9 +49677,9 @@ script 116 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go back to the
-	Waterworks! I can
-	fix this!
+	De volta pro
+	Centro de Água! Vou
+	consertar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49655,8 +49696,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49683,8 +49724,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49701,9 +49743,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51561,9 +51603,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51580,9 +51622,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51592,9 +51634,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51610,7 +51652,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -51929,9 +51971,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51970,9 +52012,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51981,7 +52023,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -52061,8 +52103,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52089,8 +52131,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52107,9 +52150,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53209,9 +53252,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53228,9 +53271,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53240,9 +53283,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53258,7 +53301,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -53577,9 +53620,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder why there's
-	no water? Let's
-	check it out!
+	Por que será
+	que não tem água?
+	Vamos verificar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53596,9 +53639,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53618,9 +53661,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53629,7 +53672,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -53648,9 +53691,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	go back to the
-	Waterworks?
+	Não quer voltar
+	pro Centro de
+	Água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53709,8 +53752,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53737,8 +53780,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53755,9 +53799,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54857,9 +54901,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54876,9 +54920,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54888,9 +54932,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54906,7 +54950,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -55277,9 +55321,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55288,7 +55332,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -55367,8 +55411,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55395,8 +55439,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55413,9 +55458,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56515,9 +56560,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56534,9 +56579,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56546,9 +56591,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56564,7 +56609,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -56943,9 +56988,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56954,7 +56999,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57032,8 +57077,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -57060,8 +57105,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -57078,9 +57124,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58180,9 +58226,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see your
-	Dad and get my
-	power up program!
+	Vamos até o seu
+	pai pegar o meu
+	power up!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58199,9 +58245,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I'll bet we
-	would have found my
-	power up program
+	Hm...acho que
+	temos que procurar no
+	laboratório do seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58211,9 +58257,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if we had looked
-	around your Dad's
-	lab...
+	pai pra achar
+	o meu
+	power up...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58229,7 +58275,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wanna head home?"
+	"Vamos pra casa?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -58600,9 +58646,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58611,7 +58657,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -58690,8 +58736,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58718,8 +58764,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58736,9 +58783,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60265,9 +60312,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60276,7 +60323,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -60355,8 +60402,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60383,8 +60430,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60401,9 +60449,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61845,9 +61893,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61856,7 +61904,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -61930,8 +61978,8 @@ script 117 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to find
-	Froid's son!
+	Vamos achar o
+	filho do Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61958,8 +62006,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's tell Froid
-	about his son!
+	Vamos dar as
+	boas novas
+	ao Froid
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61976,9 +62025,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go fix the
-	water program!
-	I can do it!
+	Vamos consertar o
+	programa da água!
+	Agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63405,9 +63454,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63416,7 +63465,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64866,9 +64915,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -64877,7 +64926,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -66327,9 +66376,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide,and try
-	to get into the net
-	when everyone
+	Vamos nos esconder
+	e conectar na rede
+	quando todos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -66338,7 +66387,7 @@ script 108 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"leaves."
+	"saírem."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -127041,7 +127090,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -127049,7 +127098,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -127600,7 +127649,7 @@ script 16 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -127608,7 +127657,7 @@ script 16 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -127807,7 +127856,7 @@ script 21 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -127815,7 +127864,7 @@ script 21 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -127910,7 +127959,7 @@ script 24 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -127918,7 +127967,7 @@ script 24 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -129206,7 +129255,7 @@ script 73 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -129214,7 +129263,7 @@ script 73 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -130372,7 +130421,7 @@ script 160 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -130380,7 +130429,7 @@ script 160 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -132528,7 +132577,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -132536,7 +132585,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -132561,7 +132610,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -132569,7 +132618,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -133703,7 +133752,7 @@ script 30 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -133711,7 +133760,7 @@ script 30 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -136463,7 +136512,7 @@ script 195 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -136832,7 +136881,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -136840,7 +136889,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -139507,7 +139556,7 @@ script 22 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -139515,7 +139564,7 @@ script 22 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -140318,8 +140367,7 @@ script 3 mmbn1 {
 		animation = 2
 	"""
 	Lan!
-	Check your mail
-	again!
+	E-mail novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141084,7 +141132,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -141092,7 +141140,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -142379,7 +142427,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No "
+	"Não "
 	option
 		left = 0
 		right = 0
@@ -142479,7 +142527,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No "
+	"Não "
 	option
 		left = 0
 		right = 0
@@ -144792,7 +144840,7 @@ script 15 mmbn1 {
 	". "
 	mugshotAnimate
 		animation = 2
-	"Nope"
+	"Não"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -147989,7 +148037,7 @@ script 176 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -147997,7 +148045,7 @@ script 176 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -148532,9 +148580,9 @@ script 199 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You woooon't!?!?
-	Why you little...
-	Hey! Where you goin?
+	Aaahh! Não vai?
+	Seu f..! Ei! Não
+	vai embora não!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -151969,7 +152017,7 @@ script 0 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got his
+	Lan pegou o
 	“
 	"""
 	printItem
@@ -151984,9 +152032,8 @@ script 0 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Press START to see
-	chip data and read
-	mail
+	Use START pra ver
+	e-mails e chips.
 	"""
 	keyWait
 	clearMsg
@@ -151997,9 +152044,9 @@ script 0 mmbn1 {
 	soundPlay
 		track = 133
 	"""
-	Lan got an AI
-	Navigation program,
-	“MegaMan.EXE“!
+	Lan pegou o programa
+	IA de navegação
+	MegaMan.EXE!
 	"""
 	playerFinish
 	playerAnimate
@@ -152017,8 +152064,8 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	Lan,don't forget
-	your 
+	Lan,não esqueça
+	do seu 
 	"""
 	printItem
 		buffer = 0
@@ -152036,7 +152083,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Good morning!"
+	"Bom dia,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -152053,7 +152100,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Morning,MegaMan!"
+	"Bom dia,MegaMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -152071,9 +152118,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you need to talk
-	to me,just push the
-	L Button.
+	Se precisar falar
+	comigo,é só
+	apertar “L“.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -152083,8 +152130,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's get to
-	school!
+	Certo,vamos
+	pra escola!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -152325,7 +152372,7 @@ script 25 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -152333,7 +152380,7 @@ script 25 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -152373,7 +152420,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -152381,7 +152428,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -152417,7 +152464,7 @@ script 27 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -152425,7 +152472,7 @@ script 27 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -152508,7 +152555,7 @@ script 29 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -152516,7 +152563,7 @@ script 29 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -153181,8 +153228,8 @@ script 220 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	Lan's secret tools
-	are hidden here
+	Aqui ficam as
+	tralhas do Lan.
 	"""
 	keyWait
 	end
@@ -153192,9 +153239,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Lots of things that
-	Lan never uses,but
-	can't throw away
+	Montes de coisas que
+	não usa,mas que
+	não joga fora.
 	"""
 	keyWait
 	end
@@ -153204,16 +153251,16 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Lan has hidden some
-	test answers in this
-	bookshelf
+	Lan escondeu res-
+	postas de provas
+	nesta estante
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Hope that Mom
-	doesn't find it...
+	Espero que mamãe
+	não ache...
 	"""
 	keyWait
 	end
@@ -155108,7 +155155,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -155116,7 +155163,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -155322,7 +155369,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -155330,7 +155377,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -156111,7 +156158,7 @@ script 80 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -156119,7 +156166,7 @@ script 80 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -156789,7 +156836,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -156797,7 +156844,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -157153,7 +157200,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -157161,7 +157208,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -157421,7 +157468,7 @@ script 50 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -157429,7 +157476,7 @@ script 50 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -157515,7 +157562,7 @@ script 52 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -157523,7 +157570,7 @@ script 52 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -158244,7 +158291,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -158252,7 +158299,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -158348,7 +158395,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -158356,7 +158403,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -158440,7 +158487,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -158448,7 +158495,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -158802,7 +158849,7 @@ script 42 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -158810,7 +158857,7 @@ script 42 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -160217,7 +160264,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -160225,7 +160272,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -160282,7 +160329,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -160290,7 +160337,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -160333,7 +160380,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -160341,7 +160388,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -160483,7 +160530,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -160491,7 +160538,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -160806,7 +160853,7 @@ script 19 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -160814,7 +160861,7 @@ script 19 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -163239,7 +163286,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -163247,7 +163294,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -163287,7 +163334,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -163295,7 +163342,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -163591,7 +163638,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -163599,7 +163646,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -163903,7 +163950,7 @@ script 22 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -163911,7 +163958,7 @@ script 22 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -164701,7 +164748,7 @@ script 81 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -164709,7 +164756,7 @@ script 81 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -165866,7 +165913,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -165874,7 +165921,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -166010,7 +166057,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -166018,7 +166065,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -167150,7 +167197,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -167158,7 +167205,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -167599,7 +167646,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -167607,7 +167654,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -167912,7 +167959,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -167920,7 +167967,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -169019,7 +169066,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -169027,7 +169074,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -169236,7 +169283,7 @@ script 195 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -169244,7 +169291,7 @@ script 195 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -169712,7 +169759,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -169720,7 +169767,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -169767,7 +169814,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -169775,7 +169822,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -177298,7 +177345,7 @@ script 71 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -177306,7 +177353,7 @@ script 71 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -182766,7 +182813,7 @@ script 3 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -182774,7 +182821,7 @@ script 3 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -186618,7 +186665,7 @@ script 36 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -186626,7 +186673,7 @@ script 36 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -188836,7 +188883,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -188844,7 +188891,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -190277,7 +190324,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -190285,7 +190332,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -191623,7 +191670,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -191631,7 +191678,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -197064,7 +197111,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -197072,7 +197119,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -199040,7 +199087,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -199048,7 +199095,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -199251,7 +199298,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -199259,7 +199306,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -199417,7 +199464,7 @@ script 30 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -199425,7 +199472,7 @@ script 30 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -200445,7 +200492,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -200453,7 +200500,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -201650,7 +201697,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -201658,7 +201705,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -201891,7 +201938,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -201899,7 +201946,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -202151,7 +202198,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -202159,7 +202206,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -203262,7 +203309,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203270,7 +203317,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -203445,7 +203492,7 @@ script 17 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203453,7 +203500,7 @@ script 17 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -203679,7 +203726,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203687,7 +203734,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -203746,7 +203793,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203754,7 +203801,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -203781,7 +203828,7 @@ script 13 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203789,7 +203836,7 @@ script 13 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -203817,7 +203864,7 @@ script 14 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -203825,7 +203872,7 @@ script 14 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204003,7 +204050,7 @@ script 23 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204011,7 +204058,7 @@ script 23 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204548,7 +204595,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204556,7 +204603,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204615,7 +204662,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204623,7 +204670,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204650,7 +204697,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204658,7 +204705,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204686,7 +204733,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204694,7 +204741,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -204872,7 +204919,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -204880,7 +204927,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205149,7 +205196,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205157,7 +205204,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205216,7 +205263,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205224,7 +205271,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205251,7 +205298,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205259,7 +205306,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205287,7 +205334,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205295,7 +205342,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205473,7 +205520,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205481,7 +205528,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205904,7 +205951,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205912,7 +205959,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205943,7 +205990,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205951,7 +205998,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -205979,7 +206026,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -205987,7 +206034,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -206165,7 +206212,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -206173,7 +206220,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -207149,7 +207196,7 @@ script 11 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207157,7 +207204,7 @@ script 11 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -207216,7 +207263,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207224,7 +207271,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -207495,7 +207542,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207503,7 +207550,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -207721,7 +207768,7 @@ script 32 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207729,7 +207776,7 @@ script 32 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -207866,7 +207913,7 @@ script 42 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207874,7 +207921,7 @@ script 42 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -212095,7 +212142,7 @@ script 154 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -212103,7 +212150,7 @@ script 154 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -212206,7 +212253,7 @@ script 166 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -212214,7 +212261,7 @@ script 166 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -212338,7 +212385,7 @@ script 183 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -212346,7 +212393,7 @@ script 183 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -212457,7 +212504,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -212465,7 +212512,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -214940,7 +214987,7 @@ script 154 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -214948,7 +214995,7 @@ script 154 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -215051,7 +215098,7 @@ script 166 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -215059,7 +215106,7 @@ script 166 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -215183,7 +215230,7 @@ script 183 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -215191,7 +215238,7 @@ script 183 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -215302,7 +215349,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -215310,7 +215357,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -217713,7 +217760,7 @@ script 154 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -217721,7 +217768,7 @@ script 154 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -217824,7 +217871,7 @@ script 166 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -217832,7 +217879,7 @@ script 166 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -217956,7 +218003,7 @@ script 183 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -217964,7 +218011,7 @@ script 183 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -218075,7 +218122,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -218083,7 +218130,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -220386,7 +220433,7 @@ script 154 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -220394,7 +220441,7 @@ script 154 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -220497,7 +220544,7 @@ script 166 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -220505,7 +220552,7 @@ script 166 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -220629,7 +220676,7 @@ script 183 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -220637,7 +220684,7 @@ script 183 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -220748,7 +220795,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -220756,7 +220803,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -222506,7 +222553,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -222514,7 +222561,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -222891,7 +222938,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -222899,7 +222946,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -222958,7 +223005,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -222966,7 +223013,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -222997,7 +223044,7 @@ script 13 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -223005,7 +223052,7 @@ script 13 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -223033,7 +223080,7 @@ script 14 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -223041,7 +223088,7 @@ script 14 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -223219,7 +223266,7 @@ script 23 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -223227,7 +223274,7 @@ script 23 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -225249,7 +225296,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -225257,7 +225304,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -227989,7 +228036,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -227997,7 +228044,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -228494,7 +228541,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -228502,7 +228549,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -230957,7 +231004,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -230965,7 +231012,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -231753,7 +231800,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -231761,7 +231808,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -232632,7 +232679,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -232640,7 +232687,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -235486,7 +235533,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -235494,7 +235541,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -235704,7 +235751,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -235712,7 +235759,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -236384,7 +236431,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -236392,7 +236439,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -236870,7 +236917,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -236878,7 +236925,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -238037,7 +238084,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -238045,7 +238092,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -238610,7 +238657,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -238618,7 +238665,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -238767,7 +238814,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -238775,7 +238822,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -239889,7 +239936,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,wake up!"
+	"Lan,acorda!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -239930,9 +239977,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't get
-	up,you'll be late
-	for school!
+	Se não acordar,
+	vai se atrasar
+	pra escola!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239977,9 +240024,9 @@ script 4 mmbn1 {
 		buffer = 0
 		item = 0
 	"""
-	 NetNews!
-	“WWW crime on
-	the rise!“
+	 NetNotícias!
+	“Os crimes da
+	WWW!“
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239989,9 +240036,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It says the WWW plan
-	to control the net
-	might be starting!
+	Os planos da WWW de
+	controlar a rede
+	já estão em ação?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240011,7 +240058,7 @@ script 5 mmbn1 {
 		animation = 2
 	"""
 	Ungh...
-	Sleep...
+	Sono...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240028,8 +240075,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You've got mail from
-	Dad,too! Look...
+	Também tem e-mail
+	do seu pai! Olha...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240038,15 +240085,7 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“Sorry I couldn't\n get off work Sunday\n I'll be home soon.“"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"“Here's a present\n for you“it says!"
+	"“Desculpa,domingo   \nnão deu. Mas volto   \npra casa logo.“"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -240055,8 +240094,20 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's some battle
-	chip data attached!
+	“Mas tenho um 
+	presente
+	pra você!“
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Tem chips de batalha
+	anexados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240072,7 +240123,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yaaaawn"
+	"Uaaaaah"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -240082,8 +240133,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I was just having
-	a great dream,too.
+	E eu tava tendo
+	um sonho tão bom...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240099,15 +240150,11 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	I'll expand the chip
-	data,so check your
-	
-	"""
+	"Vou expandir os\ndados "
 	printItem
 		buffer = 0
 		item = 0
-	" later,OK?"
+	". Veja no\nseu PET mais tarde."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -240125,7 +240172,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! You're late!"
+	"Lan! Tá atrasado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -269294,7 +269341,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -269302,7 +269349,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -269709,7 +269756,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -269717,7 +269764,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -269772,7 +269819,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -269780,7 +269827,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -269835,7 +269882,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -269843,7 +269890,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270349,7 +270396,7 @@ script 99 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270357,7 +270404,7 @@ script 99 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270393,7 +270440,7 @@ script 100 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270401,7 +270448,7 @@ script 100 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270430,7 +270477,7 @@ script 100 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270438,7 +270485,7 @@ script 100 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270612,7 +270659,7 @@ script 109 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270786,7 +270833,7 @@ script 120 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270794,7 +270841,7 @@ script 120 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270823,7 +270870,7 @@ script 120 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270831,7 +270878,7 @@ script 120 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -270956,7 +271003,7 @@ script 131 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"De novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -270967,7 +271014,7 @@ script 131 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -270975,7 +271022,7 @@ script 131 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -271004,7 +271051,7 @@ script 131 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -271012,7 +271059,7 @@ script 131 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -271061,7 +271108,7 @@ script 134 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -271069,7 +271116,7 @@ script 134 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273284,7 +273331,7 @@ script 70 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273292,7 +273339,7 @@ script 70 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273498,7 +273545,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273506,7 +273553,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273554,7 +273601,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273562,7 +273609,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273619,7 +273666,7 @@ script 3 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273627,7 +273674,7 @@ script 3 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273683,7 +273730,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273691,7 +273738,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273743,7 +273790,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273751,7 +273798,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -273808,7 +273855,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -273816,7 +273863,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -274668,7 +274715,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -274676,7 +274723,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -274781,7 +274828,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -274789,7 +274836,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -274829,7 +274876,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -274837,7 +274884,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -274948,7 +274995,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -274956,7 +275003,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -275061,7 +275108,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -275069,7 +275116,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -275108,7 +275155,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -275116,7 +275163,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -275233,7 +275280,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -275241,7 +275288,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -275342,7 +275389,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -275350,7 +275397,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -275389,7 +275436,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -275397,7 +275444,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
