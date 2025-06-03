@@ -148440,7 +148440,7 @@ script 5 mmbn1-lc {
 	"""
 	Ha! Quero ver um
 	vírus da WWW encarar
-	o GustMan e eu!
+	o GutsMan e eu!
 	"""
 	mugshotAnimate
 		animation = 1
