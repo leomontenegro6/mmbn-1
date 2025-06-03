@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm a net merchant!
-	Wanna' see my wares?
+	Sou um NetVendedor!
+	Interessado?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25,7 +25,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -33,7 +33,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -44,7 +44,7 @@ script 0 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Please come again!"
+	"Volte sempre!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -60,9 +60,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm a net merchant!
-	...but I'm currently
-	out of stock.
+	Sou um NetVendedor!
+	... Mas,no momento,
+	estou sem estoque.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -106,17 +106,17 @@ script 10 mmbn1 {
 		jumpIfLess = continue
 	msgOpen
 	"""
-	It looks like a
-	connection to
-	another terminal.
+	Parece ser uma
+	conexão a outro
+	terminal.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,you don't
-	know the address,so
-	you can't open it.
+	Porém,você não tem
+	o endereço,então
+	não pode acessá-lo.
 	"""
 	keyWait
 	end
@@ -126,9 +126,9 @@ script 10 mmbn1 {
 script 11 mmbn1 {
 	msgOpen
 	"""
-	It looks like a
-	connection to
-	another terminal.
+	Parece ser uma
+	conexão a outro
+	terminal.
 	"""
 	keyWait
 	clearMsg
@@ -139,10 +139,13 @@ script 11 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
-	"MegaMan accessed\n"
+	"""
+	MegaMan acessou
+	o 
+	"""
 	printItem
 		buffer = 0
 		item = 40
@@ -151,7 +154,7 @@ script 11 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	It connects to the
+	Ele se conecta ao
 	terminal!
 	"""
 	keyWait
@@ -174,17 +177,16 @@ script 12 mmbn1 {
 		jumpIfLess = continue
 	msgOpen
 	"""
-	It looks like an
-	access point to
-	somewhere...
+	Parece um ponto de
+	acesso para algum
+	lugar...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,you don't
-	know how to access
-	it!
+	No entanto,você não
+	sabe como acessá-lo!
 	"""
 	keyWait
 	end
@@ -194,9 +196,9 @@ script 12 mmbn1 {
 script 13 mmbn1 {
 	msgOpen
 	"""
-	It looks like an
-	access point to
-	somewhere...
+	Parece um ponto de
+	acesso para algum
+	lugar...
 	"""
 	keyWait
 	clearMsg
@@ -213,9 +215,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! I'll bet
-	that's the access
-	to the Undernet!
+	MegaMan! Esse deve
+	ser o acesso pra
+	Undernet!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -234,9 +236,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think so to!
-	I'll try using
-	Higsby's memo!
+	Concordo! Vou tentar
+	usar o memo do
+	Higsby!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -259,7 +261,7 @@ script 16 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"MegaMan used\n"
+	"MegaMan usou\n"
 	printItem
 		buffer = 0
 		item = 52
@@ -274,9 +276,9 @@ script 16 mmbn1 {
 script 17 mmbn1 {
 	msgOpen
 	"""
-	The access route
-	to the Undernet
-	opened!
+	A rota de acesso
+	para a Undernet
+	se abriu!
 	"""
 	keyWait
 	clearMsg
@@ -296,7 +298,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"All riiight!"
+	"Aêêêê!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -313,15 +315,15 @@ script 19 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah!"
+	"Que demais!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"...."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"Huh?"
+	"Hã?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -338,7 +340,7 @@ script 20 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's wrong?"
+	"Que foi?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -356,9 +358,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! It's a virus!
-	And a big one at
-	that!
+	Lan! É um vírus!
+	E dos grandes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -377,8 +378,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,man...This could
-	be bad...
+	Ah,cara...
+	Pior hora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -388,9 +389,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,only one thing
-	to do now...
-	Battle routine,set!!
+	Bem,a saída é
+	óbvia... Rotina de
+	batalha,preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -408,7 +409,7 @@ script 23 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -437,8 +438,8 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -456,8 +457,8 @@ script 30 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -466,7 +467,9 @@ script 30 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -482,21 +485,21 @@ script 31 mmbn1 {
 		jumpIfGreater = 32
 		jumpIfLess = continue
 	msgOpen
-	"“"
+	"\""
 	printItem
 		buffer = 0
 		item = 8
 	"""
-	“
-	needed to unlock!
+	" exigido
+	para desbloquear!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"All others..."
+	"Aos demais...\n"
 	waitSkip
 		frames = 30
-	"\nBEGONE!"
+	"SUMAM!"
 	keyWait
 	end
 		delay = 0
@@ -504,18 +507,18 @@ script 31 mmbn1 {
 }
 script 32 mmbn1 {
 	msgOpen
-	"“"
+	"\""
 	printItem
 		buffer = 0
 		item = 8
 	"""
-	“
-	needed to unlock!
+	" exigido
+	para desbloquear!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"MegaMan used the\n"
+	"MegaMan usou\n"
 	printItem
 		buffer = 0
 		item = 8
@@ -524,8 +527,8 @@ script 32 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	MegaMan gained
-	access!!
+	MegaMan obteve
+	acesso!!
 	"""
 	keyWait
 	flagSet
@@ -537,8 +540,8 @@ script 32 mmbn1 {
 script 33 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -555,13 +558,15 @@ script 33 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -622,8 +627,8 @@ script 50 mmbn1 {
 	flagSet
 		flag = 753
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -682,8 +687,8 @@ script 51 mmbn1 {
 	playerAnimate
 		animation = 50
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 1
@@ -692,7 +697,9 @@ script 51 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -727,7 +734,7 @@ script 52 mmbn1 {
 	playerLock
 	playerAnimate
 		animation = 50
-	"MegaMan got "
+	"MegaMan achou "
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -744,8 +751,8 @@ script 52 mmbn1 {
 script 53 mmbn1 {
 	msgOpen
 	"""
-	It was a virus
-	in disguise!
+	Era um vírus
+	disfarçado!
 	"""
 	keyWait
 	clearMsg
@@ -761,8 +768,8 @@ script 54 mmbn1 {
 	flagSet
 		flag = 754
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -797,8 +804,8 @@ script 58 mmbn1 {
 	flagSet
 		flag = 755
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -833,8 +840,8 @@ script 62 mmbn1 {
 	flagSet
 		flag = 756
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg

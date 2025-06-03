@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job finding me!
-	You're better than
-	the rest...
+	Fez bem em me achar!
+	Se saiu melhor que
+	os outros...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,17 +29,17 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Put down that Aqua
-	program
+	Solte o
+	AquaPrograma
 	"""
 	mugshotAnimate
 		animation = 1
-	"..."
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"or else!"
+	"senão...!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57,9 +57,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,now,we
-	don't have time to
-	play with you now.
+	Hi hi. Não temos
+	tempo para brincar
+	com você agora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,9 +69,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But you will face
-	me,ColorMan,soon
-	enough!
+	Mas você enfrentará
+	a mim,ColorMan,
+	logo logo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,7 +89,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go!"
+	"Vamos indo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -109,12 +109,12 @@ script 4 mmbn1 {
 	"OK,Madd!"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Later!"
+	"Até loguinho!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -130,7 +130,7 @@ script 5 mmbn1 {
 		mugshot = ProtoMan
 		palette = 0
 	msgOpen
-	"・・・"
+	"..."
 	keyWait
 	end
 		delay = 0
@@ -144,8 +144,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's that Navi
-	from before!
+	Aquele era o Navi de
+	antes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -164,8 +164,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmph! You nosy
-	scoundrels again...!
+	Hmpf! Esses fedelhos
+	intrometidos de
+	novo...!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,8 +202,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who are you,and how
-	do you know my name?
+	Quem é você,afinal?
+	E como sabe o meu
+	nome?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -220,7 +222,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"That can wait!"
+	"Deixa pra depois!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -229,8 +231,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why were they after
-	the Aquaprogram?
+	Por que eles querem
+	o Aquaprograma?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -249,9 +251,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Find out for
-	yourself! ProtoMan,
-	we're outta here!
+	Descubra você mesmo.
+	ProtoMan,vamos
+	sair daqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -269,7 +271,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sir!"
+	"Sim,senhor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -288,9 +290,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...We used that
-	program to make good
-	tasting water.
+	... usávamos aquele
+	programa para dar à
+	água um gosto bem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -300,9 +302,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But somehow I don't
-	think that's why
-	the WWW wants it...
+	Mas não acho que
+	seja por isso que a
+	WWW o quisesse.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -340,15 +342,15 @@ script 15 mmbn1 {
 	"Hmm"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't
-	get it! Pull out,
-	let's go see Froid!
+	Não entendo!
+	Vamos sair daqui e
+	falar com o Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -366,7 +368,7 @@ script 16 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Tá bom!"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Really,
-	I don't know how
-	to thank you...
+	Sério,eu nem sei
+	como te agradecer...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +19,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll do my best to
-	keep the water clean
-	from now on!
+	Farei de tudo para
+	manter a água limpa
+	daqui em diante!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,10 +39,10 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Dad! I..I.."
+	"Papai! Eu... Eu..."
 	mugshotAnimate
 		animation = 1
-	"*sniff*"
+	"\nChuif!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -56,7 +55,7 @@ script 2 mmbn1 {
 		mugshot = Lan
 		palette = 0
 	msgOpen
-	"・・・"
+	"..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -71,7 +70,10 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ahh...family!"
+	"""
+	Ahh... Nada como
+	uma família feliz!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -88,7 +90,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah,you're right..."
+	"É,feliz mesmo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -106,9 +108,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? I was expecting
-	the usual sarcasm...
-	You homesick,Lan?
+	Ué? Cadê o sarcasmo
+	de sempre? Pensando
+	na SUA família?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -126,7 +128,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Me? Never!"
+	"Hã? Claro que não!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -143,7 +145,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okay"
+	"Tá,né"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -153,8 +155,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Time is tight now,
-	Lan!
+	Mas estamos ficando
+	sem tempo,Lan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -164,9 +166,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This WWW plot is
-	getting deeper and
-	darker!
+	Essa trama da WWW
+	só fica mais com-
+	plexa e sombria!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -185,9 +187,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,and we have to
-	show that Chaud what
-	we can do!
+	Eu sei. Temos que
+	mostrar pro Chaud do
+	que somos capazes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -205,7 +207,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"That's the spirit!"
+	"Esse é o espírito!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -216,33 +218,33 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	And so,Lan & MegaMan
-	solved one mystery,
-	but...
+	E assim,Lan e
+	MegaMan resolveram
+	o mistério. Porém...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The WWW was getting
-	closer to total
-	control of the net!
+	a WWW ficava cada
+	vez mais perto de
+	controlar a Rede!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	And why was the WWW
-	collecting the
-	superprograms?
+	E,afinal,por que
+	ela estava coletando
+	os superprogramas?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It was up to them to
-	stop the WWW & bring
-	peace to the net!
+	Caberá aos dois
+	deter a WWW e
+	trazer paz à rede!
 	"""
 	keyWait
 	end

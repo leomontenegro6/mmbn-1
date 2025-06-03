@@ -33,8 +33,8 @@ script 9 mmbn1s {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	Well? Did you
-	collect enough?.
+	E aí? Coletou o
+	suficiente? .
 	"""
 	waitSkip
 		frames = 30
@@ -46,9 +46,8 @@ script 10 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Hmmm...Looks like
-	you have...
-	You may pass.
+	Hmmm... Parece que
+	sim... Pode passar.
 	"""
 	keyWait
 	flagSet
@@ -62,8 +61,8 @@ script 10 mmbn1 {
 script 11 mmbn1 {
 	msgOpen
 	"""
-	Well? Did you
-	collect enough?.
+	E aí? Coletou o
+	suficiente? .
 	"""
 	waitSkip
 		frames = 30
@@ -77,7 +76,7 @@ script 11 mmbn1 {
 	"Nope..."
 	waitSkip
 		frames = 30
-	"\nGo get more!"
+	"\nreúna mais!"
 	keyWait
 	end
 		delay = 0
@@ -115,9 +114,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Here,the results
-	are more important
-	than the battle!
+	Aqui,resultados
+	valem mais do que
+	só batalhas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -127,8 +126,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Gotta get as many
-	as you can...
+	Tem que reunir o
+	máximo que puder...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -167,8 +166,8 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -187,8 +186,8 @@ script 30 mmbn1 {
 			amount = 8000
 		]
 	"""
-	MegaMan got 8000
-	zennys!
+	MegaMan adquiriu
+	8000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -206,8 +205,8 @@ script 32 mmbn1s {
 script 33 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -225,8 +224,8 @@ script 33 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -235,7 +234,9 @@ script 33 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -296,8 +297,8 @@ script 50 mmbn1 {
 	flagSet
 		flag = 807
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -356,8 +357,8 @@ script 51 mmbn1 {
 	playerAnimate
 		animation = 50
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 1
@@ -366,7 +367,9 @@ script 51 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -401,7 +404,7 @@ script 52 mmbn1 {
 	playerLock
 	playerAnimate
 		animation = 50
-	"MegaMan got "
+	"MegaMan achou "
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -418,8 +421,8 @@ script 52 mmbn1 {
 script 53 mmbn1 {
 	msgOpen
 	"""
-	It was a virus
-	in disguise!
+	Era um vírus
+	disfarçado!
 	"""
 	keyWait
 	clearMsg
@@ -435,8 +438,8 @@ script 54 mmbn1 {
 	flagSet
 		flag = 808
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -471,8 +474,8 @@ script 58 mmbn1 {
 	flagSet
 		flag = 809
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -507,8 +510,8 @@ script 62 mmbn1 {
 	flagSet
 		flag = 810
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg

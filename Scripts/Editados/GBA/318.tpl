@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We did it!"
+	"Conseguimos!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"The bus stopped!"
+	"O ônibus parou!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -39,7 +39,7 @@ script 2 mmbn1 {
 	msgOpen
 	flagSet
 		flag = 203
-	"*brring*"
+	"Trrriiiim!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -54,7 +54,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm sooo sorry,"
+	"Ai,desculpinha,"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -63,25 +63,25 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But it seems you're
-	a lit
+	mas parece que vocês
+	estão um poo
 	"""
 	mugshotAnimate
 		animation = 1
-	"-"
+	"u"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"tle"
+	"quinho"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"late!"
+	"atrasados!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -98,7 +98,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What do you mean?"
+	"Como assim?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -116,9 +116,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The gas program
-	virus has been
-	activated!
+	O vírus do programa
+	de combustível foi
+	ativado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,9 +128,16 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You may have stopped
-	the bus,but now it's
-	going to blow! Hee!
+	Vocês podem ter
+	parado o ônibus,
+	mas,agora,
+	"""
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	ele vai explodir!
+	Hi hi!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,7 +146,7 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Ignition in,"
+	"Ignição em"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -147,7 +154,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"3 seconds"
+	"3 segundos"
 	mugshotAnimate
 		animation = 1
 	","
@@ -180,7 +187,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Maaaaaaayyll!!"
+	"MAAAAAYL!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -193,7 +200,7 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	mugshotHide
 	msgOpen
-	"・・・"
+	"..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -208,18 +215,15 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh"
+	"Ué"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	It didn't
-	explode?
-	"""
+	"Não explodiu?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -236,7 +240,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh?"
+	"Hã?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -245,8 +249,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	ColorMan! What's
-	going on?
+	ColorMan! O que
+	está acontecendo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -264,7 +268,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm sorry,Ms.Madd!"
+	"Desculpa,chefinha!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -273,8 +277,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There was this cute
-	little Navi there...
+	Tem essa menina
+	Navi fofinha que...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -284,20 +288,20 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But don't worry,I'll
-	delete her right
-	away!
+	M-mas tudo bem,
+	vou deletá-la
+	agora! 
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"See?"
+	"Viu?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -314,7 +318,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Heeelp!"
+	"Socorro!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -331,7 +335,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roll? Is that you?"
+	"Roll? É você?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -348,7 +352,7 @@ script 13 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mayl! Mayl!?"
+	"Mayl! Mayl?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -356,7 +360,7 @@ script 13 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Are you okay?"
+	"Você tá bem?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -373,7 +377,7 @@ script 14 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm fine for now!"
+	"Por enquanto,tô!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -382,8 +386,8 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But...Roll's in
-	trouble!
+	Mas... a Roll tá
+	em perigo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -393,8 +397,8 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Quick!
-	Jack in MegaMan!
+	Rápido!
+	Conecta o MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -412,10 +416,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Hold on!
-	I'm coming!
-	"""
+	"Calma! Eu tô indo!"
 	mugshotAnimate
 		animation = 1
 	keyWait

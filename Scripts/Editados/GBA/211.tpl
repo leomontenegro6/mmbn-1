@@ -3,16 +3,16 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	It looks like a
-	connection to the
-	net...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But MegaMan doesn't
-	have access!
+	Mas MegaMan não tem
+	acesso!
 	"""
 	keyWait
 	end
@@ -24,15 +24,16 @@ script 1 mmbn1 {
 		flag = 8
 	msgOpen
 	"""
-	MegaMan bookmarked
-	Dex's computer!
+	MegaMan favoritou o
+	computador do Dex!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You can now freely
-	enter here!
+	Agora você pode
+	entrar livremente
+	aqui!
 	"""
 	keyWait
 	end
@@ -51,8 +52,8 @@ script 4 mmbn1s {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -69,21 +70,31 @@ script 5 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got:
-	“
+	MegaMan adquiriu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 35
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"(Use this item at\n the access point to\n this computer"
+	"""
+	(Use este item no
+	ponto de acesso no
+	computador
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	" for free access\n between it and the\n net)"
+	"""
+	para ter acesso
+	livre entre ele
+	e a Rede.)
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -101,8 +112,8 @@ script 6 mmbn1 {
 		jumpIfLess = continue
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -120,8 +131,8 @@ script 6 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -130,7 +141,9 @@ script 6 mmbn1 {
 	printCode
 		buffer = 0
 		code = B
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141,15 +154,16 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,he couldn't
-	decode the data.
+	No entanto,não
+	conseguiu decodifi-
+	car os dados.
 	"""
 	keyWait
 	end

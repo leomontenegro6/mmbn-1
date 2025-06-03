@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Aak!"
+	"Aack!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Whooo!"
+	"Iurrú!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -42,8 +42,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's Ms.Yuri!
-	And the old man!
+	É a Srta. Yuri!
+	E aquele senhor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I see them!"
+	"Tô ligado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -85,8 +85,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thankyouthankyou
-	thankyou!
+	Muito obrigado,
+	muito obrigado,
+	muito obrigado! É!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -105,8 +106,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All you did was
-	help me and now...
+	Vocês fizeram tanto
+	pra me ajudar,
+	e agora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -125,9 +127,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Heheh...not to worry
-	at all! I'm used to
-	hard times.
+	He he... relaxa!
+	Estou acostumado a
+	passar por essas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -146,8 +148,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! You have to
-	get up there,quick!
+	Lan! Você precisa
+	subir lá,e rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,7 +167,10 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger! On my way!"
+	"""
+	Pode deixar!
+	Já fui!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait

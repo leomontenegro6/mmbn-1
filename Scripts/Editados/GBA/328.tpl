@@ -3,8 +3,9 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	Everyone,thank you
-	for waiting.
+	Senhoras e senhores,
+	obrigado por
+	esperar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -14,9 +15,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We'd like to welcome
-	our speaker for the
-	evening.
+	Damos nossas boas-
+	vindas ao pales-
+	trante da noite.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -33,9 +34,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ladies and gentlemen
-	thank you for coming
-	here this evening.
+	Senhores,obrigado
+	por nos agraciarem
+	com sua presença.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,7 +45,7 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"To our"
+	"Para a nossa"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -53,18 +54,9 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"WWW Party of Death!!"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
 	"""
-	We'd like you to
-	know that the WWW
-	has just taken over
+	Festa da Morte da
+	WWW!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,8 +66,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	the underground
-	power plant!
+	Gostaríamos que
+	soubessem que a WWW
+	acabou de tomar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,9 +78,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So,let's get the
-	party started with
-	a little...
+	a usina elétrica
+	subterrânea!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,8 +89,20 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No,a really big...
-	blackout!!
+	Então,começaremos
+	a festa com um
+	pequeno...
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Não,um grande...
+	apagão!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,7 +113,7 @@ script 1 mmbn1 {
 		animation = 2
 	flagSet
 		flag = 173
-	"ElecMan! Zap to it!"
+	"ElecMan! Vai nessa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -124,7 +128,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A powerout!?"
+	"Um apagão?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -132,7 +136,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Oh no!"
+	"Oh,não!"
 	mugshotAnimate
 		animation = 1
 	" "
@@ -141,8 +145,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The air
-	vents have stopped!
+	A ventila-
+	ção parou de vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -152,13 +156,13 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If we don't fix them
-	the air will run out
-	and...
+	Se não for conserta-
+	da,o ar vai acabar
+	e... 
 	"""
 	mugshotAnimate
 		animation = 1
-	"*gulp*"
+	"Glup!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -174,9 +178,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,relax and enjoy
-	your last breaths!
-	Ahahahahahah!
+	Agora,relaxem e
+	respirem... pela
+	última vez! Ha ha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -193,8 +197,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No good! The power
-	won't turn on!
+	Não adianta!
+	A energia não liga!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -203,7 +207,7 @@ script 4 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"The generator..."
+	"O gerador..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -212,9 +216,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Someone go check
-	the power plant
-	below us!
+	Alguém,vá verificar
+	a usina abaixo de
+	nós!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -232,7 +236,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,let's go!!"
+	"Lan,vamos lá!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -250,9 +254,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Easy for you to say!
-	It's pitch black in
-	here!
+	Falar é fácil,né?!
+	Tá um breu aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -269,9 +272,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Wait,my eyes are
-	adjusting...I can
-	see a little.
+	... Calma,os olhos
+	tão se ajustando...
+	Tô vendo um pouco.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -282,7 +285,7 @@ script 7 mmbn1 {
 		animation = 2
 	"""
 	OK,MegaMan!
-	Let's go!!
+	Vamos lá!!
 	"""
 	mugshotAnimate
 		animation = 1

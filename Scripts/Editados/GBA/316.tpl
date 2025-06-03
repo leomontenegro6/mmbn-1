@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Just one more!"
+	"Só falta mais um!"
 	mugshotAnimate
 		animation = 1
 	keyWait

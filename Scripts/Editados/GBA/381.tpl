@@ -41,7 +41,7 @@ script 9 mmbn1s {
 	"  "
 }
 script 10 mmbn1s {
-	"Planning"
+	"Planejamento"
 	end
 	"  "
 }
@@ -64,7 +64,7 @@ script 14 mmbn1s {
 	"  "
 }
 script 15 mmbn1s {
-	"Scenario"
+	"Cenário"
 	end
 	"  "
 }
@@ -90,12 +90,12 @@ script 20 mmbn1s {
 	"  "
 }
 script 21 mmbn1s {
-	"Character"
+	"Design de"
 	end
 	"  "
 }
 script 22 mmbn1s {
-	"Design"
+	"Personagem"
 	end
 	"  "
 }
@@ -138,7 +138,7 @@ script 31 mmbn1s {
 	"  "
 }
 script 32 mmbn1s {
-	"Objects"
+	"Objetos"
 	end
 	"  "
 }
@@ -221,7 +221,7 @@ script 50 mmbn1s {
 	"  "
 }
 script 51 mmbn1s {
-	"Programming"
+	"Programação"
 	end
 	"  "
 }
@@ -262,7 +262,7 @@ script 59 mmbn1s {
 	"  "
 }
 script 60 mmbn1s {
-	"Music"
+	"Música"
 	end
 	"  "
 }
@@ -280,12 +280,12 @@ script 63 mmbn1s {
 	"  "
 }
 script 64 mmbn1s {
-	"Sound"
+	"Efeitos"
 	end
 	"  "
 }
 script 65 mmbn1s {
-	"Effects"
+	"Sonoros"
 	end
 	"  "
 }
@@ -311,12 +311,12 @@ script 70 mmbn1s {
 	"  "
 }
 script 71 mmbn1s {
-	"Official"
+	"Ilustrações"
 	end
 	"  "
 }
 script 72 mmbn1s {
-	"I[11]ustrations"
+	"Oficiais"
 	end
 	"  "
 }
@@ -351,12 +351,12 @@ script 79 mmbn1s {
 	"  "
 }
 script 80 mmbn1s {
-	"Manual"
+	"Design"
 	end
 	"  "
 }
 script 81 mmbn1s {
-	"Design"
+	"do Manual"
 	end
 	"  "
 }
@@ -374,7 +374,7 @@ script 84 mmbn1s {
 	"  "
 }
 script 85 mmbn1s {
-	"QA Manager"
+	"Chefe de CQ"
 	end
 	"  "
 }
@@ -400,12 +400,12 @@ script 90 mmbn1s {
 	"  "
 }
 script 91 mmbn1s {
-	"Special"
+	"Agradec."
 	end
 	"  "
 }
 script 92 mmbn1s {
-	"Thanks!"
+	"Especiais!"
 	end
 	"  "
 }
@@ -441,12 +441,12 @@ script 99 mmbn1s {
 	"  "
 }
 script 100 mmbn1s {
-	"Special"
+	"Agradec."
 	end
 	"  "
 }
 script 101 mmbn1s {
-	"Thanks!"
+	"Especiais!"
 	end
 	"  "
 }
@@ -488,12 +488,12 @@ script 109 mmbn1s {
 	"  "
 }
 script 110 mmbn1s {
-	"Special"
+	"Agradec."
 	end
 	"  "
 }
 script 111 mmbn1s {
-	"Thanks!"
+	"Especiais!"
 	end
 	"  "
 }
@@ -534,12 +534,12 @@ script 119 mmbn1s {
 	"  "
 }
 script 120 mmbn1s {
-	"Special"
+	"Agradec."
 	end
 	"  "
 }
 script 121 mmbn1s {
-	"Thanks!"
+	"Especiais!"
 	end
 	"  "
 }
@@ -548,7 +548,7 @@ script 122 mmbn1s {
 	"  "
 }
 script 123 mmbn1s {
-	"Everyone in"
+	"Todos no"
 	end
 	"  "
 }
@@ -562,12 +562,12 @@ script 125 mmbn1s {
 	"  "
 }
 script 126 mmbn1s {
-	"All Capcom"
+	"Todos na"
 	end
 	"  "
 }
 script 127 mmbn1s {
-	"Employees"
+	"Capcom"
 	end
 	"  "
 }
@@ -588,7 +588,7 @@ script 131 mmbn1s {
 	"  "
 }
 script 132 mmbn1s {
-	"Producer"
+	"Produtor"
 	end
 	"  "
 }
@@ -634,7 +634,7 @@ script 142 mmbn1s {
 	"  "
 }
 script 143 mmbn1s {
-	"Time   "
+	"Tempo   "
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -650,7 +650,7 @@ script 143 mmbn1s {
 	"  "
 }
 script 144 mmbn1s {
-	"Data Library"
+	"Coleção"
 	end
 	"  "
 }
@@ -671,7 +671,7 @@ script 145 mmbn1s {
 	"  "
 }
 script 146 mmbn1s {
-	"MEGAMAN [Lv.]"
+	"MEGAMAN N"
 	printBuffer
 		buffer = 0
 		minLength = 3
@@ -681,7 +681,7 @@ script 146 mmbn1s {
 	"  "
 }
 script 147 mmbn1s {
-	"  The End..."
+	"  Fim..."
 	end
 	"  "
 }

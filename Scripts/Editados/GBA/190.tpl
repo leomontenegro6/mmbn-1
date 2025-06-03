@@ -3,8 +3,8 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -22,8 +22,8 @@ script 0 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -32,7 +32,9 @@ script 0 mmbn1 {
 	printCode
 		buffer = 0
 		code = L
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Today,I'm handling
-	the channel
-	switching features!
+	Hoje,estou
+	encarregado de
+	trocar de canal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,9 +27,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Have you ever
-	noticed that 
-	sometimes you press
+	Você já notou que,
+	às vezes,você
+	pressiona
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	the channel change
-	button,and nothing
-	happens?
+	o botão de troca de
+	canal e nada
+	acontece?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,9 +51,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's because the
-	channel switching
-	program wasn't
+	Isso ocorre porque o
+	Prog encarregado da
+	troca de canal
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,8 +63,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	paying attention
-	to his job.
+	estava dormindo
+	em serviço.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -76,8 +76,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -95,8 +95,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -105,7 +105,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = L
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

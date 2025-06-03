@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I haven't jacked in
-	to this thing in a
-	long time!
+	Faz tanto tempo que
+	eu não me conecto
+	aqui!
 	"""
 	mugshotAnimate
 		animation = 1

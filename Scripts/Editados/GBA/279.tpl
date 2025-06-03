@@ -7,10 +7,10 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh"
+	"Ah..."
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
 	"Lan"
@@ -21,7 +21,7 @@ script 0 mmbn1 {
 	"..."
 	mugshotAnimate
 		animation = 2
-	"Morning!"
+	"\nBom dia!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Morning,Mom!
-	What's wrong?
-	Not feeling well?
+	Bom dia,mãe!
+	O que foi? Você
+	tá passando mal?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -59,16 +59,19 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No,it's just"
+	"Não,é só"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
-	"\n"
 	mugshotAnimate
 		animation = 2
-	"The water's off,so \nno breakfast"
+	"""
+	Estamos
+	sem água,então,
+	sem café da manhã
+	"""
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -87,9 +90,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What?
-	But I'm hungry!
-	And thirsty!
+	Quê?!
+	Mas eu tô com fome!
+	E sede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -108,9 +111,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,there's not
-	much your mom can
-	do with no water...
+	Bem,não tem muito o
+	que a sua mãe possa
+	fazer...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,7 +131,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah,but..."
+	"É,mas..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -146,9 +149,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,you better get
-	going or you'll be
-	late!
+	É melhor ir logo,
+	senão,vai se
+	atrasar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -166,7 +169,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"All right already!!"
+	"Tá bom,tá bom!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

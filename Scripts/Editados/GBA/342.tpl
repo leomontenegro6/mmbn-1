@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Where were you?
-	I...
+	Lan! Onde estava?!
+	Eu... 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18,8 +18,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I was so
-	worried!
+	Eu fiquei tão
+	preocupada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -38,8 +38,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,Mom!
-	But we're fine,see?
+	Desculpa,mãe!
+	Mas a gente tá bem,
+	viu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,7 +56,7 @@ script 2 mmbn1 {
 	msgOpen
 	flagSet
 		flag = 200
-	"*beebeebeep*"
+	"Bi Bi Biiip!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -65,9 +66,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! You've got
-	mail! It's from
-	Dad!
+	Lan!
+	Chegou um e-mail!
+	É do seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,9 +85,8 @@ script 3 mmbn1 {
 		palette = 1
 	msgOpen
 	"""
-	That was a long
-	power out! Is
-	everybody OK?
+	Que blecaute longo!
+	Estão todos bem?
 	"""
 	keyWait
 	clearMsg
@@ -103,8 +103,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's my dad,as
-	clueless as ever...
+	Ah,desinformado
+	como sempre...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,9 +114,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	“Dear Dad,don't
-	worry,MegaMan is
-	looking after me!“
+	"Querido pai,não se
+	preocupe,o MegaMan
+	tá cuidando de mim!"
 	"""
 	mugshotAnimate
 		animation = 1
@@ -135,9 +135,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh well...I guess
-	the party's over.
-	Shall we go home?
+	Bem... Acho que a
+	festa acabou. Vamos
+	para casa?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -147,9 +147,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan? Do you want to
-	stop for something
-	to eat on the way?
+	Lan,quer parar para
+	comer alguma coisa
+	no caminho?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,9 +168,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,now that you
-	mention it,I haven't
-	eaten since lunch!
+	Agora que você
+	falou,não como nada
+	desde o almoço!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -179,7 +179,10 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I'm starving!!"
+	"""
+	Eu tô morrendo de
+	fome!!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -197,8 +200,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess you need to
-	recharge,too!
+	Acho que você também
+	precisa recarregar,
+	né?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -206,7 +210,7 @@ script 7 mmbn1 {
 	clearMsg
 		delay = 0
 	mugshotHide
-	"Hah hah hah!"
+	"Ha ha ha!"
 	keyWait
 	end
 		delay = 0

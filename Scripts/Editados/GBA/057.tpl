@@ -706,7 +706,7 @@ script 227 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A dead end?"
+	"Um beco sem saída?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -715,8 +715,8 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But something's odd
-	about this room
+	Mas tem alguma coisa
+	estranha aqui
 	"""
 	mugshotAnimate
 		animation = 1
@@ -738,9 +738,9 @@ script 228 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll bet this room
-	is connected to
-	where the rocket is!
+	Esta sala deve estar
+	ligada ao local em
+	que o foguete está!
 	"""
 	mugshotAnimate
 		animation = 1

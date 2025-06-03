@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Argh!
-	Not enough ice
-	blocks...
+	Argh! Não temos
+	blocos de gelo
+	suficientes...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can see the lock
-	program right there!
+	Dá pra ver o
+	programa de
+	bloqueio bem ali!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,7 +47,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Leave it to us!"
+	"Deixa com a gente!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64,8 +65,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yai!? What are
-	you doing here?
+	Yai?! O que você
+	tá fazendo aqui?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,8 +85,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll explain later!
-	Glyde,to work!
+	Eu explico depois!
+	Glide,ao trabalho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,7 +104,10 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Certainly,my lady!"
+	"""
+	Certamente,
+	senhorita!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -121,8 +125,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The rest is up
-	to you...
+	O resto é com
+	você...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141,8 +145,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks!
-	I owe you one!
+	Valeu! Fico te
+	devendo essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -159,8 +163,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You did it!
-	Thanks,Yai!
+	Foi!
+	Obrigado,Yai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -179,8 +183,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just helping out
-	a friend!
+	Pra que servem os
+	amigos,né?
 	"""
 	mugshotAnimate
 		animation = 1

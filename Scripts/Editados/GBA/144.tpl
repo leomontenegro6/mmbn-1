@@ -48,7 +48,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Eeeek!"
+	"AHHH!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -57,8 +57,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm getting dressed!
-	Out!! Out!!
+	Eu tô me trocando!
+	SAI!! SAI!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,7 +74,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Stop peeking!"
+	"Para de espiar!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -82,7 +82,7 @@ script 11 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"You pervert!!"
+	"Seu tarado!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -158,8 +158,8 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thank you for
-	helping me.
+	Obrigada por me
+	ajudar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -169,8 +169,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I gave Yai's present
-	to her. She loved it!
+	Eu dei o presente
+	da Yai pra ela.
+	Ela amou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -180,9 +181,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you were going
-	to see her,you'd
-	better hurry!
+	Se pretende ir falar
+	com ela,é melhor
+	correr!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,17 +205,17 @@ script 30 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A party? How nice!"
+	"Uma festa? Legal!"
 	mugshotAnimate
 		animation = 1
-	"\n..."
+	"\n... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I wish I could
-	go to one...
+	Bem que eu
+	queria poder ir...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -253,9 +254,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know that I'm
-	not helping you
-	directly,
+	Eu sei que não tô
+	te ajudando
+	diretamente...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -265,9 +266,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...but I'm cheering
-	for you from the
-	sidelines!
+	... mas estou
+	torcendo por você
+	com tudo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -276,7 +277,7 @@ script 35 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Good luck!"
+	"Boa sorte!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -304,8 +305,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,shouldn't you
-	leave this to the
+	Lan,você não devia
+	deixar isso pro
 	SciLab?
 	"""
 	mugshotAnimate
@@ -316,9 +317,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...But I know you
-	won't...
-	Be careful!!
+	... Mas eu sei que
+	você não vai...
+	Toma cuidado!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -867,9 +868,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	This toy was popular
-	last year. It has a
-	jack in port
+	Esse brinquedo foi
+	popular ano passado.
+	Tem entrada pra PET.
 	"""
 	keyWait
 	end
@@ -878,7 +879,7 @@ script 220 mmbn1 {
 }
 script 221 mmbn1 {
 	msgOpen
-	"The power is off"
+	"Está desligado."
 	keyWait
 	end
 		delay = 5
@@ -887,8 +888,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	There's nothing in
-	this trash can
+	Não há nada nessa
+	lixeira.
 	"""
 	keyWait
 	end
@@ -898,9 +899,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	A big mirror.
-	Mayl uses it every
-	morning
+	Um grande espelho.
+	A Mayl o usa todas
+	as manhãs.
 	"""
 	keyWait
 	end
@@ -910,9 +911,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	Mayl's bed is at
-	the top of this
-	ladder
+	A cama da Mayl fica
+	subindo essas
+	escadas.
 	"""
 	keyWait
 	end

@@ -567,7 +567,7 @@ script 184 mmbn1s {
 }
 script 185 mmbn1 {
 	msgOpen
-	"There's no response"
+	"Sem resposta."
 	keyWait
 	end
 		delay = 0
@@ -581,9 +581,8 @@ script 186 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Hurry up and
-	throw the 
-	generator switch!
+	Lan! Rápido,aperta
+	o botão de gerador!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -608,9 +607,9 @@ script 187 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? Is the
-	generator running?
-	Let's check it out!
+	Hã? O gerador tá
+	ligado?
+	Vamos conferir!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roll! Where are you?"
+	"Roll! Cadê você?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -15,7 +15,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Aaa!!"
+	"Aaahh!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,8 +31,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,now,I'll delete
-	you soon enough...
+	Bom,hora de te
+	deletar rapidinho...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41,7 +41,7 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Heheh!"
+	"He he he!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -50,8 +50,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But first I'll watch
-	you squirm a little!
+	Mas,primeiro...
+	tortura!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Help! Heeeeelp!"
+	"Aaahh! Socorro!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -85,8 +85,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey you! Get away
-	from Roll!
+	Ei,você!
+	Se afasta da Roll!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,20 +103,17 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Delete this
-	guy,quick!
+	MegaMan! Deleta esse
+	sujeito,rápido!
 	"""
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	Or else
-	the bus will...
-	"""
+	"Ou o ônibus vai..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -133,7 +130,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gotcha!"
+	"Pode deixar!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -144,9 +141,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So you're ColorMan,
-	huh? Let Roll go!
-	I'm the one
+	Então,você é o
+	ColorMan,né?!
+	Deixa ela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -155,7 +152,10 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"you want!"
+	"""
+	Sou eu quem você
+	quer!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -171,9 +171,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure thing,I'll just
-	delete you first,and
-	delete her later!
+	Claro! Eu vou só te
+	deletar primeiro,e
+	depois,ela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -192,8 +192,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go!
-	Battle routine,set!!
+	Vamos lá! Rotina de
+	batalha,preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -211,7 +211,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

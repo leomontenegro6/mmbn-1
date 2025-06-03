@@ -3,9 +3,9 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	Several days after
-	the “strange oven
-	explosions“...
+	Vários dias após o
+	caso das explosões
+	dos fogões...
 	"""
 	keyWait
 	end
@@ -15,25 +15,25 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	soundDisableTextSFX
-	"*clip*"
+	"Tap"
 	soundPlay
 		track = 163
 	waitSkip
 		frames = 30
-	" *clop*"
+	" Top"
 	soundPlay
 		track = 163
 	waitSkip
 		frames = 30
 	"""
 	...
-	*clip*
+	Tap
 	"""
 	soundPlay
 		track = 163
 	waitSkip
 		frames = 30
-	" *clop*"
+	" Top"
 	soundPlay
 		track = 163
 	"..."
@@ -48,15 +48,12 @@ script 2 mmbn1 {
 		palette = 1
 	msgOpen
 	"""
-	...ACDC elementary,
-	DenCity...
+	... Fundamental
+	ACDC,DenCity...
 	"""
 	waitSkip
 		frames = 30
-	"""
-	This is
-	the place!
-	"""
+	"\nÉ aqui!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -66,10 +63,10 @@ script 2 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
-	"*grin*"
+	"He."
 	keyWait
 	end
 		delay = 10

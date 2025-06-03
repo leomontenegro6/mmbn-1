@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!
-	Turn all the traffic
-	lights to red!
+	MegaMan! Mude todos
+	os semáforos para
+	vermelho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,9 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Gotcha!
-	We'll stop the bus
-	at the intersection!
+	Certo! Vamos parar
+	o ônibus no
+	cruzamento!
 	"""
 	mugshotAnimate
 		animation = 1

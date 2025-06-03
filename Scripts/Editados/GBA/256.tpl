@@ -7,14 +7,14 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan!"
+	"MegaMan! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" Answer me!"
+	"Responde!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,14 +31,14 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh,"
+	"Un-"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"uhhh"
+	"unghhh"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -49,7 +49,7 @@ script 1 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
@@ -73,7 +73,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You okay?"
+	"Você tá bem?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -91,8 +91,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah! I'm all right!
-	Thanks! 
+	É! Tô ótimo!
+	Valeu! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -100,7 +100,7 @@ script 3 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Lan!"
+	"... Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -118,9 +118,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I got a lot on my
-	hands here! Hurry
-	up,MegaMan!
+	As coisas tão
+	complicadas aqui!
+	Depressa,MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,7 +138,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Pode deixar!"
 	mugshotAnimate
 		animation = 1
 	keyWait

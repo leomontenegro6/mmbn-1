@@ -563,9 +563,9 @@ script 180 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Hurry to
-	the power plant,
-	or...
+	MegaMan! Vamos
+	logo pra usina
+	elétrica,senão...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -609,9 +609,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

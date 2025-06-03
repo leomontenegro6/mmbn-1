@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	"Mmphh,mmph!"
 	mugshotAnimate
 		animation = 1
-	"\n(Help me!)"
+	"\n(Socorro!)"
 	keyWait
 	clearMsg
 		delay = 0
@@ -31,7 +31,7 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	mugshotHide
 	msgOpen
-	"Help her?\n"
+	"Ajudar ela?\n"
 	option
 		left = 1
 		right = 1
@@ -39,7 +39,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -47,7 +47,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -65,7 +65,7 @@ script 1 mmbn1 {
 	"Mmmmmph!! Mmmmmmph!!"
 	mugshotAnimate
 		animation = 1
-	"\n(Lan! Help me!!!)"
+	"\n(Lan! Me ajuda!!!)"
 	keyWait
 	end
 		delay = 5
@@ -73,7 +73,10 @@ script 1 mmbn1 {
 }
 script 2 mmbn1 {
 	msgOpen
-	"Lan helps Ms.Mari"
+	"""
+	Lan ajuda a
+	Srta. Mari...
+	"""
 	keyWait
 	msgClose
 	flagSet
@@ -90,9 +93,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thank you!
-	I can't believe that
-	guy Higsby!
+	Obrigada! Ai,não
+	acredito que
+	aquele Higsby...!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -115,9 +118,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My ID card?
-	Sure,as thanks for
-	saving me!
+	Meu cartão de ID?
+	Claro! Pra agrade-
+	cer por me salvar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141,13 +144,13 @@ script 5 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got:
-	“
+	Lan recebeu o
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 3
-	"“"
+	"\"!"
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -167,8 +170,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please try to
-	help everyone!
+	Por favor,salve a
+	todos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -746,8 +749,8 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm the wandering
-	chip collector!
+	Sou um colecionador
+	de chips errante!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -757,9 +760,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll trade with
-	anyone who has
-	something I want.
+	Troco com qualquer
+	um que me der o
+	que eu quero.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -769,9 +772,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hope I can find
-	someone with a
-	
+	Espero encontrar
+	alguém que tenha
+	um 
 	"""
 	printChip
 		buffer = 0
@@ -802,9 +805,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,well,how
-	lucky for me! Want
-	to trade that chip?
+	Ora,ora,que sorte,a
+	minha! Topa trocar
+	esse chip?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -813,7 +816,7 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Whatcha' say? That\n"
+	"O que me diz? Esse\n"
 	printChip
 		buffer = 0
 		chip = 65
@@ -821,7 +824,7 @@ script 191 mmbn1 {
 	printCode
 		buffer = 0
 		code = S
-	" for this\n"
+	" por este\n"
 	printChip
 		buffer = 0
 		chip = 109
@@ -842,7 +845,7 @@ script 191 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Uh,sure\n"
+	"Er,tá...\n"
 	option
 		left = 1
 		right = 1
@@ -850,7 +853,7 @@ script 191 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No way!"
+	"Nunca!"
 	select
 		default = 0
 		disableB = false
@@ -881,8 +884,9 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Groovy! Another page
-	in my album filled!
+	Legal! Outra página
+	do meu álbum
+	preenchida!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -892,8 +896,8 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the one you
-	wanted,right?
+	Este é o que
+	você queria,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -919,8 +923,8 @@ script 192 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -929,7 +933,9 @@ script 192 mmbn1 {
 	printCode
 		buffer = 0
 		code = D
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -946,9 +952,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wh,what? You refuse
-	a trade with the
-	wandering collector?
+	Q-quê? Se recusa a
+	a trocar com o co-
+	lecionador errante?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -957,7 +963,10 @@ script 193 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"You'll beee sooorry!"
+	"""
+	Tu vai se arrepender
+	muito!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -973,9 +982,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...and having got my
-	chip,I wander off
-	into the sunset...
+	... e,tendo adquiri-
+	do o chip,parto rumo
+	ao pôr do sol...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -992,9 +1001,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I knew you'd come
-	back! They always
-	do...
+	Eu sabia que você
+	voltaria! Eles sem-
+	pre voltam...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1003,7 +1012,7 @@ script 195 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So you'll trade that\n"
+	"E aí,troca esse\n"
 	printChip
 		buffer = 0
 		chip = 65
@@ -1011,7 +1020,7 @@ script 195 mmbn1 {
 	printCode
 		buffer = 0
 		code = S
-	" for this\n"
+	" por este\n"
 	printChip
 		buffer = 0
 		chip = 109
@@ -1032,7 +1041,7 @@ script 195 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Sure\n"
+	"Claro\n"
 	option
 		left = 1
 		right = 1
@@ -1040,7 +1049,7 @@ script 195 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Uh-uh"
+	"Nananinanão"
 	select
 		default = 0
 		disableB = false
@@ -1062,8 +1071,8 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Boy,you should
-	know by now...
+	Garoto,você já
+	devia saber...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1073,9 +1082,9 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't trade a
-	chip that's in 
-	your folder!
+	que não dá pra tro-
+	car um chip que tá
+	na sua pasta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1156,9 +1165,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A huge ball that's
-	used on field day.
-	It looks lonely here
+	Uma bola enorme
+	usada no dia-a-dia.
+	Parece solitária.
 	"""
 	keyWait
 	end
@@ -1168,9 +1177,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	There is a lot of
-	equipment used for
-	gym classes here
+	Há muito equipamento
+	utilizado na educa-
+	ção física aqui.
 	"""
 	keyWait
 	end
@@ -1180,9 +1189,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Some old sports
-	equipment. Smells
-	pretty bad
+	Uns equipamentos
+	velhos. Cheiram
+	muito mal.
 	"""
 	keyWait
 	end
@@ -1196,9 +1205,9 @@ script 223 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	There's something
-	shiny towards the
-	back...
+	Tem uma coisa
+	brilhante mais ao
+	fundo...
 	"""
 	keyWait
 	clearMsg
@@ -1214,13 +1223,15 @@ script 223 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a PowerUp:
-	“
+	Lan adquiriu um
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -1232,8 +1243,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	There's nothing else
-	interesting here
+	Não há mais nada
+	de interessante
+	aqui.
 	"""
 	keyWait
 	end
@@ -1243,9 +1255,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	Filled with balls
-	to the point of
-	overflowing
+	Cheio de bolas,
+	ao ponto de
+	transbordar.
 	"""
 	keyWait
 	end
@@ -1255,8 +1267,8 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	A box full of
-	toilet paper
+	Uma caixa cheia de
+	papel higiênico.
 	"""
 	keyWait
 	end
@@ -1265,7 +1277,10 @@ script 226 mmbn1 {
 }
 script 227 mmbn1 {
 	msgOpen
-	"A box of floor wax"
+	"""
+	Uma caixa de cera
+	para piso.
+	"""
 	keyWait
 	end
 		delay = 5

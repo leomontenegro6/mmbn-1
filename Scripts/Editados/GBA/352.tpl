@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's a door in
-	the statue base!
+	Tem uma porta na
+	base da estátua!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,8 +32,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think I can
-	hear something.
+	Acho que eu consigo
+	ouvir alguma coisa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52,8 +52,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That sound...
-	It's getting closer!
+	Esse som... tá se
+	aproximando!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 3 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 191
-	"*Whoooosh*"
+	"Vuuuuush..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -84,10 +84,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Lan! It's the
-	Metroline!
-	"""
+	"Lan! É a Metrolinha!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -104,10 +101,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Let's open the
-	door!
-	"""
+	"Bora abrir a porta!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -123,8 +117,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan? I wonder what
-	he's doing
+	Lan? O que ele tá
+	fazendo
 	"""
 	mugshotAnimate
 		animation = 1
@@ -150,7 +144,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A staircase!"
+	"Uma escada!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -167,7 +161,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go inside!"
+	"Vamos entrar!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -199,23 +193,23 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,Lan! Wait up!"
+	"Ei,Lan! Espera!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n."
-	waitSkip
-		frames = 30
 	"."
 	waitSkip
 		frames = 30
 	"."
+	waitSkip
+		frames = 30
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"He's gone..."
+	"Ele se foi..."
 	mugshotAnimate
 		animation = 1
 	keyWait

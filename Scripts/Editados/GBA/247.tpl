@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's begin class,
-	shall we?
+	Enfim,vamos começar
+	a aula?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,8 +19,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	First period is...
-	“Virus Busting“
+	A primeira lição...
+	"Deleção de vírus".
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Who's read NetNews?"
+	"Viram as notícias?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -47,9 +47,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I did! It said
-	WWW net crime is
-	on the rise!
+	Eu vi! Os NetCrimes
+	da WWW tão em alta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -68,9 +67,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Very good! And extra
-	marks for checking
-	your NetNews.
+	Muito bem! Ponto
+	extra por ler as
+	NetNotícias.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -88,7 +87,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Course,"
+	"Lan,"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -96,8 +95,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	you should
-	know too,Lan
+	era pra você
+	também saber
+	disso
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,9 +117,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's important that
-	we all know how to
-	fight viruses!
+	É importante todos
+	saberem como lutar
+	contra vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,9 +138,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hah! I'd like to see
-	a WWW virus take on
-	me and GutsMan!
+	Ha! Quero ver um
+	vírus da WWW encarar
+	o GustMan e eu!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -158,7 +158,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hrmph,"
+	"Ai,ai..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -167,8 +167,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dex and his silly
-	little “GutsMan“...
+	Dex e o "GutsMan"
+	bobo dele...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,7 +186,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Whad'you say!?"
+	"O que que cê disse?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -204,9 +204,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Relax! Why would
-	the WWW bother with
-	you anyway,Dex?
+	Relaxa! Por que a
+	WWW ia perder tempo
+	com VOCÊ,Dex?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -224,15 +224,15 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Why,you!"
+	"Ora,seu..!"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Lan!"
+	"Eu te pego,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -249,18 +249,8 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Quiet in the class!"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
 	"""
-	Today we'll be using
-	the common virus
-	called a “Mettool“.
+	Silêncio na sala!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -269,14 +259,25 @@ script 10 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Jack in your "
+	"""
+	Hoje,usaremos um
+	vírus comum chamado
+	"Mettool".
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"Conectem-se com seus\n"
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	
-	so your NetNavi can
-	access the net.
+	s para seus Navis
+	acessarem a Rede.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -295,9 +296,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,she said to
-	jack in! Press the
-	R Button!
+	Lan,ela falou pra
+	conectar! Aperte o
+	botão R!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -315,7 +316,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah,yeah..."
+	"Tá,tá..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -331,9 +332,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,
-	jack in with the
-	R Button!
+	Lan,me conecta
+	apertando R!
 	"""
 	mugshotAnimate
 		animation = 1

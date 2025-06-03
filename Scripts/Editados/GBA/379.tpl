@@ -3,16 +3,16 @@
 script 0 mmbn1 {
 	msgOpenQuick
 	"""
-	WWW crime on
-	the rise!
+	Os crimes da WWW
+	estão em alta!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	WWW's plan
-	to control the net
-	might be starting!
+	Os planos dela para
+	controlar a Rede
+	começaram!
 	"""
 	keyWait
 	clearMsg
@@ -29,16 +29,17 @@ script 1 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Sorry I couldn't get
-	off work Sunday.
-	I'll be home soon.
+	Desculpa,domingo
+	não deu. Mas volto
+	pra casa logo.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Here's a present for
-	you. Use it well.
+	Pra compensar,um
+	presente pra você.
+	Use-o bem.
 	"""
 	keyWait
 	clearMsg
@@ -55,8 +56,8 @@ script 1 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -65,7 +66,9 @@ script 1 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 5
@@ -81,51 +84,55 @@ script 2 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Lan,this is Dad.
-	I've made a PowerUp
-	program for MegaMan!
+	Oi,Lan. Criei um
+	programa de PowerUp
+	pro MegaMan!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It's a little big
-	to send by mail...
+	É um pouco grande
+	demais pra mandar
+	por e-mail...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But don't worry,I'll
-	bring it home soon.
+	Mas não se preocupe.
+	Logo eu volto pra
+	casa.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...You and MegaMan
-	make a great team!
-	Keep it up! -Dad
+	Você e o MegaMan são
+	uma equipe incrível!
+	Continuem! -Pai
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	PS:Don't forget that
-	whenever you're in
-	a pinch,you can
+	OBS: Não esqueça
+	que,se precisar
+	de dicas,
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Press "
+	"""
+	É só apertar L
+	no 
+	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	's
-	L Button to talk to
-	MegaMan.
+	 para
+	falar com o MegaMan.
 	"""
 	keyWait
 	clearMsg
@@ -139,17 +146,17 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpenQuick
 	"""
-	Student net crime is
-	on the rise at
-	schools everywhere!
+	NetCrimes estudantis
+	estão em alta nas
+	escolas!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The reasons for this
-	rise are as yet 
-	unknown.
+	A fonte para
+	essa alta segue
+	desconhecida.
 	"""
 	keyWait
 	clearMsg
@@ -165,14 +172,17 @@ script 4 mmbn1 {
 		mugshot = Yai
 		palette = 1
 	msgOpenQuick
-	"Lan,R U late again?"
+	"""
+	Lan,atrasado de
+	novo?
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I called your name
-	for you in home room
-	so you owe me one!
+	Eu gritei seu nome
+	na chamada,então
+	você me deve uma!
 	"""
 	keyWait
 	clearMsg
@@ -189,9 +199,9 @@ script 5 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	My GutsMan is ready
-	to take you on,if
-	you're not CHICKEN!
+	Meu GutsMan tá pron-
+	to pra acabar com
+	você. NÃO FOGE!
 	"""
 	keyWait
 	clearMsg
@@ -205,16 +215,16 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpenQuick
 	"""
-	Hard times get worse
-	as people faint from
-	lack of water.
+	Tempos difíceis.
+	Gente desmaiando por
+	falta de água...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Remember,don't drink
-	tainted water!
+	Lembre-se: não beba
+	a água contaminada!
 	"""
 	keyWait
 	clearMsg
@@ -233,25 +243,25 @@ script 7 mmbn1 {
 	flagSet
 		flag = 250
 	"""
-	Sorry I was busy
-	when you came to
-	visit.
+	Desculpe,eu estava
+	ocupado quando você
+	me visitou.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But I have some good
-	news:I managed to
-	compress the PowerUp
+	Mas tenho uma boa
+	notícia: consegui
+	comprimir o Programa
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	program for MegaMan
-	I was talking about!
-	Enjoy! -Dad
+	de PowerUp do
+	MegaMan de que fa-
+	lei. Aproveite! -Pai
 	"""
 	keyWait
 	clearMsg
@@ -267,13 +277,15 @@ script 7 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a PowerUp:
-	“
+	Lan adquiriu um
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
@@ -284,31 +296,35 @@ script 7 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a PowerUp:
-	“
+	Lan adquiriu um
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 65
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Don't forget to use
-	the menu to equip
-	“
+	Não esqueça de ir ao
+	menu para equipar o
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 65
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	PS:Always listen to
-	your mom!
+	OBS: Obedeça sempre
+	à sua mãe!
 	"""
 	keyWait
 	clearMsg
@@ -325,40 +341,41 @@ script 8 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	It turns out that
-	missing kid from B
-	Class was kidnapped!
+	Ouvi dizer que um
+	garoto da turma B
+	foi sequestrado!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Lan,you have to help
-	us look for him,OK?
+	Lan,você tem que
+	ajudar a encontrar
+	ele! OK?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You better help,or
-	I won't call your
-	name in home room!
+	Melhor ajudar,ou
+	não falo mais o seu
+	nome na chamada!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Good luck! -Yai"
+	"Boa sorte! -Yai"
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotHide
-	"PS:"
+	"OBS: "
 	waitSkip
 		frames = 30
 	"""
-	
-	Buy some water if
-	you find any,please!
+	Compra uma
+	água se achar,
+	por favor!
 	"""
 	keyWait
 	clearMsg
@@ -375,29 +392,30 @@ script 9 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Hey,Yai's birthday
-	is coming up!
+	Ei,o aniversário da
+	Yai tá chegando!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Wanna come with me
-	to buy a present?
+	Topa vir comigo com-
+	prar um presente?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Meet in front of the
-	Metroline station.
+	Me encontra em
+	frente à estação
+	da Metrolinha.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	OK?
-	Write me back!
+	OK? Não demora
+	pra responder!
 	"""
 	keyWait
 	clearMsg
@@ -421,9 +439,9 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpenQuick
 	"""
-	New “Dentown-ACDC“
-	Metroline opens
-	today!
+	Notícias: Metrolinha
+	ACDC-Distrito Den
+	inaugura hoje!
 	"""
 	keyWait
 	clearMsg
@@ -440,33 +458,33 @@ script 11 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	I'm free now,
-	so I'll take the bus
-	to Dentown Block1.
+	Estou livre. Vou de
+	ônibus pro Bloco 1
+	do Distrito Den.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Oh yeah,you know Yai
-	has been collecting
-	antiques recently?
+	Ah,é: sabia que a
+	Yai tá colecionando
+	antiguidades?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I was wondering if
-	you could look for a
-	place to buy some?
+	Queria saber... Pode
+	achar um lugar pra
+	comprar umas?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Sorry to ask so much
-	Lan. Hey,I got this
-	for you!
+	Desculpa por pedir
+	tanto. Aqui,Lan,
+	pra você!
 	"""
 	keyWait
 	clearMsg
@@ -483,8 +501,8 @@ script 11 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -497,7 +515,7 @@ script 11 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"C-ya later! -Mayl"
+	"Até já! -Mayl"
 	keyWait
 	clearMsg
 		delay = 5
@@ -515,41 +533,41 @@ script 12 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	It seems the Dentown
-	autodrive system has
-	malfunctioned...
+	Parece que o sistema
+	de piloto automático
+	deu defeito...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But we at WWW have
-	created a program to
-	solve the problem!
+	Mas nós,da WWW,
+	criamos um programa
+	pra resolver isso!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Just install in your
-	car computer and it
-	will run like new!
+	É só instalá-lo
+	em seus carros e
+	voilá!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It's a little pricey
-	at 1,000,000 zenny,
-	but it's worth it!
+	Tudo pelo precinho
+	camarada de 1 milhão
+	de zennys. Barato!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	On sale at Dentown
-	Central only while
-	supplies last!
+	À venda no centro do
+	Distrito. Vamos,
+	antes que esgotem!
 	"""
 	keyWait
 	clearMsg
@@ -566,16 +584,16 @@ script 13 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	I heard the bus is
-	going to blow up!
-	For real!?
+	Eu ouvi que o ônibus
+	vai explodir!
+	É verdade?!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Lan! Help!
-	What should I do?
+	Lan! Socorro!
+	O que eu faço?!
 	"""
 	keyWait
 	clearMsg
@@ -593,38 +611,37 @@ script 14 mmbn1 {
 		mugshot = Dad
 		palette = 1
 	msgOpenQuick
-	"Dear Lan,"
+	"Oi,Lan."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You're friends with
-	that Chaud boy,
-	aren't you?
-	"""
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	I see him at the lab
-	and recently he
-	seems a little blue.
+	Você é amigo do
+	Chaud,né?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Perhaps his work as
-	a NetBattler isn't
-	going well?
+	Eu o vi no
+	laboratório. Ele
+	anda deprimido.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Maybe you could try
-	talking to him? 
-	Thanks! -Dad
+	Talvez o trabalho
+	dele como NetLutador
+	esteja indo mal?
+	"""
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Que tal você tentar
+	falar com ele?
+	Grato! -Pai
 	"""
 	keyWait
 	clearMsg
@@ -641,16 +658,16 @@ script 15 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Lan,you don't know
-	the netaddress for
-	my home,right?
+	Lan,você não tem o
+	endereço da Rede
+	da minha casa,né?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I'll let you know,
-	just in case...
+	Vou te ensinar,
+	só por precaução...
 	"""
 	keyWait
 	clearMsg
@@ -667,7 +684,7 @@ script 15 mmbn1 {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	"Lan got\n"
+	"Lan adquiriu\n"
 	printItem
 		buffer = 0
 		item = 33
@@ -689,41 +706,41 @@ script 16 mmbn1 {
 		palette = 2
 	msgOpenQuick
 	"""
-	Lan,the WWW server
-	is hidden deep down
-	inside the Undernet!
+	Lan,o servidor da
+	WWW está escondido
+	dentro da Undernet!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There are 3 locks,
-	each a higher level
-	than the last,M'kay?
+	São 3 fechaduras,
+	cada uma de nível
+	maior que a última.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Unfortunately,I
-	don't have any idea
-	how to open them.
+	Infelizmente,não
+	faço ideia de como
+	abri-las,é.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But one of my old
-	WWW friends is at
-	the SciLab now.
+	Mas um dos meus ve-
+	lhos amigos da WWW
+	tá no SciLab agora.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	He regrets having
-	worked for WWW now,
-	& he might help you!
+	Ele saiu da vida de
+	WWW e vai te ajudar!
+	É!
 	"""
 	keyWait
 	clearMsg
@@ -742,33 +759,33 @@ script 17 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	I've found the site
-	of the WWW lab deep
-	in the mountains!
+	Localizei o labora-
+	tório da WWW. Fica
+	nas montanhas!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But there's no roads
-	or railways,and no
-	airport either...
+	Mas não tem estra-
+	das,ferrovias ou
+	aeroportos...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	And it would take to
-	long to walk there,
-	I'd reckon...
+	E sinto que
+	demoraria demais
+	para chegar a pé...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But WWW agents are
-	getting into DenCity
-	somehow...
+	Mas os agentes da
+	WWW conseguem aces-
+	sar DenCity,então...
 	"""
 	keyWait
 	clearMsg
@@ -785,9 +802,9 @@ script 18 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	I've got something
-	for you. Drop by the
-	Waterworks anytime!
+	Venha ao Sistema
+	Hídrico. Tenho uma
+	coisa para você!
 	"""
 	keyWait
 	clearMsg
@@ -804,62 +821,61 @@ script 19 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Thanks for the help,
-	I thought this
-	might aid you:
+	Obrigado pela ajuda.
+	Acho que isto pode
+	te ajudar.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You know about the
-	official NetBattlers
-	right?
+	Sabe os NetLutadores
+	Oficais?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Well,in order to
-	share the tricks of
-	the trade,
+	Bem,quero compar-
+	tilhar uns segredos
+	deles em troca.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	they're using an ML
-	(mailing list) to
-	spread information.
+	Eles têm um grupo de
+	e-mail para reunir
+	informações.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I know it's not
-	allowed...
+	Sei que não é
+	permitido... 
 	"""
 	waitSkip
 		frames = 30
 	"""
-	But I
-	talked to a friend.
+	Mas
+	falei com um amigo.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	He got you on the
-	list,so you should
-	get the mail,too.
+	Ele te colocou lá,
+	então,você deve
+	receber os e-mails.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It's useful for info
-	about battlechips,
-	viruses,& advances!
+	É útil para aprender
+	sobre chips,vírus e
+	Programas Avançados!
 	"""
 	keyWait
 	clearMsg
@@ -873,24 +889,24 @@ script 19 mmbn1 {
 script 20 mmbn1 {
 	msgOpenQuick
 	"""
-	NetBattlers:
-	Greetings.
+	NetLutadores:
+	Saudações.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Can the DenCity rep
-	tell us about the
-	Waterworks virus?
+	Agente de DenCity,
+	fale-nos dos vírus
+	no Sistema Hídrico.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	WWW's viruses are
-	getting worse,so
-	be on your guard!
+	Os vírus da WWW es-
+	tão se fortalecendo.
+	Fiquem alertas!
 	"""
 	keyWait
 	clearMsg
@@ -907,33 +923,33 @@ script 21 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	This is Chaud. The
-	Waterworks incident
-	used a NetNavi with
+	Chaud aqui. O inci-
+	dente do Sistema
+	foi causado por um
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	ice attacks. I found
-	out that ice power
-	is Aqua-based.
+	Navi com ataques de
+	gelo. O gelo sendo
+	baseado em Água.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	And,there was a
-	civilian NetNavi on
-	the 'works server...
+	E havia um NetNavi
+	civil nos
+	servidores...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	an elementary school
-	student's! Some
-	kinda wannabe hero?
+	Um aluno do funda-
+	mental,brincando
+	de herói,talvez.
 	"""
 	keyWait
 	clearMsg
@@ -947,40 +963,47 @@ script 21 mmbn1 {
 script 22 mmbn1 {
 	msgOpenQuick
 	"""
-	The DenCity auto-
-	drive system's been
-	hacked into!
+	O sistema de piloto
+	automático de Den-
+	City foi hackeado!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	WWW is getting
-	bolder day by day!
+	A WWW está ficando
+	mais ousada a cada
+	dia!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I heard the operator
-	who solved the prob
-	wasn't a NetBattler!
+	Ouvi que quem resol-
+	veu o problema não
+	foi um NetLutador
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Hard to imagine a
-	civilian handling
-	such a high-level
+	Oficial. Difícil
+	imaginar um civil
+	resolvendo um
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	incident.
-	Who is this mystery
-	operator,anyway?
+	incidente de alto
+	nível desses.
+	"""
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Quem é esse operador
+	misterioso,afinal?
 	"""
 	keyWait
 	clearMsg
@@ -994,49 +1017,48 @@ script 22 mmbn1 {
 script 23 mmbn1 {
 	msgOpenQuick
 	"""
-	Some program advance
-	info:while you can
-	advance most prog's
+	Dicas sobre Programa
+	Avançado: ele pode
+	ser feito utilizando
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	by collecting chips
-	in a series under 1
-	code (like B-bomb),
+	séries de chips de
+	mesmo código (como
+	Bombas B).
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	some chips like Gaia
-	won't advance even
-	then!
+	Alguns chips,como
+	Gaia,não servirão!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I have some new info
-	that might solve
-	this old problem.
+	Mas tenho novas in-
+	formações pra resol-
+	ver esse problema.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Seems U need 1 more
-	chip-a trigger chip-
-	to advance.
+	Parece que é preciso
+	mais 1 chip "A" para
+	criar o P.A.!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There's about 4
-	possible combos
-	worth trying out!
+	Existem 4 combina-
+	ções possíveis. Que
+	tal experimentar?
 	"""
 	keyWait
 	clearMsg
@@ -1050,48 +1072,47 @@ script 23 mmbn1 {
 script 24 mmbn1 {
 	msgOpenQuick
 	"""
-	I ran into a virus
-	with some kind of
-	aura the other day.
+	Eu lutei com um
+	vírus com um tipo
+	de aura outro dia.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Damage less than the
-	number it displays
-	doesn't hurt it!
+	Danos abaixo do nú-
+	mero à mostra não
+	surtem efeito!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It looks like you
-	need real high power
-	chips for this guy.
+	Parece que é preciso
+	chips bem fortes
+	para transpassá-la.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	When it attacks,part
-	of it comes outside
-	the aura...
+	Mas,quando ataca,
+	um pedaço dele sai
+	da aura...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Maybe aiming for
-	that with a buster
-	would work?
+	Talvez atacar esse
+	pedaço resolva?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Everybody,watch out
-	and good luck!
+	Pessoal,cuidado e
+	boa sorte!
 	"""
 	keyWait
 	clearMsg
@@ -1105,32 +1126,32 @@ script 24 mmbn1 {
 script 25 mmbn1 {
 	msgOpenQuick
 	"""
-	More information on
-	the aura virus:
+	Mais informações
+	sobre vírus de aura:
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Seems like the aura
-	always uses a type
-	of energy.
+	parece que as auras
+	são sempre de um
+	tipo de energia.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The one I met was
-	Fire so I hit it
-	with AquaTower.
+	Quando encontrei
+	uma de Fogo,usei
+	AquaTower.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	This seems to be
-	an effective way to
-	fight them!
+	Parece ser bem mais
+	efetivo para lutar
+	contra eles!
 	"""
 	keyWait
 	clearMsg
@@ -1144,40 +1165,40 @@ script 25 mmbn1 {
 script 26 mmbn1 {
 	msgOpenQuick
 	"""
-	I met one of the
-	aura viruses,too.
+	Eu achei um vírus de
+	aura,também.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Mine was Wood,
-	and it ignored any
-	damage less than 80!
+	A aura era Madeira,
+	e anulava danos
+	abaixo de 80!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I used a FireSword
-	to delete it but man
-	are they tough...
+	Eu usei FireSword
+	para lutar,mas que
+	aperto eles são...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	If they made an aura
-	without an elemental
-	affinity...
+	Se criassem uma
+	aura sem nenhum
+	elemento...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It wouldn't have any
-	weaknesses! A true
-	“Life Aura“!
+	Uma aura sem nenhuma
+	fraqueza...! Uma
+	"LifeAura"!
 	"""
 	keyWait
 	clearMsg
@@ -1191,32 +1212,32 @@ script 26 mmbn1 {
 script 27 mmbn1 {
 	msgOpenQuick
 	"""
-	Has anyone met that
-	virus that looks
-	like a bagworm?
+	Algúem já viu um
+	vírus que se parece
+	com uma lagarta?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It's that one with
-	the funny face.
+	Eles têm uma
+	carinha tão
+	engraçada.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Word is that guy's
-	carrying a pretty
-	rare chip!
+	Mas carregam um
+	chip raro muito
+	interessante!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You meet him a lot
-	if you go deep in
-	the net.
+	Dá para achá-los nas
+	profundezas da Rede.
 	"""
 	keyWait
 	clearMsg
@@ -1233,25 +1254,25 @@ script 28 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	So? Are you looking
-	for the kid who was
-	kidnapped?
+	Você tá procurando
+	pelo menino que foi
+	sequestrado?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...I forgot to
-	mention his last name
-	is “Froid.“
+	... Esqueci de
+	falar: o sobrenome
+	dele é "Froid."
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	And...it looks like
-	the WWW is involved!
-	So,good luck!
+	E... parece que a
+	WWW tá envolvida!
+	Então,boa sorte!
 	"""
 	keyWait
 	clearMsg
@@ -1268,49 +1289,52 @@ script 29 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	Lan,how have you
-	been? I'll be seeing
-	you today!
+	Lan,como você está?
+	Vou te ver hoje!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	That is,you'll be
-	coming to see me...
+	Ou melhor,você vai
+	vir me ver...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There's a party
-	tonight at the
-	Government Complex.
+	Terá uma festa hoje
+	à noite no Complexo
+	do Governo.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I'm inviting you and
-	Mom to join me for
-	dinner!
+	Estou convidando
+	você e sua mãe para
+	jantarem comigo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Let's meet at 7 in
-	front of the TV in
-	the SciLab lobby.
+	Nos encontraremos às
+	19h em frente à TV
+	do SciLab.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Say hi to Mom for
-	me,and let her know
-	about tonight! -Dad
+	Um beijo pra sua
+	mãe,e avise-a
+	sobre o jantar!
 	"""
+	keyWait
+	clearMsg
+		delay = 0
+	"-Pai"
 	keyWait
 	clearMsg
 		delay = 5
@@ -1326,9 +1350,9 @@ script 30 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	That was a pretty
-	long power out. Is
-	everything OK?
+	Foi um blecaute bem
+	longo. Está tudo bem
+	com vocês?
 	"""
 	keyWait
 	clearMsg
@@ -1342,89 +1366,89 @@ script 30 mmbn1 {
 script 31 mmbn1 {
 	msgOpenQuick
 	"""
-	Did you all see the
-	WWW broadcast?Things
-	are getting sticky!
+	Viram a transmissão
+	da WWW? As coisas
+	estão perigosas!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I got some info on
-	the LifeVirus from
-	my lab connections.
+	Reuni informações
+	sobre o LifeVirus
+	no meu laboratório.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I thought all the
-	NetBattlers should
-	know about this.
+	Achei que todos os
+	NetLutadores deviam
+	saber disso.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“LifeVirus:ultimate
-	virus made up of 4
-	programs:
+	"LifeVirus: Vírus
+	supremo composto
+	por 4 programas:
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Fire,Aqua,Elec,and
-	Wood,possessing no
-	elemental weakness.
+	Fogo,Água,Elet e
+	Mdra,sem nenhuma
+	fraqueza elemental.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	No effective combat
-	strategies known...“
-	That's what it says!
+	Nenhuma estratégia
+	de combate conheci-
+	da." É o que diz!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Honestly,I don't
-	know how my NetNavi
-	can fight it...
+	Francamente,não sei
+	como meu NetNavi
+	poderia lutar...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I've got some other
-	info here:apparently
-	there's evidence
+	Consegui mais infor-
+	mações. Há indícios
+	de que a defesa do
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	that the LifeVirus
-	defense program was
-	copied by someone...
+	programa LifeVirus
+	tenha sido copiada
+	por alguém.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Something to do with
-	WWW or the EndGame?
-	Who knows?
+	Talvez tenha a ver
+	com a WWW ou a Fase
+	Final... Vai saber?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	All we can do is
-	practice with our
-	chips and wait...
+	Tudo o que podemos
+	fazer é treinar e
+	esperar...
 	"""
 	keyWait
 	clearMsg
@@ -1441,45 +1465,45 @@ script 32 mmbn1 {
 		palette = 1
 	msgOpenQuick
 	"""
-	I forgot to mention
-	something in class
-	today:
+	Esqueci de mencionar
+	na aula de hoje:
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Chips don't run out
-	when you use them,so
-	use what you need.
+	os chips não voltam
+	na luta após usados.
+	Use-os sabiamente.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Also,press "
+	"""
+	Ah,e aperte R
+	no 
+	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	's
-	R Btn.to call your
-	NetNavi in the net.
+	 para tirar
+	seu Navi da Rede.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	This useful trick
-	is called 
-	“jacking out“.
+	Chamamos isso de
+	"Desconectar".
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Sorry for forgetting
-	and see you in class
-	tomorrow! -Mari
+	Desculpem por esque-
+	cer. Até amanhã!
+	-Mari
 	"""
 	keyWait
 	clearMsg
@@ -1780,7 +1804,7 @@ script 64 mmbn1 {
 		flag = 1029
 	mugshotAnimate
 		animation = 2
-	"Read which mail?"
+	"Ler um e-mail?"
 	mugshotAnimate
 		animation = 1
 	waitHold
@@ -1813,8 +1837,8 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Respond
-	to this mail?
+	Responder a este
+	e-mail?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1826,7 +1850,7 @@ script 70 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1834,7 +1858,7 @@ script 70 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1853,9 +1877,9 @@ script 71 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Shouldn't you
-	respond? I bet
-	Mayl's waiting...
+	Não vai responder?
+	Com certeza a Mayl
+	tá esperando...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1874,8 +1898,8 @@ script 72 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What will you
-	tell her?
+	O que quer dizer a
+	ela?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1895,7 +1919,7 @@ script 73 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Let's go shopping!\n"
+	"Às compras!\n"
 	option
 		left = 0
 		right = 0
@@ -1903,7 +1927,7 @@ script 73 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"You go alone."
+	"Vai sozinha."
 	select
 		default = 0
 		disableB = true
@@ -1922,9 +1946,8 @@ script 74 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What?
-	After she invited
-	you and all...
+	Quê? Depois dela te
+	convidar e tudo...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1934,8 +1957,8 @@ script 74 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...so,what's
-	your response?
+	... Então,qual a
+	sua resposta?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1954,9 +1977,8 @@ script 75 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Right-on!
-	Go ahead and
-	write your mail.
+	Certo! Bom,escreve
+	aí o e-mail.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1981,13 +2003,15 @@ script 76 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Lan wrote:
-	“
+	Lan escreveu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 7
-	"“!"
+	"""
+	"!
+	"""
 	checkGiveItem
 		item = 7
 		amount = 1
@@ -2011,8 +2035,8 @@ script 77 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll go give
-	this to Roll.
+	Vou entregar isto
+	à Roll.
 	"""
 	mugshotAnimate
 		animation = 1

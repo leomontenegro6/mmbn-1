@@ -9,7 +9,7 @@ script 0 mmbn1 {
 		animation = 2
 	"""
 	L-Lan...
-	The PET battery...
+	A bateria do PET...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -26,9 +26,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!
-	I have to recharge
-	quick!
+	MegaMan! Tenho
+	que recarregar,
+	e rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,8 +45,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The power generator
-	is breaking up!
+	O gerador de energia
+	está entrando em
+	colapso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,17 +81,20 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan...
-	I...I'm OK...
+	Lan... Eu... Eu tô
+	bem...
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
-	"Let's hurry..."
+	"""
+	Vamos
+	rápido...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -106,9 +110,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing!?
-	Recharge now or your
-	Navi's a goner!
+	O que está fazendo?!
+	Recarregue agora,ou
+	seu Navi já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -126,10 +130,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -149,9 +150,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're going to have
-	to hit that button
-	quicker this time!
+	Terá que apertar o
+	botão mais rápido
+	desta vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -160,10 +161,7 @@ script 7 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

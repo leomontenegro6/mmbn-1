@@ -20,15 +20,14 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	So these are those
-	recycled plastic
-	
-	"""
+	"Então,estes são os\n"
 	printItem
 		buffer = 0
 		item = 0
-	"s..."
+	"""
+	s de plástico
+	reciclado...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait

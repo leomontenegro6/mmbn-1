@@ -5,7 +5,7 @@ script 0 mmbn1 {
 	soundDisableTextSFX
 	soundPlay
 		track = 162
-	"*gachak!*"
+	"Gatiac!"
 	keyWait
 	end
 		delay = 0
@@ -19,9 +19,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Owwww...
-	Oh! You're that
-	Lan fellow!
+	Aaaiii...
+	Ah! Você é o Lan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,8 +39,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You Froid?
-	Are you okay?
+	E você é o Froid?
+	Você tá bem?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,9 +59,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks...We gotta
-	stop my dad from
-	helping the WWW!
+	Tô... Temos que
+	parar o meu pai
+	de ajudar a WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,7 +79,10 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We were right!"
+	"""
+	Então,estávamos
+	certos!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -97,10 +99,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Got it! Leave it
-	to me!
-	"""
+	"Claro! Deixa comigo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -118,9 +117,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is a program my
-	dad uses at work. It
-	might help...
+	Use este programa
+	que ele usa no tra-
+	balho. Deve ajudar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,14 +137,11 @@ script 7 mmbn1 {
 		animation = 30
 	soundPlay
 		track = 133
-	"""
-	Lan got the
-	“
-	"""
+	"Lan pegou a \n\""
 	printItem
 		buffer = 0
 		item = 5
-	"“program!"
+	"\"!"
 	playerFinish
 	playerAnimate
 		animation = 1
@@ -163,7 +159,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thanks!"
+	"Valeu!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -181,8 +177,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Tell my dad I'm
-	fine,okay?
+	Fala pro meu pai que
+	eu tô bem,tá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,13 +197,15 @@ script 10 mmbn1 {
 	soundPlay
 		track = 133
 	"""
-	Lan got
-	“
+	Lan adquiriu
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 6
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 1
@@ -225,7 +223,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Pode deixar!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -242,7 +240,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,let's go!"
+	"Lan,vamos!"
 	mugshotAnimate
 		animation = 1
 	keyWait

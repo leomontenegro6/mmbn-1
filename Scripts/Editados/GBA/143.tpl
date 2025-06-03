@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan? What's up?
-	Don't go peeking
-	in my room,now!
+	Lan? Que foi? Nem
+	inventa de espiar
+	o meu quarto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,13 +29,13 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -97,8 +97,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like there's
-	still no water...
+	Parece que continua
+	sem água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -127,9 +127,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like this
-	water isn't
-	drinkable...
+	Essa água não parece
+	potável...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -738,8 +737,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Greenery really
-	helps me to relax
+	Plantas me ajudam
+	a relaxar.
 	"""
 	keyWait
 	end
@@ -749,8 +748,8 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	That sofa looks
-	mighty comfortable
+	Esse sofá parece bem
+	confortável.
 	"""
 	keyWait
 	end
@@ -760,9 +759,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Mayl's piano.
-	Looks like you
-	can jack in here
+	O piano da Mayl.
+	Parece que dá pra
+	se conectar nele.
 	"""
 	keyWait
 	end
@@ -772,9 +771,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	It would be rude
-	to open someone
-	else's refrigerator
+	Seria falta de edu-
+	cação abrir a gela-
+	deira dos outros.
 	"""
 	keyWait
 	end
@@ -784,15 +783,15 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	This type of
-	control panel
+	Paineis de controle
+	desse tipo
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	doesn't have a
-	jack in port
+	não têm entrada
+	de conexão.
 	"""
 	keyWait
 	end

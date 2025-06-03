@@ -3,16 +3,17 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	Even more securely
-	locked than the
-	other doors so far
+	Está mais trancada
+	que as outras
+	portas.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...And no jack in
-	port,either...
+	... E não tem
+	entrada de
+	conexão...
 	"""
 	keyWait
 	end
@@ -29,8 +30,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -696,16 +697,17 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Even more securely
-	locked than the
-	other doors so far
+	Está mais trancada
+	que as outras
+	portas.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...And no jack in
-	port,either...
+	... E não tem
+	entrada de
+	conexão...
 	"""
 	keyWait
 	end

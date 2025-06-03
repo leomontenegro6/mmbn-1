@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Want to head back
-	to ACDC Town?
+	Vamos voltar para
+	ACDC?
 	
 	"""
 	mugshotAnimate
@@ -21,7 +21,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -48,8 +48,8 @@ script 1 mmbn1 {
 	mugshotHide
 	msgOpen
 	"""
-	Lan returns to
-	ACDC Town...
+	Lan retorna a
+	ACDC...
 	"""
 	keyWait
 	end
@@ -59,9 +59,9 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	It's securely
-	locked... You notice
-	a jack in port
+	Está bem trancada.
+	Você nota uma
+	entrada de conexão.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,13 +80,13 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -104,8 +104,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wipe out the WWW,
-	huh?
+	Acabar com a WWW,
+	é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -119,9 +119,9 @@ script 4 mmbn1 {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	It's securely
-	locked... You notice
-	a jack in port.
+	Está bem trancada.
+	Você nota uma
+	entrada de conexão..
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,9 +138,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good luck,Lan!
-	We're all counting
-	on you!
+	Boa sorte,Lan!
+	A gente tá contando
+	contigo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,9 +178,9 @@ script 14 mmbn1s {
 script 15 mmbn1 {
 	msgOpen
 	"""
-	It's securely
-	locked... You notice
-	a jack in port.
+	Está bem trancada.
+	Você nota uma
+	entrada de conexão..
 	"""
 	keyWait
 	end
@@ -194,7 +194,7 @@ script 16 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good luck!"
+	"Boa sorte!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -219,8 +219,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you want
-	to challenge Higs?
+	Lan,desafiar Higsby
+	pra uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -232,7 +232,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -240,7 +240,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -265,9 +265,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Collecting rare
-	chips ain't easy,
-	huh!
+	Coletar chips raros
+	não é mole,não! É!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -287,9 +286,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's right,huh!
-	You gotta hurry on,
-	huh!
+	É isso aí! É!
+	Você tem que
+	correr,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -306,9 +305,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm practicing,huh!
-	You gotta gimme
-	some time,huh!
+	Eu estou treinando,
+	é! Me dê mais um
+	tempo,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -325,9 +324,9 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Defeat is a result
-	of lack of skill,not
-	lack of chips,huh!
+	A derrota provém de
+	falta de habilidade,
+	não de chips,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -344,8 +343,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Are you using the
-	right chips,huh?
+	Você está usando
+	seus chips direito?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -355,8 +354,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Think you should
-	recheck that,huh?
+	Talvez devesse dar
+	outra conferida
+	nisso,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -385,8 +385,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you want to
-	challenge Dex?
+	Lan,desafiar Dex
+	pra uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -398,7 +398,7 @@ script 30 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -406,7 +406,7 @@ script 30 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -427,9 +427,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's the spirit!
-	Don't be a crybaby
-	if ya lose,hear?
+	Gostei de ver!
+	Só não vai chorar
+	quando perder,viu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -448,9 +448,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll take you on
-	anytime you're
-	ready!
+	Eu te encaro quando
+	cê tiver pronto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -467,8 +466,8 @@ script 33 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Uh,ya better wait
-	till I can upgrade
+	Er,espera até eu
+	atualizar o
 	GutsMan!
 	"""
 	mugshotAnimate
@@ -493,9 +492,9 @@ script 34 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmph! Enjoy it while
-	you can! You goin'
-	down next time,Lan!
+	Hmpf! Aproveita
+	enquanto pode! Da
+	próxima,cê já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -511,10 +510,7 @@ script 35 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Hey!?
-	Are you OK??
-	"""
+	"Aí! Cê tá bem?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1081,9 +1077,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	That liquid has GOT
-	to be bad for the
-	environment...
+	Esse líquido com
+	certeza é ruim pro
+	meio ambiente...
 	"""
 	keyWait
 	end
@@ -1093,8 +1089,8 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	It's a skull...
-	Very ominous...
+	É uma caveira...
+	Sinistro...
 	"""
 	keyWait
 	end

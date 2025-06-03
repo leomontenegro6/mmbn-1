@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Have you seen my
-	child? We got
-	separated...
+	Você viu o meu
+	filho? Ele se
+	perdeu de mim...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,13 +27,13 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like I'll be
-	in summer school
-	this year...
+	Parece que farei
+	cursinho de verão
+	este ano... 
 	"""
 	mugshotAnimate
 		animation = 1
-	"*sigh*"
+	"Afe..."
 	keyWait
 	end
 		delay = 0
@@ -52,9 +52,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like the WWW
-	is getting close to
-	dominating the net!
+	Parece que a WWW
+	está prestes a
+	dominar a Rede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,7 +63,10 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Is this town safe??"
+	"""
+	Será que é seguro
+	aqui,no Distrito?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -73,13 +76,13 @@ script 2 mmbn1 {
 }
 script 3 mmbn1 {
 	msgOpen
-	"A bus stop..."
+	"Um ponto de ônibus."
 	waitSkip
 		frames = 30
 	"""
 	
-	It says “Dentown,
-	Block4“
+	Na placa: "Distrito
+	Den,Bloco 4".
 	"""
 	keyWait
 	end
@@ -94,9 +97,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't think we're
-	allowed to jack in
-	to that,Lan.
+	Acho que não podemos
+	nos conectar aí,
+	Lan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -130,13 +133,13 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -154,9 +157,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The bus passes by
-	the signal on this
-	corner.
+	O ônibus passa
+	pelo semáforo
+	nesta esquina.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -166,8 +169,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See the bus stop
-	there?
+	Viu ponto de ônibus
+	ali?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -177,9 +180,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Pretty scary that
-	the WWW is after
-	this town,huh?
+	Bem assustador que a
+	WWW está atacando
+	o Distrito,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -220,9 +223,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Have you seen my
-	child? We got
-	separated...
+	Você viu o meu
+	filho? Ele se
+	perdeu de mim...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -244,9 +247,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our summer school
-	teacher is normally
-	really cheerful.
+	Nossa professora do
+	cursinho de verão
+	é toda alegrinha.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -256,9 +259,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Lately she seems
-	to be a bit gloomy
-	sometimes,though.
+	Mas,às vezes,ela
+	parece meio
+	triste...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -275,9 +278,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard that the
-	WWW plot is getting
-	into high gear.
+	Ouvi dizer que os
+	planos da WWW estão
+	se intensificando.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -287,8 +290,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if this
-	town is safe?
+	Será que este
+	distrito é seguro?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -311,8 +314,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard that summer
-	school is closed!
+	Disseram que o
+	cursinho de verão
+	fechou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -322,9 +326,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The teacher,
-	Ms.Yuri,has
-	disappeared!
+	A professora,
+	a Srta. Yuri,sumiu!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -918,8 +921,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A summer school
-	sign
+	Uma placa do
+	cursinho de verão.
 	"""
 	keyWait
 	end
@@ -929,8 +932,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	You can't jack in
-	to this signal
+	Não é possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end
@@ -949,15 +953,15 @@ script 222 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	This signal has a
-	jack in port
+	Este semáforo tem
+	entrada de conexão.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You don't need to
-	jack in now,though
+	Não há por que se
+	conectar agora.
 	"""
 	keyWait
 	end
@@ -967,8 +971,8 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	This signal has a
-	jack in port
+	Este semáforo tem
+	entrada de conexão.
 	"""
 	keyWait
 	end

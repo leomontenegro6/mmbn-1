@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well?
-	Nobody'll come here
-	will they?
+	E aí?
+	Ninguém vai vir
+	aqui,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +29,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And Dad is...
-	right.
+	E o papai tá...
+	Beleza.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Okay,
-	let's hide out here
-	a while,then.
+	OK,vamos nos
+	esconder aqui por um
+	tempo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"OK!"
+	"É!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -83,16 +83,16 @@ script 4 mmbn1 {
 	soundPlay
 		track = 159
 	controlLock
-	"bing "
+	"bim "
 	wait
 		frames = 50
-	"bong "
+	"bom "
 	wait
 		frames = 50
-	"bing "
+	"bim "
 	wait
 		frames = 50
-	"bong"
+	"bom"
 	wait
 		frames = 50
 	controlUnlock
@@ -110,7 +110,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"OK! It's 12:00!"
+	"OK! Deu meia-noite!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -128,9 +128,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Today's Saturday,
-	so everyone should
-	be gone by now...
+	E é sábado,então,
+	todos já devem
+	ter ido embora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,7 +148,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go!"
+	"Vamos!"
 	mugshotAnimate
 		animation = 1
 	keyWait

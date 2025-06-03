@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!? Phone for
-	you!
+	Lan!
+	Ligação pra você!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +28,7 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who is it!?
-	Hello?
+	"Quem é?! Alô!"
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47,7 +46,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! It's me!"
+	"Lan! Sou eu!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64,7 +63,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh,it's you Mayl"
+	"Ah,é você,Mayl"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -73,7 +72,7 @@ script 3 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Oh no!!!"
+	"Ah,não!!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -92,7 +91,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Help!"
+	"Socorro!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -101,8 +100,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm stuck
-	in a runaway bus!
+	Eu tô
+	presa num ônibus
+	desgovernado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,9 +112,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All the lights are
-	green and we keep
-	speeding up!
+	Todos os semáforos
+	tão verdes e o
+	ônibus só acelera!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,8 +133,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Mayl! Calm down!
-	Where are you?
+	Mayl! Se acalma!
+	Onde você tá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -152,7 +152,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh,um,hold on"
+	"Er,eu... Calma"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -164,9 +164,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	! We just passed
-	Dentown Block3
-	heading for Block4!
+	Passamos pelo Bloco
+	3 e estamos indo
+	pro Bloco 4!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -185,9 +185,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Gotcha!
-	I'll be there ASAP!
-	Don't panic!
+	Certo! Eu já chego
+	aí! Não entra em
+	pânico!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -206,9 +206,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we've got to
-	turn the lights red
-	to stop that bus!
+	Temos que trocar o
+	sinal pra vermelho
+	pro ônibus parar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -226,7 +226,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I know! I know!"
+	"Eu sei! Eu sei!"
 	mugshotAnimate
 		animation = 1
 	keyWait

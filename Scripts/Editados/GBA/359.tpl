@@ -7,10 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	MegaMan!
-	Do your stuff!
-	"""
+	"MegaMan! É com você!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -27,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hunh"
+	"Hm"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -35,7 +32,7 @@ script 1 mmbn1 {
 	"...? "
 	mugshotAnimate
 		animation = 2
-	"No good"
+	"Não foi"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -45,8 +42,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This passcode is
-	gonna take time...
+	Este código de aces-
+	so vai demorar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -65,10 +62,10 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Leave it to me!\n"
+	"Deixa comigo!\n"
 	mugshotAnimate
 		animation = 1
-	"*snort*"
+	"Ronc!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -83,7 +80,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mr.Higsby!"
+	"Sr. Higsby!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -101,8 +98,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Numbers are no
-	problem for
+	Números não são
+	problema para o
 	NumberMan!
 	"""
 	mugshotAnimate
@@ -119,7 +116,10 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Analyzing program"
+	"""
+	Analisando
+	programa
+	"""
 	mugshotAnimate
 		animation = 1
 	"."
@@ -134,7 +134,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Passcode:9630"
+	"Senha: 9630"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -144,7 +144,7 @@ script 5 mmbn1 {
 		flag = 221
 	mugshotAnimate
 		animation = 2
-	"Entering passcode..."
+	"Inserindo senha..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -159,7 +159,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thanks,NumberMan!"
+	"Valeu,NumberMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -174,7 +174,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,get going!"
+	"Lan,avance!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -191,7 +191,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm gone!"
+	"Avançando!"
 	mugshotAnimate
 		animation = 1
 	keyWait

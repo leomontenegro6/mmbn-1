@@ -5,12 +5,12 @@ script 0 mmbn1 {
 	soundDisableTextSFX
 	soundPlay
 		track = 165
-	"Bleep..."
+	"Blip... "
 	waitSkip
 		frames = 30
 	soundPlay
 		track = 166
-	"Weeee!"
+	"Piiiii!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -23,7 +23,7 @@ script 1 mmbn1 {
 	soundDisableTextSFX
 	soundPlay
 		track = 165
-	"Bleep!"
+	"Blip!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -36,7 +36,7 @@ script 2 mmbn1 {
 	soundDisableTextSFX
 	soundPlay
 		track = 167
-	"Weeeeeeeee!"
+	"Piiiiiiii!"
 	keyWait
 	end
 		delay = 5
@@ -51,7 +51,7 @@ script 3 mmbn1 {
 		animation = 2
 	"""
 	Mayl!
-	How's it look?
+	Como é que tá aí?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -70,9 +70,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	The announcement
-	program stopped!
+	Lan! O programa do
+	anúncio parou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -90,7 +89,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You did it!"
+	"Você conseguiu!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -107,7 +106,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,not bad,Lan!"
+	"He,nada mal,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -125,8 +124,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	“Not bad?“
-	You mean “Great!“
+	"Nada mal?"
+	Você quer dizer
+	"incrível!"
 	"""
 	mugshotAnimate
 		animation = 1
@@ -144,7 +144,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah,well..."
+	"E-er..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -162,8 +162,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You ain't seen
-	nothing yet!
+	Vocês ainda não
+	viram nada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -189,7 +189,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What?"
+	"Que foi?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -206,7 +206,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good job!"
+	"Mandou bem!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -224,9 +224,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't relax just yet
-	Lan! You got English
-	class coming up...
+	Não relaxe ainda,
+	Lan! Você ainda tem
+	aula de Inglês...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -244,7 +244,7 @@ script 13 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Awh,man"
+	"Aaah,cara"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -254,8 +254,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I fixed the server
-	too soon
+	Consertei o servidor
+	cedo demais
 	"""
 	mugshotAnimate
 		animation = 1

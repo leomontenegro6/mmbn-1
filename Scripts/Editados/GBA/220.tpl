@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm the accelerator
-	program. I make the
-	car go faster.
+	Sou o Prog do
+	acelerador. Eu
+	acelero o carro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Over there is the
-	brake program.
+	E ali fica o
+	programa do freio.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31,8 +31,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Without him,this car
-	wouldn't stop!
+	Sem ele,este carro
+	não pararia nunca!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm the brake
-	program. I make the
-	car stop.
+	Sou o Prog do freio.
+	Faço o carro parar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,8 +60,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Over there is the
-	accelerator program.
+	E ali está o Prog
+	do acelerador.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -72,8 +71,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Without him,this car
-	wouldn't move!
+	Sem ele,este carro
+	não sairia do lugar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,8 +84,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -103,13 +102,15 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

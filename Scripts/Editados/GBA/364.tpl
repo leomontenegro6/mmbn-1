@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We did it!"
+	"Conseguimos!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Errgh..."
+	"Eurrgh..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -41,7 +41,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yahoot! Not you,too!"
+	"Yahoot! Até tu?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -49,13 +49,13 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Here!"
+	"Tome! "
 	soundPlayBGM
 		track = 4
 	"""
-	 Use this
-	bit data from
-	the LifeVirus!
+	Use este
+	fragmento do
+	LifeVirus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,7 +73,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Phew"
+	"Ufa"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -91,15 +91,15 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Life"
+	"Magia"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Magic!"
+	"Vida!"
 	mugshotAnimate
 		animation = 1
 	end
@@ -113,7 +113,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh?"
+	"Hã?"
 	mugshotAnimate
 		animation = 1
 	end
@@ -128,9 +128,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yahoot! I did it!
-	You can say goodbye
-	to MegaMan.EXE!
+	Yahoot! Consegui!
+	Podemos dar adeus
+	a MegaMan.EXE!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,7 +148,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No..."
+	"Não..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -167,7 +167,7 @@ script 8 mmbn1 {
 		animation = 2
 	"""
 	M-MagicMan!
-	Look out!
+	Cuidado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,7 +183,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"! LifeMaa....Ak!!"
+	"! MagiaVi... Ack!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -201,12 +201,12 @@ script 10 mmbn1 {
 	"Grr"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Too late?"
+	"Tarde demais?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -238,7 +238,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Unh!"
+	"Ungh!"
 	mugshotAnimate
 		animation = 1
 	keyWait

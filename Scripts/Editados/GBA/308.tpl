@@ -2,7 +2,7 @@
 
 script 0 mmbn1 {
 	msgOpen
-	"*beebeebeep*"
+	"Bi Bi Biiip!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -17,7 +17,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mayl!?"
+	"Mayl?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -34,7 +34,10 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry,charley!"
+	"""
+	Lamento
+	decepcionar!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -43,8 +46,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So,you miss your
-	girlfriend yet?
+	E aí,saudades da
+	namoradinha?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,8 +66,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So you were behind
-	it all along!
+	Sua... Para com
+	isso,agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -82,7 +85,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Heheh!"
+	"He he he!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -91,8 +94,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You better listen
-	up,kiddo!
+	É bom prestar muita
+	atenção agora,guri!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -102,9 +105,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I forgot to mention
-	the virus I put in
-	the bus gas program!
+	Euzinha pus um vírus
+	no programa de com-
+	bustível do ônibus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -120,7 +123,7 @@ script 5 mmbn1 {
 		mugshot = Lan
 		palette = 0
 	msgOpen
-	"!?"
+	"?!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -136,9 +139,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It makes the gas go
-	backwards & then...
-	It's BOOM time!
+	Ele vai fazer a
+	gasolina retroceder,
+	e aí... BUUUM!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,7 +159,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What!?"
+	"O quê?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -174,9 +177,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I should think the
-	virus will activate
-	any time now...
+	O vírus deve se
+	ativar a qualquer
+	momento agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,9 +189,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You better stop that
-	bus quick,huh?
-	Good luck! Hehheh!
+	Melhor parar o ôni-
+	bus rápido,viu?
+	He he he! Boa sorte!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,7 +207,7 @@ script 9 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 160
-	"*click*"
+	"Clic!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -220,8 +223,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Grrr...That gal
-	really ticks me off!
+	Grrr... Essa mulher
+	realmente me tira do
+	sério!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240,8 +244,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,quick! We have
-	to catch that bus!
+	Lan,depressa! Temos
+	que parar aquele
+	ônibus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,9 +265,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's get farther
-	ahead of it this
-	time!
+	Vamos ficar mais na
+	frente dele desta
+	vez!
 	"""
 	mugshotAnimate
 		animation = 1

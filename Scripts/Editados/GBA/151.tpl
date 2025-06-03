@@ -48,9 +48,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the station
-	for the Government
-	Complex.
+	Esta é a estação
+	para o Complexo do
+	Governo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,8 +77,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Are you here for
-	the tour?
+	Está aqui por causa
+	do tour?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -90,7 +90,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -98,7 +98,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -109,10 +109,7 @@ script 1 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"""
-	You should take
-	it!
-	"""
+	"Pois devia!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -128,9 +125,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,not much
-	reson for a child
-	to come otherwise.
+	É,não tem muitos
+	outros motivos pra
+	crianças virem aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,10 +153,7 @@ script 5 mmbn1 {
 		jumpIfTrue = 7
 		jumpIfFalse = continue
 	msgOpen
-	"""
-	Where would you
-	like to go?
-	"""
+	"Destino?"
 	keyWait
 	clearMsg
 		delay = 0
@@ -170,7 +164,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"ACDC Town\n"
+	"ACDC\n"
 	option
 		left = 1
 		right = 1
@@ -178,7 +172,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"None"
+	"Ficar"
 	select
 		default = 0
 		disableB = false
@@ -204,13 +198,15 @@ script 6 mmbn1 {
 	playerAnimate
 		animation = 30
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 60
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -223,8 +219,8 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	Buy a different
-	ticket?
+	Comprar um tíquete
+	diferente?
 	
 	"""
 	option
@@ -234,7 +230,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -242,7 +238,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -272,8 +268,8 @@ script 8 mmbn1 {
 		jumpIfSome = continue
 	msgOpen
 	"""
-	Lan returned his
-	ticket!
+	Lan devolveu o
+	tíquete que tinha!
 	"""
 	keyWait
 	clearMsg
@@ -292,7 +288,7 @@ script 9 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Lan used the\n"
+	"Lan usou o\n"
 	printItem
 		buffer = 0
 		item = 60
@@ -308,7 +304,7 @@ script 10 mmbn1 {
 		jumpIfTrue = 7
 		jumpIfFalse = continue
 	msgOpen
-	"Where to?\n"
+	"Destino?\n"
 	keyWait
 	clearMsg
 		delay = 0
@@ -319,7 +315,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"ACDC Town\n"
+	"ACDC\n"
 	option
 		left = 1
 		right = 1
@@ -327,7 +323,7 @@ script 10 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"Dentown\n"
+	"Dist.Den\n"
 	option
 		left = 2
 		right = 2
@@ -335,7 +331,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"None"
+	"Ficar"
 	select
 		default = 0
 		disableB = false
@@ -362,13 +358,15 @@ script 11 mmbn1 {
 	playerAnimate
 		animation = 30
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 62
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -386,7 +384,7 @@ script 12 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Lan used the\n"
+	"Lan usou o\n"
 	printItem
 		buffer = 0
 		item = 62
@@ -407,21 +405,21 @@ script 15 mmbn1 {
 		mugshot = MetrolineMan
 		palette = 0
 	msgOpen
-	"*cough*"
+	"Cof! "
 	mugshotAnimate
 		animation = 2
-	"This is the,\n"
+	"Este é o-\n"
 	mugshotAnimate
 		animation = 1
-	"*cough*"
+	"Cof! "
 	mugshotAnimate
 		animation = 2
-	"Government"
+	"Complexo"
 	mugshotAnimate
 		animation = 1
 	"""
 	...
-	...*cough*...
+	Urf! 
 	"""
 	mugshotAnimate
 		animation = 2
@@ -433,16 +431,16 @@ script 15 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"My throat is"
+	"Minha garganta está\n"
 	mugshotAnimate
 		animation = 1
-	"*cough*\n"
+	"Cof! "
 	mugshotAnimate
 		animation = 2
-	"too dry to speak!\n"
+	"Seca demais!\n"
 	mugshotAnimate
 		animation = 1
-	"*cough*"
+	"COF!"
 	keyWait
 	end
 		delay = 5
@@ -456,9 +454,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There aren't even
-	any drinks for sale
-	at the store!
+	Não há nem mesmo
+	bebidas à venda na
+	lojinha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -497,8 +495,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like he
-	can't talk...
+	Parece que ele não
+	consegue falar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -524,9 +522,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the
-	Metroline Govnmnt
-	Complex station!
+	Esta é a estação
+	Metrolinha do Com-
+	plexo do Governo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -536,9 +534,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's so nice to
-	have my voice
-	back!
+	É tão bom ter minha
+	voz de volta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -570,8 +567,8 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	She sells sea shells
-	by the sea shore...
+	O rato roeu a roupa
+	do rei de Roma...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -581,9 +578,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Peter Piper picked a
-	peck of pickled
-	peppers...
+	O sabiá não sabia
+	que o sábio sabia
+	que o sabiá não...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -593,9 +590,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm exercising my
-	throat so that I
-	don't get thirsty!
+	Estou exercitando
+	minha garganta para
+	não ficar com sede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -621,8 +618,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thiiis iiiis,the
-	Metro Liiiine!!
+	Eeeeeesta ééé a
+	Metroliiiinhaaa!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -631,7 +628,10 @@ script 35 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I'm learning opera!"
+	"""
+	Estou aprendendo
+	ópera!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -649,8 +649,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -676,9 +676,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Even if war occurs,
-	I'll stay here to
-	guard this station!
+	Se houver guerra,
+	ficarei aqui para
+	proteger a estação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -688,9 +688,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I take being a
-	station manager
-	very seriously!
+	Eu levo meu cargo de
+	gerente da estação
+	MUITO a sério!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1239,8 +1239,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Lots of trash is
-	thrown away here
+	Muito lixo é jogado
+	aqui.
 	"""
 	keyWait
 	end
@@ -1250,9 +1250,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	This escalator only
-	goes down. You can't
-	exit here
+	Essa escada rolante
+	só desce. Não pode
+	sair por aí.
 	"""
 	keyWait
 	end
@@ -1262,9 +1262,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	It's small,but has
-	lots of stuff for
-	sale
+	É pequena,mas tem
+	muita coisa à venda.
 	"""
 	keyWait
 	end
@@ -1274,9 +1273,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	It says “Welcome
-	to the Government
-	Complex station!
+	Diz: "Bem-vindos à
+	Estação do Complexo
+	do Governo!"
 	"""
 	keyWait
 	end

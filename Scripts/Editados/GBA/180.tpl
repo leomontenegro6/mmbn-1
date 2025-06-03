@@ -3,8 +3,9 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	This door is
-	passcode protected.
+	Essa porta é
+	protegida por
+	senha.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -12,9 +13,9 @@ script 0 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Door will not open
-	without proper
-	authorization.
+	Ela não abrirá
+	sem a devida
+	autorização.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -22,9 +23,9 @@ script 0 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Passcode hint:
-	Number of chairs in
-	5A
+	Dica de senha:
+	Número de cadeiras
+	na 5A.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,8 +45,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have to enter a
-	passcode,huh...?
+	Precisamos digitar
+	uma senha,é...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,9 +56,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! How many chairs
-	are in the classroom
-	for 5A?
+	Lan! Quantas
+	cadeiras tem na
+	sala de aula da 5A?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,8 +78,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hang on!
-	I'll go check!
+	Calma aí! Eu vou
+	lá conferir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -98,8 +99,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When you find out,
-	hit the L Button!
+	Quando descobrir,
+	aperte L!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,8 +110,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Then I'll input the
-	passcode!
+	Aí,eu insiro a
+	senha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -134,9 +135,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Going down from
-	here you'll see the
-	door lock.
+	Descendo a partir
+	daqui,você achará a
+	fechadura da porta.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -146,8 +147,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Normally you can
-	get there easily,
+	Normalmente,
+	é fácil acessá-la,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -157,9 +158,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	but currently there
-	are breaks in the
-	network...
+	mas,no momento,
+	a rede está com
+	obstruções...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -180,8 +181,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thank you for your
-	help the other day.
+	Muito obrigado por
+	sua ajuda no outro
+	dia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -191,9 +193,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Someone had hacked
-	into the server in
-	the teacher's
+	Agora,invadiram o
+	servidor na sala
+	dos professores.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -203,9 +205,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	lounge. If you're
-	going that way,be
-	careful of viruses!
+	Se seguir por esse
+	caminho,cuidado
+	com os vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -226,8 +228,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you want to go
-	to the lock?
+	Quer ir para a
+	tranca?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -241,7 +243,7 @@ script 7 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -249,7 +251,7 @@ script 7 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -260,7 +262,7 @@ script 7 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Oh"
+	"Ah..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -272,8 +274,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sometimes,the long
-	way is the shortest.
+	Às vezes,o caminho
+	mais longo por ser
+	o mais curto.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -290,9 +293,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The virus that
-	started the re-
-	education program
+	O vírus que executou
+	o programa de
+	reeducação
 	"""
 	mugshotAnimate
 		animation = 1
@@ -302,9 +305,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	wiped out most of
-	the programs around
-	here...
+	apagou a maioria
+	dos programas
+	daqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -316,8 +319,8 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -335,8 +338,8 @@ script 10 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -345,7 +348,9 @@ script 10 mmbn1 {
 	printCode
 		buffer = 0
 		code = L
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -373,9 +378,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You deactivated the
-	lock program?
-	Great!
+	Desativou o programa
+	da fechadura?
+	Maravilha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -392,9 +397,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good luck making
-	it to the teacher's
-	lounge server!
+	Boa sorte chegando
+	no servidor da sala
+	dos professores!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -411,8 +416,8 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you want to go
-	to the lock?
+	Quer ir para a
+	tranca?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -424,7 +429,7 @@ script 17 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -432,7 +437,7 @@ script 17 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -443,7 +448,7 @@ script 17 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Really?"
+	"Mesmo?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -455,8 +460,8 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The long way was
-	the right way,huh?
+	O caminho mais longo
+	era o certo,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -473,9 +478,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The virus that
-	started the re-
-	education program
+	O vírus que executou
+	o programa de
+	reeducação
 	"""
 	mugshotAnimate
 		animation = 1
@@ -485,9 +490,8 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	wiped out most of
-	the programs around
-	here...
+	apagou a maioria dos
+	programas daqui...
 	"""
 	mugshotAnimate
 		animation = 1

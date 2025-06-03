@@ -8,29 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Uwaahh! Don't scare
-	me like that! I
-	thought you were
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"a WWW virus!"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	Me? I'm the vending
-	machine control
-	program.
+	Aaaugh! Não me
+	assusta assim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,8 +19,32 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now let me get back
-	to work!
+	Achei que você fosse
+	um vírus da WWW!
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Eu? Sou o Prog de
+	controle da máquina
+	de vendas.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Agora,se me der
+	licença,vou voltar
+	ao trabalho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58,9 +61,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We seem to be
-	malfunctioning.
-	We're under repair.
+	Parece que estamos
+	com defeito. Está
+	sendo resolvido.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -72,8 +75,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -91,8 +94,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -101,7 +104,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = J
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -170,8 +175,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you
-	doing there!?
+	O que você tá
+	fazendo aqui?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -190,9 +195,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now that you've
-	seen me here,I
-	must delete you!
+	Agora que tu me viu
+	aqui,cê já era!
 	"""
 	mugshotAnimate
 		animation = 1

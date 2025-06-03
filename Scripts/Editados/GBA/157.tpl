@@ -28,8 +28,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the pump
-	room.
+	Esta é a sala da
+	bomba.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,8 +39,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We bring water in
-	from that there.
+	É por aqui que
+	fornecemos a água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -50,9 +50,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But the suction
-	program seems to
-	be bugged.
+	Mas o programa de
+	sucção parece estar
+	com erro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +89,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've never had
-	anything like this
-	happen before!
+	Nunca aconteceu
+	algo desse tipo
+	por aqui antes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,8 +128,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know how to fix
-	machines...
+	De consertar
+	máquinas,eu
+	entendo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,9 +140,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	but I don't know
-	nothin' about
-	computers!
+	Mas de computadores?
+	Nada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -179,8 +179,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the pump
-	room.
+	Esta é a sala da
+	bomba.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -190,8 +190,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We bring water in
-	from that pump.
+	Fornecemos água
+	através desta
+	bomba.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,8 +202,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Things are working
-	great,now!
+	Está tudo em
+	ordem agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -219,9 +220,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm glad that it
-	wasn't a research
-	problem...
+	Fico feliz que não
+	foi um problema
+	de pesquisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -231,8 +232,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But that poor guy
-	Dr.Froid...
+	Mas coitado do
+	Dr. Froid...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -249,8 +250,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm pretty good at
-	fixing machines...
+	Sou muito bom em
+	consertar máquinas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,9 +261,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But since that bug
-	I've started
-	studying computers.
+	Mas,desde aquele
+	bug,comecei a estu-
+	dar computadores.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -272,9 +273,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like it may
-	be necessary
-	to protect the water
+	Sinto que pode ser
+	necessário para
+	proteger a água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -312,8 +313,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the pump
-	room.
+	Esta é a sala da
+	bomba.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -323,8 +324,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We bring water in
-	from that pump.
+	Fornecemos água
+	através desta
+	bomba.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -334,8 +336,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Things are working
-	great,now!
+	Está tudo em
+	ordem agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -352,9 +354,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm glad that it
-	wasn't a research
-	problem...
+	Fico feliz que não
+	foi um problema
+	de pesquisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -364,8 +366,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But that poor guy
-	Dr.Froid...
+	Mas coitado do
+	Dr. Froid...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -382,8 +384,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm pretty good at
-	fixing machines...
+	Sou muito bom em
+	consertar máquinas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -393,9 +395,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But since that bug
-	I've started
-	studying computers.
+	Mas,desde aquele
+	bug,comecei a estu-
+	dar computadores.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -405,9 +407,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like it may
-	be necessary
-	to protect the water
+	Sinto que pode ser
+	necessário para
+	proteger a água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -445,9 +447,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We can't rest until
-	the WWW is
-	destroyed!
+	Não podemos descan-
+	sar até que a WWW
+	seja destruída!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -457,9 +459,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sure that the
-	scientists can do
-	something! 
+	Com certeza os
+	cientistas vão
+	dar conta! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -471,13 +473,13 @@ script 30 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I think."
+	"Talvez."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -493,9 +495,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've started making
-	stricter checks of
-	the pumps.
+	Começamos a fazer
+	checagens rigorosas
+	nas bombas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -505,8 +507,8 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's about the
-	best that I can do.
+	É tudo que podemos
+	fazer.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -523,8 +525,9 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm pretty good at
-	fixing machines...
+	Sou bem entendido
+	de consertar
+	máquinas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -534,8 +537,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But I don't know
-	nothin about war!
+	Mas de guerra?
+	Não sei nada,não!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1108,8 +1111,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	The door is locked
-	and won't open
+	A porta está
+	trancada.
 	"""
 	keyWait
 	end

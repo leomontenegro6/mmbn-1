@@ -3,9 +3,9 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	It's locked! You'll
-	need to destroy
-	the lock program.
+	Trancada! Você
+	precisa destruir o
+	programa de tranca.
 	"""
 	keyWait
 	end
@@ -20,9 +20,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Leave it to
-	me! Is there any
-	place to jack in?
+	Lan! Deixa comigo!
+	Tem algum lugar pra
+	se conectar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,9 +45,9 @@ script 2 mmbn1 {
 		jumpIfLess = continue
 	msgOpen
 	"""
-	A time recorder
-	You need an
-	ID card
+	Um registro de tem-
+	po. Requer cartão
+	de identificação.
 	"""
 	keyWait
 	end
@@ -61,17 +61,16 @@ script 3 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	A time recorder.
-	You need an
-	ID card
+	Um registro de
+	tempo. Requer um
+	cartão de ID.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Lan used the
-	ID card! It
-	worked!!
+	Lan usou o cartão
+	de ID! Funcionou!!
 	"""
 	keyWait
 	clearMsg
@@ -82,9 +81,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! The server
-	is just beyond the
-	lock!
+	MegaMan! O servidor
+	fica além dessa
+	fechadura!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -93,7 +92,7 @@ script 3 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"But be careful!"
+	"Mas toma cuidado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -141,8 +140,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You did pretty good
-	today!
+	Vocês se saíram
+	muito bem hoje!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -151,7 +150,7 @@ script 10 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Keep it up!"
+	"Continuem assim!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -176,9 +175,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You shouldn't go
-	into the office
-	unless you need to!
+	Não é pra entrar
+	aí a menos que
+	precise!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -210,9 +209,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You shouldn't go
-	into the office
-	unless you need to!
+	Não é pra entrar
+	aí a menos que
+	precise!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -232,8 +231,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing
-	here!? Get to class!
+	Tá fazendo o quê
+	aqui?! Pra aula,já!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -243,8 +242,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ooops... Getting mad
-	makes me thirsty!
+	Opa... Ficar
+	irritado só vai
+	me dar mais sede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -282,9 +282,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You shouldn't go
-	into the office
-	unless you need to!
+	Não é pra entrar
+	aí a menos que
+	precise!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -868,9 +868,9 @@ script 220 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's a time
-	recorder. We don't
-	need to use that.
+	É o registro de
+	tempo. Não precisa-
+	mos disso agora.
 	"""
 	mugshotAnimate
 		animation = 1

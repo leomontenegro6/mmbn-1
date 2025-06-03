@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Did it!"
+	"Foi!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25,9 +25,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Let's tell
-	everyone we fixed
-	the lights quick!
+	Lan! Bora falar pro
+	pessoal que conser-
+	tamos os sinais!
 	"""
 	mugshotAnimate
 		animation = 1

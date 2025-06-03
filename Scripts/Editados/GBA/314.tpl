@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! Let's get
-	the next one!
+	OK! Bora pro
+	próximo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,7 +27,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Pra ontem!"
 	mugshotAnimate
 		animation = 1
 	keyWait

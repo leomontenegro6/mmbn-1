@@ -3,16 +3,16 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	It looks like a
-	connection to the
-	net...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But MegaMan doesn't
-	have access!
+	Mas MegaMan não tem
+	acesso!
 	"""
 	keyWait
 	end
@@ -24,15 +24,17 @@ script 1 mmbn1 {
 		flag = 74
 	msgOpen
 	"""
-	MegaMan bookmarked
-	Dad's computer!
+	MegaMan favoritou o
+	computador do pai do
+	Lan!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You can now freely
-	enter here!
+	Agora você pode
+	entrar livremente
+	aqui!
 	"""
 	keyWait
 	end
@@ -48,8 +50,8 @@ script 3 mmbn1s {
 script 4 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -66,21 +68,31 @@ script 4 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got:
-	“
+	MegaMan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 37
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"(Use this item at\n the access point to\n this computer"
+	"""
+	(Use este item no
+	ponto de acesso
+	no computador
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	" for free access\n between it and the\n net)"
+	"""
+	para ter acesso
+	livre entre ele
+	e a Rede.)
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -91,24 +103,24 @@ script 4 mmbn1 {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	This is a “virus
-	machine.“ You can
-	use it for training.
+	Esta é uma "máquina
+	de vírus". Pode
+	usá-la para treinar.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It will create a
-	virus according to
-	your Navi's power.
+	Ela cria vírus de
+	acordo com o poder
+	do seu Navi.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Want to try some
-	virus busting?
+	Tentar encarar umas
+	deleções de vírus?
 	
 	"""
 	option
@@ -118,7 +130,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -126,7 +138,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -171,9 +183,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am just a
-	caretaker program,
-	not your dad's Navi.
+	Sou só um Prog
+	cuidador,não sou o
+	Navi do seu pai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,9 +195,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan's power up
-	program? It's not
-	here.
+	O PowerUp do
+	MegaMan? Não está
+	aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -194,14 +206,11 @@ script 10 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	It must be in your
-	father's 
-	"""
+	"Deve estar no "
 	printItem
 		buffer = 0
 		item = 0
-	"."
+	"\ndo seu pai."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -219,9 +228,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! He said he
-	doesn't have my
-	power up program!
+	Lan! Ele disse que
+	não tá com o meu
+	PowerUp!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240,9 +249,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,well...
-	Let's just leave
-	him a message.
+	Poxa... Bom,bora
+	deixar uma mensagem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -257,9 +265,9 @@ script 13 mmbn1 {
 	mugshotHide
 	msgOpen
 	"""
-	*click*
-	*click*
-	*click*
+	Clic
+	Clic
+	Clic
 	"""
 	keyWait
 	clearMsg
@@ -276,8 +284,8 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,give this to him,
-	MegaMan!
+	OK,passe ela pra
+	ele,MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -309,9 +317,9 @@ script 16 mmbn1 {
 	mugshotHide
 	msgOpen
 	"""
-	MegaMan gave Lan's
-	mail to the
-	caretaker program.
+	MegaMan deu o e-mail
+	de Lan para o
+	Prog cuidador.
 	"""
 	keyWait
 	clearMsg
@@ -328,8 +336,8 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! Give that to
-	Lan's dad!
+	OK! Entrega isso
+	pro pai do Lan,tá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -350,8 +358,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I have the message
-	for your father.
+	Certo,recebi a
+	mensagem para o
+	seu pai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -431,9 +440,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am just a
-	caretaker program,
-	not your dad's Navi.
+	Sou só um Prog
+	cuidador,não sou o
+	Navi do seu pai.
 	"""
 	mugshotAnimate
 		animation = 1

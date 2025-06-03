@@ -709,9 +709,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The program that's
-	locking the door
-	should be near!
+	O programa que tá
+	trancando a porta
+	deve estar perto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -721,8 +721,8 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Find it and
-	delete it!
+	Encontre e
+	delete ele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -739,9 +739,8 @@ script 228 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We don't need to
-	do anything here
-	anymore.
+	Não precisamos fazer
+	mais nada aqui.
 	"""
 	mugshotAnimate
 		animation = 1

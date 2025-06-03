@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Therefore,a check of
-	the Waterworks and
-	net is needed...
+	São necessárias ve-
+	rificações do Siste-
+	ma Hídrico e Rede.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,9 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're an official
-	netbattler,right?
-	I understand.
+	Você é um NetLutador
+	Oficial?
+	Entendo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41,8 +41,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you could show
-	me your ID card...
+	Se puder me mostrar
+	seu cartão de ID...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,7 +60,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Here."
+	"Aqui."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -77,7 +77,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I see..."
+	"Certo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -86,8 +86,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Insert your ID card
-	to use the elevator.
+	Insira seu cartão de
+	ID para usar o
+	elevador.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,9 +98,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The elevator will
-	take you around the
-	works automatically.
+	Através dele,poderá
+	circular pelas
+	instalações.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,7 +118,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thank you."
+	"Obrigado."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -133,9 +134,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	? What's a kid like
-	you doing here?
-	You're in the way!
+	? O que uma criança
+	como você faz aqui?
+	Não atrapalhe!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -153,7 +154,10 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's his problem?"
+	"""
+	Qual é o problema
+	desse aí?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -171,8 +175,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You are a kid,you
-	know!
+	Ele também era
+	criança... 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,8 +185,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 But wait,
-	Did you hear that?
+	Mas,
+	pera,você ouviu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -192,9 +196,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	He's an official
-	netbattler! They
-	fight netcrime!
+	Ele é um NetLutador
+	Oficial! Eles lutam
+	contra os NetCrimes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -213,8 +217,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've heard of them
-	before.
+	Já ouvi falar deles
+	antes.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -233,9 +237,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They can netbattle
-	anywhere they want!
-	Isn't that cool?
+	Eles podem batalhar
+	onde quiserem!
+	Não é demais?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -245,9 +249,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder what kind
-	of NetNavis they
-	use...
+	Quais serão os tipos
+	de NetNavis que eles
+	usam...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -266,9 +270,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who cares? Let's
-	go check out the
-	waterworks!
+	Foco,MegaMan! Bora
+	conferir o Sistema
+	Hídrico!
 	"""
 	mugshotAnimate
 		animation = 1

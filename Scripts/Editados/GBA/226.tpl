@@ -7,14 +7,14 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"This "
+	"Este "
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	 is made
-	from recycled
-	plastics!
+	 é
+	feito de plásticos
+	reciclados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23,14 +23,14 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"At last,a "
+	"Finalmente,um "
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	 which
-	is safe for the
-	environment!
+	
+	ecologicamente
+	correto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47,9 +47,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We must be careful
-	to recycle
-	everything we can!
+	Devemos ter o cuida-
+	do de reciclar tudo
+	o que pudermos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,8 +61,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -79,13 +79,15 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

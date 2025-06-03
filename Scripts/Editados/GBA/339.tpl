@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"This..."
+	"Isso..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This can't be
-	happening!
+	Isso não pode
+	estar acontecendo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,9 +27,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But I've already
-	sent the program
-	to Count Zap!
+	Mas eu já enviei o
+	programa para o
+	Conde Zap...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -38,7 +38,14 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Now,we have all"
+	"Agora,temos todos\n"
+	mugshotAnimate
+		animation = 1
+	waitSkip
+		frames = 30
+	mugshotAnimate
+		animation = 2
+	"os pro"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -46,18 +53,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 the
-	pro
-	"""
-	mugshotAnimate
-		animation = 1
-	waitSkip
-		frames = 30
-	mugshotAnimate
-		animation = 2
-	"""
-	grams!
-	You're finished!
+	gramas! Vocês
+	estão acabados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,8 +71,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Darn...
-	Too late...
+	Droga...
+	Tarde demais...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,9 +82,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It took to long to
-	break the jack in
-	protection...
+	Demorou muito para
+	quebrar a proteção
+	de entrada...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -99,7 +96,7 @@ script 1 mmbn1 {
 		palette = 0
 	mugshotAnimate
 		animation = 2
-	"ProtoMan!?"
+	"ProtoMan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -111,9 +108,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Humph...
-	Not a shred of data
-	left,either...
+	Hmpf... Nenhum
+	fragmento de dados
+	restou,também...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,9 +120,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I was just about to
-	get the WWW server
-	location...
+	Eu estava quase
+	extraindo a
+	localização do
 	"""
 	mugshotAnimate
 		animation = 1
@@ -135,8 +132,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	out of ElecMan's
-	memory data.
+	servidor da WWW da
+	memória de dados do
+	ElecMan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -146,9 +144,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you amateurs
-	Hadn't got in the
-	way,our plan to lure
+	Se vocês amadores
+	não tivessem
+	atrapalhado,nosso
 	"""
 	mugshotAnimate
 		animation = 1
@@ -158,9 +156,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	in the WWW with fake
-	data would have 
-	succeeded.
+	plano de atrair a
+	WWW com dados falsos
+	teria dado certo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -179,8 +177,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Fake data?
-	Then this was all...
+	Dados falsos?
+	Então,tudo isso
+	foi...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -199,9 +198,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	ProtoMan,delete that
-	Navi.They've caused
-	us enough trouble.
+	ProtoMan,delete-o.
+	Eles já causaram
+	problemas demais.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -220,8 +219,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	As you wish,
-	Lord Chaud.
+	Como desejar,
+	senhor Chaud.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240,9 +239,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This isn't the time!
-	We have to get the
-	power back up!
+	Não é hora pra isso!
+	A gente tem que
+	restaurar a energia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,12 +259,12 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Silence!"
+	"Silêncio!\n"
 	waitSkip
 		frames = 10
 	"""
-	 Prepare
-	for deletion!
+	Prepare-se pra
+	ser deletado!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why is this black
-	board so different
-	from my school's?
+	Por que este quadro
+	é tão diferente do
+	da minha escola?
 	"""
 	mugshotAnimate
 		animation = 1

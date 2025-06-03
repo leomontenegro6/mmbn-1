@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan!?"
+	"MegaMan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,10 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah,"
+	"""
+	É,o programa do
+	forno 
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -32,9 +35,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	the oven
-	program's here,but
-	something's wrong...
+	tá aqui,mas
+	tem algo errado...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53,9 +55,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Be careful! If a
-	virus comes out,I'll
-	send chip data!
+	Vai com cuidado! Se
+	um vírus aparecer,
+	eu te mando chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,7 +75,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger that!"
+	"Beleza!"
 	mugshotAnimate
 		animation = 1
 	keyWait

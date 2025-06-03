@@ -2,14 +2,17 @@
 
 script 0 mmbn1 {
 	msgOpen
-	"It's securely locked"
+	"""
+	Está firmemente
+	trancada.
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There seems to be a
-	jack in port here,
-	though...
+	Parece haver uma
+	entrada de conexão
+	aqui.
 	"""
 	keyWait
 	end
@@ -26,13 +29,13 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -50,9 +53,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know that you
-	can do it! Please
-	save us!
+	Eu sei que você
+	consegue! Salve a
+	todos nós!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -92,8 +95,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you want
-	to challenge Froid?
+	Lan,desafiar Froid
+	para uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -105,7 +108,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -113,7 +116,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -138,9 +141,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I will win,with the
-	help of my family's
-	love...and IceMan!
+	Vou vencer,com o
+	apoio da minha fa-
+	mília... e o IceMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -160,8 +163,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll help you,
-	any time!
+	Pode contar comigo
+	a qualquer hora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,9 +181,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I want to upgrade
-	IceMan,first...
-	Try me later.
+	Quero aprimorar
+	o IceMan...
+	Volte depois.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -197,9 +200,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job!
-	Now go do the same
-	to the WWW!
+	Muito bom! Agora,
+	vá fazer isso com
+	a WWW!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -216,9 +219,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you hold back?
-	You should try your
-	hardest!
+	Você se segurou?
+	Devia lutar com
+	tudo!
 	"""
 	mugshotAnimate
 		animation = 1

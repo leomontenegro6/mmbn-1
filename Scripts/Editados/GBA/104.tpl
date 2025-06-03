@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So this is where Dad
-	does his research...
-	Makes me nervous...
+	Então,é aqui que o
+	pai faz suas pesqui-
+	sas... Tenso!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Stop!"
+	"PARA!"
 	mugshotAnimate
 		animation = 1
 	clearMsg
@@ -23,10 +23,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Oh no,we're too
-	late!
-	"""
+	"Droga,tarde demais!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -43,7 +40,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan!?"
+	"Lan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -61,8 +58,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know! I'm not
-	giving up yet!
+	Eu sei! Não pretendo
+	desistir tão cedo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,10 +77,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	I'll jack out right
-	away!
-	"""
+	"Desconectando já!"
 	mugshotAnimate
 		animation = 1
 	keyWait

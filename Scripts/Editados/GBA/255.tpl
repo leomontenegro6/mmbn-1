@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thank heavens!
-	The fire's gotten a
-	little better,now.
+	Graças a Deus!
+	O fogo se acalmou
+	agora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,7 +30,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan!"
+	"MegaMan! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -38,7 +38,7 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 Answer me,
+	Responde,
 	MegaMan!
 	"""
 	mugshotAnimate

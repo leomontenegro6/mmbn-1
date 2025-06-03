@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I'm just
-	about finished home
-	page maintenance!
+	Lan,já tô acabando
+	a manutenção da
+	página inicial!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah..."
+	"Sei..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -46,9 +46,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I work and work
-	and all you say
-	is “yeah“?
+	Eu me mato de traba-
+	lhar e só o que você
+	tem a dizer é "sei"?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -64,7 +64,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hiya Mega!"
+	"Oi,Mega!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -81,7 +81,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Heya Roll!"
+	"Fala,Roll!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -99,8 +99,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is a letter
-	from Mayl to Lan.
+	Esta é uma carta da
+	Mayl pro Lan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -118,7 +118,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"OK,got it!"
+	"OK,valeu!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -135,7 +135,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Later!"
+	"Até mais!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -152,7 +152,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Later! Thanks!"
+	"Até! Obrigado!"
 	mugshotAnimate
 		animation = 1
 	keyWait

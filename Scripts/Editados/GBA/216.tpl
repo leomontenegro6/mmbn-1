@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am a dog house
-	type security system
-	program.
+	Sou o Prog de
+	segurança da casi-
+	nha de cachorro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've found that
-	just the presence of
-	a dog house reduces
+	Descobrimos que a
+	mera presença de uma
+	casinha de cachorro
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,8 +32,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	the chances of a
-	burglary.
+	reduz bastante as
+	chances de um roubo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43,9 +43,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm almost like the
-	watch dog for this
-	home.
+	Sou quase como o cão
+	de guarda desta casa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,9 +61,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There are many other
-	objects that you can
-	jack in to!
+	Há muitos outros
+	objetos em que você
+	pode se conectar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,9 +73,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please try out any
-	object that looks
-	suspicious.
+	Por favor,interaja
+	com qualquer objeto
+	que pareça suspeito.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -88,8 +87,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -107,8 +106,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -117,7 +116,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = K
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

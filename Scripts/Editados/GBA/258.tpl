@@ -11,9 +11,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How can a kid
-	and his puny Navi
-	delete FireMan!?
+	Como um fedelho e
+	seu Navi inútil de-
+	letaram o FireMan?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -26,15 +26,15 @@ script 0 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmph!
-	At least I finished
-	my mission...
+	Hmph! Ao menos
+	completei minha
+	missão...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52,7 +52,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What do you mean?"
+	"Como assim?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -70,9 +70,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hah! This is just
-	the first step in
-	the WWW's plan!
+	Ha! Este é só o
+	primeiro passo dos
+	planos da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -90,7 +90,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What!?"
+	"O quê?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -108,9 +108,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hah! That's right!
-	I found the program
-	we need for our plan
+	Ha! Pois é! Eu
+	achei o programa de
+	que precisávamos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -119,16 +119,19 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"inside the oven in \nyour house!"
+	"""
+	dentro do fogão
+	da sua casa!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"eh,"
+	"Hum,"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -136,9 +139,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I probably
-	shouldn't have told
-	you that...
+	acho que
+	não era pra eu te
+	contar isso...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,19 +151,19 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But who cares! Soon
-	war will start and
-	you'll all be dead!
+	Dane-se! Logo virá a
+	guerra e todos vocês
+	irão morrer!
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"See ya!!"
+	"Até!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -177,7 +180,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wait! "
+	"Espera!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -185,9 +188,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Program? War?
-	What's he talking
-	about?
+	Programa? Guerra?
+	Que papo foi esse?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -208,7 +210,7 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Phooey!"
+	"Ufng!"
 	mugshotAnimate
 		animation = 1
 	keyWait

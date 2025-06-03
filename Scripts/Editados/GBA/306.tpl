@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,hurry!
-	The bus'll be here
-	anytime now!
+	MegaMan,depressa!
+	O ônibus tá pra
+	chegar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Pode deixar!"
 	mugshotAnimate
 		animation = 1
 	keyWait

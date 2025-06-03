@@ -43,8 +43,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Reset the door's
-	lock program!
+	Resete o programa da
+	fechadura da porta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you know where
-	the teacher's lounge
-	server is?
+	Onde será que fica
+	o servidor da sala
+	dos professores?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +104,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

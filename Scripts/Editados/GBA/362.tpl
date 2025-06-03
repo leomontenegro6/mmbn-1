@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hold on!
-	Don't forget about
-	us!
+	Ô! Não vai esquecer
+	da gente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,8 +45,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Leave the hard parts
-	to me and GutsMan!
+	Deixa os perrengues
+	com o GutsMan e eu!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56,7 +55,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"We'll handle this!"
+	"A gente dá conta!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -83,8 +82,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You sure you can
-	do it?
+	Certeza mesmo que
+	vocês conseguem?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,9 +102,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Trust me! You should
-	save your strength
-	for the last battle!
+	Confia! Melhor cê
+	guardar suas forças
+	pra batalha final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +113,7 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Yo! GutsMan!"
+	"Aí! GutsMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -129,7 +128,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thanks,GutsMan!"
+	"Valeu,GutsMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -146,7 +145,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeeehaaw!"
+	"GUUUUTS!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -162,8 +161,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dex!You really came
-	through!
+	Dex! E não é que
+	você deu conta
+	mesmo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -182,9 +182,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Of course,silly!
-	But it's not over
-	yet!
+	Claro,mané! Mas
+	ainda não acabou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -203,8 +202,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're right!
-	OK,I'm off!
+	Tem razão!
+	OK,a gente vai lá!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -214,9 +213,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...But I wonder how
-	you all knew to come
-	here
+	... Mas como foi que
+	todo o pessoal soube
+	como chegar aqui
 	"""
 	mugshotAnimate
 		animation = 1

@@ -5,13 +5,13 @@ script 0 mmbn1 {
 		mugshot = Mom
 		palette = 0
 	msgOpen
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,I'm glad the
-	house didn't catch
-	fire!
+	Bem,que bom que
+	a casa não pegou
+	fogo! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,7 +19,7 @@ script 0 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" Thank you,Lan!"
+	"Obrigada,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -37,8 +37,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,Lan! Great
-	work back there!
+	Lan! Você mandou
+	muito bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56,7 +56,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah"
+	"É"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -65,7 +65,10 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"You,too,MegaMan!"
+	"""
+	Você também,
+	MegaMan!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -80,12 +83,12 @@ script 3 mmbn1 {
 		mugshot = MegaMan
 		palette = 0
 	msgOpen
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
 	"""
-	You're worried,
-	aren't you?
+	Você tá
+	preocupado,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,7 +97,7 @@ script 3 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"About the WWW..."
+	"Com a WWW..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -111,7 +114,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah..."
+	"É..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -120,8 +123,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's just so much
-	I don't understand.
+	Tem muita coisa que
+	eu não entendo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -140,9 +143,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,it was only
-	the first time we
-	fought them.
+	Bem,foi só a
+	primeira vez que
+	enfrentamos eles.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -152,8 +155,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But,they'll never
-	control the net!
+	Mas eles nunca vão
+	controlar a Rede! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -162,8 +165,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 Not
-	if I can help it!
+	Eu
+	não vou deixar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,7 +184,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"But MegaMan"
+	"Mas,MegaMan"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -190,7 +193,7 @@ script 6 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"What can we do?"
+	"O que a gente faz?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -199,9 +202,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We don't even know
-	where they will
-	strike next...
+	A gente nem sabe
+	onde vai ser o pró-
+	ximo ataque deles...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -220,9 +223,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We'll wait and get
-	them when they
-	come! C'mon,Lan!
+	A gente só espera e
+	acaba com eles
+	quando vierem,Lan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240,7 +243,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okay,but first"
+	"Tá,mas,primeiro"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -257,24 +260,21 @@ script 8 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Mom!"
+	"Mãe! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" I'm hungry!"
+	"Eu tô com fome!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	 Can
-	I have a snack?
-	"""
+	"Cadê aquele lanche?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -292,8 +292,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're hungry
-	at a time like this?
+	Você tá com fome
+	numa hora destas?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -312,8 +312,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Aw,c'mon,just a
-	little byte...
+	Vai,só um
+	pedacinhooo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -324,7 +324,7 @@ script 10 mmbn1 {
 }
 script 11 mmbn1 {
 	msgOpen
-	"\n To be continued..."
+	"\nContinua..."
 	keyWait
 	end
 		delay = 5

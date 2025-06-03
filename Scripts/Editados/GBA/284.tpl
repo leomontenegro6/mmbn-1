@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan...
-	Doesn't something
-	seem wrong?
+	Lan... não notou
+	nada de estranho?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +27,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What?"
+	"O quê?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -45,20 +44,20 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I mean"
+	"Tipo"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	why would
-	a netbattler come to
-	check out a bug?
+	por que um
+	NetLutador veio
+	verificar um bug?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -68,9 +67,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And it's not just
-	water that is
-	missing,too!
+	E não é só a água
+	que tá faltando,
+	também!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,8 +88,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This isn't going to
-	be easy to fix...
+	Isso não vai ser
+	fácil de
+	consertar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -108,7 +108,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm afraid so..."
+	"Receio que não..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -117,9 +117,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hide out and
-	check the net once
-	everyone leaves...
+	Vamos nos esconder e
+	ver a Rede depois
+	que todo mundo sair.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -137,7 +137,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"...Right! Good idea!"
+	"... Certo! Boa ideia!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -155,8 +155,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,to find a place
-	to hide...
+	Bom,agora é só a
+	gente achar um lugar
+	pra se esconder...
 	"""
 	mugshotAnimate
 		animation = 1

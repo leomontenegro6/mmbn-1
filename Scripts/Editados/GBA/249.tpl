@@ -2,7 +2,7 @@
 
 script 0 mmbn1 {
 	msgOpen
-	"-After Class-"
+	"Depois da aula..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -20,7 +20,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Phew..."
+	"Ufa..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -38,8 +38,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wow,today just
-	flew by,huh?
+	Nossa,hoje passou
+	voando,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +48,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Let's go home!"
+	"Vamos pra casa!"
 	mugshotAnimate
 		animation = 1
 	keyWait

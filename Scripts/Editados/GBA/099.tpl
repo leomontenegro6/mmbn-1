@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So how does the
-	inside of the latest
-	game machine feel?
+	E aí,como é estar
+	em um console de
+	última geração?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41,7 +41,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Amazing!"
+	"Irado!"
 	mugshotAnimate
 		animation = 1
 	keyWait

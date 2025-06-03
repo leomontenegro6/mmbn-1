@@ -22,7 +22,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Forever!!!"
+	"para sempre!!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

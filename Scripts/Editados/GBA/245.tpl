@@ -4,7 +4,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,wake up!"
+	"Lan,acorda!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -45,9 +45,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't get
-	up,you'll be late
-	for school!
+	Se não acordar,
+	vai se atrasar
+	pra escola!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -92,9 +92,9 @@ script 4 mmbn1 {
 		buffer = 0
 		item = 0
 	"""
-	 NetNews!
-	“WWW crime on
-	the rise!“
+	NetNotícias! "Os
+	crimes da WWW estão
+	em alta!"
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +104,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It says the WWW plan
-	to control the net
-	might be starting!
+	Os planos dela para
+	controlar a Rede
+	estão avançando!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -126,7 +126,7 @@ script 5 mmbn1 {
 		animation = 2
 	"""
 	Ungh...
-	Sleep...
+	Sono...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,8 +143,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You've got mail from
-	Dad,too! Look...
+	Tem um e-mail do
+	seu pai também!
+	Escute só...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -153,15 +154,11 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“Sorry I couldn't\n get off work Sunday\n I'll be home soon.“"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"“Here's a present\n for you“it says!"
+	"""
+	"Desculpa,domingo
+	não deu. Mas volto
+	pra casa logo.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -170,8 +167,21 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's some battle
-	chip data attached!
+	E tenho um presente
+	pra você!"
+	Fim do e-mail.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Ah,tem dados de
+	chips de batalha
+	anexados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -187,7 +197,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yaaaawn"
+	"Uaaaah"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -197,8 +207,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I was just having
-	a great dream,too.
+	E eu tava tendo um
+	sonho tão bom...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,14 +225,14 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll expand the chip
-	data,so check your
-	
+	Expandi os dados de
+	chips,então confira
+	o 
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	" later,OK?"
+	" depois ,tá?"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That room is class B
-	Aren't you in
-	class A?
+	Esta sala é da turma
+	B. Você não é da
+	turma A?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,9 +35,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Homeroom
-	has started already!
-	Use the back door!
+	A aula já
+	começou! Usa a
+	porta dos fundos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,7 +60,7 @@ script 5 mmbn1 {
 		mugshot = OrangeShirtBoy
 		palette = 0
 	msgOpen
-	"*rattle* *rattle*"
+	"Mexe Mexe..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -82,8 +82,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We can't get to
-	the first floor!
+	Não dá pra ir pro
+	primeiro andar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -95,9 +95,9 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	Locked! It won't
-	open until the lock
-	program is deleted!
+	Trancada! Não abrirá
+	até o programa de
+	tranca ser deletado!
 	"""
 	keyWait
 	end
@@ -118,9 +118,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? We can go
-	downstairs now!
-	You beat me again!
+	Hã? Dá pra descer
+	agora! Cê me
+	superou de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -137,8 +137,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The teacher's lounge
-	is across the hall.
+	A sala dos profes-
+	sores é do outro
+	lado do corredor.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -164,8 +165,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I finally got out
-	of the classroom!
+	Finamente,saí da
+	sala!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,7 +182,7 @@ script 16 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Um"
+	"Hm"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -191,8 +192,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Which way were
-	the stairs?
+	Onde ficam as
+	escadas?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -223,9 +224,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All bow before the
-	WWW! Follow or be
-	deleted!
+	Todos se curvam à
+	WWW! Curvem-se ou
+	serão deletados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -235,9 +236,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Just kidding!
-	Was that a good
-	impression?
+	... Brincadeira!
+	E aí,a imitação
+	ficou legal?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -259,9 +260,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I want to go shop in
-	Dentown. I wonder if
-	I can go by Metro?
+	Quero fazer compras
+	no Distrito. Será
+	que vou de metrô?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -299,8 +300,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What? A landslide
-	on the tracks?
+	Quê? Um deslizamento
+	nos trilhos?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -310,8 +311,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,well. No trains
-	today,I guess.
+	Hm... é a vida,né?
+	Sem trem hoje,
+	eu acho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -340,8 +342,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you know
-	where the toilet is?
+	Lan,sabe onde fica
+	o banheiro?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -353,7 +355,7 @@ script 30 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -361,7 +363,7 @@ script 30 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -373,9 +375,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's near the stairs.
-	You can't see it
-	from here,though.
+	Fica perto das
+	escadas.
+	Dá pra ver daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -385,9 +387,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But there's no
-	water,so you can't
-	use it.
+	Só que tá sem água.
+	Não dá pra usar
+	por ora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -403,7 +405,7 @@ script 31 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Of course you do."
+	"Claro que sabe."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -412,8 +414,8 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But you can't use it
-	There's no water!
+	Mas não dá pra
+	usá-lo sem água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -428,10 +430,7 @@ script 32 mmbn1 {
 		jumpIfTrue = 33
 		jumpIfFalse = continue
 	msgOpen
-	"""
-	Good morning,
-	teacher!
-	"""
+	"Bom dia,professora!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -449,9 +448,8 @@ script 33 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey! Class B has
-	already started
-	homeroom!
+	Ei! A turma B já
+	começou a aula!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -486,9 +484,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nothing to do
-	except clean up
-	my chip folder.
+	Nada pra fazer,
+	fora limpar a minha
+	pasta de chips.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -505,9 +503,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It says on the net
-	that there is no 
-	water in DenCity!
+	Tão dizendo na net
+	que DenCity tá sem
+	água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -519,8 +517,9 @@ script 41 mmbn1 {
 script 42 mmbn1 {
 	msgOpen
 	"""
-	It says “Closed due
-	to school closing“
+	Diz: "Fechado
+	devido ao fechamento
+	da escola".
 	"""
 	keyWait
 	end
@@ -1065,20 +1064,20 @@ script 220 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	Extra desks are here
-	・
+	Há mesas reserva
+	aqui.
 	"""
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	". "
 	waitSkip
 		frames = 30
 	"""
-	you found
-	a chip in a drawer!
+	você achou
+	um chip na gaveta!
 	"""
 	keyWait
 	clearMsg
@@ -1095,8 +1094,8 @@ script 220 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1105,7 +1104,9 @@ script 220 mmbn1 {
 	printCode
 		buffer = 0
 		code = B
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -1117,8 +1118,8 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Looks like there's
-	nothing else there
+	Não parece ter mais
+	nada pra se achar.
 	"""
 	keyWait
 	end

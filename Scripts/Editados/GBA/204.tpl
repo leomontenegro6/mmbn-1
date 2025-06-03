@@ -67,7 +67,7 @@ script 20 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good luck!"
+	"Boa sorte!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -90,8 +90,8 @@ script 24 mmbn1s {
 script 25 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -110,8 +110,8 @@ script 25 mmbn1 {
 			amount = 4000
 		]
 	"""
-	MegaMan got 4000
-	zennys!
+	MegaMan adquiriu
+	4000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -123,8 +123,8 @@ script 25 mmbn1 {
 script 26 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -142,8 +142,8 @@ script 26 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -152,7 +152,9 @@ script 26 mmbn1 {
 	printCode
 		buffer = 0
 		code = L
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

@@ -1,167 +1,167 @@
 @size 65
 
 script 0 mmbn1s {
-	"NetNews   WWW Crime!"
+	"NetNot    Crimes WWW!"
 	end
 	"  "
 }
 script 1 mmbn1s {
-	"Dad       Sorry!"
+	"Pai       Não deu!"
 	end
 	"  "
 }
 script 2 mmbn1s {
-	"Dad       PowerUp!"
+	"Pai       PowerUp!"
 	end
 	"  "
 }
 script 3 mmbn1s {
-	"NetNews   Student Crime"
+	"NetNot    Crimes Escola"
 	end
 	"  "
 }
 script 4 mmbn1s {
-	"Yai       Roll call"
+	"Yai       Chamada"
 	end
 	"  "
 }
 script 5 mmbn1s {
-	"Dex       A challenge!"
+	"Dex       Desafio!"
 	end
 	"  "
 }
 script 6 mmbn1s {
-	"NetNews   No Water!"
+	"NetNot    Sem água!"
 	end
 	"  "
 }
 script 7 mmbn1s {
-	"Dad       Sorry Lan"
+	"Pai       Desculpa"
 	end
 	"  "
 }
 script 8 mmbn1s {
-	"Yai       Kidnapped!"
+	"Yai       Raptado!"
 	end
 	"  "
 }
 script 9 mmbn1s {
-	"Mayl      Yai's present"
+	"Mayl      Presente Yai"
 	end
 	"  "
 }
 script 10 mmbn1s {
-	"NetNews   New Metroline"
+	"NetNot    Metrolinha"
 	end
 	"  "
 }
 script 11 mmbn1s {
-	"Mayl      Meeting place"
+	"Mayl      Encontro"
 	end
 	"  "
 }
 script 12 mmbn1s {
-	"Your WWW  Accidents?"
+	"Sua WWW   Acidentes?"
 	end
 	"  "
 }
 script 13 mmbn1s {
-	"Mayl      Whattodo!?"
+	"Mayl      E agora?!"
 	end
 	"  "
 }
 script 14 mmbn1s {
-	"Dad       About Chaud"
+	"Pai       O Chaud"
 	end
 	"  "
 }
 script 15 mmbn1s {
-	"Mayl      Netaddress"
+	"Mayl      Endereço"
 	end
 	"  "
 }
 script 16 mmbn1s {
-	"Higsby    Old friend"
+	"Higsby    Um amigo"
 	end
 	"  "
 }
 script 17 mmbn1s {
-	"Dad       Lab location"
+	"Pai       O local"
 	end
 	"  "
 }
 script 18 mmbn1s {
-	"Froid     For you..."
+	"Froid     Tome..."
 	end
 	"  "
 }
 script 19 mmbn1s {
-	"Froid     Official ML"
+	"Froid     ML Oficial"
 	end
 	"  "
 }
 script 20 mmbn1s {
-	"BattleML  Water virus"
+	"MLLuta    Vírus-água"
 	end
 	"  "
 }
 script 21 mmbn1s {
-	"BattleML  Re:virus"
+	"MLLuta    Re:vírus"
 	end
 	"  "
 }
 script 22 mmbn1s {
-	"BattleML  Mystery op?"
+	"MLLuta    Misterioso?"
 	end
 	"  "
 }
 script 23 mmbn1s {
-	"BattleML  Advances"
+	"MLLuta    Os PAs"
 	end
 	"  "
 }
 script 24 mmbn1s {
-	"BattleML  Aura virus?"
+	"MLLuta    Vírus c/ aura"
 	end
 	"  "
 }
 script 25 mmbn1s {
-	"BattleML  Aura,cont."
+	"MLLuta    Aura,cont."
 	end
 	"  "
 }
 script 26 mmbn1s {
-	"BattleML  Re:Aura,cont."
+	"MLLuta    Re:Aura,cont."
 	end
 	"  "
 }
 script 27 mmbn1s {
-	"BattleML  Rare chips!"
+	"MLLuta    Chips raros!"
 	end
 	"  "
 }
 script 28 mmbn1s {
-	"Yai       The truth!"
+	"Yai       A verdade!"
 	end
 	"  "
 }
 script 29 mmbn1s {
-	"Dad       Dinner?"
+	"Pai       Jantar?"
 	end
 	"  "
 }
 script 30 mmbn1s {
-	"Dad       R U OK?"
+	"Pai       Tá bem?"
 	end
 	"  "
 }
 script 31 mmbn1s {
-	"BattleML  The LifeVirus"
+	"MLLuta    O LifeVirus"
 	end
 	"  "
 }
 script 32 mmbn1s {
-	"Ms.Mari   Class notes"
+	"SrtaMari  Notas"
 	end
 	"  "
 }

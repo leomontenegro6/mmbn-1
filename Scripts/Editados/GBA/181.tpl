@@ -3,8 +3,8 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -23,8 +23,8 @@ script 0 mmbn1 {
 			amount = 800
 		]
 	"""
-	MegaMan got 800
-	zennys!
+	MegaMan adquiriu
+	800 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -36,8 +36,8 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -55,8 +55,8 @@ script 1 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -65,7 +65,9 @@ script 1 mmbn1 {
 	printCode
 		buffer = 0
 		code = I
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -106,23 +108,21 @@ script 10 mmbn1 {
 		flag = 162
 	msgOpen
 	"""
-	This door is
-	passcode protected
+	Essa porta está
+	protegida com senha.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Door will not open
-	without proper
-	authorization
+	Ela não abrirá sem a
+	devida autorização.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode hint:
-	none
+	Dica de senha: NADA.
 	"""
 	keyWait
 	clearMsg
@@ -132,7 +132,7 @@ script 10 mmbn1 {
 		palette = 0
 	mugshotAnimate
 		animation = 2
-	"What? No hint"
+	"O quê? Sem dicas"
 	mugshotAnimate
 		animation = 1
 	"...?"
@@ -141,17 +141,14 @@ script 10 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	Well,let's just try
-	anything!
-	"""
+	"Bem,vamos chutar!"
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotHide
-	"Input passcode?\n"
+	"Inserir senha?\n"
 	option
 		left = 1
 		right = 1
@@ -159,7 +156,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -167,7 +164,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -197,28 +194,27 @@ script 11 mmbn1 {
 script 12 mmbn1 {
 	msgOpen
 	"""
-	This door is
-	passcode protected
+	Essa porta está
+	protegida com senha.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Door will not open
-	without proper
-	authorization
+	Ela não abrirá sem a
+	devida autorização.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode hint:
-	none
+	Dica de senha:
+	NADA.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Input passcode?\n"
+	"Inserir senha?\n"
 	option
 		left = 1
 		right = 1
@@ -226,7 +222,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -234,7 +230,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -250,8 +246,8 @@ script 12 mmbn1 {
 script 13 mmbn1 {
 	msgOpen
 	"""
-	Abort passcode
-	input procedure?
+	Abortar procedimento
+	de senha? 
 	
 	"""
 	option
@@ -261,7 +257,7 @@ script 13 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -269,7 +265,7 @@ script 13 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -286,8 +282,8 @@ script 13 mmbn1 {
 script 14 mmbn1 {
 	msgOpen
 	"""
-	Finalize passcode
-	input?
+	Finalizar procedi-
+	mento de senha?
 	
 	"""
 	option
@@ -297,7 +293,7 @@ script 14 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -305,7 +301,7 @@ script 14 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -332,8 +328,8 @@ script 15 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too low.
-	Access denied
+	Senha muito baixa.
+	Acesso negado.
 	"""
 	keyWait
 	clearMsg
@@ -352,8 +348,8 @@ script 16 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too high.
-	Access denied
+	Senha muito alta.
+	Acesso negado.
 	"""
 	keyWait
 	clearMsg
@@ -378,14 +374,14 @@ script 19 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too high.
-	Second digit,
-	verification failure
+	Segundo dígito
+	muito alto. Falha
+	de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Access denied"
+	"Acesso negado."
 	keyWait
 	clearMsg
 		delay = 0
@@ -403,14 +399,14 @@ script 20 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too high.
-	First digit,
-	verification failure
+	Primeiro dígito
+	muito alto. Falha
+	de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Access denied"
+	"Acesso negado."
 	keyWait
 	clearMsg
 		delay = 0
@@ -428,14 +424,14 @@ script 21 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too low.
-	Second digit,
-	verification failure
+	Segundo dígito
+	muito baixo. Falha
+	de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Access denied"
+	"Acesso negado."
 	keyWait
 	clearMsg
 		delay = 0
@@ -453,14 +449,14 @@ script 22 mmbn1 {
 	soundPlay
 		track = 108
 	"""
-	Passcode too low.
-	First digit,
-	verification failure
+	Primeiro dígito
+	muito baixo. Falha
+	de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Access denied"
+	"Acesso negado."
 	keyWait
 	clearMsg
 		delay = 0
@@ -475,7 +471,7 @@ script 22 mmbn1 {
 }
 script 23 mmbn1 {
 	msgOpen
-	"Re-input?\n"
+	"Tentar de novo?\n"
 	option
 		left = 1
 		right = 1
@@ -483,7 +479,7 @@ script 23 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -491,7 +487,7 @@ script 23 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -511,17 +507,17 @@ script 24 mmbn1s {
 script 25 mmbn1 {
 	msgOpen
 	"""
-	Maximum input
-	procedure reached.
-	Verification failure
+	Excedeu número de
+	de tentativas. Fa-
+	lha de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode has been
-	changed. First digit
-	increased
+	Senha alterada.
+	Primeiro dígito
+	aumentado.
 	"""
 	keyWait
 	clearMsg
@@ -533,17 +529,17 @@ script 25 mmbn1 {
 script 26 mmbn1 {
 	msgOpen
 	"""
-	Maximum input
-	procedure reached.
-	Verification failure
+	Excedeu número de
+	de tentativas. Fa-
+	lha de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode has been
-	changed. First digit
-	decreased
+	Senha alterada.
+	Primeiro dígito
+	reduzido.
 	"""
 	keyWait
 	clearMsg
@@ -555,17 +551,17 @@ script 26 mmbn1 {
 script 27 mmbn1 {
 	msgOpen
 	"""
-	Maximum input
-	procedure reached.
-	Verification failure
+	Excedeu número de
+	de tentativas. Fa-
+	lha de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode has been
-	changed. Second
-	digit increased
+	Senha alterada.
+	Segundo dígito
+	aumentado.
 	"""
 	keyWait
 	clearMsg
@@ -577,17 +573,17 @@ script 27 mmbn1 {
 script 28 mmbn1 {
 	msgOpen
 	"""
-	Maximum input
-	procedure reached.
-	Verification failure
+	Excedeu número de
+	de tentativas. Fa-
+	lha de verificação.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode has been
-	changed. Second
-	digit decreased
+	Senha alterada.
+	Segundo dígito
+	reduzido.
 	"""
 	keyWait
 	clearMsg
@@ -602,8 +598,8 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	Passcode accepted.
-	Lock released
+	Senha aceita.
+	Trava liberada.
 	"""
 	keyWait
 	clearMsg
@@ -621,7 +617,7 @@ script 31 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Way to go!!"
+	"Vamos nessa!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -664,23 +660,24 @@ script 34 mmbn1s {
 script 35 mmbn1 {
 	msgOpen
 	"""
-	Library data locked
-	for data preservation
+	Dados da biblioteca
+	bloqueados para
+	preservar dados.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Passcode required
-	for entry
+	Requer senha para
+	acessar.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Hint:Number of
-	volumes of History
-	of the World
+	Dica: Número de
+	volumes de História
+	do Mundo.
 	"""
 	keyWait
 	clearMsg
@@ -716,9 +713,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So I need to find
-	out how many volumes
-	of History of the
+	Então,eu preciso
+	descobrir quantos
+	volumes de História
 	"""
 	mugshotAnimate
 		animation = 1
@@ -728,9 +725,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	World there are,
-	right?
-	OK! Be right back!
+	do Mundo tem lá,
+	né?
+	OK! Já volto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -750,9 +747,8 @@ script 38 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Call me with the
-	L Button when you
-	find out!
+	Me chame apertando
+	L quando achar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -771,41 +767,18 @@ script 40 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I control the"
-	waitSkip
-		frames = 10
-	"\nlibrary book "
+	"Eu controlo os "
 	waitSkip
 		frames = 10
 	"""
-	loan
-	data
-	"""
-	waitSkip
-		frames = 10
-	"..."
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"But,"
-	waitSkip
-		frames = 10
-	"I have "
-	waitSkip
-		frames = 10
-	"""
-	been
-	badly damaged 
+	dados
+	de empréstimo 
 	"""
 	waitSkip
 		frames = 10
 	"""
-	by the
-	WWW
+	da
+	biblioteca
 	"""
 	waitSkip
 		frames = 10
@@ -817,19 +790,36 @@ script 40 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Please! "
+	"Mas "
+	waitSkip
+		frames = 10
+	"fui "
+	waitSkip
+		frames = 10
+	"bem avariado"
+	waitSkip
+		frames = 10
+	"\npela WWW"
+	waitSkip
+		frames = 10
+	"..."
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"Por favor! "
 	waitSkip
 		frames = 10
 	"""
-	Repair the
-	damage 
+	Repare os
+	danos 
 	"""
 	waitSkip
 		frames = 10
-	"""
-	to the
-	network!
-	"""
+	"da Rede!"
 	mugshotAnimate
 		animation = 1
 	keyWait

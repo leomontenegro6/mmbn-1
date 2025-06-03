@@ -9,7 +9,7 @@ script 0 mmbn1 {
 		animation = 2
 	"""
 	Lan...
-	The LifeVirus
+	O LifeVirus
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,9 +35,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If we can delete it,
-	the WWW's plans will
-	be foiled!
+	Se a gente deletar
+	ele,os planos da
+	WWW vão pro saco!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -47,9 +47,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is it...
-	Our ultimate virus
-	bashing...
+	É isso... Nossa
+	deleção de vírus
+	suprema...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58,7 +58,10 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Battle routine,set!!"
+	"""
+	Rotina de
+	batalha,preparar!!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -75,7 +78,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

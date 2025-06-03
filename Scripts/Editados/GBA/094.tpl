@@ -77,9 +77,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Is it just me,or
-	does this place look
-	like a lunch box?
+	Sou só eu, ou este
+	lugar parece uma
+	marmita?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +114,10 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go see Dad!"
+	"""
+	Bora falar com o
+	papai!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -130,9 +133,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if I should
-	have left a message
-	for Dad...
+	Será que eu deixo
+	uma mensagem pro
+	papai...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -149,9 +152,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Guess we don't have
-	anything else to do
-	today...
+	Acho que não tenho
+	mais nada pra fazer
+	hoje...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -444,8 +447,8 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'd better get to
-	school...
+	É melhor ir pra
+	escola...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -474,9 +477,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This area doesn't
-	have anything to do
-	with the water...
+	Esta área não tem
+	nada a ver com
+	a água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -566,9 +569,9 @@ script 125 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll bet Mayl will
-	get mad if I don't
-	answer her mail...
+	Acho que a Mayl vai
+	ficar mal se eu não
+	responder ao e-mail.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -585,9 +588,9 @@ script 126 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Guess we might as
-	well get to where
-	we're gonna meet.
+	Acho que a gente
+	devia ir pro ponto
+	de encontro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -604,8 +607,9 @@ script 127 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I should get to
-	Dentown before Mayl.
+	Acho melhor ir
+	pro Distrito Den
+	antes da Mayl.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -622,9 +626,9 @@ script 128 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,yeah... I'm
-	supposed to be
-	meeting Mayl...
+	Ah,é... Eu tenho
+	que me encontrar
+	com a Mayl...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -641,9 +645,9 @@ script 129 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,yeah... I'm
-	supposed to be
-	meeting Mayl...
+	Ah,é... Eu tenho
+	que me encontrar
+	com a Mayl...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -705,9 +709,9 @@ script 145 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This area doesn't
-	have anything to do
-	with the crisis...
+	Esta área não tem
+	nada a ver com a
+	crise...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -796,7 +800,7 @@ script 165 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A party,huh?"
+	"Uma festa,é?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -805,8 +809,8 @@ script 165 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure haven't seen
-	Dad for a while...
+	Já faz um tempo que
+	não vejo o papai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -822,7 +826,7 @@ script 166 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A party,huh?"
+	"Uma festa,é?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -831,8 +835,8 @@ script 166 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure haven't seen
-	Dad for a while...
+	Já faz um tempo que
+	não vejo o papai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -848,7 +852,7 @@ script 167 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A party,huh?"
+	"Uma festa,é?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -857,8 +861,8 @@ script 167 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure haven't seen
-	Dad for a while...
+	Já faz um tempo que
+	não vejo o papai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -875,8 +879,9 @@ script 168 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Guess I should get
-	back to the party.
+	Acho melhor a
+	gente voltar pra
+	festa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -893,8 +898,9 @@ script 169 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Guess I should get
-	back to the party.
+	Acho melhor a
+	gente voltar pra
+	festa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -979,9 +985,8 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oops! I forgot to
-	read that mail
-	from Dad!
+	Opa! Esqueci de ler
+	o e-mail do papai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1001,7 +1006,7 @@ script 191 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Chaud,huh"
+	"Chaud"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -1010,7 +1015,10 @@ script 191 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"I hate that jerk..."
+	"""
+	Odeio aquele
+	babaca.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1030,8 +1038,9 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wanna go look for
-	Chaud in Dentown?
+	Vamos procurar
+	pelo Chaud no
+	Distrito Den?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1054,9 +1063,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	An ex-member of the
-	WWW... It must be
-	that guy!
+	Um ex-membro da
+	WWW... Deve ser
+	aquele cara!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1073,9 +1082,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Go through
-	the net towards
-	Dentown!
+	MegaMan! Vá pro
+	Distrito Den
+	através da Rede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1110,10 +1119,7 @@ script 200 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Wonder what that
-	mail's about?
-	"""
+	"O que o e-mail diz?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1135,8 +1141,8 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go look for
-	Higs' old boss!
+	Bora procurar pelo
+	ex-chefe do Higsby!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1157,9 +1163,9 @@ script 202 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	An ex-member of the
-	WWW...? Let's start
-	with the
+	Um ex-membro da
+	WWW...? Vamos come-
+	çar pela
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1168,7 +1174,7 @@ script 202 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"young woman."
+	"moça jovem e\nlinda."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1190,7 +1196,7 @@ script 203 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need more battle
+	Precisamos de mais
 	chips...
 	"""
 	mugshotAnimate
@@ -1212,9 +1218,9 @@ script 204 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The next ex-member
-	of the WWW... should
-	be “an elderly man“!
+	O próximo ex-membro
+	da WWW... Deve ser
+	"um idoso"!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1237,9 +1243,9 @@ script 205 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I need to get more
-	power up programs
-	for MegaMan...
+	Preciso de mais
+	PowerUps pro
+	MegaMan...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1256,9 +1262,9 @@ script 206 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Let's break
-	into the WWW's
-	server!
+	MegaMan!
+	Vamos invadir o
+	servidor da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1288,9 +1294,9 @@ script 210 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's ask Dad about
-	the WWW server's
-	address!
+	Bora perguntar
+	ao papai sobre o
+	endereço da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1311,8 +1317,9 @@ script 211 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We should go back
-	to Dad's lab...
+	Devíamos voltar pro
+	laboratório do
+	papai...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1329,8 +1336,9 @@ script 212 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I hope Dad sends
-	that mail soon...
+	Espero que o papai
+	mande o e-mail
+	logo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1363,9 +1371,9 @@ script 215 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,yeah! Dad's
-	mail! I should read
-	that...
+	Ah,é! O e-mail do
+	papai! Eu devia
+	ler...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1388,9 +1396,9 @@ script 216 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe we should ask
-	that person where
-	the WWW lab is?
+	Bora ver com aquela
+	pessoa onde fica o
+	laboratório da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1411,9 +1419,9 @@ script 217 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe I should ask
-	about that pass at
-	the station...
+	Acho que devia per-
+	guntar sobre o tí-
+	quete da estação...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1430,9 +1438,9 @@ script 218 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I need to find the
-	entrance to that
-	secret Metroline...
+	Tenho que achar a
+	entrada dessa
+	Metrolinha secreta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1471,9 +1479,9 @@ script 225 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go to Dad and
-	see if he can help
-	with the pass!
+	Vamos ver se o
+	papai pode ajudar
+	com o tíquete!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1494,8 +1502,9 @@ script 226 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And we're off!
-	To the WWW lab!
+	Simbora,MegaMan!
+	Pro laboratório da
+	WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1512,8 +1521,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to get back
-	to the WWW lab!
+	Precisamos voltar
+	pro laboratório
+	da WWW!
 	"""
 	mugshotAnimate
 		animation = 1

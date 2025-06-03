@@ -13,8 +13,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Block3 of
-	Dentown.
+	Este é o Bloco 3 do
+	Distrito Den.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -24,9 +24,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dentown is comprised
-	of 4 Blocks and
-	Central Dentown.
+	O Distrito é com-
+	posto por 4 Blo-
+	cos e o Centro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43,9 +43,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There are bus stops
-	in Block 1-4 of
-	DenTown.
+	Há pontos de ônibus
+	nos Blocos 1-4 do
+	Distrito Den.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,9 +55,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmm,I wonder why
-	there's not one in
-	Central Dentown?
+	Hmm,por que não tem
+	ninguém no Centro
+	do Distrito?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -79,8 +79,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,there's a lot
-	of cars downtown...
+	Cara,tem tanto
+	carro no centro
+	do distrito...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -91,13 +92,13 @@ script 2 mmbn1 {
 }
 script 3 mmbn1 {
 	msgOpen
-	"A bus stop..."
+	"Um ponto de ônibus."
 	waitSkip
 		frames = 30
 	"""
 	
-	It says “Dentown,
-	Block3“
+	Na placa: "Distrito
+	Den,Bloco 3".
 	"""
 	keyWait
 	end
@@ -114,8 +115,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -132,9 +133,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't think we're
-	allowed to jack in
-	to that,Lan.
+	Acho que não podemos
+	nos conectar aí,
+	Lan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,13 +166,13 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -189,9 +190,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! If you leave,
-	Mayl could be
-	killed!
+	Lan! Se for embora,
+	a Mayl pode morrer!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -208,8 +208,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The bus is still
-	running!!
+	O ônibus ainda está
+	em movimento!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -219,8 +219,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Can't somebody
-	stop it!?
+	Não tem ninguém que
+	possa pará-lo?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -237,8 +237,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I get scared
-	downtown...
+	Eu fico com medo do
+	centro da cidade...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -288,8 +288,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Block3 of
-	Dentown!
+	Este é o Bloco 3
+	do Distrito Den!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -311,8 +311,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ever since that
-	accident,it takes
+	Desde aquele
+	acidente,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -322,8 +322,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	some nerve to get
-	on the bus!
+	eu fico nervosa
+	de pegar ônibus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -340,9 +340,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There sure are a
-	lot of cars
-	downtown!
+	Tem tanto carro no
+	no centro do
+	distrito!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -358,7 +358,7 @@ script 28 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Go on,beat it!"
+	"Vai logo! Cai fora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -397,8 +397,8 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,challenge Chaud
-	to a NetBattle?
+	Lan,quer NetLutar
+	com o Chaud?
 	
 	"""
 	mugshotAnimate
@@ -410,7 +410,7 @@ script 36 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -418,7 +418,7 @@ script 36 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -439,9 +439,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't see any
-	reason to battle
-	with a kid like you.
+	Não vejo por que
+	lutar com um pirra-
+	lho como você.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -458,9 +458,9 @@ script 38 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess I shouldn't
-	have gone easy on
-	you...
+	Sabia que não devia
+	ter pegado leve com
+	você...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -481,9 +481,9 @@ script 39 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I didn't make any
-	mistakes! What's IN
-	that Navi there?
+	Mas não cometi ne-
+	nhum erro! O que
+	tem nesse Navi?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -500,8 +500,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,please stop
-	wasting my time!
+	Por favor,pare
+	de me fazer
+	perder tempo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -518,8 +519,8 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good call on your
-	part,kid...
+	Bom julgamento
+	da sua parte...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -540,9 +541,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So you want to see
-	how the pros do it,
-	huh? PROTOMAN!!
+	Então,você quer ver
+	como se luta,é?
+	PROTOMAN!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -560,7 +561,7 @@ script 43 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You called?"
+	"Ao seu dispor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -585,8 +586,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I told you that I'm
-	busy on a case!
+	Já disse que estou
+	ocupado com um caso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -596,9 +597,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do I need to teach
-	you to respect your
-	elders?
+	Preciso mesmo te
+	ensinar a respeitar
+	os mais velhos?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -629,9 +630,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing
-	out so late!? You
-	should be at home!
+	Por que está na rua
+	tarde assim? Devia
+	estar em casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1069,9 +1070,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,wow,dude... I
-	just heard the most
-	amaaazing rumor,dig?
+	Bróder... cabei de
+	ouvir um boato duca,
+	manja?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1081,9 +1082,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But,like,I gotta
-	have some chips to,
-	like,try it out.
+	Mas,ó,preciso
+	duns chips pra
+	testar o bagulho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1092,11 +1093,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	So,like,dude,could
-	you score me a
-	
-	"""
+	"Bródi,descola aí um\n"
 	printChip
 		buffer = 0
 		chip = 14
@@ -1112,7 +1109,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"a "
+	"um "
 	printChip
 		buffer = 0
 		chip = 15
@@ -1122,7 +1119,7 @@ script 190 mmbn1 {
 		code = K
 	"""
 	,
-	a 
+	um 
 	"""
 	printChip
 		buffer = 0
@@ -1132,8 +1129,8 @@ script 190 mmbn1 {
 		buffer = 0
 		code = K
 	"""
-	,
-	and a 
+	 e
+	um 
 	"""
 	printChip
 		buffer = 0
@@ -1151,8 +1148,7 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you do,I'll,
-	like,give you this
+	Aí te arranjo este
 	
 	"""
 	printChip
@@ -1162,7 +1158,7 @@ script 190 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	",OK?"
+	",valeu?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1171,9 +1167,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Help me out,dude,
-	I really need the
-	stuff...
+	Ajuda aí,meu,pô,
+	preciso muito
+	desse lance...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1187,7 +1183,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Groovy "
+	"Já é "
 	option
 		left = 0
 		right = 0
@@ -1195,7 +1191,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"Nem!"
 	select
 		default = 0
 		disableB = false
@@ -1216,10 +1212,7 @@ script 191 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Oh,wow,total
-	bummer,dude...
-	"""
+	"Pô,meu bom,caô..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1264,10 +1257,7 @@ script 192 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Oh,dude,how totally
-	groovy!
-	"""
+	"Aê,meu,fechou!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1313,8 +1303,8 @@ script 192 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1323,7 +1313,9 @@ script 192 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -1340,9 +1332,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But,dude,you don't
-	have the stuff I
-	need...
+	Mas,pô,bróder,
+	tu num tem os bagu-
+	lho que eu quero...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1352,9 +1344,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wow,you didn't,like,
-	space out and stash
-	them in your folder?
+	Aí,será que cê
+	separou eles e
+	botou na pasta?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1364,8 +1356,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't trade from
-	your stash,dude.
+	Não dá pra trocar
+	chips que tão lá
+	não,meu.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1375,9 +1368,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Or,if you don't have
-	the stuff then,like,
-	that's a bummer...
+	E se não tiver o
+	negócio... meu,pô,
+	bróder,caô...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1387,9 +1380,8 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Come back when you
-	score the chips,
-	OK?
+	Volta quando tiver
+	os chips,falou?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1405,7 +1397,7 @@ script 194 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Total thanks,dude!"
+	"Valeu,meu grande!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1491,8 +1483,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	You can't jack in
-	to this signal
+	Não é possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end
@@ -1511,16 +1504,16 @@ script 221 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	This signal has a
-	jack in port
+	Este semáforo tem
+	entrada de conexão.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You don't have any
-	reason to jack in
-	now,though
+	Mas você não tem
+	por que se conectar
+	agora.
 	"""
 	keyWait
 	end
@@ -1530,8 +1523,7 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Currently under
-	renovation
+	Sob reformas.
 	"""
 	keyWait
 	end
@@ -1541,8 +1533,8 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	A building with no
-	obvious purpose...
+	Um prédio sem um
+	propósito claro...
 	"""
 	keyWait
 	end
@@ -1552,8 +1544,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	You can jack in
-	to this signal
+	Você pode se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end

@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ah-hah-hah-haaa!"
+	"Ah ha ha haaa!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now I load this into
-	the rocket,and...
+	Agora carrego isto
+	no foguete,e...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -36,9 +36,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Report,sir! It seems
-	that intruders are
-	in the lab...
+	Senhor! Parece que
+	há intrusos no
+	laboratório...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -57,25 +57,24 @@ script 2 mmbn1 {
 	"Grr"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I won't be
-	stopped now!
+	Não serei de-
+	tido agora! 
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	" "
 	mugshotAnimate
 		animation = 2
 	"""
 	Yahoot,
-	deal with them!
+	dê cabo deles!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,8 +93,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	As you command,so
-	shall it be done!
+	Seu desejo é uma
+	ordem,senhor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,9 +111,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just a little more,
-	and the world will
-	be
+	Só mais um pouco,
+	e o mundo será
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,7 +121,7 @@ script 4 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"DELETED!"
+	"\nDELETADO!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -138,7 +136,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ahahahahah!"
+	"Aa ha ha ha ha haa!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -146,10 +144,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	Say your prayers,
-	Dr.Hikari!
-	"""
+	"Diga adeus,Tadashi!"
 	mugshotAnimate
 		animation = 1
 	keyWait

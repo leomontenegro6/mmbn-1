@@ -23,8 +23,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm so glad to
-	see you!
+	Eu tô tão feliz em
+	te ver!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hmph"
+	"Hmpf"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -49,7 +49,10 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"No need for thanks."
+	"""
+	Não precisa
+	agradecer.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -58,9 +61,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm just keeping
-	you around for
-	entertainment value.
+	Só estou mantendo
+	você aqui por puro
+	entretenimento.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,7 +83,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Be careful..."
+	"Cuidado..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -89,9 +92,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When you fight the
-	top WWW Navi,your
-	Navi's save feature
+	Quando for lutar
+	contra o Navi supre-
+	mo da WWW,o recurso
 	"""
 	mugshotAnimate
 		animation = 1
@@ -101,9 +104,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	will be disabled!
-	You may want to
-	save here...
+	de salvar será
+	desativado! Então,
+	salve logo aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,7 +115,7 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"It's close"
+	"Está perto"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -121,7 +124,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Very close..."
+	"Muito perto..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -137,9 +140,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,I thought that
-	your save feature
-	would be destroyed..
+	É,eu avisei que
+	desativariam o
+	salvamento...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -154,8 +157,8 @@ script 4 mmbn1s {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -174,8 +177,8 @@ script 5 mmbn1 {
 			amount = 2000
 		]
 	"""
-	MegaMan got 2000
-	zennys!
+	MegaMan adquiriu
+	2000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -187,8 +190,8 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -206,8 +209,8 @@ script 6 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -216,7 +219,9 @@ script 6 mmbn1 {
 	printCode
 		buffer = 0
 		code = K
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

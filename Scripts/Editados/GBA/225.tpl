@@ -8,8 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm a bit overworked
-	lately...
+	Eu ando meio
+	sobrecarregado
+	ultimamente...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm making stupid
-	mistakes,like giving
-	out the wrong drink!
+	Estou cometendo er-
+	ros bobos. Como dar
+	as bebidas erradas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31,8 +32,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please,give me a
-	vacation!
+	Por favor,me deem
+	umas férias!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +50,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dem new fuzzy logic
-	programs...Always
-	complaining...!
+	Esses novos progra-
+	mas de lógica difu-
+	sa! Só reclamam..,!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,9 +62,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why,in MY day...
+	No meu tempo...
 	(etc.,etc.)!
-	...and we loved it!
+	... E sem reclamar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -75,8 +76,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -95,8 +96,8 @@ script 2 mmbn1 {
 			amount = 5000
 		]
 	"""
-	MegaMan got 5000
-	zennys!
+	MegaMan adquiriu
+	5000 zennys!
 	"""
 	playerFinish
 	playerAnimate

@@ -10,8 +10,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hurry! The place
-	is gonna blow!
+	Rápido! O lugar vai
+	explodir!
 	"""
 	mugshotAnimate
 		animation = 1

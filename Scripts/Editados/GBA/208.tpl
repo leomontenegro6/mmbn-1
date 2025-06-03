@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,8 +35,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the inside
-	of your computer.
+	Este é o interior do
+	seu computador.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,9 +46,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	From here you can
-	access the net,
-	and other terminals.
+	Por aqui,você pode
+	acessar a Rede e
+	outros terminais.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58,9 +58,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can jack out at
-	any time by pressing
-	the R Button.
+	Pode se desconectar
+	a qualquer hora
+	apertando R.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,8 +77,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Heave,ho!
-	Heave,ho!
+	For-ça!
+	For-ça!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -88,8 +88,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm working as hard
-	as I can!
+	Estou trabalhando o
+	mais pesado que
+	posso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -99,8 +100,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good to see you
-	again,MegaMan!
+	É bom te ver de
+	novo,MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1

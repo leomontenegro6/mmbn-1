@@ -33,8 +33,8 @@ script 9 mmbn1s {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	Checking your
-	dexterity level
+	Verificando seu
+	nível de destreza
 	"""
 	waitSkip
 		frames = 30
@@ -49,9 +49,9 @@ script 10 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Dexterity level,
-	satisfactory.
-	You may pass.
+	Nível de destreza:
+	satisfatório.
+	Pode passar.
 	"""
 	keyWait
 	flagSet
@@ -65,8 +65,8 @@ script 10 mmbn1 {
 script 11 mmbn1 {
 	msgOpen
 	"""
-	Checking your
-	dexterity level
+	Verificando seu
+	nível de destreza
 	"""
 	waitSkip
 		frames = 30
@@ -81,8 +81,8 @@ script 11 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Dexterity level,
-	unsatisfactory.
+	Nível de destreza:
+	insatisfatório.
 	"""
 	keyWait
 	clearMsg
@@ -103,15 +103,16 @@ script 14 mmbn1s {
 script 15 mmbn1 {
 	msgOpen
 	"""
-	You can't pass here
-	if you're too slow.
+	Indivíduos lentos
+	demais não podem
+	passar por aqui.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Would you like to
-	start over?
+	Gostaria de começar
+	de novo? 
 	
 	"""
 	option
@@ -121,7 +122,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -129,7 +130,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -139,9 +140,9 @@ script 15 mmbn1 {
 			jump = continue
 		]
 	"""
-	Very well...Come
-	back again when
-	you're faster!
+	Muito bem... Volte
+	quando estiver mais
+	rápido!
 	"""
 	keyWait
 	end
@@ -151,8 +152,7 @@ script 15 mmbn1 {
 script 16 mmbn1 {
 	msgOpen
 	"""
-	And now,back with
-	you!!
+	Recue,então!
 	"""
 	keyWait
 	flagSet
@@ -178,9 +178,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You won't be able
-	to just stroll by
-	this area!
+	Você não pode ficar
+	passeando de boa
+	nesta área!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -190,8 +190,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Avoiding viruses
-	is the secret...
+	O segredo tá em
+	evitar os vírus...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -208,9 +208,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't want to
-	use this area as a
-	hunting ground...
+	Tentar usar esta
+	área como campo de
+	caça é burrice...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -246,8 +246,8 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -266,8 +266,8 @@ script 30 mmbn1 {
 			amount = 5000
 		]
 	"""
-	MegaMan got 5000
-	zennys!
+	MegaMan adquiriu
+	5000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -284,21 +284,21 @@ script 31 mmbn1 {
 		jumpIfGreater = 32
 		jumpIfLess = continue
 	msgOpen
-	"“"
+	"\""
 	printItem
 		buffer = 0
 		item = 8
 	"""
-	“
-	needed to unlock!
+	" exigido
+	para desbloquear!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"All others..."
+	"Aos demais...\n"
 	waitSkip
 		frames = 30
-	"\nBEGONE!"
+	"SUMAM!"
 	keyWait
 	end
 		delay = 0
@@ -306,18 +306,18 @@ script 31 mmbn1 {
 }
 script 32 mmbn1 {
 	msgOpen
-	"“"
+	"\""
 	printItem
 		buffer = 0
 		item = 8
 	"""
-	“
-	needed to unlock!
+	" exigido
+	para desbloquear!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"MegaMan used the\n"
+	"MegaMan usou\n"
 	printItem
 		buffer = 0
 		item = 8
@@ -326,8 +326,8 @@ script 32 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	MegaMan gained
-	access!!
+	MegaMan obteve
+	acesso!!
 	"""
 	keyWait
 	flagSet
@@ -339,8 +339,8 @@ script 32 mmbn1 {
 script 33 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -357,13 +357,15 @@ script 33 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 65
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -424,8 +426,8 @@ script 50 mmbn1 {
 	flagSet
 		flag = 813
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -484,8 +486,8 @@ script 51 mmbn1 {
 	playerAnimate
 		animation = 50
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 1
@@ -494,7 +496,9 @@ script 51 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -529,7 +533,7 @@ script 52 mmbn1 {
 	playerLock
 	playerAnimate
 		animation = 50
-	"MegaMan got "
+	"MegaMan achou "
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -546,8 +550,8 @@ script 52 mmbn1 {
 script 53 mmbn1 {
 	msgOpen
 	"""
-	It was a virus
-	in disguise!
+	Era um vírus
+	disfarçado!
 	"""
 	keyWait
 	clearMsg
@@ -563,8 +567,8 @@ script 54 mmbn1 {
 	flagSet
 		flag = 814
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -599,8 +603,8 @@ script 58 mmbn1 {
 	flagSet
 		flag = 815
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -635,8 +639,8 @@ script 62 mmbn1 {
 	flagSet
 		flag = 816
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg

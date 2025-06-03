@@ -13,9 +13,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We normally control
-	the power plant from
-	this room...
+	Normalmente,contro-
+	lamos a usina elé-
+	trica desta sala...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25,8 +25,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But all of the
-	computers are down!
+	Mas todos os
+	computadores estão
+	desligados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,9 +56,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll stay here
-	and try to manage
-	the repairs.
+	Vou ficar aqui e
+	tentar administrar
+	os reparos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -67,8 +68,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just call me if
-	you need any help!
+	Mas pode me chamar
+	se precisar de
+	ajuda!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -102,8 +104,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Network status,
-	fully operational!
+	Situação da rede:
+	totalmente
+	operacional!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -125,9 +128,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The electricity
-	management program
-	was wiped,so we've
+	O programa de gestão
+	de eletricidade foi
+	apagado e perdemos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -137,9 +140,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	lost some power.
-	Don't worry,we have
-	enough to run...
+	energia. Mas temos o
+	suficiente para as
+	operações daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,8 +168,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Network status,
-	fully operational!
+	Situação da rede:
+	totalmente
+	operacional!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,9 +187,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The electricity
-	management program
-	was wiped,so we've
+	O programa de gestão
+	de eletricidade foi
+	apagado e perdemos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -195,9 +199,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	lost some power.
-	Don't worry,we have
-	enough to run...
+	energia. Mas temos o
+	suficiente para as
+	operações daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -216,13 +220,13 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -841,9 +845,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	The computer which
-	controls the
-	generator
+	O computador que
+	controla o gerador.
 	"""
 	keyWait
 	end
@@ -853,9 +856,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Normally,the
-	generator is run
-	from here
+	Normalmente,o
+	gerador é operado
+	a partir daqui.
 	"""
 	keyWait
 	end
@@ -865,9 +868,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	This monitor has
-	a jack in port for
-	routine maintenance
+	O monitor é conec-
+	tável,para manu-
+	tenção de rotina.
 	"""
 	keyWait
 	end
@@ -877,13 +880,16 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Someone has written
-	on the board...
+	Alguém escreveu no
+	quadro... 
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"“Party tonite!!“"
+	"""
+	"Festa
+	hoje à noite!!"
+	"""
 	keyWait
 	end
 		delay = 5
@@ -891,7 +897,7 @@ script 223 mmbn1 {
 }
 script 224 mmbn1 {
 	msgOpen
-	"It's locked"
+	"Está trancada."
 	keyWait
 	end
 		delay = 5

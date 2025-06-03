@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 1
 	msgOpen
-	"And who are you?"
+	"Hm? Quem é você?"
 	keyWait
 	clearMsg
 		delay = 5
@@ -23,9 +23,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're a WWW NetNavi
-	aren't you! Your
-	mischief ends here!
+	Você é um NetNavi da
+	WWW,né?! Os seus
+	planos acabam aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,16 +44,17 @@ script 2 mmbn1 {
 		animation = 1
 	msgOpen
 	"""
-	Hahah! So you're the
-	Navi for this house.
+	Ha ha ha! Então,
+	você é o Navi desta
+	casa.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You think your kid
-	operator can beat me
-	and Mr.Match?
+	Acha mesmo que
+	crianças podem deter
+	o Sr. Match e eu?
 	"""
 	keyWait
 	clearMsg
@@ -70,9 +71,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Guess we'll just
-	have to fight you
-	and find out!
+	Acho que vamos ter
+	que lutar pra
+	descobrir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -81,10 +82,7 @@ script 3 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Lan,get our chips
-	ready!
-	"""
+	"Lan,já se prepara!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -119,21 +117,21 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hahahah!
-	You made it this far
-	but now it's war!
+	Ha ha ha! Parabéns
+	por chegarem aqui,
+	mas agora,é guerra!
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
 	"""
-	Like FireMan sez,
-	we're strong kiddo!
+	Como o FireMan
+	disse,somos fortes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -142,7 +140,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"FireMan! Let's burn!"
+	"FireMan! Queime-os!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -159,7 +157,7 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 1
 	msgOpen
-	"Whooo!!"
+	"Fuooooo!!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -175,9 +173,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...MegaMan,these
-	guys mean business!
-	Give it your best!
+	... MegaMan,esses
+	aí são durões!
+	Vai com tudo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -196,9 +194,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You,too,Lan!
-	No getting scared,
-	okay?
+	Você também,Lan!
+	Não vá ficar com
+	medo,viu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -216,7 +214,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Who,me? "
+	"Quem,eu? "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -224,8 +222,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No way!
-	Battle program,set!!
+	Sem chance!
+	Rotina de batalha,
+	preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -243,7 +242,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

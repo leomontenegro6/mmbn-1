@@ -387,8 +387,8 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't want to
-	fight Froid,but...
+	Não quero lutar com
+	o Froid,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -398,8 +398,9 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Go find the
-	pump program!
+	MegaMan! Procure
+	pelo programa da
+	bomba!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -416,8 +417,8 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't want to
-	fight Froid,but...
+	Não quero lutar com
+	o Froid,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -427,8 +428,9 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Go find the
-	pump program!
+	MegaMan! Procure
+	pelo programa da
+	bomba!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -454,9 +456,9 @@ script 125 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

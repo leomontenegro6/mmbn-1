@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Long live the WWW!
-	Follow or be
-	deleted!!
+	Vida longa à WWW!
+	Curvem-se ou sejam
+	deletados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,7 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Everyone,all
-	together!!
+	Certo,agora,repitam!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,7 +38,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Long live the WWW!"
+	"Vida longa à WWW!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57,8 +56,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Follow or be
-	deleted!!
+	Curvem-se ou serão
+	deletados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -75,9 +74,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who are you!?
-	Go away!
-	shoo! shoo!
+	Quem é você?!
+	Sai daqui!
+	Xô! Xô!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +88,9 @@ script 3 mmbn1 {
 script 4 mmbn1 {
 	msgOpen
 	"""
-	There's no response,
-	eyes are glued to
-	the screen.
+	Sem resposta. Seus
+	olhos estão colados
+	na tela.
 	"""
 	keyWait
 	end
@@ -101,9 +100,9 @@ script 4 mmbn1 {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	There's no response,
-	eyes are glued to
-	the screen.
+	Sem resposta. Seus
+	olhos estão colados
+	na tela.
 	"""
 	keyWait
 	end
@@ -113,8 +112,9 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	Something scary
-	about those eyes.
+	Há algo de muito
+	sinistro nesses
+	olhos.
 	"""
 	keyWait
 	end
@@ -124,9 +124,9 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	There's no response,
-	eyes are glued to
-	the screen.
+	Sem resposta. Seus
+	olhos estão colados
+	na tela.
 	"""
 	keyWait
 	end
@@ -136,9 +136,9 @@ script 7 mmbn1 {
 script 8 mmbn1 {
 	msgOpen
 	"""
-	There's no response,
-	eyes are glued to
-	the screen.
+	Sem resposta. Seus
+	olhos estão colados
+	na tela.
 	"""
 	keyWait
 	end
@@ -148,8 +148,9 @@ script 8 mmbn1 {
 script 9 mmbn1 {
 	msgOpen
 	"""
-	Something scary
-	about those eyes.
+	Há algo de muito
+	sinistro nesses
+	olhos.
 	"""
 	keyWait
 	end
@@ -164,9 +165,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What can we do?
-	Everyone is acting
-	weird!
+	O que a gente faz?
+	Tá todo mundo
+	estranho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,9 +184,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My head feels like
-	it's going to split
-	in two!!
+	Eu sinto como se a
+	minha cabeça fosse
+	partir ao meio!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,13 +205,13 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -769,9 +770,17 @@ script 190 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
+	"Eu amo trocar chips!"
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
 	"""
-	I love trading
-	battle chips!
+	Tenho uns bem
+	raros aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -781,20 +790,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I have some really
-	rare ones!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	I wonder where I
-	can find a
-	“
+	Só queria saber onde
+	achar um
+	"
 	"""
 	printChip
 		buffer = 0
@@ -803,7 +801,9 @@ script 190 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"“!"
+	"""
+	"...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -824,7 +824,10 @@ script 191 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey! Isn't that a\n"
+	"""
+	Ei! Esse aí não é
+	o 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
@@ -840,7 +843,10 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Will you trade for a\n"
+	"""
+	Topa trocar por
+	um 
+	"""
 	printChip
 		buffer = 0
 		chip = 88
@@ -861,7 +867,7 @@ script 191 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"Claro! "
 	option
 		left = 0
 		right = 0
@@ -869,7 +875,7 @@ script 191 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No way!!\n"
+	"Nem!\n"
 	select
 		default = 0
 		disableB = false
@@ -900,8 +906,8 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Cool! Thanks!
-	Here's your chip!
+	Irado! Valeu!
+	Aqui o seu chip!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -927,8 +933,8 @@ script 192 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -937,7 +943,9 @@ script 192 mmbn1 {
 	printCode
 		buffer = 0
 		code = H
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -954,9 +962,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't get this
-	chip anywhere else!
-	You sure??
+	Este chip não dá
+	pra achar em lugar
+	nenhum! Certeza?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -973,8 +981,8 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm so addicted to
-	trading chips!
+	Eu tô tão viciado
+	em trocar chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -990,7 +998,10 @@ script 195 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Will you trade your\n"
+	"""
+	Tropa trocar o
+	seu 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
@@ -999,8 +1010,8 @@ script 195 mmbn1 {
 		buffer = 0
 		code = G
 	"""
-	 for
-	a 
+	 por
+	um 
 	"""
 	printChip
 		buffer = 0
@@ -1022,7 +1033,7 @@ script 195 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1030,7 +1041,7 @@ script 195 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No!\n"
+	"Não!\n"
 	select
 		default = 0
 		disableB = false
@@ -1051,7 +1062,10 @@ script 196 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You need to move a\n"
+	"""
+	Cê precisa tirar
+	o 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
@@ -1059,7 +1073,10 @@ script 196 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"\nout of your folder."
+	"""
+	 da
+	sua pasta.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1139,16 +1156,16 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Somebody has written
-	in a corner
-	“I love teacher“
+	Alguém escreveu no
+	canto: "Eu amo a
+	tia!".
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You can jack in
-	here
+	Você pode se
+	conectar aqui.
 	"""
 	keyWait
 	end
@@ -1158,15 +1175,15 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	There are picture
-	books here
+	Aqui tem livros
+	ilustrados.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Starts out “Once
-	upon a time...“
+	Sempre começam com
+	"Era uma vez..."
 	"""
 	keyWait
 	end
@@ -1176,9 +1193,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	These desks are much
-	smaller than the 5th
-	graders' desks
+	Essas mesas são
+	menores que as
+	do quinto ano.
 	"""
 	keyWait
 	end
@@ -1188,15 +1205,16 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Even in a society
-	run by computers,
+	Mesmo numa sociedade
+	controlada por
+	computadores,
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Don't forget the
-	beauty of a flower
+	nunca se esqueça da
+	beleza das flores.
 	"""
 	keyWait
 	end
@@ -1206,9 +1224,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	Morning glories
-	tend to creep up
-	anything nearby
+	As ipoméias costumam
+	se enrolar em tudo
+	ao seu redor.
 	"""
 	keyWait
 	end
@@ -1218,9 +1236,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	You can't eat seeds
-	from morning glories.
-	Try sunflower seeds
+	Não pode comer se-
+	mentes de ipoméia.
+	Tente de girassol.
 	"""
 	keyWait
 	end
@@ -1230,16 +1248,16 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	This book doesn't
-	have many pictures
+	Este livro não tem
+	muitas imagens.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Books with lots of
-	pictures are more
-	fun,huh?
+	Livros com mais ima-
+	gens são mais diver-
+	tidos,né?
 	"""
 	keyWait
 	end
@@ -1249,8 +1267,8 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	This is a teacher's
-	desk
+	Essa é a mesa da
+	professora.
 	"""
 	keyWait
 	end
@@ -1274,16 +1292,16 @@ script 228 mmbn1 {
 		jumpIfFalse = 220
 	msgOpen
 	"""
-	A WWW re-education
-	program is playing!
-	Pretty scary stuff!
+	O programa de reedu-
+	cação da WWW está
+	ativo! Que medo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here!
+	Parece que dá para
+	se conectar aqui!
 	"""
 	keyWait
 	end
@@ -1293,9 +1311,8 @@ script 228 mmbn1 {
 script 229 mmbn1 {
 	msgOpen
 	"""
-	A schedule for
-	watering the
-	morning glories
+	Um cronograma para
+	regar as ipoméias.
 	"""
 	keyWait
 	end

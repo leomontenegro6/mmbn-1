@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm the voice
-	control program
-	for this toy!
+	Sou o programa de
+	controle de voz
+	deste brinquedo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	“Please play with
-	me!“...Things like
-	that...
+	"Por favor,brinque
+	comigo!". Esse tipo
+	de coisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wish that I could
-	talk sometimes,
-	too...
+	Bem que EU queria
+	poder falar também,
+	às vezes...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,8 +51,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	“Put me down,NOW!“,
-	things like that...
+	"Me solta,JÁ!".
+	Esse tipo de
+	coisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -64,8 +65,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -82,13 +83,15 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

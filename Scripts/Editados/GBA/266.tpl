@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The net looks so
-	different! The WWW
-	must have done this!
+	A Rede tá tão
+	diferente! Obra da
+	WWW,aposto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +29,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We'll have to fix
-	the net later
+	A gente conserta a
+	Rede depois
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	First,let's find the
-	program locking the
-	doors!
+	Primeiro,bora achar
+	o programa de tranca
+	das portas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"É pra já!"
 	mugshotAnimate
 		animation = 1
 	keyWait

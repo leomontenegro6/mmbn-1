@@ -7,19 +7,19 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ha,"
+	"Ha "
 	waitSkip
 		frames = 10
-	"ha,"
+	"ha "
 	waitSkip
 		frames = 10
-	"ha,"
+	"ha "
 	waitSkip
 		frames = 10
 	"""
-	ha!!
-	Once I press this
-	button...
+	ha!! Assim
+	que eu apertar este
+	botão...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Bye bye world!"
+	"Adeus,mundo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -37,9 +37,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dr.Hikari may have
-	kicked me out of his
-	little lab...
+	O Hikari pode ter
+	me expulsado de seu
+	laboratório...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,8 +49,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But now I get my
-	revenge!!
+	Mas,agora,eu terei
+	minha vingança!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -66,7 +66,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wait! Wily!!"
+	"Espera! Wily!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -93,8 +93,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hikari's little boy
-	Lan,I presume?
+	É o Hikari mirim.
+	"Lan",presumo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +104,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Leave it to the
-	Hikari's to bother
-	me to the very end!
+	Claro que os Hikari
+	me importunariam até
+	o fim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -125,9 +125,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The EndGame is
-	revenge against my
-	family? Why!?
+	Seu plano é uma vin-
+	gança contra a minha
+	família? Por quê?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,14 +148,14 @@ script 4 mmbn1 {
 	"Hmm"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Shall I
-	tell you?
+	Devo te
+	contar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,9 +165,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	30 years ago,two
-	famous scientists
-	competed to be best!
+	Há 30 anos,2 cien-
+	tistas disputavam o
+	título de melhor.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -177,9 +177,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Me,and your
-	grandfather,
-	Dr.Hikari!
+	... Um era eu.
+	O outro,seu avô:
+	Tadashi Hikari!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -189,9 +189,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I made robots,and
-	Hikari specialized
-	in networks.
+	Eu fazia robôs,e
+	Hikari era especia-
+	lista em redes.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,9 +201,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We were both lost
-	in our research.
-	Then,one day...
+	Ambos perdidos em
+	nossas pesquisas.
+	E então,um dia...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,9 +215,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	In order to win an
-	international
-	competition,
+	Para disputar uma
+	competição
+	internacional,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -227,9 +227,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	our country had to
-	pick one of our
-	projects to fund.
+	o país escolheria
+	um de nossos proje-
+	tos para financiar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239,9 +239,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	After long debate...
-	They cancelled my
-	robot research!
+	Após muito debate...
+	abortaram minha pes-
+	quisa de robótica!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -251,9 +251,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I couldn't believe
-	it! My research
-	was vital! Vital!
+	Eu não podia acredi-
+	tar! Minha pesquisa
+	era vital! Vital!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -263,9 +263,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I had no place to
-	turn to,and so I
-	left the lab.
+	Eu não tinha aonde
+	ir,e,por fim,dei-
+	xei o laboratório.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -275,9 +275,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's why I'm
-	mad! If it wasn't
-	for Hikari
+	Por isso o ódio me
+	consume! Se não
+	fosse o Hikari
 	"""
 	mugshotAnimate
 		animation = 1
@@ -291,9 +291,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So I made the WWW
-	to get back at
-	him!
+	Eu então criei a WWW
+	para me vingar dele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -303,9 +302,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	He made this world
-	what it is,and now
-	I'll destroy it!
+	Ele fez deste mundo
+	o que é,e agora,
+	eu irei destruí-lo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -324,9 +323,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But he didn't cancel
-	your research! It's
-	not his fault!
+	Mas ele não cancelou
+	a sua pesquisa! Não
+	foi culpa dele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -345,8 +344,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hah! That's what
-	he said,too!
+	Ha! Foi isso o que
+	ele disse também!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -356,9 +355,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You'll never
-	understand how I
-	feel! Never!
+	Você nunca entenderá
+	como eu me sinto!
+	Nunca!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -367,12 +366,12 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Enough talking!\n"
+	"Chega de conversa!\n"
 	flagClear
 		flag = 147
 	"""
-	World,prepare for
-	DELETION!!!!
+	Mundo,prepare-se
+	para a DELEÇÃO!!!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -390,7 +389,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Noooo!!"
+	"Nãããão!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -407,7 +406,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hahah!"
+	"Ha ha ha haaa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -425,9 +424,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Never! Not if
-	MegaMan and I
-	can help it!
+	Nunca! Não com o
+	MegaMan e eu aqui
+	pra impedir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -446,13 +445,13 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait

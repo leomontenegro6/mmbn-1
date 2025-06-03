@@ -705,9 +705,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! We've got
-	to do what we can to
-	help everyone!
+	MegaMan! A gente tem
+	que fazer o possível
+	pra ajudar a todos!
 	"""
 	mugshotAnimate
 		animation = 1

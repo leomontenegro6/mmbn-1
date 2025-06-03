@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We have to
-	go check the water!
+	Lan! Temos que
+	conferir a água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +28,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's check out
-	the school pond!
+	Vamos dar uma olhada
+	na fonte da escola!
 	"""
 	mugshotAnimate
 		animation = 1

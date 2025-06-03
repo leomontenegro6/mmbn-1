@@ -38,8 +38,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't dawdle!
-	Get straight home!
+	Não enrole! Vá
+	direto para casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,7 +55,10 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm on feed duty."
+	"""
+	Estou responsável
+	pela alimentação.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -95,8 +98,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Aaack! I'm late
-	again!!
+	Aaah! Tô atrasado
+	de novo!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -113,8 +116,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Late again?
-	What a surprise...
+	Atrasado de novo?
+	Que supresa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,9 +146,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	These animals will
-	die if they don't
-	get some water!
+	Esses animais vão
+	morrer se não
+	beberem água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -162,9 +165,8 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if the
-	plants will all
-	die...
+	Será que as plantas
+	vão... morrer...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,7 +188,7 @@ script 30 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wa...water!!"
+	"A... água!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -229,9 +231,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Even when school is
-	out,we still have to
-	feed the animals!
+	Mesmo sem aula,
+	temos que alimentar
+	os animais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -258,9 +260,9 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	School's out.
-	Shouldn't be many
-	people here...
+	As aulas foram sus-
+	pensas. Não deve ter
+	muita gente aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -304,8 +306,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	These rabbits are so
-	plump thanks to me!
+	Esses coelhos tão
+	gordinhos graças a
+	mim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -315,9 +318,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've been giving
-	them leftovers from
-	lunch!
+	Eu tenho dado as
+	sobras do almoço
+	pra eles!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -327,8 +330,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't tell anyone,
-	OK?
+	Não vai contar pra
+	ninguém,viu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -354,9 +357,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The animals are
-	acting strange,like
-	they're scared!
+	Os animais estão
+	estranhos,parecem
+	assustados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -373,8 +376,8 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh?
-	School's out,son.
+	Hã? A escola tá
+	suspensa,rapaz.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -384,9 +387,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think that Ms.
-	Mari is the only
-	teacher left here.
+	Acho que a Srta.
+	Mari é a única pro-
+	fessora que ficou.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -412,9 +415,9 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No way!
-	I'm staying here
-	with them!
+	Nem vem!
+	Eu vou ficar aqui
+	com eles!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -431,9 +434,9 @@ script 56 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I could close up the
-	school if Ms.Mari
-	would just leave...
+	Se a Srta. Mari
+	saísse,eu poderia
+	fechar a escola...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -934,17 +937,17 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A teacher's car.
-	The most popular
-	type around
+	O carro de um pro-
+	fessor. O modelo
+	mais popular que há.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There seems to be
-	a jack in port for
-	maintenance here
+	Parece haver uma
+	entrada de conexão
+	pra manutenção.
 	"""
 	keyWait
 	end
@@ -954,16 +957,16 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	A bronze statue of
-	the principal
+	Uma estátua de
+	bronze do diretor.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It was a gift from a
-	mysterious group at
-	the school opening
+	Foi doação de um
+	grupo misterioso na
+	inauguração.
 	"""
 	keyWait
 	end
@@ -973,9 +976,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	A huge rabbit.
-	What could cause it
-	to grow so big?
+	Um coelho enorme.
+	O que será que o
+	deixou tão grande?
 	"""
 	keyWait
 	end

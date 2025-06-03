@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How did U get
-	in here?
+	Como você entrou
+	aqui?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -22,7 +22,7 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"And who R U?"
+	"E quem é você?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -39,7 +39,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I am MegaMan!"
+	"Me chamo MegaMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57,9 +57,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And what brings you
-	to me,the great
-	BombMan!?
+	E o que o traz até
+	mim,o grande
+	BombMan?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,8 +78,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm here to get the
-	WWW's net address!
+	Eu tô aqui pra pegar
+	o endereço da rede
+	da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,8 +90,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know you've got
-	it,so hand it over!
+	Sei que você tem
+	ele. Então entrega!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -108,7 +109,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No,no,no."
+	"Não,não,não."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -117,8 +118,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That won't do!
-	It's deletion for U!
+	Pode esquecer!
+	Eu vou é te deletar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -137,8 +138,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,this guy
-	isn't too bright.
+	É,MegaMan,esse
+	cara não é muito
+	esperto.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,9 +150,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't think we
-	have a choice...
-	Battle routine,set!
+	Acho que não temos
+	escolha... Rotina de
+	batalha,preparar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,7 +170,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -7,7 +7,10 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Too late again?"
+	"""
+	Chegamos tarde de
+	novo?
+	"""
 	mugshotAnimate
 		animation = 1
 	clearMsg
@@ -41,9 +44,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But the bus slowed
-	down a little!
-	Don't give up yet!
+	Mas ele desacelerou!
+	Não desiste ainda!
+	Dá tempo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,7 +64,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right!"
+	"É!"
 	mugshotAnimate
 		animation = 1
 	keyWait

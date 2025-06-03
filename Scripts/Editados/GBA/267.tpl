@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right on! We did it!"
+	"Legal! Conseguimos!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,the doors should
-	open now!
+	Lan,as portas devem
+	abrir agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -36,9 +36,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks!
-	I'll get everyone
-	outside!
+	Valeu! Vou tirar
+	todo mundo daqui!
 	"""
 	mugshotAnimate
 		animation = 1

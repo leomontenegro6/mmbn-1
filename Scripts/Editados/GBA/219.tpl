@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Young people sure do
-	spend a lot of time
-	on the phone...
+	Os jovens realmente
+	passam tempo demais
+	no telefone...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess there are
-	some things that you
-	can't say in person.
+	Certas coisas não dá
+	para falar pessoal-
+	mente,suponho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yai tends to be a
-	bit tough,but she's
-	really quite gentle.
+	A Yai parece áspe-
+	ra,mas,na verda-
+	de,é muito gentil.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,9 +51,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know...
-	I hear all of her
-	phone calls!
+	Eu sei bem disso...
+	Porque ouço todas
+	as ligações dela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -65,8 +65,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -84,8 +84,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -94,7 +94,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = J
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -107,8 +109,8 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -127,8 +129,8 @@ script 3 mmbn1 {
 			amount = 1000
 		]
 	"""
-	MegaMan got 1000
-	zennys!
+	MegaMan adquiriu
+	1000 zennys!
 	"""
 	playerFinish
 	playerAnimate

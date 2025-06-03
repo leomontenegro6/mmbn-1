@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think that was the
-	virus causing the
-	waterworks bug...
+	Acho que era o vírus
+	causando o bug no
+	Sistema Hídrico...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,9 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Pretty easy,huh?
-	I'll send you a
-	fireshot!
+	Moleza,né? Vou te
+	mandar uns chips de
+	fogo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -41,9 +41,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Melt the ice on
-	the pump water
-	supply program.
+	Derrete o gelo no
+	programa de supri-
+	mento de água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,7 +61,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Beleza!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -76,7 +76,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okay,I'm done here!"
+	"OK,terminado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -94,9 +94,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! Come back to
-	town and we'll see
-	how the water is.
+	Beleza! Bora voltar
+	pra cidade e ver
+	como tá a água.
 	"""
 	mugshotAnimate
 		animation = 1

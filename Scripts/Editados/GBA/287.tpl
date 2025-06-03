@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Funny...it's frozen
-	here and there...
+	Hm... Tá tudo
+	congelado aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,9 +19,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And there's no 
-	Navis or programs
-	anywhere...
+	E nem sinal de Navis
+	ou Progs...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That guy said he'd
-	be here debugging,
-	but...
+	Aquele cara disse
+	que estaria aqui pra
+	depurar,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,7 +59,9 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I smell a rat..."
+	"""
+	Aí tem coisa...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -78,9 +79,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go see what's
-	wrong with the water
-	supply program!
+	Bora ver o que rolou
+	com o programa de
+	suprimento de água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -98,7 +99,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Vamos!"
 	mugshotAnimate
 		animation = 1
 	keyWait

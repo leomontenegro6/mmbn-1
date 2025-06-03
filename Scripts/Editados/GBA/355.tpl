@@ -7,15 +7,15 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We"
+	"Nós"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"we made it!"
+	"conseguimos!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -33,8 +33,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So,this is the WWW's
-	lab,huh?
+	Então,este é o
+	laboratório da
+	WWW,é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53,9 +54,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah!
-	There's the hacking
-	rocket!
+	Isso! Lá está o
+	foguete!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,7 +73,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's break in!"
+	"Vamos invadir!"
 	mugshotAnimate
 		animation = 1
 	keyWait

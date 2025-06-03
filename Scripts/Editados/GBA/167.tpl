@@ -18,8 +18,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the
-	restaurant floor
+	Este é o andar do
+	restaurante.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +29,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The party is farther
-	in,that way.
+	A festa é mais
+	adiante,por ali.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,11 +46,11 @@ script 1 mmbn1 {
 		jumpIfInRange = 6
 		jumpIfOutOfRange = continue
 	msgOpen
-	"An elevator switch."
+	"O botão do elevador."
 	keyWait
 	clearMsg
 		delay = 0
-	"Lan used the\n"
+	"Lan usou o\n"
 	printItem
 		buffer = 0
 		item = 4
@@ -59,8 +59,8 @@ script 1 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	The elevator doors
-	opened!Which floor?
+	A porta do elevador
+	abriu! Qual andar?
 	
 	"""
 	keyWait
@@ -78,7 +78,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"SciLab lobby\n"
+	"Recep.SciLab\n"
 	option
 		left = 1
 		right = 1
@@ -86,7 +86,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Dad's lab"
+	"Lab. Pai"
 	select
 		default = 0
 		disableB = true
@@ -107,7 +107,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"SciLab lobby\n"
+	"Recep.SciLab\n"
 	option
 		left = 1
 		right = 1
@@ -115,7 +115,7 @@ script 2 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"Dad's lab\n"
+	"Lab. Pai\n"
 	option
 		left = 2
 		right = 2
@@ -123,7 +123,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Power plant"
+	"Usina"
 	select
 		default = 0
 		disableB = true
@@ -153,9 +153,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I think that
-	you have to push
-	that button.
+	Lan,acho que você
+	tem que apertar
+	aquele botão ali.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -172,9 +172,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The elevators have
-	all stopped! We're
-	trapped!
+	Os elevadores
+	pararam! Estamos
+	presos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -185,7 +185,10 @@ script 5 mmbn1 {
 }
 script 6 mmbn1 {
 	msgOpen
-	"It doesn't work!"
+	"""
+	Não está
+	funcionando!
+	"""
 	keyWait
 	end
 		delay = 0
@@ -208,9 +211,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	After the blackout,
-	people have been
-	avoiding this place!
+	Depois do blecaute,
+	as pessoas têm evi-
+	tado este lugar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -220,8 +223,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How will we stay
-	in business?
+	Como vamos evitar
+	a falência?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -249,7 +252,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"The restaurant??"
+	"O restaurante?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -257,10 +260,7 @@ script 15 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	This isn't the
-	time for that!
-	"""
+	"Não é hora pra isso!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -895,16 +895,15 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Even though you're
-	30 floors under
-	ground,this area
+	Mesmo estando 30
+	andares no subsolo,
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	is still surrounded
-	by water
+	esta área ainda é
+	cercada por água.
 	"""
 	keyWait
 	end
@@ -914,17 +913,15 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Garbage from the
-	SciLab comes down
-	this chute,and
+	O lixo do SciLab
+	desce por essa rampa
+	e é incinerado para
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	is burned in the
-	power plant to
-	create electricity
+	gerar eletricidade.
 	"""
 	keyWait
 	end
@@ -934,9 +931,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	All of the drinks
-	in this machine look
-	quite tasty
+	Todas as bebidas
+	desta máquina
+	parecem saborosas.
 	"""
 	keyWait
 	end
@@ -945,11 +942,14 @@ script 222 mmbn1 {
 }
 script 223 mmbn1 {
 	msgOpen
-	"An elevator switch.\n"
+	"""
+	O botão do
+	elevador.
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Lan used the\n"
+	"Lan usou o\n"
 	printItem
 		buffer = 0
 		item = 4
@@ -958,8 +958,8 @@ script 223 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	The elevator doors
-	opened!
+	A porta do elevador
+	se abriu!
 	"""
 	keyWait
 	end
@@ -968,13 +968,13 @@ script 223 mmbn1 {
 }
 script 224 mmbn1 {
 	msgOpen
-	"Which floor?"
+	"Qual andar?"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	SciLab lobby
-	Dad's lab
+	Recep.SciLab
+	Lab. Pai
 	"""
 	keyWait
 	end
@@ -983,7 +983,10 @@ script 224 mmbn1 {
 }
 script 225 mmbn1 {
 	msgOpen
-	"It doesn't work!"
+	"""
+	Não está
+	funcionando!
+	"""
 	keyWait
 	end
 		delay = 5
@@ -992,8 +995,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	There's no power!
-	It won't move!
+	Não há energia!
+	Ele não sai do
+	lugar!
 	"""
 	keyWait
 	end
@@ -1008,9 +1012,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like we can
-	get to the power
-	plant from here!
+	Parece que dá pra
+	chegar na usina
+	daqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1019,7 +1023,7 @@ script 227 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"...Let's try it!"
+	"... Bora tentar!"
 	mugshotAnimate
 		animation = 1
 	keyWait

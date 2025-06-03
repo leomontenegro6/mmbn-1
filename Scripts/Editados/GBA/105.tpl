@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So this is where
-	DenCity's water is
-	controlled...
+	Então,é daqui que
+	controlam a água
+	de DenCity...
 	"""
 	mugshotAnimate
 		animation = 1

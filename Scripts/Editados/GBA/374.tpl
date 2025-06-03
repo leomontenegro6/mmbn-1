@@ -8,8 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,now I'll tell you
-	about support chips.
+	OK,agora,vou
+	explicar os chips
+	de suporte.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +29,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not all chips are
-	weapons.
+	Nem todos os chips
+	são armas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,9 +49,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	For example,a Steal
-	chip will increase
-	the area that your
+	O Steal,por
+	exemplo,aumenta
+	a área em que seu
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,8 +61,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Navi is able to
-	move around in...
+	Navi pode se mover
+	em uma coluna...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,9 +79,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Another good
-	question! Look here,
-	please.
+	Outra boa pergunta!
+	Observem,por favor.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,9 +97,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you see the
-	letter? That's this
-	chip's code.
+	Estão vendo esta
+	letra? Isto é um
+	código do chip.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,29 +109,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can choose a
-	different type of
-	chip if it has
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 1
-	mugshotAnimate
-		animation = 2
-	"the same code type."
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 1
-	mugshotAnimate
-		animation = 2
-	"""
-	Please notice that
-	Steal and Wide
-	Sword have the
+	É possível escolher
+	dois chips diferen-
+	tes juntos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141,8 +121,30 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	same code! They're
-	both “S“.
+	se eles forem de
+	mesmo código.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 1
+	mugshotAnimate
+		animation = 2
+	"""
+	Observem que
+	Steal e WideSword
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 1
+	mugshotAnimate
+		animation = 2
+	"""
+	têm o mesmo código!
+	Ambos são "S".
 	"""
 	mugshotAnimate
 		animation = 1
@@ -159,9 +161,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can choose two
-	chips at the same
-	time,now.
+	Agora você pode se-
+	lecionar dois chips
+	ao mesmo tempo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -171,9 +173,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They are shown here,
-	in the order that
-	you chose them.
+	Eles são mostrados
+	aqui,na ordem em
+	que você os escolhe.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,8 +185,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This will help you
-	plan your strategy.
+	Isso lhe ajudará
+	a montar sua
+	estratégia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,9 +204,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Since you need to
-	get close for a
-	sword,
+	Já que é preciso
+	se aproximar para
+	usar uma Sword,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -213,8 +216,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	this would be a wise
-	strategy.
+	esta seria uma
+	estratégia sábia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -231,9 +234,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ms.Mari! I thought
-	that we can only
-	choose chip copies!
+	Srta. Mari! Achei
+	que só podíamos es-
+	colher chips iguais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -256,9 +259,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's try that.
-	Choose Steal and
-	WideSword in order.
+	OK,vamos tentar.
+	Selecione Steal e
+	WideSword em ordem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -275,9 +278,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Choose Steal first.
-	Cancel with the
-	B Button.
+	Pegue o Steal
+	primeiro. Para
+	cancelar,aperte B.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -294,9 +297,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Choose Steal first.
-	Cancel with the
-	B Button.
+	Escolha o Steal
+	primeiro. Cancele
+	apertando [SwitchB].
 	"""
 	mugshotAnimate
 		animation = 1
@@ -313,9 +316,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Choose Steal first.
-	Cancel with
-	the B Button
+	Escolha o Steal
+	primeiro. Cancele
+	apertando B
 	"""
 	mugshotAnimate
 		animation = 1
@@ -325,8 +328,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	if you have chosen
-	another chip.
+	caso tenha escolhido
+	outro chip.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -343,9 +346,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't need to
-	use that feature
-	just yet...
+	Não precisa usar
+	essa função por
+	ora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -362,9 +365,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ooops! Wrong order!
-	Cancel both with the
-	B Button!
+	Ops! Ordem errada!
+	Cancele ambos com
+	B!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -393,8 +396,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! Next,choose the
-	WideSword.
+	OK! Agora,escolha
+	a WideSword.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -411,7 +414,7 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? That's not the
+	Hã? Essa não é a
 	WideSword!
 	"""
 	mugshotAnimate
@@ -422,9 +425,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That chip has a
-	different code,so
-	you can't use it.
+	Esse chip é de outro
+	código,então,não
+	pode usá-lo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -440,7 +443,7 @@ script 22 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Don't cancel."
+	"Não cancele."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -449,8 +452,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do like I said and
-	choose the WideSword.
+	Como eu
+	disse,escolha a
+	WideSword.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -467,9 +471,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This time,let's send
-	the WideSword data,
-	too.
+	Dessa vez,vamos
+	enviar os dados da
+	WideSword também.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -486,9 +490,9 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't need to
-	use that feature
-	just yet...
+	Não precisa usar
+	essa função por
+	ora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -520,9 +524,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's send this
-	data to the Navi!
-	Choose “OK“.
+	OK,vamos enviar
+	esses dados para o
+	Navi! Aperte "OK".
 	"""
 	mugshotAnimate
 		animation = 1
@@ -539,9 +543,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't worry,with
-	this combination
-	we're sure to win.
+	Calma. Com essa
+	combinação,podemos
+	vencer!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -550,7 +554,7 @@ script 31 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"Don't cancel now!"
+	"Não cancele agora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -566,8 +570,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've sent the data
-	to the Navi!
+	Pronto,enviamos os
+	dados para o Navi!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -577,8 +581,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Time to try out
-	our strategy!
+	Agora,testaremos
+	nossa estretégia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -616,8 +620,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's review that
-	strategy.
+	OK,vamos repassar a
+	estratégia.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -627,8 +631,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	First,you'll use the
-	A Button to use
+	Primeiro,aperte
+	A para usar o
 	Steal.
 	"""
 	mugshotAnimate
@@ -639,9 +643,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Then,the virus's
-	area will shrink
-	right,and you
+	Daí,a área do vírus
+	vai encolher e você
 	"""
 	mugshotAnimate
 		animation = 1
@@ -651,8 +654,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	will have more room
-	to move around!
+	terá mais espaço
+	para se movimentar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -669,9 +672,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Move into the area
-	that you took,and
-	use the sword!
+	Mova-se dentro da
+	área que roubou e
+	use a Sword!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -681,8 +684,8 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is a powerful
-	strategy!
+	Essa é uma
+	estratégia poderosa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -692,9 +695,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	However,be careful
-	of the virus's
-	attack when close!
+	Mas cuidado com os
+	ataques dos vírus
+	quando se aproximar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -703,7 +706,7 @@ script 41 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"Good luck,everyone!"
+	"Boa sorte,classe!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -728,9 +731,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's send some
-	data to the Navi
-	again.
+	OK,vamos enviar
+	mais dados para o
+	Navi de novo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -740,8 +743,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Try it yourself this
-	time!
+	Tente sozinho dessa
+	vez!
 	"""
 	mugshotAnimate
 		animation = 1

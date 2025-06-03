@@ -7,7 +7,10 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan? You OK!?"
+	"""
+	MegaMan!
+	Você tá bem?!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +27,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm fine!"
+	"Eu tô bem!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -32,13 +35,16 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I've displayed the\n"
+	"""
+	Vou medir a bateria
+	do 
+	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	's remaining
-	battery--top right!
+	 no canto
+	direito da tela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,9 +54,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If the battery runs
-	low,I can't heal
-	after battle!
+	Se ela ficar fraca,
+	não vou poder me
+	curar após lutas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,14 +66,14 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So let's get that
-	WWW Navi before the
+	Vamos pegar o Navi
+	da WWW antes que o
 	
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	"'s battery dies!"
+	" descarregue!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -85,9 +91,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK!
-	On to the network
-	power generator!
+	OK! Pra rede do
+	gerador de energia!
 	"""
 	mugshotAnimate
 		animation = 1

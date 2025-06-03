@@ -2,312 +2,312 @@
 
 script 0 mmbn1s {
 	"""
-	Get closer
-	to hit
-	faster
+	Atira +
+	rápido
+	perto
 	"""
 	end
 	"  "
 }
 script 1 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um canhão
+	potente!
 	"""
 	end
 	"  "
 }
 script 2 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um canhão
+	potente!
 	"""
 	end
 	"  "
 }
 script 3 mmbn1s {
 	"""
-	A nice,big
-	cannon!
+	Um canhão
+	potente!
 	"""
 	end
 	"  "
 }
 script 4 mmbn1s {
 	"""
-	Cut down
-	enemies!
-	Range=1
+	Corte
+	alvo!
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 5 mmbn1s {
 	"""
-	Cut down
-	column!
-	Range=1
+	Corte
+	coluna!
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 6 mmbn1s {
 	"""
-	Cut down
-	enemies!
-	Range=2
+	Corte
+	alvo!
+	Dist=2
 	"""
 	end
 	"  "
 }
 script 7 mmbn1s {
 	"""
-	Throw a
-	bomb!
-	Depth=3
+	Joga
+	bomba!
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 8 mmbn1s {
 	"""
-	Cross
-	bomb
-	Depth=3
+	Bomba
+	cruzada
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 9 mmbn1s {
 	"""
-	Bomb with
-	a big boom
-	Depth=3
+	Bomba com
+	explosão
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 10 mmbn1s {
 	"""
-	Gun with
-	a 1-panel
-	blast
+	Tiro com
+	expl. de
+	1 quadro
 	"""
 	end
 	"  "
 }
 script 11 mmbn1s {
 	"""
-	Bubbles w/
-	a 1-panel
-	blast
+	Bolha com
+	expl. de
+	1 quadro
 	"""
 	end
 	"  "
 }
 script 12 mmbn1s {
 	"""
-	Fire with
-	a 1-panel
-	blast
+	Fogo com
+	expl. de
+	1 quadro
 	"""
 	end
 	"  "
 }
 script 13 mmbn1s {
 	"""
-	Throw a
-	bomb!
-	Depth=3
+	Joga
+	bomba!
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 14 mmbn1s {
 	"""
-	Hits enemy
-	and keeps
-	going 1pnl
+	Atinge e
+	avança 1
+	quadro
 	"""
 	end
 	"  "
 }
 script 15 mmbn1s {
 	"""
-	4-panel
+	Tiro
 	diagonal
-	blast
+	4 quadros
 	"""
 	end
 	"  "
 }
 script 16 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda de
+	terra que
+	penetra
 	"""
 	end
 	"  "
 }
 script 17 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda de
+	terra que
+	penetra
 	"""
 	end
 	"  "
 }
 script 18 mmbn1s {
 	"""
-	Piercing
-	ground
-	wave
+	Onda de
+	terra que
+	penetra
 	"""
 	end
 	"  "
 }
 script 19 mmbn1s {
 	"""
-	Fire that
-	can move
-	up & down
+	Fogo vai
+	de baixo
+	p/ cima
 	"""
 	end
 	"  "
 }
 script 20 mmbn1s {
 	"""
-	Water that
-	can move
-	up & down
+	Água vai
+	de baixo
+	p/ cima
 	"""
 	end
 	"  "
 }
 script 21 mmbn1s {
 	"""
-	Log that
-	can move
-	up & down
+	Tora vai
+	de baixo
+	p/ cima
 	"""
 	end
 	"  "
 }
 script 22 mmbn1s {
 	"""
-	Cracks a
-	panel
-	Depth=3
+	Quebra
+	quadro
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 23 mmbn1s {
 	"""
-	Cracks a
-	panel
-	Depth=3
+	Quebra
+	quadro
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 24 mmbn1s {
 	"""
-	Cracks a
-	panel
-	Depth=3
+	Quebra
+	quadro
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 25 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 26 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 27 mmbn1s {
 	"""
-	Cuts down
-	column
-	Range=1
+	Corta
+	coluna
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 28 mmbn1s {
 	"""
-	Knocks
-	stuff over
-	Range=1
+	Derruba
+	coisas
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 29 mmbn1s {
 	"""
-	Knocks
-	stuff over
-	Range=1
+	Derruba
+	coisas
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 30 mmbn1s {
 	"""
-	Warrior's
-	sword
-	Range=3
+	Espada do
+	guerreiro
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 31 mmbn1s {
 	"""
-	Knock over
-	all in
-	your path!
+	Derruba
+	tudo no
+	caminho!
 	"""
 	end
 	"  "
 }
 script 32 mmbn1s {
 	"""
-	Knight's
-	sword
-	Range=3
+	Espada do
+	cavaleiro
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 33 mmbn1s {
 	"""
-	Legendary
-	sword
-	Range=3
+	Espada
+	Lendária
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 34 mmbn1s {
 	"""
-	Hold A Btn
-	for 3 sec
-	defense!
+	Segure A
+	p/ defesa
+	de 3 seg
 	"""
 	end
 	"  "
@@ -324,90 +324,84 @@ script 36 mmbn1s {
 }
 script 37 mmbn1s {
 	"""
-	Fires a
-	3-arrow
-	burst
+	Rajada de
+	3 flechas
 	"""
 	end
 	"  "
 }
 script 38 mmbn1s {
 	"""
-	Fires a
-	3-spear
-	burst
+	Rajada de
+	3 flechas
 	"""
 	end
 	"  "
 }
 script 39 mmbn1s {
 	"""
-	Fires a
-	3-lance
-	burst
+	Rajada de
+	3 lanças
 	"""
 	end
 	"  "
 }
 script 40 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	3 hits
+	Cria tor-
+	nado de 3
+	acertos
 	"""
 	end
 	"  "
 }
 script 41 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	5 hits
+	Cria tor-
+	nado de 5
+	acertos
 	"""
 	end
 	"  "
 }
 script 42 mmbn1s {
 	"""
-	Creates a
-	twister w/
-	8 hits
+	Cria tor-
+	nado de 8
+	acertos
 	"""
 	end
 	"  "
 }
 script 43 mmbn1s {
 	"""
-	Breaks
-	panels
-	Depth=3
+	Quebra
+	quadros
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 44 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	giratório
 	"""
 	end
 	"  "
 }
 script 45 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	giratório
 	"""
 	end
 	"  "
 }
 script 46 mmbn1s {
 	"""
-	A rolling
-	lightning
-	attack
+	Trovão
+	giratório
 	"""
 	end
 	"  "
@@ -424,36 +418,36 @@ script 48 mmbn1s {
 }
 script 49 mmbn1s {
 	"""
-	Squirming
-	snake
-	attack!
+	Ataque
+	cobra que
+	contorce!
 	"""
 	end
 	"  "
 }
 script 50 mmbn1s {
 	"""
-	Shocking
-	snake
-	attack!
+	Ataque
+	cobra
+	elétrico!
 	"""
 	end
 	"  "
 }
 script 51 mmbn1s {
 	"""
-	Scorching
-	snake
-	attack!
+	Ataque
+	cobra de
+	fogo!
 	"""
 	end
 	"  "
 }
 script 52 mmbn1s {
 	"""
-	Breaks
-	cubes
-	Range=1
+	Quebra
+	cubos
+	Dist=1
 	"""
 	end
 	"  "
@@ -470,9 +464,9 @@ script 54 mmbn1s {
 }
 script 55 mmbn1s {
 	"""
-	Engulf all
-	around you
-	in flames!
+	Cerca
+	você com
+	chamas!
 	"""
 	end
 	"  "
@@ -489,72 +483,72 @@ script 57 mmbn1s {
 }
 script 58 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 59 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 60 mmbn1s {
 	"""
-	Missile
-	that can
-	turn once
+	Rato que
+	dobra uma
+	vez
 	"""
 	end
 	"  "
 }
 script 61 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria um
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 62 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria um
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 63 mmbn1s {
 	"""
-	Creates a
-	lock on
-	satellite!
+	Cria um
+	satélite
+	com mira!
 	"""
 	end
 	"  "
 }
 script 64 mmbn1s {
 	"""
-	Erase 1
-	panel
-	Range=1
+	Apaga 1
+	quadro
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 65 mmbn1s {
 	"""
-	Erase
-	column
-	Range=1
+	Apaga
+	coluna
+	Dist=1
 	"""
 	end
 	"  "
@@ -566,64 +560,64 @@ script 66 mmbn1s {
 }
 script 67 mmbn1s {
 	"""
-	Recover
-	10HP
+	Restaura
+	10PV
 	"""
 	end
 	"  "
 }
 script 68 mmbn1s {
 	"""
-	Recover
-	30HP
+	Restaura
+	30PV
 	"""
 	end
 	"  "
 }
 script 69 mmbn1s {
 	"""
-	Recover
-	50HP
+	Restaura
+	50PV
 	"""
 	end
 	"  "
 }
 script 70 mmbn1s {
 	"""
-	Recover
-	80HP
+	Restaura
+	80PV
 	"""
 	end
 	"  "
 }
 script 71 mmbn1s {
 	"""
-	Recover
-	120HP
+	Restaura
+	120PV
 	"""
 	end
 	"  "
 }
 script 72 mmbn1s {
 	"""
-	Recover
-	150HP
+	Restaura
+	150PV
 	"""
 	end
 	"  "
 }
 script 73 mmbn1s {
 	"""
-	Recover
-	200HP
+	Restaura
+	200PV
 	"""
 	end
 	"  "
 }
 script 74 mmbn1s {
 	"""
-	Recover
-	300HP
+	Restaura
+	300PV
 	"""
 	end
 	"  "
@@ -635,9 +629,9 @@ script 75 mmbn1s {
 }
 script 76 mmbn1s {
 	"""
-	Steal left
-	column of
-	enemy area
+	Rouba
+	coluna do
+	inmigo
 	"""
 	end
 	"  "
@@ -654,18 +648,18 @@ script 78 mmbn1s {
 }
 script 79 mmbn1s {
 	"""
-	All panels
-	become
-	cracked!
+	Racha
+	todos os
+	quadros!
 	"""
 	end
 	"  "
 }
 script 80 mmbn1s {
 	"""
-	Erases
-	all empty
-	panels
+	Apaga os
+	quadros
+	vazios
 	"""
 	end
 	"  "
@@ -677,63 +671,63 @@ script 81 mmbn1s {
 }
 script 82 mmbn1s {
 	"""
-	Escape
-	from most
-	enemies
+	Fuja de
+	quase
+	toda luta
 	"""
 	end
 	"  "
 }
 script 83 mmbn1s {
 	"""
-	Destroy
-	enemy chip
-	data
+	Destroi
+	os chips
+	inimigos
 	"""
 	end
 	"  "
 }
 script 84 mmbn1s {
 	"""
-	Negate all
-	attacks w/
-	damage<100
+	Nega
+	ataques
+	<100
 	"""
 	end
 	"  "
 }
 script 85 mmbn1s {
 	"""
-	Null<10dmg
-	Weak vs.
-	\[Elec\]
+	Anula<10dn
+	Fraco vs.
+	Elét
 	"""
 	end
 	"  "
 }
 script 86 mmbn1s {
 	"""
-	Null<40dmg
-	Weak vs.
-	\[Aqua\]
+	Anula<40dn
+	Fraco vs.
+	Água
 	"""
 	end
 	"  "
 }
 script 87 mmbn1s {
 	"""
-	Null<80dmg
-	Weak vs.
-	\[Fire\]
+	Anula<80dn
+	Fraco vs.
+	Fogo
 	"""
 	end
 	"  "
 }
 script 88 mmbn1s {
 	"""
-	Repair
-	panels in
-	your area
+	Conserta
+	quadros da
+	sua área
 	"""
 	end
 	"  "
@@ -750,45 +744,45 @@ script 90 mmbn1s {
 }
 script 91 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	em 1 cln.
 	"""
 	end
 	"  "
 }
 script 92 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	em 1 cln.
 	"""
 	end
 	"  "
 }
 script 93 mmbn1s {
 	"""
-	Rains up
-	& down on
-	1 column
+	Chove de
+	cima-baixo
+	em 1 cln.
 	"""
 	end
 	"  "
 }
 script 94 mmbn1s {
 	"""
-	Creates an
-	ice cube
-	Range=1
+	Cria cubo
+	de gelo
+	Dist=1
 	"""
 	end
 	"  "
 }
 script 95 mmbn1s {
 	"""
-	Creates 3
-	rock cubes
-	randomly
+	Cria 3
+	pedras
+	aleatóri.
 	"""
 	end
 	"  "
@@ -800,60 +794,63 @@ script 96 mmbn1s {
 }
 script 97 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Bomba-re-
+	lógio no
+	inimigo
 	"""
 	end
 	"  "
 }
 script 98 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Bomba-re-
+	lógio no
+	inimigo
 	"""
 	end
 	"  "
 }
 script 99 mmbn1s {
 	"""
-	Sets time
-	bomb in
-	enemy area
+	Bomba-re-
+	lógio no
+	inimigo
 	"""
 	end
 	"  "
 }
 script 100 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	temporá-
+	ria
 	"""
 	end
 	"  "
 }
 script 101 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	temporá-
+	ria
 	"""
 	end
 	"  "
 }
 script 102 mmbn1s {
 	"""
-	Temporary
-	immunity
+	Imunidade
+	temporá-
+	ria
 	"""
 	end
 	"  "
 }
 script 103 mmbn1s {
 	"""
-	30 seconds
-	stoneshape
-	Defense UP
+	Defesa de
+	pedra por
+	30 seg
 	"""
 	end
 	"  "
@@ -865,135 +862,135 @@ script 104 mmbn1s {
 }
 script 105 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmaga c/
+	controle
+	remoto!
 	"""
 	end
 	"  "
 }
 script 106 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmaga c/
+	controle
+	remoto!
 	"""
 	end
 	"  "
 }
 script 107 mmbn1s {
 	"""
-	Remote
-	control
-	smasher!
+	Esmaga c/
+	controle
+	remoto!
 	"""
 	end
 	"  "
 }
 script 108 mmbn1s {
 	"""
-	1-turn of
+	1 turno
 	MetGuard
-	w/ B Btn.
+	com B
 	"""
 	end
 	"  "
 }
 script 109 mmbn1s {
 	"""
-	1-turn of
+	1 turno
 	MiniBomb
-	w/ B Btn.
+	com B
 	"""
 	end
 	"  "
 }
 script 110 mmbn1s {
 	"""
-	1-turn use
-	of Sword
-	with B Btn
+	1 turno
+	Sword com
+	B
 	"""
 	end
 	"  "
 }
 script 111 mmbn1s {
 	"""
-	1-turn of
+	1 turno
 	GutsPnch
-	with B Btn.
+	com B
 	"""
 	end
 	"  "
 }
 script 112 mmbn1s {
 	"""
-	Lightning
-	circles
-	you once
+	Relâmpago
+	circula
+	1 vez
 	"""
 	end
 	"  "
 }
 script 113 mmbn1s {
 	"""
-	Lightning
-	circles
-	you twice
+	Relâmpago
+	circula
+	2 vezes
 	"""
 	end
 	"  "
 }
 script 114 mmbn1s {
 	"""
-	Lightning
-	circles
-	you thrice
+	Relâmpago
+	circula
+	3 vezes
 	"""
 	end
 	"  "
 }
 script 115 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	e cura
+	certo PV
 	"""
 	end
 	"  "
 }
 script 116 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	e cura
+	certo PV
 	"""
 	end
 	"  "
 }
 script 117 mmbn1s {
 	"""
-	Set candle
-	& recover
-	some HP
+	Fixa vela
+	e cura
+	certo PV
 	"""
 	end
 	"  "
 }
 script 118 mmbn1s {
 	"""
-	Slows down
-	custom
-	gauge
+	Atrasa
+	Barra de
+	Custom.
 	"""
 	end
 	"  "
 }
 script 119 mmbn1s {
 	"""
-	Speeds up
-	custom
-	gauge
+	Acelera
+	Barra de
+	Custom.
 	"""
 	end
 	"  "
@@ -1005,198 +1002,195 @@ script 120 mmbn1s {
 }
 script 121 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena PV
+	do alvo
 	"""
 	end
 	"  "
 }
 script 122 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena PV
+	do alvo
 	"""
 	end
 	"  "
 }
 script 123 mmbn1s {
 	"""
-	Charge to
-	drain HP
-	from enemy
+	Drena PV
+	do alvo
 	"""
 	end
 	"  "
 }
 script 124 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Põe mina
+	na área
+	inimiga
 	"""
 	end
 	"  "
 }
 script 125 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Põe mina
+	na área
+	inimiga
 	"""
 	end
 	"  "
 }
 script 126 mmbn1s {
 	"""
-	Hides a
-	mine in
-	enemy area
+	Põe mina
+	na área
+	inimiga
 	"""
 	end
 	"  "
 }
 script 127 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3 colunas
 	"""
 	end
 	"  "
 }
 script 128 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3 colunas
 	"""
 	end
 	"  "
 }
 script 129 mmbn1s {
 	"""
-	Rolling
-	3-column
-	explosion!
+	Explosão
+	rolante
+	3 colunas
 	"""
 	end
 	"  "
 }
 script 130 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Barr água
+	volta se
+	atacada
 	"""
 	end
 	"  "
 }
 script 131 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Barr água
+	volta se
+	atacada
 	"""
 	end
 	"  "
 }
 script 132 mmbn1s {
 	"""
-	Aqua wall
-	Comes back
-	if damaged
+	Barr água
+	volta se
+	atacada
 	"""
 	end
 	"  "
 }
 script 133 mmbn1s {
 	"""
-	3-row
-	wave!
-	\[Aqua\]
+	Onda
+	3 linhas!
+	Água
 	"""
 	end
 	"  "
 }
 script 134 mmbn1s {
 	"""
-	3-row
-	lava wave!
-	\[Fire\]
+	Onda de
+	lava!
+	Fogo
 	"""
 	end
 	"  "
 }
 script 135 mmbn1s {
 	"""
-	3-row
-	giant wave
-	\[Aqua\]
+	Tsunami
+	3 linhas
+	Água
 	"""
 	end
 	"  "
 }
 script 136 mmbn1s {
 	"""
-	Do damage
-	= to your
-	HP loss
+	Causa da-
+	no=perda
+	de PV
 	"""
 	end
 	"  "
 }
 script 137 mmbn1s {
 	"""
-	Invisible
-	until you
-	attack!
+	Invisível
+	até
+	atacar!
 	"""
 	end
 	"  "
 }
 script 138 mmbn1s {
 	"""
-	Invisible
-	when not
-	attacking!
+	Invisível
+	ao não
+	atacar
 	"""
 	end
 	"  "
 }
 script 139 mmbn1s {
 	"""
-	Looks
-	right for
-	enemy
+	Sonda
+	inimigos
+	direita
 	"""
 	end
 	"  "
 }
 script 140 mmbn1s {
 	"""
-	Looks
-	diagonally
-	for enemy
+	Sonda
+	inimigos
+	diagonal
 	"""
 	end
 	"  "
 }
 script 141 mmbn1s {
 	"""
-	Looks up &
-	down for
-	enemy
+	Sonda al-
+	vos,cima
+	e baixo
 	"""
 	end
 	"  "
 }
 script 142 mmbn1s {
 	"""
-	Set Anubis
-	statue to
-	reduce HP
+	Estátua
+	de Anúbis
+	reduz PV
 	"""
 	end
 	"  "
@@ -1213,81 +1207,81 @@ script 144 mmbn1s {
 }
 script 145 mmbn1s {
 	"""
-	Hold btn.
-	to create
-	shield!
+	Segure A
+	p/ criar
+	escudo!
 	"""
 	end
 	"  "
 }
 script 146 mmbn1s {
 	"""
-	Turns dmg
-	from 1 hit
-	into HP
+	Dano de 1
+	ataque
+	vira PV
 	"""
 	end
 	"  "
 }
 script 147 mmbn1s {
 	"""
-	Nullify
-	1 enemy
-	attack
+	Anula 1
+	ataque
+	inimigo
 	"""
 	end
 	"  "
 }
 script 148 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3 linhas!
 	"""
 	end
 	"  "
 }
 script 149 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3 linhas!
 	"""
 	end
 	"  "
 }
 script 150 mmbn1s {
 	"""
-	3-row
-	coffin
-	laser!
+	Laser
+	caixão
+	3 linhas!
 	"""
 	end
 	"  "
 }
 script 151 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 p/ atq
+	estrela
 	"""
 	end
 	"  "
 }
 script 152 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 p/ atq
+	estrela
 	"""
 	end
 	"  "
 }
 script 153 mmbn1s {
 	"""
-	Split into
-	3 for star
-	attack
+	Divide em
+	3 p/ atq
+	estrela
 	"""
 	end
 	"  "
@@ -1309,384 +1303,387 @@ script 156 mmbn1s {
 }
 script 157 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	imediata?
 	"""
 	end
 	"  "
 }
 script 158 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	imediata?
 	"""
 	end
 	"  "
 }
 script 159 mmbn1s {
 	"""
-	Magic fire
-	=instant
-	delete!?
+	Fogo mág.
+	=deleção
+	imediata?
 	"""
 	end
 	"  "
 }
 script 160 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	alvo e
+	cura PV
 	"""
 	end
 	"  "
 }
 script 161 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	alvo e
+	cura PV
 	"""
 	end
 	"  "
 }
 script 162 mmbn1s {
 	"""
-	Hit enemy
-	and heal
-	some HP
+	Atinge
+	alvo e
+	cura PV
 	"""
 	end
 	"  "
 }
 script 163 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta e
+	racha
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 164 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta e
+	racha
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 165 mmbn1s {
 	"""
-	Shock foe
-	and crack
-	enemy area
+	Devasta e
+	racha
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 166 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Ataca col.
+	do alvo
+	+ perto
 	"""
 	end
 	"  "
 }
 script 167 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Ataca col.
+	do alvo
+	+ perto
 	"""
 	end
 	"  "
 }
 script 168 mmbn1s {
 	"""
-	Hit column
-	w/ nearest
-	enemy
+	Ataca col.
+	do alvo
+	+ perto
 	"""
 	end
 	"  "
 }
 script 169 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta a
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 170 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta a
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 171 mmbn1s {
 	"""
-	Skewer
-	entire
-	enemy area
+	Espeta a
+	área do
+	inimigo
 	"""
 	end
 	"  "
 }
 script 172 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	de fogo
+	1 linha
 	"""
 	end
 	"  "
 }
 script 173 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	de fogo
+	1 linha
 	"""
 	end
 	"  "
 }
 script 174 mmbn1s {
 	"""
-	1 row
-	fire arm
+	Braço
+	de fogo
+	1 linha
 	"""
 	end
 	"  "
 }
 script 175 mmbn1s {
 	"""
-	DieRollx10
-	damage to
-	enemy area
+	Dadosx10
+	dano à
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 176 mmbn1s {
 	"""
-	DieRollx20
-	damage to
-	enemy area
+	Dadosx20
+	dano à
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 177 mmbn1s {
 	"""
-	DieRollx30
-	damage to
-	enemy area
+	Dadosx30
+	dano à
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 178 mmbn1s {
 	"""
-	Drops 3x3
-	stones on
-	enemy area
+	Joga pe-
+	dras 3x3
+	no alvo
 	"""
 	end
 	"  "
 }
 script 179 mmbn1s {
 	"""
-	Drops 4x3
-	stones on
-	enemy area
+	Joga pe-
+	dras 4x3
+	no alvo
 	"""
 	end
 	"  "
 }
 script 180 mmbn1s {
 	"""
-	Drops 5x3
-	stones on
-	enemy area
+	Joga pe-
+	dras 5x3
+	no alvo
 	"""
 	end
 	"  "
 }
 script 181 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Golpe ne-
+	vasca na
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 182 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Golpe ne-
+	vasca na
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 183 mmbn1s {
 	"""
-	Blizzard
-	attack on
-	enemy area
+	Golpe ne-
+	vasca na
+	área-alvo
 	"""
 	end
 	"  "
 }
 script 184 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira
+	em 1 alvo
 	"""
 	end
 	"  "
 }
 script 185 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira
+	em 1 alvo
 	"""
 	end
 	"  "
 }
 script 186 mmbn1s {
 	"""
-	Big skull
-	attack on
-	one enemy
+	Ataque
+	caveira
+	em 1 alvo
 	"""
 	end
 	"  "
 }
 script 187 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	Água &
+	Fogo!
 	"""
 	end
 	"  "
 }
 script 188 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	Água &
+	Fogo!
 	"""
 	end
 	"  "
 }
 script 189 mmbn1s {
 	"""
-	Towers of
-	\[Aqua\] &
-	\[Fire\]!
+	Torres de
+	Água &
+	Fogo!
 	"""
 	end
 	"  "
 }
 script 190 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no alvo
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 191 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no alvo
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 192 mmbn1s {
 	"""
-	Enemy area
 	CrossBomb
-	Depth=3
+	no alvo
+	Dist=3
 	"""
 	end
 	"  "
 }
 script 193 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3 linhas
 	"""
 	end
 	"  "
 }
 script 194 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3 linhas
 	"""
 	end
 	"  "
 }
 script 195 mmbn1s {
 	"""
-	3-row
-	shark fin
-	attack
+	Ataque
+	tubarão
+	3 linhas
 	"""
 	end
 	"  "
 }
 script 196 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão em
+	quadros
+	inimigos
 	"""
 	end
 	"  "
 }
 script 197 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão em
+	quadros
+	inimigos
 	"""
 	end
 	"  "
 }
 script 198 mmbn1s {
 	"""
-	Lightning
-	hits enemy
-	panel!
+	Trovão em
+	quadros
+	inimigos
 	"""
 	end
 	"  "
 }
 script 199 mmbn1s {
 	"""
-	Explodes
-	on entire
-	area!
+	Explode
+	a área
+	inteira!
 	"""
 	end
 	"  "

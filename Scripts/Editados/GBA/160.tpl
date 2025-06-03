@@ -6,7 +6,7 @@ script 0 mmbn1 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"Where to?"
+	"Destino?"
 	keyWait
 	clearMsg
 		delay = 0
@@ -17,7 +17,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"ACDC Town\n"
+	"ACDC\n"
 	option
 		left = 1
 		right = 1
@@ -25,7 +25,7 @@ script 0 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"GovmntCmplx\n"
+	"Cmplx.Gov\n"
 	option
 		left = 2
 		right = 2
@@ -33,7 +33,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"None"
+	"Ficar"
 	select
 		default = 0
 		disableB = false
@@ -60,13 +60,15 @@ script 1 mmbn1 {
 	playerAnimate
 		animation = 30
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 60
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -89,13 +91,15 @@ script 2 mmbn1 {
 	playerAnimate
 		animation = 30
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 61
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -108,8 +112,8 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpen
 	"""
-	Buy a different
-	ticket?
+	Comprar um tíquete
+	diferente?
 	
 	"""
 	option
@@ -119,7 +123,7 @@ script 3 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -127,7 +131,7 @@ script 3 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -157,8 +161,8 @@ script 4 mmbn1 {
 		jumpIfSome = continue
 	msgOpen
 	"""
-	Lan returned his
-	ticket!
+	Lan devolveu o
+	tíquete que tinha!
 	"""
 	keyWait
 	clearMsg
@@ -175,7 +179,7 @@ script 5 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Lan used his\n"
+	"Lan usou seu\n"
 	printItem
 		buffer = 0
 		item = 60
@@ -193,7 +197,7 @@ script 6 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Lan used his\n"
+	"Lan usou seu\n"
 	printItem
 		buffer = 0
 		item = 61
@@ -250,8 +254,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Dentown
-	station.
+	Esta é a estação do
+	Distrito Den.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -278,9 +282,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm going shopping
-	now! I've been
-	waiting for so long!
+	Vou fazer compras
+	agora! Esperei por
+	tanto tempo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -324,9 +328,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Dentown
-	station,the entrance
-	to Dentown,the
+	Esta é a estação do
+	Distrito Den. A
+	entrada para ele.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -336,8 +340,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	city that never
-	sleeps!
+	O distrito que
+	nunca dorme!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -354,9 +358,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The lights are on
-	in this town 24
-	hours a day,so
+	As luzes aqui ficam
+	acesas 24 horas por
+	dia,então...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -366,9 +370,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	it's called the
-	shining jewel of
-	DenCity.
+	chamam o distrito
+	de "a joia reluzen-
+	te de DenCity".
 	"""
 	mugshotAnimate
 		animation = 1
@@ -395,9 +399,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Dentown
-	station,the entrance
-	to Dentown,the
+	Esta é a estação do
+	Distrito Den. A
+	entrada para ele.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -407,8 +411,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	city that never
-	sleeps!
+	O distrito que
+	nunca dorme!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -425,9 +429,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A young boy in red
-	clothes? Why,yes,
-	I just saw him
+	Um menino de roupa
+	vermelha? Sim,eu o
+	vi ainda agora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -437,8 +441,8 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	get off of the
-	train!
+	Estava saindo do
+	metrô!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -455,9 +459,9 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's easy to forget
-	about the war when
-	you're shopping!
+	É fácil esquecer a
+	guerra quando se
+	está nas compras!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -480,9 +484,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Dentown
-	station,the entrance
-	to Dentown,the
+	Esta é a estação do
+	Distrito Den. A
+	entrada para ele.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -492,8 +496,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	city that never
-	sleeps!
+	O distrito que
+	nunca dorme!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -503,9 +507,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But today it almost
-	does seem to be
-	sleeping...
+	... mas que hoje,
+	parece quase estar
+	adormecida...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -515,9 +519,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who would want
-	to shop at times
-	like this!
+	Quem faria compras
+	numa hora destas?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1081,8 +1084,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	This escalator only
-	goes down
+	Esta escada rolante
+	só desce.
 	"""
 	keyWait
 	end
@@ -1092,9 +1095,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	This shop has the
-	best selection in
-	Dentown station
+	Esta loja tem a
+	melhor seleção do
+	Distrito Den.
 	"""
 	keyWait
 	end
@@ -1104,16 +1107,16 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	The ultimate in
-	horror! “Attack of
-	the Killer PETs“!
+	O ápice do terror!
+	"Ataque dos PETs
+	Assassinos"!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Now playing at the
-	Dentown Theater!
+	Em cartaz,no cinema
+	do Distrito Den!
 	"""
 	keyWait
 	end
@@ -1123,17 +1126,17 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	A magazine recycling
-	collection box.
-	Putting a magazine
+	Uma caixa de coleta
+	de revistas para
+	reciclagem.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	in here instantly
-	creates recycled
-	paper
+	As revistas deixadas
+	aqui viram papel
+	reciclado.
 	"""
 	keyWait
 	end

@@ -14,22 +14,21 @@ script 0 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"M-"
+	"m-"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"My"
+	"meu "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
 	mugshotAnimate
 		animation = 2
-	"LifeVirus!!!"
+	"LifeVirus!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -39,14 +38,14 @@ script 0 mmbn1 {
 		flag = 249
 	mugshotAnimate
 		animation = 2
-	"What,"
+	"O-"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"what,"
+	"o que... "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -54,8 +53,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What
-	have you done!?!?
+	O que
+	você fez?!?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -65,8 +64,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My baby! My WWW!!
-	Nooooo!!!!
+	Meu bebê! Minha
+	WWW!! Nãããooo!!!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,21 +76,22 @@ script 0 mmbn1 {
 }
 script 1 mmbn1 {
 	msgOpen
-	"Warning! Warning!"
+	"Alerta! Alerta!"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Virus leak!
-	All systems
-	malfunctioning!
+	Vazamento de vírus!
+	Todos os sistemas
+	em pane!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Self-destruct
-	sequence activated!
+	Sequência de
+	autodestruição
+	ativada!
 	"""
 	keyWait
 	clearMsg
@@ -107,7 +107,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh-oh!"
+	"Eita!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -125,9 +125,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	B-But!
-	M-My precious WWW
-	laboratory!!
+	M-mas! O meu
+	precioso laboratório
+	da WWW!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -146,9 +146,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's get out of
-	here! MegaMan,
-	Jack out!
+	Vamos sair daqui!
+	MegaMan,desconecta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -166,7 +165,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"Sim!"
 	mugshotAnimate
 		animation = 1
 	keyWait

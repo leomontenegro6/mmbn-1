@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It looks like
-	everyone's Navi is
-	online!
+	Parece que os Navis
+	de toda a turma
+	estão online!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,22 +28,19 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okay,"
+	"OK,"
 	waitSkip
 		frames = 10
-	"I'm releasing"
+	"liberando "
 	waitSkip
 		frames = 10
-	"\nthe “Mettool“ "
+	"dados\n"
 	waitSkip
 		frames = 10
-	"""
-	data
-	now. Everyone
-	"""
+	"do \"Mettool\".\n"
 	waitSkip
 		frames = 10
-	" ready?"
+	"Prontos?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -68,8 +65,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You lost?
-	That won't do...
+	Você perdeu?
+	Essa não...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -79,8 +76,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's do it again,
-	from the beginning.
+	Vamos lá de novo,
+	do início.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,9 +106,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job!!
-	Let's go on to the
-	next lesson!
+	Bom trabalho!!
+	Sigamos para a
+	próxima lição!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -140,8 +137,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You lost?
-	That won't do...
+	Você perdeu?
+	Essa não...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -151,8 +148,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's do it again,
-	from the beginning.
+	Vamos lá de novo,
+	do início.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,9 +178,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job!!
-	Let's go on to the
-	next lesson!
+	Bom trabalho!!
+	Vamos para a
+	próxima lição!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -212,8 +209,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You lost?
-	That won't do...
+	Você perdeu?
+	Essa não...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -223,8 +220,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's do it again,
-	from the beginning.
+	Vamos lá de novo,
+	do início.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -253,9 +250,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job!!!
-	That's all for
-	today's class!
+	Bom trabalho!!
+	Isso é tudo para
+	a aula de hoje!
 	"""
 	mugshotAnimate
 		animation = 1

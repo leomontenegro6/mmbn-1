@@ -4,7 +4,7 @@ script 0 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 191
-	"*Whoooosh*"
+	"Vuuuush..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -20,8 +20,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	? What was that
-	noise?
+	Hã? Que barulho foi
+	esse?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,8 +40,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It came from below
-	us! I wonder...
+	Veio de baixo da
+	gente!
+	Eu acho que...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,8 +61,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The mystery
-	Metroline!?
+	A Metrolinha
+	secreta?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,9 +81,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe there's an
-	entrance around
-	here somewhere!
+	Talvez tenha uma
+	entrada por aqui em
+	algum lugar!
 	"""
 	mugshotAnimate
 		animation = 1

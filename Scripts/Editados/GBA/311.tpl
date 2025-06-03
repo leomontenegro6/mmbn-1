@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Just a little
-	more! We can stop it
-	at the next light!
+	Lan! Mais uma vez!
+	Vamos parar ele no
+	próximo sinal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right! I'm on it!"
+	"Certo! Só bora!"
 	mugshotAnimate
 		animation = 1
 	keyWait

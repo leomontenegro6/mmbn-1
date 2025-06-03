@@ -13,7 +13,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good morning Lan!"
+	"Bom dia,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -26,22 +26,24 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	Lan eats a hurried
-	breakfast.
-	.
+	Lan come o café da
+	manhã com pressa.
 	"""
 	waitSkip
 		frames = 30
 	"."
 	waitSkip
 		frames = 30
-	".Yum!"
+	"""
+	.
+	Huum!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Lan found a chip
-	under the plate!
+	Lan acha um chip
+	embaixo do prato!
 	"""
 	keyWait
 	clearMsg
@@ -59,8 +61,8 @@ script 1 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -69,7 +71,9 @@ script 1 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -84,7 +88,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mornin',Mom!"
+	"Bom dia,mãe!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -102,9 +106,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Breakfast is on the
-	table! You have time
-	to eat?
+	O café da manhã tá
+	na mesa! Vai dar
+	tempo de comer?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -120,7 +124,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No! I'll be late!"
+	"Ai! Olha a hora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -136,9 +140,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're in the way!
-	Why don't you go
-	play in your room?
+	Lan,vá pro quarto,
+	pra não atrapalhar
+	o moço.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,9 +152,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll call you when
-	I've made you a
-	snack!
+	Depois eu preparo um
+	lanche pra você e te
+	chamo,tá bom?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -167,12 +171,12 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If we just do this
-	and this
+	É só fazer isso,
+	mais isso
 	"""
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	keyWait
@@ -180,7 +184,7 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Hee hee!"
+	"He he!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -196,8 +200,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we should find
-	the lost program!
+	Lan,temos que achar
+	o programa perdido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -226,9 +230,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Laaaannn!
-	I was trying to make
-	hotcakes,and look!
+	Laaaannn! Eu estava
+	fazendo bolinhos,e
+	olha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -237,7 +241,7 @@ script 10 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"What should we do??"
+	"O que vamos fazer?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -255,9 +259,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh??
-	But it was just
-	repaired!!
+	Hã?! Mas eu pen-
+	sei que tivesse
+	sido consertado!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -276,9 +280,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The repairman said
-	it was fixed!!
-	But it's on fire!!
+	O homem disse que
+	estava! Mas tá
+	pegando fogo!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -297,8 +301,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Let's jack
-	in!
+	MegaMan! Vamos
+	conectar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -308,9 +312,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe it's a bug or
-	a virus or
-	something!
+	Talvez seja um bug
+	ou um vírus ou sei
+	lá!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -328,7 +332,7 @@ script 14 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Leave it to me!"
+	"Deixa comigo!"
 	mugshotAnimate
 		animation = 1
 	flagSet
@@ -346,8 +350,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What'll I do if I
-	burn the house down?
+	O que faremos se a
+	casa queimar?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -357,8 +361,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Honey!
-	I'm so sorry!
+	Ai,amor!
+	Desculpa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -375,8 +379,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!! This is no
-	time to go play!
+	Lan! Isso não é
+	hora pra brincar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -395,13 +399,13 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -425,9 +429,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan...Where's
-	MegaMan? You can't
-	contact him?
+	Lan... Cadê o
+	MegaMan? Consegue
+	chamá-lo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -439,8 +443,8 @@ script 20 mmbn1 {
 script 21 mmbn1 {
 	msgOpen
 	"""
-	Someone has locked
-	the door!
+	Alguém trancou a
+	porta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -465,7 +469,10 @@ script 25 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,you've saved us!"
+	"""
+	Lan,você nos
+	salvou!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -474,8 +481,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Your father will be
-	so proud!
+	Seu pai vai ficar
+	tão orgulhoso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -487,8 +494,8 @@ script 25 mmbn1 {
 script 26 mmbn1 {
 	msgOpen
 	"""
-	Someone has locked
-	the door!
+	Alguém trancou a
+	porta!
 	"""
 	keyWait
 	end
@@ -511,7 +518,7 @@ script 30 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Your snack?"
+	"O seu lanche?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -520,8 +527,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's there in the
-	oven
+	Bem... Está ali,no
+	forno
 	"""
 	mugshotAnimate
 		animation = 1
@@ -538,9 +545,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They were turning out
-	so well,and now
-	they're all burnt!
+	Eles estavam quase
+	prontos e,agora,
+	estão queimados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -550,9 +557,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've gotten tired
-	from all this
-	excitement...
+	Sinceramente,estou
+	meio cansada disso
+	tudo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -562,9 +569,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why don't you go out
-	and play. Come back
-	and rest later on!
+	Vai sair pra brincar
+	um pouco? Depois
+	venha descansar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -618,9 +625,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's such a nice
-	day! Why don't you
-	go out and play?
+	Que dia lindo! Por
+	que não vai lá fora
+	brincar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -649,9 +656,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why do you keep
-	coming and going
-	like that?
+	Por que você fica
+	indo para lá e para
+	cá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -679,18 +686,18 @@ script 45 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry,hon"
+	"Desculpa,filho."
 	mugshotAnimate
 		animation = 1
-	"..."
+	" "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	But
-	what could have
-	shut off the water?
+	O
+	que será que
+	houve com a água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -724,9 +731,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Can't cook,can't
-	clean...Guess I'll
-	just watch TV...
+	Não posso cozinhar,
+	não posso limpar...
+	Vou ver TV,então...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -736,9 +743,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nice for a rest,
-	but I hope this
-	ends soon!
+	É bom descansar,mas
+	espero que isso
+	passe logo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -767,9 +774,9 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why the glum face?
-	Water? No,I haven't
-	had any. Why?
+	Por que está triste?
+	Água? Não,não tem
+	nenhuma. Por quê?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -813,9 +820,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why does your father
-	even have to work on
-	Sundays?
+	Por que seu pai
+	tem que trabalhar
+	até aos domingos?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -825,9 +832,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess he can't
-	help it,but it would
-	be nice to see him.
+	Sei que ele não pode
+	evitar,mas seria tão
+	bom tê-lo aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -875,8 +882,8 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Your dad is never
-	home!
+	Seu pai nunca está
+	em casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -886,9 +893,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder what he's
-	working on that
-	could keep him?
+	O que será que
+	mantém ele tão
+	ocupado?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -898,9 +905,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sure glad I have
-	you to help me keep
-	house!
+	Ainda bem que tenho
+	você pra ajudar a
+	cuidar da casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -929,9 +936,9 @@ script 75 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	W,w,we have to try
-	to protect our
-	home!
+	T-t-temos que
+	proteger a nossa
+	casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -940,7 +947,7 @@ script 75 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Oh,honey,come home!"
+	"Ah,querido...\nVenha pra casa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1383,9 +1390,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A simple touch like
-	this vase really
-	cheers the place up
+	Parece pouco,mas
+	esse vaso realmente
+	anima o ambiente.
 	"""
 	keyWait
 	end
@@ -1410,9 +1417,9 @@ script 221 mmbn1 {
 		jumpIfOutOfRange = continue
 	msgOpen
 	"""
-	Something in this
-	pot smells really
-	good! Yum!
+	O que quer que este-
+	ja na panela,cheira
+	ótimo! Hummm!
 	"""
 	keyWait
 	end
@@ -1432,9 +1439,8 @@ script 222 mmbn1 {
 		jumpIfOutOfRange = continue
 	msgOpen
 	"""
-	The refrigerator
-	is filled with
-	food
+	A geladeira está
+	cheia de comida.
 	"""
 	keyWait
 	end
@@ -1459,9 +1465,9 @@ script 223 mmbn1 {
 		jumpIfOutOfRange = continue
 	msgOpen
 	"""
-	The pies that Mom
-	makes in this oven
-	are the best!
+	As tortas que a
+	mamãe faz aí são
+	imbatíveis!
 	"""
 	keyWait
 	end
@@ -1471,9 +1477,8 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	You don't think it
-	will catch fire
-	again
+	Não deve pegar fogo
+	de novo.
 	"""
 	keyWait
 	end
@@ -1483,8 +1488,8 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	Mom loves to collect
-	all of these plates
+	Mamãe ama colecionar
+	esses pratos.
 	"""
 	keyWait
 	end
@@ -1494,9 +1499,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	This TV is too old
-	to have a jack in
-	port
+	Essa TV é bem anti-
+	ga. Não tem entrada
+	para se conectar.
 	"""
 	keyWait
 	end
@@ -1506,9 +1511,9 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	A very attractive
-	stand. Chosen of
-	course by Mom
+	Bonita a estante,né?
+	Foi a mamãe que
+	escolheu.
 	"""
 	keyWait
 	end
@@ -1518,9 +1523,9 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	This panel controls
-	all of the electric
-	items in the house
+	Esse painel controla
+	os eletrodomésticos
+	da casa.
 	"""
 	keyWait
 	end
@@ -1530,8 +1535,8 @@ script 228 mmbn1 {
 script 229 mmbn1 {
 	msgOpen
 	"""
-	Can't wash dishes
-	without water...
+	Não dá pra lavar
+	pratos sem água...
 	"""
 	keyWait
 	end
@@ -1545,14 +1550,17 @@ script 230 mmbn1 {
 		jumpIfInRange = 231
 		jumpIfOutOfRange = continue
 	msgOpen
-	"The oven is on fire!"
+	"""
+	O fogão tá pegando
+	fogo!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Press the R Button
-	to send MegaMan into
-	this device!
+	Aperte R para
+	mandar MegaMan para
+	o aparelho!
 	"""
 	keyWait
 	end
@@ -1562,9 +1570,9 @@ script 230 mmbn1 {
 script 231 mmbn1 {
 	msgOpen
 	"""
-	The oven is on fire!
-	Gotta put it out,
-	fast!
+	O forno tá pegando
+	fogo! Apague-o,
+	depressa!
 	"""
 	keyWait
 	end

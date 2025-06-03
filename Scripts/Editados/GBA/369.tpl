@@ -24,7 +24,10 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Are you OK?"
+	"""
+	Hikari!
+	Você está bem?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -41,7 +44,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey guys!"
+	"E aí,pessoal!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -58,7 +61,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"And the LifeVirus?"
+	"E o LifeVirus?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -75,7 +78,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"History!"
+	"Já era!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -90,7 +93,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yippie!"
+	"Que ótimo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -107,10 +110,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Where's everyone
-	else?
-	"""
+	"Cadê todo mundo?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -128,8 +128,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They got away
-	to safety!
+	Eles conseguiram
+	escapar em
+	segurança.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,8 +149,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Great! Now,let's
-	scram!!
+	Ótimo! Agora,vamos
+	vazar!!
 	"""
 	mugshotAnimate
 		animation = 1

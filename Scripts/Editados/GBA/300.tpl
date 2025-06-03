@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry!"
+	"Desculpa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're late!"
+	"Tá atrasada!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -42,8 +42,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,sorry!
-	Don't look so mad!
+	Desculpa,desculpa!
+	Não fica bravo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,9 +62,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmph,you mean like
-	you are every time
-	I'm late?
+	Hmpf. É assim que
+	VOCÊ fica quando
+	eu me atraso.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -82,7 +82,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Bygones!"
+	"Águas passadas!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -91,9 +91,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh Lan,I have to
-	bring something to
-	my grandma's...
+	Ah,Lan,eu tenho que
+	levar uma coisa pra
+	minha avó...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,8 +103,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,but you can
-	go ahead to Dentown!
+	Desculpa,mas pode
+	ir na frente pro
+	Distrito Den?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,9 +124,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What?
-	Why did I have to
-	wait for you,then?
+	O quê? Pra que eu
+	tinha que te
+	esperar,então?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -144,8 +145,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry! I'll make
-	it up to you!
+	Desculpa! Eu juro
+	que vou te compensar
+	depois!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -154,7 +156,7 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Later!"
+	"Até!"
 	mugshotAnimate
 		animation = 1
 	keyWait

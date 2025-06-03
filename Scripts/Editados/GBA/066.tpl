@@ -31,9 +31,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The virus that's
-	causing all this
-	should be close!
+	O vírus que tá
+	causando tudo isso
+	deve estar perto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43,8 +43,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,go look for
-	it!
+	MegaMan,encontra
+	ele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,10 +69,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ouch!!
-	Ouch!! Ouch!!
-	"""
+	"Ai!! Ai!! Ai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -80,7 +77,7 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"MegaMan!? Hurry!!"
+	"MegaMan?! Rápido!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -108,9 +105,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

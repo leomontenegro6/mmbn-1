@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like everyone
-	is still in
-	homeroom...
+	Parece que o pessoal
+	ainda tá na sala...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +27,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"(Sneak time!)"
+	"(De fininho!)"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -38,10 +37,10 @@ script 1 mmbn1 {
 }
 script 2 mmbn1 {
 	msgOpen
-	"pitpat... "
+	"tiptap... "
 	waitSkip
 		frames = 30
-	"pitpat..."
+	"tiptap..."
 	keyWait
 	end
 		delay = 30
@@ -54,7 +53,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"(Yeah! I did it!)"
+	"(Isso! Consegui!)"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -72,8 +71,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...So class,this
-	is Mr.Higsby.
+	... Turma,este é o
+	Sr. Higsby.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -83,9 +82,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	He'll be helping me
-	teach class for the
-	next two weeks.
+	Ele me ajudará com
+	as aulas nas pró-
+	ximas duas semanas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +103,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hello,I'm Mr.Higsby.
-	I collect battle
-	chips,it's my hobby!
+	Oi,sou o Sr.
+	Higsby. Coleciono
+	chips,é meu hobby!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -116,9 +115,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm looking forward
-	to trading with all
-	of you!
+	Espero que possamos
+	fazer umas trocas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,9 +126,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Be sure to come to
-	me if you've got
-	any rare chips,okay?
+	E venham até mim se
+	tiverem algum chip
+	raro,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,10 +137,10 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Heh,heh..."
+	"He,he... "
 	mugshotAnimate
 		animation = 1
-	"*snort*"
+	"Ronc!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -158,8 +156,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...The new teacher's
-	kinda...scary.
+	... Esse novo
+	professor é meio...
+	esquisitinho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,8 +177,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not really scary...
-	just sorta wierd.
+	"Esquisitinho" eu
+	não sei... Mas
+	estranho,sim.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -198,9 +198,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I didn't think
-	teachers had
-	hobbies,too...
+	Não sabia que
+	professores também
+	tinham hobbies...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -219,9 +219,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,they do say
-	everyone's gotta
-	have a hobby!
+	Bem,é como dizem:
+	todo mundo precisa
+	de um!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -236,8 +236,8 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	*whisper*
-	*giggle*
+	Ssp ssp...
+	Hi hi...
 	"""
 	keyWait
 	clearMsg
@@ -254,9 +254,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Everyone,let's give
-	Mr.Higsby a warm
-	welcome,okay?
+	Turma,vamos dar as
+	boas-vindas ao
+	Sr. Higsby,certo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -265,11 +265,7 @@ script 11 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Well now,
-	that's all for
-	homeroom today.
-	"""
+	"Bem,por hoje é só."
 	mugshotAnimate
 		animation = 1
 	keyWait

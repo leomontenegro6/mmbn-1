@@ -3,8 +3,8 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -21,13 +21,15 @@ script 0 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 64
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -38,8 +40,8 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -57,8 +59,8 @@ script 1 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -67,7 +69,9 @@ script 1 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -86,7 +90,7 @@ script 4 mmbn1s {
 }
 script 5 mmbn1 {
 	msgOpen
-	"The water stops!"
+	"A água parou!"
 	keyWait
 	end
 		delay = 0
@@ -95,8 +99,8 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	Water starts
-	flowing!
+	A água começou a
+	fluir!
 	"""
 	keyWait
 	end
@@ -112,8 +116,7 @@ script 7 mmbn1 {
 		jumpIfLess = continue
 	msgOpen
 	"""
-	The handle is
-	missing!
+	Está sem a manivela!
 	"""
 	keyWait
 	clearMsg
@@ -130,8 +133,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like it's
-	broken...
+	Parece estar
+	quebrada...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -150,8 +153,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's worry about
-	this one later!
+	A gente cuida disso
+	depois!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -163,8 +166,7 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	The handle is
-	missing!
+	Está sem a manivela!
 	"""
 	keyWait
 	clearMsg
@@ -181,9 +183,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! I'll bet we can
-	use the handle we
-	got from Froid!
+	Lan! Podemos usar a
+	manivela que arran-
+	jamos com o Froid!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,7 +203,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,yeah!"
+	"Ah! Verdade!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -220,7 +222,7 @@ script 13 mmbn1 {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	"Lan used the\n"
+	"Lan usou a\n"
 	printItem
 		buffer = 0
 		item = 5
@@ -228,7 +230,7 @@ script 13 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"The handle fits!"
+	"A manivela encaixa!"
 	flagSet
 		flag = 227
 	keyWait
@@ -239,8 +241,8 @@ script 13 mmbn1 {
 script 14 mmbn1 {
 	msgOpen
 	"""
-	MegaMan turned the
-	handle!
+	MegaMan girou a
+	manivela!
 	"""
 	keyWait
 	end
@@ -255,8 +257,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't think we
-	need to do that now,
+	A gente não precisa
+	fazer isso agora,
 	Lan...
 	"""
 	mugshotAnimate
@@ -286,8 +288,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm just a friendly
-	neighborhood Navi!
+	Sou só um simpático
+	Navi amigo da
+	vizinhança!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -297,9 +300,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's a dead end
-	from here!
-	Sorry!
+	Aqui só dá em um
+	beco sem saída!
+	Desculpinha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -326,9 +329,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you run water
-	over ice,it will
-	melt!
+	Se você passar água
+	sobre gelo,ele
+	derrete!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -338,9 +341,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can walk over
-	the melted ice,but
-	not over water.
+	Dá pra andar sobre o
+	gelo derretido,mas
+	não sobre a água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -350,9 +353,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you jack out,
-	the water will
-	return,but the
+	Se desconectar,a
+	água volta,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -361,7 +363,7 @@ script 21 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"ice will not return!"
+	"mas o gelo,não!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -386,8 +388,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,you've melted
-	the ice,I see!
+	Ah,você derreteu o
+	gelo! Legal.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -404,9 +406,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry for the
-	problems we've been
-	having!
+	Lamentamos pelos
+	problemas que
+	andamos tendo!
 	"""
 	mugshotAnimate
 		animation = 1

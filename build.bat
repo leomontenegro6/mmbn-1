@@ -1,4 +1,7 @@
 @echo off
+echo ==Unindo scripts .tpl avulsos no "script.tpl"
+php .\unir_scripts.php
+
 echo ==Gerando rom traduzida. Aperte enter quando a mensagem "Done" abaixo aparecer.==
 .\Ferramentas\TextPet.exe run-script insert.tpl
 
@@ -14,4 +17,3 @@ echo ==Graficos diversos.==
 .\Ferramentas\armips.exe .\Asm\graficos.asm
 
 echo Done.
-pause

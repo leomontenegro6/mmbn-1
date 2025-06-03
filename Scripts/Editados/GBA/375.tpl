@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	For our final lesson
-	we'll talk about
-	chip adding.
+	Nesta lição final,
+	vamos falar de
+	adição de chips.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25,9 +25,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	By using chip adding
-	you can increase the
-	number of chips that
+	Ao usar a adição de
+	chips,pode-se au-
+	mentar o número de
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37,9 +37,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	you can use to make
-	combinations for
-	improved strategies.
+	chips disponíveis,
+	expandindo combina-
+	ções e estratégias.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,9 +54,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Look at the screen.
-	See the ADD button
-	at the bottom right?
+	Vejam a tela. Veem
+	o botão "ADD" no
+	canto direito?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you select this
-	button without
-	choosing any chips,
+	Se apertar esse
+	botão sem escolher
+	qualquer chip,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,9 +85,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	you will have to
-	fight for one turn
-	without chips,but
+	você irá lutar por
+	um turno sem nenhum
+	chip. Porém...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,9 +97,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	on your next turn
-	you will be able to
-	select from 10.
+	No seu próximo
+	turno,você terá 10
+	chips na tela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,9 +109,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do this twice,and
-	you'll have 15 chips
-	to choose from!
+	Faça isso duas vezes
+	e você terá 15 chips
+	para escolher!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -121,9 +121,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This should surely
-	give you all the
-	strategies you need.
+	Isso deverá fornecer
+	todas as estratégias
+	de que precisar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -155,7 +155,7 @@ script 9 mmbn1s {
 script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
-	"OK,a pop quiz!"
+	"OK,prova relâmpago!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -164,9 +164,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	For this test,you
-	will need to use
-	all the techniques
+	Para a prova,você
+	deve usar todas as
+	técnicas
 	"""
 	mugshotAnimate
 		animation = 1
@@ -176,8 +176,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've just taught you
-	and delete a virus!
+	que eu ensinei aqui
+	para deletar um
+	vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,7 +187,7 @@ script 10 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"Good luck!"
+	"Boa sorte!"
 	mugshotAnimate
 		animation = 1
 	keyWait

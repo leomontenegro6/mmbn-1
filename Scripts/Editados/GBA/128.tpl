@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good morning!
-	This is the library
+	Bom dia! Esta é a
+	biblioteca!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -23,9 +23,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's good to read,
-	but shouldn't you
-	be in class?
+	Ler é bom,mas
+	não era para você
+	estar na aula?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42,9 +42,9 @@ script 1 mmbn1 {
 		jumpIfOutOfRange = continue
 	msgOpen
 	"""
-	Encyclopedias are
-	lined up on this
-	shelf
+	Enciclopédias
+	enfileiradas
+	na prateleira.
 	"""
 	keyWait
 	end
@@ -54,9 +54,9 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	Photo and picture
-	books are on this
-	shelf
+	Os livros ilustra-
+	dos ficam nesta
+	prateleira.
 	"""
 	keyWait
 	end
@@ -66,9 +66,9 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpen
 	"""
-	Reference books
-	are lined up on
-	this shelf
+	Livros de referên-
+	cia ficam nesta
+	prateleira.
 	"""
 	keyWait
 	end
@@ -78,9 +78,9 @@ script 3 mmbn1 {
 script 4 mmbn1 {
 	msgOpen
 	"""
-	Reference books
-	are lined up on
-	this shelf
+	Livros de referên-
+	cia ficam nesta
+	prateleira.
 	"""
 	keyWait
 	end
@@ -90,9 +90,9 @@ script 4 mmbn1 {
 script 5 mmbn1 {
 	msgOpen
 	"""
-	Story books
-	are lined up on
-	this shelf
+	Livros de ficção
+	estão enfileirados
+	nesta prateleira.
 	"""
 	keyWait
 	end
@@ -102,9 +102,9 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	Story books
-	are lined up on
-	this shelf
+	Livros de ficção
+	estão enfileirados
+	nesta prateleira.
 	"""
 	keyWait
 	end
@@ -121,9 +121,9 @@ script 7 mmbn1 {
 		buffer = 0
 		item = 0
 	"""
-	 manuals
-	are lined up on
-	this shelf
+	Esta prateleira
+	contém uma fileira
+	de manuais de PET.
 	"""
 	keyWait
 	end
@@ -133,9 +133,8 @@ script 7 mmbn1 {
 script 8 mmbn1 {
 	msgOpen
 	"""
-	Something is
-	stuck between the
-	books
+	Tem algo preso
+	entre os livros...
 	"""
 	keyWait
 	clearMsg
@@ -152,8 +151,8 @@ script 8 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan found a chip for
-	“
+	Lan achou o chip
+	"
 	"""
 	printChip
 		buffer = 0
@@ -162,7 +161,9 @@ script 8 mmbn1 {
 	printCode
 		buffer = 0
 		code = H
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -192,17 +193,17 @@ script 14 mmbn1s {
 script 15 mmbn1 {
 	msgOpen
 	"""
-	Encyclopedias are
-	lined up on this
-	shelf
+	Enciclopédias
+	enfileiradas
+	na prateleira.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There are 30 volumes
-	of History of the
-	World here
+	Eles têm 30 volumes
+	da História do Mundo
+	aqui!
 	"""
 	keyWait
 	end
@@ -217,9 +218,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No blackboard here,
-	but the speech
-	program is on
+	Não tem quadro
+	negro,mas o pro-
+	grama de discurso
 	"""
 	mugshotAnimate
 		animation = 1
@@ -228,7 +229,10 @@ script 16 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"the PC."
+	"""
+	está ativo no
+	computador.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -244,9 +248,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's a good time to
-	take one's mind off
-	of things by
+	É uma boa hora
+	para se distrair
+	de tudo
 	"""
 	mugshotAnimate
 		animation = 1
@@ -255,7 +259,7 @@ script 17 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"reading a good book."
+	"lendo um bom livro."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -292,9 +296,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please be quiet in
-	the library. And
-	don't run!
+	Por favor,silêncio
+	na biblioteca.
+	E não corra!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -310,13 +314,16 @@ script 26 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I just read that the\n"
+	"""
+	Eu só tava lendo
+	sobre 
+	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	 was invented by
-	Dr.Hikari.
+	s. Invenção
+	do Dr. Hikari.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -326,8 +333,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Is that your dad?
-	He's a scientist?
+	É o seu pai? Ele é
+	cientista?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -339,7 +346,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -347,7 +354,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -359,8 +366,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So the name is a
-	coincidence?
+	Então,o sobrenome
+	é coincidência?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -372,7 +379,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -380,7 +387,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -392,9 +399,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wow! This must be
-	your grandfather!
-	How cool!
+	Uau! Então,ele deve
+	ser o seu avô!
+	Que legal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -411,9 +418,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? But this book
-	says that he was 45!
-	Your dad's that old?
+	Ué? O livro diz que
+	ele tinha 45! Seu
+	pai é velho assim?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -430,9 +437,9 @@ script 28 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's strange... He
-	looks a lot like you.
-	Er,like your dad.
+	Interessante... Ele
+	parece com você.
+	Er,com o seu pai.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -449,9 +456,9 @@ script 29 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's nothing as
-	moving as a good
-	story.
+	Nada é mais
+	extasiante que
+	uma boa história.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -483,9 +490,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good morning!
-	Shouldn't you be
-	in class?
+	Bom dia! Não era
+	para você estar
+	na aula?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1049,9 +1056,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	You can look up any
-	book you want with
-	this machine
+	Pode conferir o
+	livro que quiser
+	com esta máquina.
 	"""
 	keyWait
 	end
@@ -1061,16 +1068,17 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Students who loaned
-	the most books are
-	listed here
+	Aqui estão listados
+	os alunos que pega-
+	ram vários livros.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Yai is number
-	one by far
+	A Yai está em
+	primeiro lugar
+	disparado.
 	"""
 	keyWait
 	end
@@ -1080,8 +1088,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Be quiet in the
-	library!
+	Silêncio na
+	biblioteca!
 	"""
 	keyWait
 	end
@@ -1090,14 +1098,14 @@ script 222 mmbn1 {
 }
 script 223 mmbn1 {
 	msgOpen
-	"“Virus Attack!“"
+	"\"Ataque de Vírus!\""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	by Rob Fatline
-	from ElBooks!
-	On loan now!
+	por Rob Fatline,da
+	ElBooks! Disponível
+	agora!
 	"""
 	keyWait
 	end
@@ -1110,9 +1118,9 @@ script 224 mmbn1s {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	This PC manages
-	who borrowed what
-	books
+	Este computador
+	gerencia quem pegou
+	livros emprestados.
 	"""
 	keyWait
 	end
@@ -1122,9 +1130,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	Many small fish
-	are swimming here.
-	Very calming!
+	Há vários peixes
+	pequenos nadando
+	aqui. Relaxante!
 	"""
 	keyWait
 	end

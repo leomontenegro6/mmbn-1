@@ -13,7 +13,7 @@ script 0 mmbn1 {
 		flag = 224
 	msgOpen
 	"""
-	A self-portrait of
+	Um autorretrato do
 	Wily.
 	"""
 	keyWait
@@ -31,9 +31,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,Lan! Check out
-	all these
-	footprints!
+	Ei,Lan! Olha só
+	essas pegadas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,7 +50,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,yeah!"
+	"Ah,verdade!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -69,8 +68,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's check around
-	here again...
+	Bora conferir os
+	arredores aqui
+	de novo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -88,9 +88,9 @@ script 4 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	You notice that
-	the picture swings
-	back!
+	Você percebe que a
+	imagem balança para
+	trás!
 	"""
 	keyWait
 	clearMsg
@@ -107,8 +107,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	It's a secret door!
+	Lan! É uma porta
+	secreta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -127,8 +127,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Cool! We can jack
-	in here!
+	Ótimo! Podemos
+	nos conectar
+	daqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -140,23 +141,23 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	A self-portrait of
+	Um autorretrato do
 	Wily.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looking closely,
-	you discover a jack
-	in port in it!
+	Olhando bem,você
+	vê que tem entrada
+	de conexão!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here!
+	Parece que dá para
+	se conectar aqui!
 	"""
 	keyWait
 	end
@@ -173,13 +174,13 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -197,9 +198,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good luck,Lan!
-	I know you can
-	do it!
+	Boa sorte,Lan!
+	Eu sei que você
+	consegue!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -209,9 +210,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can do anything
-	you set your mind
-	to!
+	Você é capaz de
+	tudo que se propõe
+	a fazer!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -227,7 +228,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hmph,you again"
+	"Hmf,você de novo"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -237,8 +238,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why are you always
-	in my way!?
+	Por que insiste em
+	me atrapalhar?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -257,9 +258,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Through the
-	secret door!
-	Quick!
+	Lan! Pela porta
+	secreta! Rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -300,8 +300,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you want to
-	challenge Chaud?
+	Lan,desafiar Chaud
+	para uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -313,7 +313,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -321,7 +321,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -342,9 +342,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So you want to see
-	how the pros do it,
-	huh? PROTOMAN!!
+	Então você quer ver
+	como se luta,é?
+	PROTOMAN!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -362,7 +362,7 @@ script 22 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You called?"
+	"Ao seu dispor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -380,8 +380,8 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Smart call on
-	your part...
+	Bom julgamento da
+	sua parte...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -398,9 +398,9 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't see any
-	reason to battle
-	with a kid like you.
+	Por que devíamos
+	lutar? Já sabemos
+	o resultado...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -417,9 +417,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A Navi using genetic
-	algorithms based on
-	that of its owner...
+	Um Navi que usa al-
+	goritmos genéticos
+	baseados no dono.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -444,15 +444,15 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See? I should be
-	the one to go
+	Viu? Sou eu quem
+	devia ir
 	"""
 	mugshotAnimate
 		animation = 1
-	"..."
+	".."
 	waitSkip
 		frames = 30
-	"?"
+	"."
 	keyWait
 	end
 		delay = 0
@@ -1047,14 +1047,16 @@ script 220 mmbn1s {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	The screen is filled
-	with data. It's the
-	master control
+	A tela está cheia de
+	dados.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"center for the WWW"
+	"""
+	É o computador-mãe
+	do centro da WWW.
+	"""
 	keyWait
 	end
 		delay = 5
@@ -1063,16 +1065,16 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	The plans for the
-	WWW plot. All of
-	their schemes are
+	Os planos da WWW.
+	Todos os seus
+	esquemas estão
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	outlined in these
-	documents
+	detalhados nestes
+	documentos.
 	"""
 	keyWait
 	end
@@ -1082,9 +1084,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	What could be
-	plugged into this
-	huge outlet?
+	O que poderia
+	estar ligado nesta
+	tomada enorme?
 	"""
 	keyWait
 	end
@@ -1094,9 +1096,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	This machine is
-	making a high
-	buzzing sound
+	Esta máquina está
+	emitindo um zumbido
+	bem alto.
 	"""
 	keyWait
 	end
@@ -1106,9 +1108,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	This machine is
-	making a high
-	buzzing sound
+	Esta máquina está
+	emitindo um zumbido
+	bem alto.
 	"""
 	keyWait
 	end
@@ -1118,9 +1120,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	This machine is
-	making a high
-	buzzing sound
+	Esta máquina está
+	emitindo um zumbido
+	bem alto.
 	"""
 	keyWait
 	end
@@ -1130,9 +1132,9 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	This machine is
-	making a high
-	buzzing sound
+	Esta máquina está
+	emitindo um zumbido
+	bem alto.
 	"""
 	keyWait
 	end
@@ -1142,16 +1144,16 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	You're not sure
-	what this machine
-	is for...
+	Você não sabe ao
+	certo pra que serve
+	esta máquina...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...nothing good,
-	you assume
+	... Coisas ruins,
+	você presume.
 	"""
 	keyWait
 	end

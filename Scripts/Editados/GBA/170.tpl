@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please be quiet!
-	I'm trying to open
-	the control room!
+	Silêncio! Estou
+	tentando abrir a
+	sala de controle!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34,7 +34,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Argh,it won't work!"
+	"Argh,não funciona!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -43,9 +43,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The lock to the
-	power plant is
-	computer controlled!
+	A fechadura da usina
+	é controlada por
+	computador!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,9 +55,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We'll never get it
-	open until the
-	program is fixed!
+	Não conseguiremos
+	abri-la até o pro-
+	grama ser corrigido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,9 +74,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? It looks like
-	the control room
-	door is open now.
+	Hã? Parece que a
+	porta da sala de
+	controle se abriu.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -86,8 +86,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You go on. I'll
-	get this door open.
+	Vá na frente. Vou
+	abrir esta porta.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,13 +112,13 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The air...it's
-	getting thinner...
+	O ar... está ficando
+	mais rarefeito... 
 	
 	"""
 	mugshotAnimate
 		animation = 1
-	"*gasp*"
+	"Uff..."
 	keyWait
 	end
 		delay = 0
@@ -149,8 +149,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The power plant is
-	now back to normal.
+	A usina está de
+	volta ao normal.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -160,9 +160,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There are some
-	problems with the
-	network,
+	A rede ainda tem
+	alguns erros,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -172,9 +171,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	but we're able to
-	supply electricity
-	with no problem.
+	mas conseguimos for-
+	necer eletricidade
+	sem problemas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -196,9 +195,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Pretty scary when a
-	whole building goes
-	haywire!
+	Dá um medo quando
+	um prédio inteiro
+	sai de controle!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -224,9 +223,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And just when we
-	had gotten the power
-	plant fixed!!
+	E justo quando
+	tínhamos consertado
+	a usina elétrica!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -243,9 +242,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A malfuntioning
-	building is pretty
-	bad...
+	Um prédio com mau
+	funcionamento é
+	bem problemático.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -255,8 +254,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But a war is even
-	worse!!
+	Mas uma guerra é
+	ainda pior!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -796,8 +795,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's quiz time!
-	It's quiz time!
+	Hora do
+	questionáááriooo!
+	Ques! Tio! Nário!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -807,9 +807,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Time to see if
-	you've been paying
-	attention!
+	Hora de ver se você
+	está prestando
+	atenção no jogo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -819,9 +819,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Answer 10 of my
-	questions and win
-	a prize!
+	Responda a 10
+	perguntas minhas
+	e ganhe um prêmio!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -830,7 +830,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Wanna try?"
+	"Vai encarar?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -843,7 +843,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -851,7 +851,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -873,9 +873,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,no need to be
-	ashamed that you're
-	afraid of failure!
+	Ah,não precisa se
+	acanhar por medo
+	do fracasso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -891,7 +891,7 @@ script 192 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Question 1!"
+	"Pergunta 1!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -900,8 +900,8 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who's Navi is
-	called GutsMan?
+	Quem possui o Navi
+	chamado GutsMan?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -955,7 +955,7 @@ script 193 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -963,7 +963,7 @@ script 193 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 2!"
+	"Pergunta 2!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -972,9 +972,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who's the summer
-	school teacher in
-	Dentown?
+	Quem é a professora
+	do cursinho de verão
+	no Distrito Den?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -988,7 +988,7 @@ script 193 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Ms.Miyu\n"
+	"Srta. Miyu\n"
 	option
 		left = 1
 		right = 1
@@ -996,7 +996,7 @@ script 193 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"Ms.Mari\n"
+	"Srta. Mari\n"
 	option
 		left = 2
 		right = 2
@@ -1004,7 +1004,7 @@ script 193 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Ms.Yuri"
+	"Srta. Yuri"
 	select
 		default = 0
 		disableB = true
@@ -1028,7 +1028,7 @@ script 194 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1036,7 +1036,7 @@ script 194 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 3!"
+	"Pergunta 3!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1045,8 +1045,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who owns the chip
-	shop in ACDC Town?
+	Quem é o dono da
+	loja de chips de
+	ACDC?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1100,7 +1101,7 @@ script 195 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1108,7 +1109,7 @@ script 195 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 4!"
+	"Pergunta 4!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1117,9 +1118,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How many chairs are
-	in the school's
-	AV room?
+	Quantas cadeiras há
+	na sala de AV da
+	escola?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1173,7 +1174,7 @@ script 196 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1181,7 +1182,7 @@ script 196 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 5!"
+	"Pergunta 5!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1190,9 +1191,9 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What musical
-	instrument is in
-	Mayl's room?
+	Que instrumento
+	musical tem no
+	quarto da Mayl?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1206,7 +1207,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"A piano\n"
+	"Um piano\n"
 	option
 		left = 1
 		right = 1
@@ -1214,7 +1215,7 @@ script 196 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"A violin\n"
+	"Um violino\n"
 	option
 		left = 2
 		right = 2
@@ -1222,7 +1223,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"A pipe organ"
+	"Um órgão"
 	select
 		default = 0
 		disableB = true
@@ -1246,7 +1247,7 @@ script 197 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1254,7 +1255,7 @@ script 197 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 6!"
+	"Pergunta 6!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1262,7 +1263,10 @@ script 197 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"How old is Yai?"
+	"""
+	Quantos anos tem
+	a Yai?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1315,7 +1319,7 @@ script 198 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1323,7 +1327,7 @@ script 198 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 7!"
+	"Pergunta 7!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1332,9 +1336,9 @@ script 198 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What chip do you use
-	to escape from a
-	battle?
+	Que chip se usa
+	para escapar das
+	batalhas?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1388,7 +1392,7 @@ script 199 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1396,7 +1400,7 @@ script 199 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 8!"
+	"Pergunta 8!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1405,9 +1409,9 @@ script 199 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The antique shop is
-	on what Block of
-	Dentown?
+	Em que bloco do Dis-
+	trito Den fica a lo-
+	ja de antiguidades?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1421,7 +1425,7 @@ script 199 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Block2\n"
+	"Bloco 2\n"
 	option
 		left = 1
 		right = 1
@@ -1429,7 +1433,7 @@ script 199 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"Block3\n"
+	"Bloco 3\n"
 	option
 		left = 2
 		right = 2
@@ -1437,7 +1441,7 @@ script 199 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Block4"
+	"Bloco 4"
 	select
 		default = 0
 		disableB = true
@@ -1461,7 +1465,7 @@ script 200 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1469,7 +1473,7 @@ script 200 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 9!"
+	"Pergunta 9!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1478,8 +1482,9 @@ script 200 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What kind of toy
-	is in Mayl's room?
+	Que tipo de
+	brinquedo tem no
+	quarto da Mayl?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1493,7 +1498,7 @@ script 200 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"A game machine\n"
+	"Um console\n"
 	option
 		left = 1
 		right = 1
@@ -1501,7 +1506,7 @@ script 200 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"A stuffed Lan\n"
+	"Pelúcia do Lan\n"
 	option
 		left = 2
 		right = 2
@@ -1509,7 +1514,7 @@ script 200 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"A stuffed animal"
+	"Bicho de pelúcia"
 	select
 		default = 0
 		disableB = true
@@ -1533,7 +1538,7 @@ script 201 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 231
-	"Correct!"
+	"Correto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1541,7 +1546,7 @@ script 201 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Question 10!"
+	"Pergunta 10!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1550,8 +1555,8 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are Ms.Mari's
-	measurements?
+	Quais são as medidas
+	da Srta. Mari?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1608,8 +1613,8 @@ script 202 mmbn1 {
 	soundPlay
 		track = 231
 	"""
-	Well,well! Very good
-	young man!
+	Ora,ora!
+	Muito bem,jovem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1619,8 +1624,8 @@ script 202 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And here is your
-	prize!
+	E aqui está o seu
+	prêmio!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1639,8 +1644,8 @@ script 202 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1649,7 +1654,9 @@ script 202 mmbn1 {
 	printCode
 		buffer = 0
 		code = M
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -1668,9 +1675,9 @@ script 203 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yes,I knew that
-	you would never pass
-	my quiz!
+	Sabia que você nunca
+	passaria no meu
+	questionário!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1679,7 +1686,7 @@ script 203 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Buwahahahahaha!"
+	"Bua ha ha ha ha ha!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1695,9 +1702,9 @@ script 204 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm...I need to
-	go out and look for
-	some more questions!
+	Hmmm... Preciso sair
+	em busca de mais
+	perguntas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1754,9 +1761,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Securely locked.
-	You push and pull to
-	no avail
+	Fortemente trancado.
+	Você empurra e
+	puxa,sem sucesso.
 	"""
 	keyWait
 	end
@@ -1770,14 +1777,14 @@ script 221 mmbn1 {
 		jumpIfInRange = 223
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Securely locked"
+	"Fortemente trancado."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You'll need to
-	unlock it from
-	inside the network
+	Você precisará
+	destrancá-lo de
+	dentro da rede.
 	"""
 	keyWait
 	end
@@ -1786,7 +1793,7 @@ script 221 mmbn1 {
 }
 script 222 mmbn1 {
 	msgOpen
-	"It's locked..."
+	"Está trancado..."
 	keyWait
 	end
 		delay = 5
@@ -1795,8 +1802,8 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Only employees are
-	allowed in here
+	Somente funcionários
+	podem entrar aqui.
 	"""
 	keyWait
 	end

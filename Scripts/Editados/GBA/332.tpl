@@ -15,7 +15,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"The PET battery..."
+	"A bateria do PET..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,9 +31,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!
-	I've got to recharge
-	quick!
+	MegaMan! Eu tenho
+	que recarregar,
+	e rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -50,9 +50,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Uh-oh...The charger
-	seems to be acting
-	a little funny...
+	Essa não... O
+	carregador está
+	meio estranho...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -70,7 +70,7 @@ script 3 mmbn1 {
 		animation = 2
 	"""
 	MegaMan!!
-	You OK!?
+	Você tá bem?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +89,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	We have to try!
-	Let's go!
+	Lan! Nós temos que
+	tentar! Vamos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -108,9 +107,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing!?
-	Recharge now or your
-	Navi's a goner!
+	O que está fazendo?!
+	Recarregue agora,ou
+	seu Navi já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,10 +127,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -151,9 +147,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,here goes
-	nothing!
-	Ready...Go!!
+	Bom,agora é tudo
+	ou nada! Pronto...?
+	Lá vai!!
 	"""
 	mugshotAnimate
 		animation = 1

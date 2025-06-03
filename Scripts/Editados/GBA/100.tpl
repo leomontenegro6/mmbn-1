@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if we'll
-	be billed for time
-	on this phone?
+	Será que a gente vai
+	ser cobrado por este
+	telefone?
 	"""
 	mugshotAnimate
 		animation = 1

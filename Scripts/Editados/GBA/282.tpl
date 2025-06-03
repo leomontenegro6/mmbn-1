@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'd like to begin
-	homeroo...
+	Bom,vamos começar
+	a au...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,9 +28,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Teacher!
-	We don't got no
-	water at my house!
+	Professora!
+	Eu tô sem água lá em
+	casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now be quiet,we're
-	going to talk about
-	that in homeroom.
+	Silêncio. Eu já ia
+	falar disso agora na
+	aula.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -64,15 +64,15 @@ script 2 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Class,you all
-	know that the town
-	water has stopped.
+	Turma,sabiam que
+	que a água da cidade
+	parou?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -90,7 +90,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What!?"
+	"O quê?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -108,8 +108,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ms.Mari?
-	Do we know why?
+	Mas... Srta. Mari...
+	Sabem por quê?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,9 +128,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We're not sure,so
-	we don't know when
-	it will be fixed.
+	Não,e também não se
+	sabe quando isso
+	será resolvido.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -148,7 +148,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Really!?"
+	"Sério?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -166,9 +166,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm afraid we'll
-	have to cancel class
-	for today.
+	Receio que teremos
+	que cancelar a aula
+	de hoje.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,7 +186,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"All right!"
+	"Legal!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -204,9 +204,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wait! Don't walk
-	around too much,
-	you'll get thirsty!
+	Esperem! Não andem
+	muito,pra não ficar
+	com sede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -224,14 +224,14 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okaaaa"
+	"Tá boo"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"y"
+	"oom"
 	mugshotAnimate
 		animation = 1
 	"...!"

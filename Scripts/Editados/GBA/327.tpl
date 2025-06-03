@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's been a while
-	since we've talked,
+	Faz um tempo que a
+	gente não conversa,
 	Lan.
 	"""
 	mugshotAnimate
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Actually,there's
-	something I've been
-	meaning to ask you.
+	Na verdade,tem uma
+	coisa que eu quero
+	te perguntar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh? What's that?"
+	"Hã? O quê?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -58,8 +58,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,it's about
-	my research...
+	Bem,é sobre a minha
+	pesquisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,9 +78,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sounds difficult!
-	How would I know
-	about that?
+	Parece complicado!
+	Diz aí.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -99,8 +98,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,it's connected
-	to you and MegaMan.
+	Bem,está ligado a
+	você e ao MegaMan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -110,9 +109,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See,I made your PET.
-	It's different from
-	normal ones.
+	Sabe,eu criei o seu
+	PET. Ele é diferente
+	dos outros.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -121,7 +120,10 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"And MegaMan,too..."
+	"""
+	E o MegaMan
+	também...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -136,29 +138,29 @@ script 5 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 159
-	"bing "
+	"bim "
 	wait
 		frames = 50
-	"bong "
+	"bom "
 	wait
 		frames = 50
-	"bing "
+	"bim "
 	wait
 		frames = 50
-	"bong"
+	"bom\n"
 	wait
 		frames = 50
 	"""
-	
-	Dr.Hikari,paging
-	Dr.Hikari...
+	Dr. Hikari. Chamando
+	Dr. Hikari...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Please report to the
-	lab immediately.
+	Por favor,compareça
+	ao laboratório
+	imediatamente.
 	"""
 	keyWait
 	clearMsg
@@ -174,18 +176,14 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Whoops!"
+	"Ops! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	 I'm sorry,
-	it looks like I have
-	to go!
-	"""
+	"Desculpa,parece \nque o dever me \nchama!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -194,9 +192,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we'll finish
-	where we left off
-	next time!
+	Lan,a gente
+	continua esta
+	conversa na próxima!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -212,7 +210,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"G-good luck,Dad!\n"
+	"B-boa sorte,pai!\n"
 	mugshotAnimate
 		animation = 1
 	"."
@@ -221,14 +219,14 @@ script 7 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	So much for
-	dinner together
+	E lá se vai o
+	jantar em família
 	"""
 	mugshotAnimate
 		animation = 1

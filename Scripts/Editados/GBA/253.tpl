@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Uh-oh!
-	You were right,Lan,
-	it's a virus!
+	Ah! Você tava
+	certo,Lan,é um
+	vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The data signature's
-	the WWW's for sure!
+	A leitura com
+	certeza é da WWW...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,7 +30,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"And it's tough!"
+	"E é dos fortes!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -48,8 +48,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's just like
-	Mayl was saying...
+	Que nem a Mayl
+	disse...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -59,8 +59,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go,MegaMan!
-	Battle routine,set!!
+	Bora,MegaMan!
+	Rotina de batalha,
+	preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,7 +79,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

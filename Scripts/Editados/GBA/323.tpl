@@ -8,20 +8,20 @@ script 0 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	"""
-	Many days passed
-	since the traffic
-	light incident.
+	Vários dias se
+	passaram desde o in-
+	cidente do trânsito.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Until one
-	afternoon.
+	Até que,uma bela
+	tarde.
 	"""
 	waitSkip
 		frames = 30
@@ -44,9 +44,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,I'm starving!
-	I wonder what's for
-	dinner tonight?
+	Cara,que fome!
+	O que será que tem
+	pro jantar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -64,7 +64,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh?"
+	"Hã?"
 	mugshotAnimate
 		animation = 1
 	" "
@@ -73,9 +73,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But Lan,
-	you just ate lunch
-	at school...
+	Mas,Lan,você
+	acabou de almoçar
+	na escola...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,9 +94,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well I can't just
-	recharge once a day
-	like you,MegaMan!
+	Diferente de VOCÊ,
+	eu não recarrego
+	só uma vez por dia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +114,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Okay,okay..."
+	"OK,OK..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -122,14 +122,14 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Hey,"
+	"Ei,"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"wait!"
+	"espera!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -137,7 +137,10 @@ script 4 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"We gotta get home!"
+	"""
+	A gente tem que ir
+	pra casa!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -146,8 +149,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	“The Bonne Bunch“ is
-	about to start!
+	"A Bonne Família" tá
+	prestes a começar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -157,7 +160,7 @@ script 4 mmbn1 {
 	mugshotHide
 	flagSet
 		flag = 201
-	"*beebeebeep*"
+	"Bi Bi Biiiip!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -166,18 +169,19 @@ script 4 mmbn1 {
 		palette = 0
 	mugshotAnimate
 		animation = 2
-	"Lan,you've got mail!\n"
+	"""
+	Lan,chegou e-mail
+	pra você!
+	
+	"""
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	It's from
-	your dad!
-	"""
+	"É do seu pai!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -193,48 +197,47 @@ script 5 mmbn1 {
 		palette = 1
 	msgOpen
 	"""
-	Lan,how have you
-	been? I'll be seeing
-	you today!
+	Lan,como você está?
+	Vou te ver hoje!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	That is,you'll be
-	coming to see me...
+	Ou melhor,você virá
+	me ver...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There's a party
-	tonight at the
-	Government Complex.
+	Tem uma festa hoje à
+	noite no Complexo do
+	Governo.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	I'm inviting you and
-	Mom to join me for
-	dinner!
+	Estou convidando
+	você e sua mãe para
+	jantarem comigo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Let's meet at 7 in
-	front of the TV in
-	the SciLab lobby.
+	Nos encontraremos
+	às 19h em frente à
+	TV do SciLab.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Say hi to Mom for
-	me,and let her know
-	about tonight! -Dad
+	Beijo pra sua mãe.
+	E avise-a sobre hoje
+	à noite!  -Pai
 	"""
 	keyWait
 	clearMsg
@@ -251,8 +254,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All right! We get
-	to see Dad!!
+	Legal! A gente vai
+	ver o papai!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -262,8 +265,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm gonna eat till
-	I drop today!
+	Hoje eu vou comer
+	até cair!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -282,8 +285,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	As if you were on a
-	diet yesterday
+	Como se você tivesse
+	feito uma dieta
+	ontem
 	"""
 	mugshotAnimate
 		animation = 1
@@ -296,9 +300,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Okay,Lan!
-	Let's go home and
-	tell Mom!
+	OK,Lan! Vamos pra
+	casa e contar pra
+	sua mãe!
 	"""
 	mugshotAnimate
 		animation = 1

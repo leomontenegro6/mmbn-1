@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So what does the
-	inside of a toy
-	feel like?
+	E aí,como é estar
+	dentro de um
+	brinquedo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42,8 +42,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not great,I can
-	tell you...
+	Não é muito bom,
+	não...
 	"""
 	mugshotAnimate
 		animation = 1

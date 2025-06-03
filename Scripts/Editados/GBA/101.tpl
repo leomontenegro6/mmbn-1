@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So you can jack in
-	to these later
-	models
+	Então,dá pra conec-
+	tar nestes modelos
+	mais novos
 	"""
 	mugshotAnimate
 		animation = 1

@@ -8,8 +8,7 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,there's water,
-	but...
+	Bom,tem água,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +27,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It looks really
-	nasty...
+	Parece
+	nojentíssima...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,7 +44,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Waterrr"
+	"Ááguaaa..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -53,7 +52,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Need water..."
+	"Preciso de água..."
 	mugshotAnimate
 		animation = 1
 	end
@@ -68,8 +67,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water!!
-	Must drink!
+	Água!!
+	Preciso beber!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,7 +84,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh?"
+	"Hã?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -102,7 +101,10 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"That water's bad!"
+	"""
+	Ei! Essa água aí tá
+	estragada!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -122,17 +124,17 @@ script 6 mmbn1 {
 		animation = 2
 	soundPlay
 		track = 161
-	"gulp"
+	"Glup"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	soundPlay
 		track = 161
 	mugshotAnimate
 		animation = 2
-	"gulp"
+	"Glup"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -141,7 +143,7 @@ script 6 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Uck!"
+	"Auck!"
 	mugshotAnimate
 		animation = 1
 	soundEnableTextSFX
@@ -163,7 +165,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Are you okay?"
+	"Você tá bem?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -214,7 +216,7 @@ script 10 mmbn1 {
 	msgOpen
 	flagSet
 		flag = 249
-	"*beep*"
+	"Bip!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -229,7 +231,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You've done it now!"
+	"Olha só o que você\nfez!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -264,9 +266,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	People are drinking
-	the polluted water
-	everywhere
+	Pessoas estão beben-
+	do a água poluída
+	por todo canto
 	"""
 	mugshotAnimate
 		animation = 1
@@ -279,9 +281,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The real problem was
-	in the water
-	filtering program!
+	O verdadeiro proble-
+	ma é no programa de
+	filtragem da água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -291,8 +293,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is all your
-	fault!
+	Isso é tudo culpa
+	sua!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -310,7 +312,7 @@ script 14 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uhh..."
+	"Arh..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -328,8 +330,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just stay out of
-	my way,okay?
+	Apenas não atrapalhe
+	mais,entendeu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -345,7 +347,7 @@ script 16 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 160
-	"*click*..."
+	"Clic..."
 	keyWait
 	clearMsg
 		delay = 0
@@ -361,8 +363,8 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I'm sorry.
-	I made a mistake.
+	Lan,desculpa.
+	Foi culpa minha.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -381,9 +383,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's not your fault,
-	MegaMan. Let's go
-	back!
+	Não,não foi,
+	MegaMan.
+	Vamos voltar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -401,7 +403,7 @@ script 19 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What?"
+	"O quê?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -419,9 +421,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We can't give up
-	now! Let's fix this
-	problem for good!
+	Não vamos desistir!
+	A gente vai conser-
+	tar esse problema!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yah wanna some chips
-	huh?
+	Ah,você quer chips,
+	é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -37,7 +37,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -48,7 +48,7 @@ script 0 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Yah don't,huh?"
+	"Não quer,é?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64,8 +64,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Da chips are sold
-	out,huh.
+	Os chips estão
+	esgotados,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -93,9 +93,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dis is my auto
-	chip sales machine,
-	huh.
+	Essa é a minha
+	máquina de venda
+	de chips,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -120,8 +120,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yah wanna buy some
-	chips,huh?
+	Você quer comprar
+	chips,é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,7 +133,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -141,7 +141,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -152,7 +152,7 @@ script 6 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Yah don't,huh?"
+	"Não quer,é?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -168,8 +168,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Da chips are sold
-	out,huh.
+	Os chips estão
+	esgotados,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,8 +201,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That machine got
-	NumberMan data,huh?
+	Essa máquina
+	contém dados do
+	NumberMan,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -212,8 +213,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yah wanna Netbattle
-	it,huh?
+	Ah,quer NetLutar,
+	é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -225,7 +226,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -233,7 +234,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -258,9 +259,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Collecting rare
-	chips ain't easy,
-	huh!
+	É,colecionar chips
+	raros não é fácil!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -280,8 +280,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yah scared of my
-	rare chips,huh?
+	Ah,com medo dos
+	meus chips raros,é?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -298,9 +298,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	First yah gotta be a
-	better Battler than
-	you are now,huh.
+	Primeiro,terá que
+	virar um lutador me-
+	lhor do que agora,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -317,9 +317,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Defeat is a result
-	of lack of skill,not
-	lack of chips,huh!
+	A derrota provém de
+	falta de habilidade,
+	não de chips,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -336,8 +336,8 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yah gotta use yah
-	chips better,huh!
+	Ah,tem que usar os
+	chips melhor,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -346,7 +346,7 @@ script 15 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Grok the chips,huh!"
+	"Entenda os chips!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -357,9 +357,9 @@ script 15 mmbn1 {
 script 16 mmbn1 {
 	msgOpen
 	"""
-	There's no response.
-	Looks like the power
-	is off.
+	Sem resposta. Parece
+	estar sem energia.
+	Desligada.
 	"""
 	keyWait
 	end
@@ -378,9 +378,9 @@ script 19 mmbn1s {
 script 20 mmbn1 {
 	msgOpen
 	"""
-	By putting in
-	unneeded chips,you
-	can get new ones.
+	Insira chips que
+	não quer para
+	ganhar novos chips.
 	"""
 	keyWait
 	end
@@ -417,9 +417,9 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	By putting in
-	unneeded chips,you
-	can get new ones.
+	Insira chips que
+	não quer para
+	ganhar novos chips.
 	"""
 	keyWait
 	end
@@ -481,8 +481,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sorry about
-	the other day,huh.
+	Me desculpa pelo
+	outro dia,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -492,9 +492,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I quit the WWW,huh!
-	Please believe me,
-	huh!
+	Eu saí da WWW,é!
+	Pode confiar,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -531,9 +530,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I keep finding these
-	viruses that look
-	like fish.
+	Não paro de esbar-
+	rar com vírus que
+	parecem peixes.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -543,9 +542,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So I came to buy
-	some electricity
-	based chips.
+	Então,comprei uns
+	chips do tipo
+	Elétrico.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -555,9 +554,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Electricity based
-	chips are strong
-	against water!
+	Os Elétricos são
+	fortes contra vírus
+	de Água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -574,8 +573,8 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Want to know how
-	to use the trader?
+	Quer ouvir como se
+	usa o Troca-Chips?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -587,7 +586,7 @@ script 42 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -595,7 +594,7 @@ script 42 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -616,9 +615,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When you put chips
-	in the chip trader
-	you get 1 new one.
+	Se você inserir
+	chips nele,ganha
+	um novo em troca.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -628,8 +627,8 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sort of like a
-	lottery.
+	É como se fosse
+	uma loteria.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -639,9 +638,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The red one takes
-	3 chips to get 1
-	back.
+	O vermelho pega 3
+	chips e te dá 1
+	novo de volta.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -651,9 +650,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The blue one needs
-	10 chips,but gives
-	more rares.
+	O azul exige 10
+	chips,mas te dá
+	chips mais raros.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -663,9 +662,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can use either
-	one,but don't lose
-	all your chips!
+	Pode usar qualquer
+	um,só não vá perder
+	todos os seus chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -675,9 +674,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And putting in good
-	chips doesn't mean
-	you get a good one.
+	E inserir chips bons
+	não garante que um
+	bom virá em troca.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -687,9 +686,9 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The only thing that
-	matters is how many
-	chips,3 or 10.
+	O que importa mesmo
+	é a quantidade de
+	chips,3 ou 10.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -709,9 +708,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not many customers,
-	huh. Not a good
-	opening day,huh.
+	Pouca gente hoje,
+	é. Mau sinal pra
+	inauguração,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -751,9 +750,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I got some new chips
-	huh! Please take a
-	look,huh!
+	Recebemos chips
+	novos,é! Dê uma
+	olhada,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -770,9 +769,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard some rumors
-	about program
-	morphs!
+	Ouvi boatos sobre
+	programas sofrendo
+	metamorfoses!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -782,9 +781,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Cannon,spread gun,
-	ratton,triple
-	arrow...
+	Cannon,Spread,
+	Ratton,Triple
+	Arrow...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -794,9 +793,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	These chips will
-	morph when lined up
-	alphabetically!
+	Esses chips morfam
+	quando alinhados
+	alfabeticamente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -822,8 +821,8 @@ script 55 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No new chips out
-	now,huh...
+	Estamos sem chips
+	novos,é...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -840,9 +839,9 @@ script 56 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard more about
-	chip morphing! Use
-	Shock,Sonic,and Dyna
+	Aprendi mais sobre
+	as mudanças de
+	chips! Se usar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -852,9 +851,9 @@ script 56 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wave chips,and it'll
-	morph into something
-	called BetaWave!
+	Shock,Sonic e Dyna
+	Wave,se transfor-
+	marão em BetaWave!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -863,7 +862,10 @@ script 56 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I wanna try that!"
+	"""
+	Quero tentar fazer
+	isso!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -892,9 +894,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I gotta some new
-	chips,huh! Big sale
-	now,huh!
+	Recebi novos
+	chips,é! Promoções
+	quentinhas,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -911,8 +913,9 @@ script 61 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I found my own
-	morph!
+	Descobri minha pró-
+	pria transformação
+	de chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -923,7 +926,7 @@ script 61 mmbn1 {
 		animation = 2
 	"""
 	Use GutsPnch,Ice
-	Punch,and Dash!
+	Punch e Dash!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -932,7 +935,7 @@ script 61 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"It's amazing!"
+	"É o bicho!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -953,31 +956,32 @@ script 62 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
+		animation = 2
 	"""
-	Yah wanna inside
-	the Undernet,huh???
+	Ah,quer entrar na
+	Undernet,é?!
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,huh! Thanks to
-	you,I got out of
-	the WWW,huh!
+	OK,é! Graças a
+	você,eu consegui
+	sair da WWW,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -987,9 +991,9 @@ script 62 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	To thank you,I'll
-	get you in to the
-	Undernet,huh!
+	Pra agradecer,vou
+	te ajudar a chegar
+	na Undernet,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1004,8 +1008,8 @@ script 63 mmbn1 {
 	mugshotHide
 	msgOpen
 	"""
-	*clink**clank*...
-	*beep!*
+	Clinc Clanc...
+	Bip!
 	"""
 	keyWait
 	clearMsg
@@ -1022,8 +1026,8 @@ script 64 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I sent the codes
-	to your PET,huh!
+	Enviei os códigos
+	para o seu PET,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1047,13 +1051,15 @@ script 65 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 52
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -1072,9 +1078,9 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Go towards Dentown
-	in the net,huh. The
-	access point's there
+	Vá para o Distrito
+	Den através da Rede.
+	O acesso estará lá.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1084,18 +1090,18 @@ script 66 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Use the code on that
-	memo,huh. That'll get
-	you in!
+	Use o código na
+	entrada,é. Aí,
+	poderá entrar
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"huh."
+	"é!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1158,9 +1164,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's an access
-	point to Undernet
-	in Dentown,huh.
+	Tem um ponto de
+	acesso pra Undernet
+	no Distrito Den,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1170,18 +1176,18 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Use the code on that
-	memo,huh. That'll get
-	you in!
+	Use o código na
+	entrada,é. Aí,
+	poderá entrar
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"huh."
+	"é!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1190,9 +1196,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,please save the
-	nice people of ACDC
-	Town,huh!!
+	Lan,por favor,salve
+	as boas pessoas de
+	DenCity,é!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1241,9 +1247,9 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When I got here,
-	Higsby was taken
-	by some strange men!
+	Quando eu vim aqui,
+	o Higsby foi pego
+	por uns esquisitões!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1253,8 +1259,8 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They surrounded him,
-	and then took off!
+	Eles cercaram ele e
+	depois levaram ele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1264,9 +1270,9 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I saw him drop
-	something in the
-	struggle...
+	Vi ele deixar cair
+	uma coisa durante
+	a coisa toda...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1281,8 +1287,9 @@ script 81 mmbn1 {
 	waitSkip
 		frames = 30
 	"""
-	There's something
-	by the register!
+	Tem alguma coisa
+	aqui,na caixa
+	registradora!
 	"""
 	keyWait
 	clearMsg
@@ -1296,13 +1303,15 @@ script 81 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got:
-	“
+	Lan pegou:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 15
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -1319,7 +1328,7 @@ script 82 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A Metroline pass?"
+	"Um tíquete?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1328,9 +1337,9 @@ script 82 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The WWW and the
-	Metroline..Something
-	fishy going on here!
+	A WWW e a Metroli-
+	nha... Tem algo es-
+	tranho rolando aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1339,11 +1348,7 @@ script 82 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	The pass is expired.
-	I'll bet Higsby was
-	using it for
-	"""
+	"O tíquete expirou."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1351,7 +1356,11 @@ script 82 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"the WWW."
+	"""
+	O Higsby deve tê-lo
+	usado nos dias de
+	WWW dele. 
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1773,9 +1782,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Jack in,and try
-	out the chips
-	you've won!
+	Conecte-se e teste
+	os chips que você
+	ganhou!
 	"""
 	keyWait
 	end
@@ -1785,9 +1794,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Looks pretty well
-	locked up. There's
-	lots of cash inside
+	Parece bem trancado.
+	Tem bastante
+	dinheiro dentro.
 	"""
 	keyWait
 	end
@@ -1797,8 +1806,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Lots of chips are
-	lined up inside
+	Há vários chips
+	alinhados dentro.
 	"""
 	keyWait
 	end
@@ -1808,9 +1817,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	An amazing array
-	of chips. Makes you
-	want to buy some
+	Uma incrível varie-
+	dade de chips. Te
+	faz querer comprar.
 	"""
 	keyWait
 	end
@@ -1819,7 +1828,7 @@ script 223 mmbn1 {
 }
 script 224 mmbn1 {
 	msgOpen
-	"What a cool poster!"
+	"Que pôster maneiro!"
 	keyWait
 	end
 		delay = 5
@@ -1827,7 +1836,10 @@ script 224 mmbn1 {
 }
 script 225 mmbn1 {
 	msgOpen
-	"“Employees only“"
+	"""
+	"Somente
+	funcionários".
+	"""
 	keyWait
 	end
 		delay = 5
@@ -1836,9 +1848,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	The mascot Navi
-	of Higsby's shop,
-	“NumberMan“
+	O Navi mascote da
+	Loja do Higsby,
+	"NumberMan".
 	"""
 	keyWait
 	end

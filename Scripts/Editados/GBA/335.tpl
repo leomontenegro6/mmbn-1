@@ -7,15 +7,18 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"The generator..."
+	"O gerador..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
-	"is working!?"
+	"""
+	tá
+	funcionando?! 
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -23,8 +26,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 Then
-	why's the power out?
+	Então
+	por que faltou luz?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34,9 +37,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Check out
-	the power generator
-	area again!
+	MegaMan! Confere a
+	área do gerador de
+	energia de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,7 +57,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!!"
+	"É pra já!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

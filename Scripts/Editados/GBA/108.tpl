@@ -21,8 +21,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A vase with a jack
-	in port?? Wow...
+	Um vaso com entrada
+	de conexão? Ué...
 	"""
 	mugshotAnimate
 		animation = 1

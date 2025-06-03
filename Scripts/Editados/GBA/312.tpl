@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We got past the bus!
-	We'll make it this
-	time!
+	Passamos do ônibus!
+	Desta vez,a gente
+	consegue!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,13 +30,13 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\nTransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait

@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	M-My attacks aren't
-	working!?
+	O-os meus ataques
+	não funcionam?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,17 +28,20 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Heehee! Electricity
-	is my power!
+	He he! Eletricidade
+	é meu ser!
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
-	"As long as there's"
+	"""
+	Enquanto
+	energia for gerada,
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -47,8 +50,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	power generated,I
-	can't be stopped!
+	eu não posso ser
+	detido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -66,7 +69,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What!?"
+	"O quê?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -85,7 +88,7 @@ script 3 mmbn1 {
 		flag = 190
 	mugshotAnimate
 		animation = 2
-	"Zaaaap!!"
+	"Zzzzppp!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -124,12 +127,12 @@ script 5 mmbn1 {
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n..."
+	"\n... "
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh no!
-	What can I do!?
+	Droga! O que
+	eu posso fazer?!
 	"""
 	mugshotAnimate
 		animation = 1

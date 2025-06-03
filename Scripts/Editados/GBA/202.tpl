@@ -11,7 +11,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I am a WWW Navi"
+	"Sou Navi da WWW"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -21,8 +21,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	However,I can no
-	longer help them.
+	No entanto,não pos-
+	so ajudá-los mais.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,8 +32,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please,take this.
-	It should help you.
+	Por favor,leve
+	isto. Deve ajudar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,8 +55,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess that I'm
-	a traitor,now...
+	Acho que virei um
+	traidor...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -101,8 +101,8 @@ script 12 mmbn1s {
 script 13 mmbn1 {
 	msgOpen
 	"""
-	It's burning
-	brightly.
+	Está queimando
+	intensamente.
 	"""
 	keyWait
 	end
@@ -123,19 +123,19 @@ script 15 mmbn1 {
 		item = 1
 		amount = 7
 	"""
-	MegaMan got the
-	“
+	MegaMan adquiriu o
+	programa "
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“program!"
+	"\"!"
 	playerFinish
 	playerUnlock
 	keyWait
 	clearMsg
 		delay = 0
-	"You now have "
+	"Você tem "
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -145,13 +145,13 @@ script 15 mmbn1 {
 	printItem
 		buffer = 0
 		item = 1
-	"s left!"
+	"s restantes!"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	All of the flames
-	have been refreshed!
+	Todas as chamas se
+	reacenderam!
 	"""
 	flagSet
 		flag = 247
@@ -175,19 +175,19 @@ script 16 mmbn1 {
 		item = 1
 		amount = 7
 	"""
-	MegaMan got the
-	“
+	MegaMan adquiriu o
+	programa "
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“program!"
+	"\"!"
 	playerFinish
 	playerUnlock
 	keyWait
 	clearMsg
 		delay = 0
-	"You now have "
+	"Você tem "
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -197,7 +197,7 @@ script 16 mmbn1 {
 	printItem
 		buffer = 0
 		item = 1
-	"s left!"
+	"s restantes!"
 	flagSet
 		flag = 247
 	keyWait
@@ -223,7 +223,7 @@ script 20 mmbn1 {
 		jumpIfLess = 23
 	msgOpen
 	"""
-	Extinguish it?
+	Apagar?
 	(
 	"""
 	printItemAmount
@@ -231,7 +231,7 @@ script 20 mmbn1 {
 		padZeros = false
 		padLeft = false
 		item = 1
-	" left)\n"
+	" restantes)\n"
 	option
 		left = 1
 		right = 1
@@ -239,7 +239,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -247,7 +247,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -276,7 +276,7 @@ script 21 mmbn1 {
 		jumpIfGreater = continue
 		jumpIfLess = continue
 	msgOpen
-	"You used a\n"
+	"Você usou\n"
 	printItem
 		buffer = 0
 		item = 1
@@ -286,7 +286,7 @@ script 21 mmbn1 {
 		padZeros = false
 		padLeft = false
 		item = 1
-	" left)"
+	" restantes)"
 	keyWait
 	end
 		delay = 5
@@ -294,15 +294,18 @@ script 21 mmbn1 {
 }
 script 22 mmbn1 {
 	msgOpen
-	"You used a\n"
+	"Você usou\n"
 	printItem
 		buffer = 0
 		item = 1
-	"\nNo "
+	"""
+	.
+	Acabou 
+	"""
 	printItem
 		buffer = 0
 		item = 1
-	" left!"
+	"!"
 	keyWait
 	end
 		delay = 5
@@ -310,11 +313,14 @@ script 22 mmbn1 {
 }
 script 23 mmbn1 {
 	msgOpen
-	"You don't have any\n"
+	"""
+	Você não tem
+	mais
+	"""
 	printItem
 		buffer = 0
 		item = 1
-	"s left!"
+	"s restantes!"
 	keyWait
 	end
 		delay = 0
@@ -345,7 +351,7 @@ script 30 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Be careful!"
+	"Tome cuidado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -368,8 +374,8 @@ script 34 mmbn1s {
 script 35 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -387,8 +393,8 @@ script 35 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -397,7 +403,9 @@ script 35 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -408,8 +416,8 @@ script 35 mmbn1 {
 script 36 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -428,8 +436,8 @@ script 36 mmbn1 {
 			amount = 5000
 		]
 	"""
-	MegaMan got 5000
-	zennys!
+	MegaMan adquiriu
+	5000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -441,8 +449,8 @@ script 36 mmbn1 {
 script 37 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -461,8 +469,8 @@ script 37 mmbn1 {
 			amount = 3000
 		]
 	"""
-	MegaMan got 3000
-	zennys!
+	MegaMan adquiriu
+	3000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -474,8 +482,8 @@ script 37 mmbn1 {
 script 38 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -493,8 +501,8 @@ script 38 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -503,7 +511,9 @@ script 38 mmbn1 {
 	printCode
 		buffer = 0
 		code = P
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

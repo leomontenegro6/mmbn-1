@@ -7,12 +7,12 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Whaddya want?\n"
+	"Quê que tu quer?\n"
 	textSpeed
 		delay = 0
 	"""
-	(R Btn:description)
-	(B Btn:leave shop)
+	(R: Descrição)
+	(B: Sair)
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25,7 +25,7 @@ script 0 mmbn1 {
 }
 script 1 mmbn1 {
 	msgOpenQuick
-	"You bought\n"
+	"Você comprou um\n"
 	printItem
 		buffer = 1
 		item = 0
@@ -43,9 +43,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Eehh! What's this?
-	You ain't got enough
-	zenny!
+	Ué?! Que é isso?
+	Tu não tem zennys
+	pra isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,9 +62,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Figures you'd ask
-	fer the one that's
-	SOLD OUT!
+	Claro que o gênio
+	ia querer o negócio
+	que ESGOTOU!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -81,8 +81,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hunh?
-	Leavin' the shop?
+	Ahn?
+	Tá indo embora?
 	
 	"""
 	mugshotAnimate
@@ -94,7 +94,7 @@ script 4 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -102,7 +102,7 @@ script 4 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -123,7 +123,7 @@ script 5 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"See ya."
+	"Falou."
 	mugshotAnimate
 		animation = 1
 	wait
@@ -150,12 +150,12 @@ script 7 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Whaddya want?\n"
+	"Quê que tu quer?\n"
 	textSpeed
 		delay = 0
 	"""
-	(R Btn:description)
-	(B Btn:leave shop)
+	(R: Descrição)
+	(B: Sair)
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,7 +168,7 @@ script 7 mmbn1 {
 }
 script 8 mmbn1 {
 	msgOpenQuick
-	"You bought\n"
+	"Você comprou um\n"
 	printChip
 		buffer = 1
 		chip = 0
@@ -189,7 +189,7 @@ script 9 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Sure you want\n"
+	"Quer isso mesmo?\n"
 	printItem
 		buffer = 1
 		item = 0
@@ -203,7 +203,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -211,7 +211,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -232,7 +232,7 @@ script 10 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Sure you want\n"
+	"Quer isso mesmo?\n"
 	printChip
 		buffer = 1
 		chip = 0
@@ -250,7 +250,7 @@ script 10 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -258,7 +258,7 @@ script 10 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false

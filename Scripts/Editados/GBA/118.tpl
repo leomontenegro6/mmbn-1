@@ -21,8 +21,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is pretty deep
-	in the net...
+	Esta é a área mais
+	profunda da Rede...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,9 +32,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I doubt that this
-	area has anything to
-	do with the WWW...
+	Duvido que ela
+	tenha ligação com
+	a WWW...
 	"""
 	mugshotAnimate
 		animation = 1

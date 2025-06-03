@@ -22,15 +22,21 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Me? I'm a 1st grader"
+	"""
+	Eu? Sou do primeiro
+	ano.
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
-	"Hope everyone is OK!"
+	"""
+	Tomara que
+	todo mundo teja bem!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -73,9 +79,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You'd think that
-	being hungry is
-	worse than thirst.
+	Você deve achar
+	que ter fome é
+	pior que ter sede.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,9 +91,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But you can die
-	from lack of water!
-	So be careful!
+	Mas dá pra morrer
+	por falta de água!
+	Então,cuidado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -630,8 +636,8 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey! I just heard
-	something amazing!
+	Ei! Acabei de ouvir
+	um negócio incrível!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -641,9 +647,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's what they teach
-	6th graders about
-	virus busting!
+	É o que ensinam
+	ao sexto ano sobre
+	deleção de vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -652,10 +658,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Want to hear about
-	it?
-	"""
+	"Quer ouvir?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -668,7 +671,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"Claro! "
 	option
 		left = 0
 		right = 0
@@ -676,7 +679,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Not really"
+	"Não..."
 	select
 		default = 0
 		disableB = false
@@ -697,7 +700,7 @@ script 191 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh..."
+	"Ah..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -713,9 +716,9 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,it's pretty
-	big stuff. I can't
-	tell you for free!
+	Bem,é um negócio
+	fantástico. Não pos-
+	so contar de graça!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -725,8 +728,8 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll tell you if
-	you'll trade me...
+	Eu te conto se tro-
+	car chips comigo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -743,11 +746,14 @@ script 192 mmbn1 {
 	printCode
 		buffer = 0
 		code = I
-	"\nchips for this\n"
+	"""
+	s por
+	este 
+	"""
 	printChip
 		buffer = 0
 		chip = 14
-	" "
+	"."
 	printCode
 		buffer = 0
 		code = K
@@ -763,7 +769,7 @@ script 192 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Trade "
+	"Troco "
 	option
 		left = 0
 		right = 0
@@ -771,7 +777,7 @@ script 192 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No trade!"
+	"Não troco!"
 	select
 		default = 0
 		disableB = false
@@ -793,9 +799,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What? You won't
-	trade? Well,I won't
-	tell you then!
+	Quê? Não quer tro-
+	car? Então não vou
+	contar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -821,8 +827,8 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Great! Thanks!
-	Here you go!
+	Ótimo! Obrigada!
+	Aqui está!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -848,8 +854,8 @@ script 194 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -858,7 +864,9 @@ script 194 mmbn1 {
 	printCode
 		buffer = 0
 		code = K
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -871,8 +879,8 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,here is my
-	information.
+	OK,lá vai a
+	informação.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -882,9 +890,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you line up
-	chips in alphabetic
-	order...
+	Se você alinhar os
+	chips em ordem
+	alfabética...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -893,13 +901,13 @@ script 194 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Oh,yeah,3\n"
+	"Ah,tipo,3\n"
 	printChip
 		buffer = 0
 		chip = 1
 	"""
-	s
-	in order... um...
+	s em ordem..
+	Hm...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -909,8 +917,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Anyway,they change
-	to something cool!
+	Enfim,eles mudam
+	e viram um negócio
+	maneiro!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -927,7 +936,7 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I said that I want
+	Eu disse que quero
 	3 
 	"""
 	printChip
@@ -946,9 +955,8 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you maybe have
-	some in your chip
-	folder?
+	Você tem algum na
+	sua pasta de chips?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -958,9 +966,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't trade
-	chips that are in
-	your chip folder!
+	Não pode trocar
+	chips que estejam
+	nela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -970,9 +978,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Anyway,you don't
-	have enough to trade
-	so I can't tell you!
+	Enfim,se não tem o
+	bastante,então eu
+	não conto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -989,9 +997,9 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you try out
-	the information
-	that I gave you?
+	Pretende testar a
+	informação que eu
+	te dei?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1072,9 +1080,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	The school nurse
-	keeps her records
-	in this PC
+	A enfermeira da es-
+	cola registra tudo
+	neste computador.
 	"""
 	keyWait
 	end
@@ -1088,8 +1096,9 @@ script 221 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	You check the
-	medicine cabinet
+	Você confere a
+	estante de
+	remédios...
 	"""
 	keyWait
 	clearMsg
@@ -1106,8 +1115,8 @@ script 221 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1116,7 +1125,9 @@ script 221 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -1128,8 +1139,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Looks like there's
-	nothing else
+	Não parece ter mais
+	nada aqui.
 	"""
 	keyWait
 	end
@@ -1139,9 +1150,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	The bed is slightly
-	warm,as if someone
-	had been laying here
+	A cama tá quentinha.
+	Como se alguém ti-
+	vesse deitado nela.
 	"""
 	keyWait
 	end

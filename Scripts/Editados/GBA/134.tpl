@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're in 5th grade
-	right? Hurry up and
-	get upstairs!
+	Você é do 5o. ano,
+	né? Vamos,suba
+	logo as escadas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Where are the
-	stairs? Right
-	through that door.
+	"Onde ficam as
+	escadas"? Ali,
+	por aquela porta.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's the 1st
-	grader's room!
-	Don't go in there!
+	Essa é a sala do
+	primeiro ano!
+	Não vá aí!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -70,10 +70,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Now this one is
-	locked!
-	"""
+	"Esta tá trancada!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -84,9 +81,9 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	The door is locked!
-	You must destroy the
-	lock program!
+	Está trancada! Tem
+	que destruir o pro-
+	grama da fechadura!
 	"""
 	keyWait
 	end
@@ -96,9 +93,9 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	The door is locked!
-	You must destroy the
-	lock program!
+	Está trancada! Tem
+	que destruir o pro-
+	grama da fechadura!
 	"""
 	keyWait
 	end
@@ -108,9 +105,9 @@ script 7 mmbn1 {
 script 8 mmbn1 {
 	msgOpen
 	"""
-	The door is locked!
-	You must destroy the
-	lock program!
+	Está trancada! Tem
+	que destruir o pro-
+	grama da fechadura!
 	"""
 	keyWait
 	end
@@ -120,9 +117,9 @@ script 8 mmbn1 {
 script 9 mmbn1 {
 	msgOpen
 	"""
-	The door isn't
-	locked but something
-	is holding it shut!
+	A porta não está
+	trancada,mas tem
+	algo predendo ela!
 	"""
 	keyWait
 	end
@@ -137,9 +134,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If we don't do
-	something,the WWW
-	will take us over!
+	Se não fizermos
+	nada,a WWW vai
+	dominar a gente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,8 +153,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The WWW program is
-	starting to work!
+	O programa da WWW
+	tá começando!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -166,7 +163,7 @@ script 11 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Lan! Please hurry!"
+	"Lan! Depressa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -181,7 +178,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"This one opened!"
+	"Esta aqui abriu!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -189,7 +186,10 @@ script 12 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Hurry to the server!"
+	"""
+	Rápido,pro
+	servidor!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -211,9 +211,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The 1st graders are
-	gone. Their classes
-	are finished.
+	Os alunos do primei-
+	ro ano foram embora.
+	As aulas acabaram.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -230,8 +230,7 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See you tomorrow,
-	Lan!
+	Té amanhã,Lan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -256,7 +255,7 @@ script 20 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hurry up!!"
+	"Rápido!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -272,9 +271,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't have time
-	to be playing with
-	1st graders!
+	Você não tem tempo
+	pra brincar com o
+	primeiro ano!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -291,8 +290,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What's wrong? Do
-	you have a fever?
+	O que foi? Está
+	com febre?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -304,7 +303,7 @@ script 22 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -312,7 +311,7 @@ script 22 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -324,8 +323,7 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Then you need to
-	get to class!
+	Então,pra aula!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -342,9 +340,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,you look
-	pretty healthy to
-	me!
+	Olha,você parece
+	bem saudável pra
+	mim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -360,7 +358,7 @@ script 24 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I can see you!"
+	"Eu estou te vendo!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -368,10 +366,7 @@ script 24 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	Hurry up and get
-	to class!
-	"""
+	"Pra aula! Já!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -401,7 +396,7 @@ script 30 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go home!"
+	"Hora de ir pra casa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -411,13 +406,13 @@ script 30 mmbn1 {
 }
 script 31 mmbn1 {
 	msgOpen
-	"The door is locked."
+	"Porta trancada."
 	waitSkip
 		frames = 30
 	"""
 	
-	The 1st graders
-	have gone home
+	Os alunos do 1o.
+	ano já foram embora.
 	"""
 	keyWait
 	end

@@ -12,8 +12,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Pssst...Hey,kid...
-	Wanna see my stash?
+	Psst... Ô,garoto...
+	Quer ver meu acervo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -25,7 +25,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -33,7 +33,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -44,7 +44,7 @@ script 0 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Then bug off!"
+	"Então cai fora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -60,8 +60,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm out of stuff!
-	So scram!!
+	Acabou tudo!
+	Então vaza daqui!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -134,8 +134,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't go on
-	from here.
+	Você não pode
+	prosseguir a partir
+	daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -145,9 +146,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Play around as
-	much as you like,
-	though.
+	Mas fique à vontade
+	para brincar o
+	quanto quiser.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,8 +187,8 @@ script 29 mmbn1s {
 script 30 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -205,8 +206,8 @@ script 30 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -215,7 +216,9 @@ script 30 mmbn1 {
 	printCode
 		buffer = 0
 		code = B
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -285,8 +288,8 @@ script 50 mmbn1 {
 	flagSet
 		flag = 801
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -345,8 +348,8 @@ script 51 mmbn1 {
 	playerAnimate
 		animation = 50
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 1
@@ -355,7 +358,9 @@ script 51 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -390,7 +395,7 @@ script 52 mmbn1 {
 	playerLock
 	playerAnimate
 		animation = 50
-	"MegaMan got "
+	"MegaMan achou "
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -407,8 +412,8 @@ script 52 mmbn1 {
 script 53 mmbn1 {
 	msgOpen
 	"""
-	It was a virus
-	in disguise!
+	Era um vírus
+	disfarçado!
 	"""
 	keyWait
 	clearMsg
@@ -424,8 +429,8 @@ script 54 mmbn1 {
 	flagSet
 		flag = 802
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -460,8 +465,8 @@ script 58 mmbn1 {
 	flagSet
 		flag = 803
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -496,8 +501,8 @@ script 62 mmbn1 {
 	flagSet
 		flag = 804
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg

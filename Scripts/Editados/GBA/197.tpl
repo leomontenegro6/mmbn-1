@@ -16,15 +16,15 @@ script 0 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,the signal
-	remained green!
+	No entanto,o sinal
+	permaneceu verde!
 	"""
 	keyWait
 	end
@@ -34,15 +34,15 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The signal turned
-	red!
+	O sinal ficou
+	vermelho!
 	"""
 	keyWait
 	clearMsg
@@ -61,9 +61,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! You don't
-	need to press the
-	switch now!
+	MegaMan! Não precisa
+	pressionar o
+	interruptor agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -92,15 +92,15 @@ script 3 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,the signal
-	remained green!
+	No entanto,o sinal
+	permaneceu verde!
 	"""
 	keyWait
 	end
@@ -110,15 +110,15 @@ script 3 mmbn1 {
 script 4 mmbn1 {
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The signal turned
-	red!
+	O sinal ficou
+	vermelho!
 	"""
 	keyWait
 	clearMsg
@@ -137,9 +137,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! You don't
-	need to press the
-	switch now!
+	MegaMan! Não precisa
+	pressionar o
+	interruptor agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -172,15 +172,15 @@ script 6 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,the signal
-	remained green!
+	No entanto,o sinal
+	permaneceu verde!
 	"""
 	keyWait
 	end
@@ -190,15 +190,15 @@ script 6 mmbn1 {
 script 7 mmbn1 {
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The signal turned
-	red!
+	O sinal ficou
+	vermelho!
 	"""
 	keyWait
 	clearMsg
@@ -217,9 +217,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! You don't
-	need to press the
-	switch now!
+	MegaMan! Não precisa
+	pressionar o
+	interruptor agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -256,15 +256,15 @@ script 9 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	However,the signal
-	remained green!
+	No entanto,o sinal
+	permaneceu verde!
 	"""
 	keyWait
 	end
@@ -274,15 +274,15 @@ script 9 mmbn1 {
 script 10 mmbn1 {
 	msgOpen
 	"""
-	MegaMan pressed the
-	color switch!
+	MegaMan pressionou o
+	interruptor de cor!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The signal turned
-	red!
+	O sinal ficou
+	vermelho!
 	"""
 	keyWait
 	clearMsg
@@ -301,9 +301,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! You don't
-	need to press the
-	switch now!
+	MegaMan! Não precisa
+	pressionar o
+	interruptor agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -320,9 +320,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,wasn't there
-	another switch
-	before that?
+	MegaMan,não tinha
+	outro interruptor
+	antes desse?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -332,8 +332,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to do them
-	in order!
+	A gente tem que
+	fazer na ordem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -350,9 +350,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The bus is coming!
-	We don't have time
-	to jack out!
+	O ônibus tá vindo!
+	Não dá tempo de
+	desconectar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -367,8 +367,8 @@ script 14 mmbn1s {
 script 15 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -386,8 +386,8 @@ script 15 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -396,7 +396,9 @@ script 15 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -407,8 +409,8 @@ script 15 mmbn1 {
 script 16 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -427,8 +429,8 @@ script 16 mmbn1 {
 			amount = 2400
 		]
 	"""
-	MegaMan got 2400
-	zennys!
+	MegaMan adquiriu
+	2400 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -440,8 +442,8 @@ script 16 mmbn1 {
 script 17 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -459,8 +461,8 @@ script 17 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -469,7 +471,9 @@ script 17 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

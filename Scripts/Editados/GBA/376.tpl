@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,you want
-	to jack out?
+	MegaMan,quer
+	desconectar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -21,7 +21,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -47,7 +47,7 @@ script 1 mmbn1 {
 		delay = 5
 	mugshotAnimate
 		animation = 2
-	"OK! Roger!"
+	"OK! Beleza!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -72,9 +72,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now that we got the
-	Iceblock,let's go a
-	litte farther!
+	Agora que temos o
+	Gelo,bora avançar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -91,9 +90,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan...PET's battery
-	is running low. You
-	can only jack out
+	Lan... A bateria do
+	PET tá acabando. Só
+	dará pra desconectar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,9 +102,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	one more time,so
-	beat the WWW virus
-	first!
+	mais uma vez,então
+	vença o vírus da WWW
+	primeiro!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -122,9 +121,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is no time to
-	jack out! The
-	rocket's launching!
+	Não é hora pra
+	desconectar! O fo-
+	guete tá lançando!
 	"""
 	mugshotAnimate
 		animation = 1

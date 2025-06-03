@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! Let's stop that
-	generator! That'll
-	keep ElecMan from
+	OK! Vamos parar esse
+	gerador! Isso vai
+	impedir o ElecMan de
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	healing! This isn't
-	going to be easy...
+	se curar! Não vai
+	ser fácil...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,7 +30,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"But here goes!"
+	"mas lá vai!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -45,7 +45,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Aaaaaaaaand"
+	"Eeeeee..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -53,7 +53,7 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"stay down!!"
+	"toma!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -68,7 +68,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"W-What!?"
+	"Q-quê?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -77,8 +77,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What have you done
-	to the generator?
+	O que você fez com o
+	gerador?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,9 +97,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Quick!
-	Let's get him while
-	we can!
+	MegaMan! Rápido!
+	Vamos atacar
+	enquanto podemos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,7 +117,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Leave it to me!"
+	"Deixa comigo!"
 	mugshotAnimate
 		animation = 1
 	keyWait

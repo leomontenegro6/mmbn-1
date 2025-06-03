@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You came to ask me
-	about 
+	Então,quer aprender
+	sobre 
 	"""
 	printItem
 		buffer = 0
@@ -24,7 +24,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -32,7 +32,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -44,9 +44,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,then I'll tell
-	you about myself
-	instead.
+	OK,então vou falar
+	de mim mesma.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56,9 +55,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm still only 8
-	years old. I skipped
-	a grade.
+	Bom,eu tenho só
+	8 anos. Pulei uns
+	anos da escola.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -68,9 +67,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My family has some
-	money,and I know
-	all about 
+	Minha família é
+	rica,e eu sei de
+	tudo sobre 
 	"""
 	printItem
 		buffer = 0
@@ -81,12 +80,13 @@ script 0 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
 	"""
-	but I'm not real
-	good at gym class.
+	Mas não sou boa
+	em Educação Física.
+	Fazer o quê,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,14 +103,14 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The NetNavi you have
-	is determined by the
-	
+	Seu NetNavi é
+	determinado pelo
+	seu 
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	" you have."
+	"."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -119,21 +119,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But nobody uses the
-	default settings!
-	You gotta customize!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	If you install an
-	emotion program you
-	can chat with it,
+	Mas ninguém usa a
+	configuração padrão!
+	Tem que customizar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,9 +131,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	or if you collect
-	battle chips,you can
-	become a NetBattler!
+	Instalando um pro-
+	grama de emoção,
+	dá pra conversar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -155,15 +143,27 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I meant to ask you
-	about your 
+	com ele e coletar
+	chips de luta.
+	Ser um NetLutador!
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Eu queria perguntar
+	sobre o seu 
 	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
 	...
-	Never seen that one.
+	Nunca vi um igual.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -173,9 +173,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess that must
-	be an old type. Must
-	suck to be poor.
+	Deve ser um modelo
+	mais antigo. Ah,
+	pobres pobres...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -194,13 +194,13 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -244,8 +244,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I need to get back
-	to studying...
+	Preciso voltar a
+	estudar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -255,8 +255,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm hoping to skip
-	to Jr. High!
+	Planejo pular direto
+	pro Fundamental 2!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -310,9 +310,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you find the
-	boy from B Class?
-	Don't give up!
+	Já achou o menino
+	da turma B? Não?
+	Não desista!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -345,9 +345,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you find the
-	boy from B Class?
-	Don't give up!
+	Já achou o menino
+	da turma B? Não?
+	Não desista!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -364,8 +364,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My family,has about
-	10 cars...
+	Minha família tem
+	10 carros...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -374,10 +374,7 @@ script 26 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Want to hear the
-	rest?
-	"""
+	"Quer ouvir o resto?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -388,7 +385,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -396,7 +393,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -407,7 +404,7 @@ script 26 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Never mind,then."
+	"Tá,né."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -419,8 +416,8 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	One of them was
-	stolen recently!
+	Um deles foi roubado
+	por estes dias!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -430,9 +427,9 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We just bought
-	another one to
-	replace it,though.
+	Mas a gente
+	comprou outro
+	pra substituir.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -455,8 +452,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not bad. Not bad
-	at all...
+	Nada mal.
+	Nada mal mesmo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -495,9 +492,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm collecting
-	antiques! They're
-	just so fashionable.
+	Eu coleciono
+	antiguidades! São
+	tão elegantes.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -507,9 +504,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But I guess you
-	wouldn't understand
-	that...
+	Mas acho que você
+	não entenderia
+	dessas coisas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -550,9 +547,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,thank you for
-	the birthday
-	present!
+	Lan,obrigada pelo
+	presente de
+	aniversário!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -562,9 +559,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please take this
-	as a token of my
-	thanks!
+	Por favor,aceite
+	isto como amostra
+	da minha gratidão!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -590,8 +587,8 @@ script 43 mmbn1 {
 			amount = 10000
 		]
 	"""
-	Lan got
-	10,000 zenny!
+	Lan ganhou 10.000
+	zennys!
 	"""
 	playerFinish
 	playerAnimate
@@ -613,8 +610,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A party? I go to
-	so many of them...
+	Uma festa? Ai,eu
+	vou a tantas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -643,8 +640,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,have you heard
-	about the Undernet?
+	Lan,já ouviu falar
+	da Undernet?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -656,7 +653,7 @@ script 50 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -664,7 +661,7 @@ script 50 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -685,9 +682,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's an underground
-	network. Access is
-	only for criminals.
+	É uma rede do
+	submundo. Só
+	criminosos acessam.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -697,9 +694,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's no control,
-	and it's full of
-	strong viruses.
+	Não tem leis,e é
+	cheia de vírus
+	poderosos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -709,9 +706,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But there are some
-	chips that you can
-	only get there.
+	Mas tem uns chips
+	que só dá pra
+	achar por lá.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -721,9 +718,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll bet that you
-	can access the WWW
-	server from there.
+	Aposto que dá pra
+	acessar o servidor
+	da WWW por lá.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -739,7 +736,7 @@ script 52 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You know everything?"
+	"Já sabe de tudo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -750,7 +747,7 @@ script 52 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -758,7 +755,7 @@ script 52 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -781,7 +778,7 @@ script 53 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Never mind,then."
+	"Tá,né."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -815,8 +812,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's all up to
-	you,now.
+	No fim das contas,
+	tá tudo nas suas
+	mãos...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1305,9 +1303,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Another popular
-	toy. You can jack
-	into some of these
+	Outro brinquedo
+	popular. Dá para
+	conectar nele.
 	"""
 	keyWait
 	end
@@ -1317,8 +1315,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	An antique cupboard
-	filled with china
+	Um velho armário
+	cheio de
+	porcelanato.
 	"""
 	keyWait
 	end
@@ -1328,8 +1327,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	It's filled with
-	small dolls
+	Está cheio de
+	bonequinhas.
 	"""
 	keyWait
 	end
@@ -1339,8 +1338,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	A small desk made
-	to Yai's size
+	Uma pequena mesa,do
+	tamanho perfeito
+	para a Yai.
 	"""
 	keyWait
 	end
@@ -1349,16 +1349,13 @@ script 223 mmbn1 {
 }
 script 224 mmbn1 {
 	msgOpen
-	"""
-	A beautiful
-	telephone
-	"""
+	"Um lindo telefone."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like there's
-	a jack in port
+	Parece ter uma
+	entrada de conexão.
 	"""
 	keyWait
 	end
@@ -1368,9 +1365,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	A very warm-looking
-	down blanket. Must
-	feel great in winter
+	Um edredom muito
+	confortável. Ótimo
+	no inverno,aposto.
 	"""
 	keyWait
 	end
@@ -1380,9 +1377,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	A very strange,
-	scary looking doll.
-	Creepy!
+	Uma boneca muito
+	estranha e assus-
+	tadora. Sinistro!
 	"""
 	keyWait
 	end
@@ -1392,17 +1389,17 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	A portrait of Yai.
-	Not in the best
-	of taste
+	Um retrato da Yai.
+	Não é de muito bom
+	gosto.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There's a jack in
-	port under the
-	portrait
+	Há uma entrada de
+	conexão embaixo do
+	retrato.
 	"""
 	keyWait
 	end
@@ -1412,9 +1409,9 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	A gorgeous mirror.
-	Yai gets ready in
-	the morning here
+	Um lindo luxuoso.
+	A Yai se arruma
+	aqui de manhã.
 	"""
 	keyWait
 	end
@@ -1424,8 +1421,8 @@ script 228 mmbn1 {
 script 229 mmbn1 {
 	msgOpen
 	"""
-	The head of some
-	mysterious animal
+	A cabeça de algum
+	animal misterioso.
 	"""
 	keyWait
 	end

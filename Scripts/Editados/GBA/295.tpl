@@ -7,7 +7,10 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I am sorry,Dr.Froid."
+	"""
+	Me desculpe,
+	Dr. Froid.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25,13 +28,13 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There was nothing
-	we could do...And
-	now my son...
+	Não podíamos fazer
+	nada... Agora,o
+	meu filho... 
 	"""
 	mugshotAnimate
 		animation = 1
-	"*sniff*"
+	"Ngh..."
 	keyWait
 	clearMsg
 		delay = 0
@@ -46,18 +49,15 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No!"
+	"Não!"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	IceMan,
-	read this!
-	"""
+	"IceMan,leia isto!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -73,8 +73,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan gave IceMan
-	the 
+	MegaMan deu a IceMan
+	a 
 	"""
 	printItem
 		buffer = 0
@@ -97,9 +97,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What?
-	...Dr.Froid,this
-	mail...
+	O quê?
+	... Dr. Froid,este
+	e-mail...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -118,9 +118,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh?
-	This mail address is
-	my son's...
+	Hã? Esse é o e-mail
+	do meu filho...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,9 +138,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well?
-	Your son is safe!
-	Do you get it now?
+	Viu?
+	O seu filho tá bem!
+	Entendeu agora?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -160,8 +159,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yes...but,after
-	all I've done...
+	Sim... Mas,depois de
+	tudo o que eu fiz...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -180,9 +179,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have to get the
-	net back up and
-	running!
+	Nós temos que fazer
+	a Rede voltar a
+	funcionar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,9 +200,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You...You're right,
-	kid.
-	...IceMan!
+	Você... Você está
+	certo,garoto.
+	... IceMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -221,7 +220,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yessir!"
+	"Sim,senhor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -237,8 +236,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That should fix the
-	Dentown waterworks!
+	Isso deve consertar
+	o Sistema Hídrico
+	do Distrito Den!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -254,7 +254,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh!?"
+	"Hã?!"
 	mugshotAnimate
 		animation = 1
 	keyWait

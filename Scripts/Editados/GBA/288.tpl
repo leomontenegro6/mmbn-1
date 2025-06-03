@@ -11,12 +11,12 @@ script 0 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Who're you?"
+	"Quem é você?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,7 +31,7 @@ script 1 mmbn1 {
 		mugshot = MegaMan
 		palette = 0
 	msgOpen
-	"!?"
+	"?!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -47,9 +47,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's no waterworks
-	Navi! It must be one
-	of the WWW's!
+	Não é um Navi do
+	Sistema Hídrico!
+	Deve ser da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -65,7 +65,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What are you doing!"
+	"O que está fazendo?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -83,9 +83,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You dare call me
-	one of those WWW
-	lackeys?
+	Como ousa me chamar
+	de lacaio da WWW?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,7 +102,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What is it,ProtoMan?"
+	"O que foi,ProtoMan?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -120,7 +119,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Load Chaud,sir!"
+	"Senhor Chaud!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -137,7 +136,10 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You! From before!"
+	"""
+	Você! É aquele
+	menino de antes!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -154,7 +156,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ah,you again..."
+	"Ah,você de novo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -163,9 +165,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're not an
-	official battler.
-	Are you lost?
+	Você não é um
+	NetLutador Oficial.
+	Está perdido?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,7 +185,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Do I look lost?"
+	"Eu pareço perdido?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -200,7 +202,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Fine...but,"
+	"Sei... enfim."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -209,9 +211,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am an official
-	netbattler,Eugene
-	Chaud!
+	Eu sou Eugene
+	Chaud,NetLutador
+	Oficial!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -230,8 +232,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And this is my
-	NetNavi,ProtoMan!
+	E eu,seu NetNavi,
+	ProtoMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -250,9 +252,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Get in our way,and
-	we'll have to delete
-	you,kid!
+	Se nos atrapalhar,
+	vamos te deletar,
+	garoto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -271,9 +273,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't just
-	delete people who
-	get in your way!
+	Você não pode
+	"deletar" as pessoas
+	só porque sim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -292,9 +294,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can,and easily at
-	that...but I've got
-	work to do!
+	Ah,eu posso. Facil-
+	mente. Mas tenho
+	trabalho a fazer.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -320,7 +322,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sir!"
+	"Sim,senhor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -336,9 +338,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll deal with you
-	later. Watch out for
-	WWW agents,kid...
+	Cuido de você de-
+	pois. Cuidado com
+	a WWW,garoto...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -354,7 +356,7 @@ script 17 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 160
-	"*click*"
+	"Clic!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -371,7 +373,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What an attitude!"
+	"Que cara metido!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -389,9 +391,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Getting mad
-	will just make
-	you thirstier...
+	Lan! Ficar bravo só
+	vai te deixar com
+	mais sede...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -412,7 +414,7 @@ script 20 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"You're right!"
+	"Verdade!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -420,7 +422,7 @@ script 20 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"MegaMan,let's go!"
+	"MegaMan,vamos!"
 	mugshotAnimate
 		animation = 1
 	keyWait

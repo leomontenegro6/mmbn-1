@@ -23,8 +23,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the water
-	filtering area.
+	Esta é a área de
+	filtragem de água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34,9 +34,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water from the pump
-	room is cleaned
-	here.
+	A água da sala das
+	bombas é purificada
+	aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,8 +46,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But no water is
-	being pumped now.
+	Mas agora,não tem
+	nenhuma água
+	sendo bombeada.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,7 +62,7 @@ script 1 mmbn1 {
 		mugshot = Chaud
 		palette = 0
 	msgOpen
-	"(...what's this?)"
+	"(... O que é isso?)"
 	keyWait
 	clearMsg
 		delay = 0
@@ -70,9 +71,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wh... Who are you?
-	I'm busy! Leave me
-	alone!
+	Q... quem é você?
+	Estou ocupado agora!
+	Não me atrapalhe!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +105,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The pump that broke
-	isn't in my area,
-	but I still...
+	A bomba que quebrou
+	não é da minha
+	área,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -146,8 +147,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the water
-	filtering area.
+	Esta é a área de
+	filtragem de água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -157,9 +158,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water from the pump
-	room is cleaned
-	here.
+	A água da sala das
+	bombas é purificada
+	aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -169,8 +170,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See it coming in
-	there?
+	Está vendo ela
+	passando ali?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -187,8 +188,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've improved our
-	maintenance routine!
+	Aprimoramos nossa
+	rotina de
+	manutenção!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -198,8 +200,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No more problems
-	now,I'm sure!
+	Não há mais
+	problemas agora,
+	isso,eu garanto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -240,8 +243,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the water
-	filtering area.
+	Esta é a área de
+	filtragem de água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -251,9 +254,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water from the pump
-	room is cleaned
-	here.
+	A água da sala das
+	bombas é purificada
+	aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -263,8 +266,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See it coming in
-	there?
+	Está vendo ela
+	passando ali?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -281,8 +284,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've improved our
-	maintenance routine!
+	Aprimoramos nossa
+	rotina de
+	manutenção!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -292,8 +296,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No more problems
-	now,I'm sure!
+	Não há mais
+	problemas agora,
+	isso,eu garanto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -319,8 +324,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the water
-	filtering area.
+	Esta é a área de
+	filtragem de água...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -330,9 +335,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water from the pump
-	room is cleaned
-	here.
+	A água da sala das
+	bombas é purificada
+	aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -342,8 +347,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's our job to
-	protect this water!
+	A nossa missão é
+	proteger a água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -360,8 +365,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've improved our
-	maintenance routine!
+	Aprimoramos nossa
+	rotina de
+	manutenção!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -371,8 +377,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The WWW won't get
-	us next time!
+	A WWW não vai nos
+	pegar da próxima
+	vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -382,9 +389,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now if someone
-	would just get rid
-	of them!
+	Se ao menos alguém
+	se livrasse
+	deles...!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -894,9 +901,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know that I don't
-	look like one,but
-	I'm a NetBattler!
+	Sei que não
+	parece,mas sou
+	um NetLutador!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -906,9 +913,8 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There are a few
-	chips that I'm
-	looking for.
+	E estou atrás de
+	certos chips agora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -917,7 +923,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“"
+	"\""
 	printChip
 		buffer = 0
 		chip = 171
@@ -926,8 +932,8 @@ script 190 mmbn1 {
 		buffer = 0
 		code = W
 	"""
-	“,
-	“
+	",
+	"
 	"""
 	printChip
 		buffer = 0
@@ -937,8 +943,8 @@ script 190 mmbn1 {
 		buffer = 0
 		code = S
 	"""
-	“,
-	“
+	",
+	"
 	"""
 	printChip
 		buffer = 0
@@ -947,7 +953,7 @@ script 190 mmbn1 {
 	printCode
 		buffer = 0
 		code = S
-	"“,"
+	"\","
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -955,7 +961,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“"
+	"\""
 	printChip
 		buffer = 0
 		chip = 137
@@ -964,8 +970,8 @@ script 190 mmbn1 {
 		buffer = 0
 		code = B
 	"""
-	“ and
-	“
+	" e
+	"
 	"""
 	printChip
 		buffer = 0
@@ -974,7 +980,7 @@ script 190 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“"
+	"\"."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -983,9 +989,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you give me those
-	chips,I'll give you
-	a top secret one!
+	Se me arranjar esses
+	chips,troco por um
+	ultrassecreto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -994,7 +1000,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"What do you say?"
+	"O que me diz?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1007,7 +1013,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Trade\n"
+	"Trocar\n"
 	option
 		left = 1
 		right = 1
@@ -1015,7 +1021,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No trade!"
+	"Não trocar!"
 	select
 		default = 0
 		disableB = false
@@ -1037,9 +1043,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,I guess a
-	little kid wouldn't
-	have chips
+	É,acho que seria
+	impossível uma
+	criança ter um
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1048,7 +1054,7 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"like that."
+	"chip desses."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1101,9 +1107,9 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Fantastic! Thanks!
-	These will help with
-	those nasty viruses!
+	Fantástico! Obriga-
+	do! Agora dou conta
+	daqueles vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1113,9 +1119,9 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK... Now don't tell
-	anyone that I gave
-	you this!!
+	OK... Só não conta
+	pra ninguém que eu
+	te dei isto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1169,8 +1175,8 @@ script 192 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1179,7 +1185,9 @@ script 192 mmbn1 {
 	printCode
 		buffer = 0
 		code = B
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -1197,9 +1205,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,this is a top
-	secret chip. I can't
-	give it away.
+	Desculpa,é um chip
+	ultrassecreto. Não
+	posso dar de graça.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1208,7 +1216,7 @@ script 193 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“"
+	"\""
 	printChip
 		buffer = 0
 		chip = 171
@@ -1217,8 +1225,8 @@ script 193 mmbn1 {
 		buffer = 0
 		code = W
 	"""
-	“
-	“
+	",
+	"
 	"""
 	printChip
 		buffer = 0
@@ -1228,8 +1236,8 @@ script 193 mmbn1 {
 		buffer = 0
 		code = S
 	"""
-	“
-	“
+	",
+	"
 	"""
 	printChip
 		buffer = 0
@@ -1238,7 +1246,7 @@ script 193 mmbn1 {
 	printCode
 		buffer = 0
 		code = S
-	"“"
+	"\""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1246,7 +1254,7 @@ script 193 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“"
+	"\""
 	printChip
 		buffer = 0
 		chip = 137
@@ -1255,8 +1263,8 @@ script 193 mmbn1 {
 		buffer = 0
 		code = B
 	"""
-	“
-	“
+	" e
+	"
 	"""
 	printChip
 		buffer = 0
@@ -1266,8 +1274,8 @@ script 193 mmbn1 {
 		buffer = 0
 		code = C
 	"""
-	“
-	are what I need.
+	". Quero
+	esses em troca.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1276,7 +1284,7 @@ script 193 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Sorry,kid..."
+	"Foi mal,garoto...\n"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1285,21 +1293,8 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	By the way,they
-	wouldn't be in your
-	folder,would they?
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	You know that you
-	can't trade chips
-	from your folder.
+	Enfim,será que não
+	estão na sua pasta?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1309,9 +1304,21 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If they aren't there
-	either,well,maybe
-	some other time.
+	Sabe que não pode
+	trocar chips em
+	pastas,né?
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	E se não estão em
+	uma... Bom,talvez
+	outra hora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1328,9 +1335,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I still haven't
-	gotten a chance to
-	use those chips!
+	Ainda não tive a
+	chance de usar os
+	chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1417,8 +1424,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	The door is locked
-	and won't open
+	A porta está
+	trancada.
 	"""
 	keyWait
 	end

@@ -8,8 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have to buy a
-	fix program!
+	Precisamos comprar
+	um programa de
+	conserto,agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,9 +28,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's only 1,000,000
-	zenny this time!
-	Cheap!
+	Sai só 1.000.000 de
+	zennys desta vez!
+	Bem em conta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,7 +47,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's hurry!"
+	"Vamos rápido!"
 	mugshotAnimate
 		animation = 1
 	clearMsg
@@ -63,9 +64,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Those WWW meanies!
-	Kicking people when
-	they're down!
+	Esses cretinos da
+	WWW! Passando a 
+	perna em todo mundo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,9 +85,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I bet it's their
-	virus bugging the
-	traffic lights!
+	É o vírus DELES
+	que tá bugando
+	os semáforos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -105,9 +106,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think so,too!
-	Let's delete that
-	traffic virus!
+	Também acho! Bora
+	deletar os vírus
+	dos semáforos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,8 +118,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!
-	I'm jacking in!
+	MegaMan! Hora
+	de conectar!
 	"""
 	mugshotAnimate
 		animation = 1

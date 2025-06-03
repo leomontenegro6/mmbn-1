@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! You're late!"
+	"Lan! Tá atrasado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh-oh"
+	"Eita"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -33,7 +33,10 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Mayl looks grumpy..."
+	"""
+	A Mayl parece
+	brava...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -51,8 +54,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No one asked you
-	to wait for me...
+	Ninguém te pediu
+	pra me esperar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -71,9 +74,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hm? Did you just
-	say something?
-	C'mon!
+	Hm? Disse alguma
+	coisa? 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -81,7 +83,10 @@ script 3 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" Let's go!"
+	"""
+	Enfim,
+	vamos!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -99,9 +104,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why do we always
-	have to walk to
-	school together?
+	Por que a gente
+	sempre tem que ir
+	pra escola juntos?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -120,9 +125,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Silly! Because we've
-	always got so much
-	to talk about!
+	Ué? Porque a gente
+	sempre tem muito
+	papo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141,9 +146,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	She means SHE's got
-	a lot to talk about.
-	You just listen...
+	Tradução: ELA tem
+	muito papo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -161,7 +165,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Quiet!"
+	"Shh!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -180,8 +184,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Have you heard about
-	the oven accidents?
+	Ficou sabendo dos
+	acidentes dos
+	fogões?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -190,9 +195,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	People's ovens have
-	been spitting fire
-	all of a sudden!
+	Os fogões das pes-
+	soas andam pegando
+	fogo do nada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -226,9 +231,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I bet it's another
-	WWW virus on the
-	loose!
+	Aposto que é outro
+	vírus da WWW à
+	solta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -245,10 +250,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	You're just
-	imagining things...
-	"""
+	"Você tá viajando..."
 	mugshotAnimate
 		animation = 1
 	wait
@@ -264,7 +266,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Maybe"
+	"Talvez"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -274,8 +276,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,here we are!
-	Let's get to class!
+	Bem,chegamos!
+	Vamos pra sala!
 	"""
 	mugshotAnimate
 		animation = 1

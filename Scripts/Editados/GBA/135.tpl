@@ -9,7 +9,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan don't leave now!"
+	"Lan,não sai agora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,9 +31,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's the teacher's
-	lounge! Your class
-	is that way!
+	Essa é a sala dos
+	professores! A sua
+	sala é por ali!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -58,7 +58,7 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Stop that!"
+	"Para com isso!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -78,9 +78,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	Check your mail
-	again!
+	Lan! Veja seus
+	e-mails de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,7 +93,7 @@ script 4 mmbn1s {
 }
 script 5 mmbn1 {
 	msgOpen
-	"You can't leave now!"
+	"Não saia agora!"
 	keyWait
 	end
 		delay = 5
@@ -165,9 +164,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's not many
-	people here now,cuz
-	the school closed!
+	Está vazio aqui...
+	porque a escola
+	tá fechada!
 	"""
 	mugshotAnimate
 		animation = 1

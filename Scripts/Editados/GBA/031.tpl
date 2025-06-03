@@ -696,9 +696,9 @@ script 225 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's ask Dad about
-	the expiration date
-	on the pass!
+	Pergunte ao seu pai
+	sobre a data de ex-
+	piração do tíquete.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -719,8 +719,8 @@ script 226 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go!
-	To the WWW labs!
+	Vamos lá! Pro
+	laboratório da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -737,9 +737,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wanna' improve our
-	equipment? When
-	you're done,
+	Quer melhorar nosso
+	equipamento? Quando
+	estiver pronto,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -749,8 +749,8 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	let's get going to
-	the WWW labs!
+	vamos seguir pro
+	laboratório da WWW!
 	"""
 	mugshotAnimate
 		animation = 1

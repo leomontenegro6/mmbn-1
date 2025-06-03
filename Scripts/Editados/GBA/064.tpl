@@ -43,8 +43,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the 1st
-	floor net!
+	Este é o primeiro
+	andar da Rede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,9 +54,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The teacher's
-	lounge server
-	must be close!
+	O servidor dos pro-
+	fessores deve estar
+	perto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,9 +85,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

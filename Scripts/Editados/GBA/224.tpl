@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our job is to
-	control the
-	purified water.
+	O nosso trabalho é
+	controlar a
+	purificação da água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Water is the source
-	of life! Please
-	don't waste it!
+	A água é a fonte da
+	vida!
+	Não desperdice!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We work hard so
-	that you can
-	drink clean water!
+	Trabalhamos duro pra
+	que vocês possam
+	beber água limpa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53,8 +53,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -72,8 +72,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -82,7 +82,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = L
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -95,8 +97,8 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -115,8 +117,8 @@ script 3 mmbn1 {
 			amount = 3000
 		]
 	"""
-	MegaMan got 3000
-	zennys!
+	MegaMan adquiriu
+	3000 zennys!
 	"""
 	playerFinish
 	playerAnimate

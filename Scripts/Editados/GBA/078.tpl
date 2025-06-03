@@ -488,8 +488,9 @@ script 155 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! Change all
-	the signals to red!
+	MegaMan! Muda todos
+	os sinais pra
+	vermelho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -533,9 +534,9 @@ script 165 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

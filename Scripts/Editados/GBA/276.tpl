@@ -7,10 +7,14 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gok..Gokgok."
+	"Goc.. Gocgoc."
 	mugshotAnimate
 		animation = 1
-	"\n(Out of my way...)"
+	"""
+	
+	(Saia do meu
+	caminho...)
+	"""
 	keyWait
 	clearMsg
 		delay = 5
@@ -26,8 +30,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What do you think
-	you're doing?
+	O que pensa que tá
+	fazendo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,23 +49,25 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gokgok!"
+	"Gocgoc!\n"
 	mugshotAnimate
 		animation = 1
 	"""
-	 (Blocking
-	the Metroline
-	security program!)
+	(Barrando a seguran-
+	ça da Metrolinha!)
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Gok..\n"
+	"Goc..\n"
 	mugshotAnimate
 		animation = 1
-	"(So the Metroline\n won't open!)"
+	"""
+	(Assim,a Metrolinha
+	não vai abrir!)
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -79,9 +85,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why would you want
-	to do a thing like
-	that?
+	Mas por que você ia
+	querer fazer uma
+	coisa dessas?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -99,10 +105,14 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gokgok Gokgok!"
+	"Gocgoc Gocgoc!"
 	mugshotAnimate
 		animation = 1
-	"\n(To control the \n net!)"
+	"""
+	
+	(Para controlar
+	a Rede!)
+	"""
 	keyWait
 	clearMsg
 		delay = 5
@@ -118,9 +128,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not another WWW
-	croney! Get those
-	rocks outta there!
+	Mais um capanga da
+	WWW! Tira essas
+	pedras daí!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,13 +148,12 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gok! "
+	"Goc!\n"
 	mugshotAnimate
 		animation = 1
 	"""
-	(StoneMan must
-	delete all programs
-	that interfere...)
+	(StoneMan deletará
+	quem interferir...)
 	"""
 	keyWait
 	clearMsg
@@ -161,9 +170,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're the one who's
-	going to be deleted!
-	Lan!!
+	Você que vai ser
+	deletado! Lan!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -182,8 +190,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go,MegaMan!
-	Battle routine,set!!
+	Bora,MegaMan!
+	Rotina de batalha,
+	preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -201,7 +210,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

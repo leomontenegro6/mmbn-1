@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! The door to the
-	power room should be
-	open now!
+	Lan! A porta pra
+	sala de energia deve
+	ter se aberto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Quick! Go get that
-	generator running!
+	Rápido! Vai lá e
+	ativa aquele
+	gerador!
 	"""
 	mugshotAnimate
 		animation = 1

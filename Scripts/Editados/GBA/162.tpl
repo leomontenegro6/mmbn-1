@@ -18,9 +18,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The underground
-	passages make it
-	easy to cross the
+	As passagens sub-
+	terrâneas facili-
+	tam a travessia
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,9 +30,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	street,but they're
-	very tiring for us
-	older folks...
+	da rua,mas são
+	cansativas demais
+	para nós,idosos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +48,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Where's my mommy?"
+	"Cadê a mamãe?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -69,9 +69,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you get lost,
-	just look at the
-	signs on the bus
+	Se você se perder,
+	basta olhar para
+	as placas
 	"""
 	mugshotAnimate
 		animation = 1
@@ -81,8 +81,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	stops. That's what
-	I always do!
+	dos pontos de
+	ônibus. É o que
+	eu faço!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -93,13 +94,13 @@ script 2 mmbn1 {
 }
 script 3 mmbn1 {
 	msgOpen
-	"A bus stop..."
+	"Um ponto de ônibus."
 	waitSkip
 		frames = 30
 	"""
 	
-	It says “Dentown,
-	Block2“
+	Na placa: "Distrito
+	Den,Bloco 2".
 	"""
 	keyWait
 	end
@@ -114,9 +115,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't think we're
-	allowed to jack in
-	to that,Lan.
+	Acho que não podemos
+	nos conectar aí,
+	Lan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -150,13 +151,13 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -174,8 +175,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,this is so
-	terrible!
+	Ah,isso é
+	simplesmente
+	terrível!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -185,9 +187,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I hope that those
-	people on the bus
-	are safe!
+	Espero que as
+	pessoas no ônibus
+	estejam bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,9 +206,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	During the first
-	accident,I almost
-	got hit by a car!
+	Durante o primeiro
+	acidente,quase
+	fui atropelada
 	"""
 	mugshotAnimate
 		animation = 1
@@ -216,8 +218,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I thought that I
-	was gonna die!
+	por um carro!
+	Achei que fosse
+	morrer!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -300,9 +303,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The underground
-	passages make it
-	easy to cross the
+	As passagens sub-
+	terrâneas facili-
+	tam a travessia
 	"""
 	mugshotAnimate
 		animation = 1
@@ -312,9 +315,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	street,but they're
-	very tiring to us
-	older folks...
+	da rua,mas são
+	cansativas demais
+	para nós,idosos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -330,7 +333,7 @@ script 36 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Where's my mommy?"
+	"Cadê a mamãe?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -351,9 +354,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	After a while you'll
-	know what Block
-	you're in
+	Depois de um
+	tempo,você saberá
+	em que bloco está
 	"""
 	mugshotAnimate
 		animation = 1
@@ -363,8 +366,8 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	just by looking at
-	the scenery.
+	só olhando para a
+	paisagem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -386,7 +389,7 @@ script 40 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"How do I feel?"
+	"Como eu me sinto?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -395,8 +398,8 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,about the worst
-	that I ever have...
+	Ah,pior,
+	impossível...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -945,16 +948,17 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Antiques shop now
-	open!
+	A loja de
+	antiguidades está
+	aberta!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Come discover the
-	true beauty of
-	antiques!
+	Venha descobrir a
+	verdadeira beleza
+	das antiguidades!
 	"""
 	keyWait
 	end
@@ -964,16 +968,16 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	A fast food
-	restaurant
+	Um restaurante
+	fast food.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Watching people eat
-	is somehow
-	embarrassing
+	Ver as pessoas
+	comendo é bem
+	constrangedor.
 	"""
 	keyWait
 	end
@@ -983,8 +987,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	You can't jack in
-	to this signal
+	Não é possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end
@@ -1003,16 +1008,16 @@ script 223 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	This signal has a
-	jack in port
+	Este semáforo tem
+	entrada de conexão.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You don't have any
-	reason to jack in
-	now,though
+	Mas você não tem
+	por que se conectar
+	agora.
 	"""
 	keyWait
 	end
@@ -1022,8 +1027,8 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	This signal has a
-	jack in port
+	Este semáforo tem
+	entrada de conexão.
 	"""
 	keyWait
 	end

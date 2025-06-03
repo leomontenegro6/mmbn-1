@@ -21,8 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A TV you can jack in
-	to! Cool!
+	Uma TV em que dá
+	pra se conectar!
+	Que da hora!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our address...
-	It looks like the
-	SciLab has got it.
+	O nosso endereço...
+	Parece que o SciLab
+	o encontrou.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42,9 +42,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our secret lab will
-	be discovered in
-	no time!
+	Nosso laboratório
+	secreto logo será
+	invadido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,7 +62,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"...no matter!"
+	"... Não importa!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -70,13 +70,13 @@ script 3 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Hee,"
+	"Hi,"
 	waitSkip
 		frames = 10
-	"hee,"
+	"hi,"
 	waitSkip
 		frames = 10
-	"hee"
+	"hi"
 	waitSkip
 		frames = 10
 	"..."
@@ -109,7 +109,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Because..."
+	"Porque..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -118,8 +118,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've already made
-	the LifeVirus!!
+	eu já criei o
+	LifeVirus!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -129,8 +129,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now we can delete,
-	DELETE,
+	Agora podemos
+	deletar,DELETAR,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,7 +139,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"DELEEEEEEEEEETE!!!!"
+	"DELEEEEEEEEEETAR!!!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -155,9 +155,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You mean...the
-	EndGame is about
-	to begin?
+	O senhor quer di-
+	zer... que a Fase
+	Final irá começar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -175,14 +175,14 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hah hah!"
+	"Ha ha! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" Of course!"
+	"Mas é claro!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -191,8 +191,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The final battle
-	at last!
+	É enfim chegada a
+	batalha final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -209,7 +209,7 @@ script 7 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Come with me!"
+	"Venha comigo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -227,8 +227,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	As you command,
-	so shall it be done!
+	Seu desejo é uma
+	ordem,milorde!
 	"""
 	mugshotAnimate
 		animation = 1

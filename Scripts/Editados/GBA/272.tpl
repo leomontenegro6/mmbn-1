@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ugah-ah-ah..."
+	"Ungh-ah-ah..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25,8 +25,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	See! You've been
-	wrong all along!
+	Viu?! Você tava
+	errado o tempo todo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,7 +44,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Gwagoogoo..."
+	"Buyoyoyoyo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -62,9 +62,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's see you and
-	your rare chips,
-	now!
+	Chama os seus chips
+	raros agora,vai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,7 +79,7 @@ script 4 mmbn1 {
 		mugshot = Higsby
 		palette = 0
 	msgOpen
-	"*sniff* *sniff*"
+	"Snif... Chuif!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -96,8 +95,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I think he gets
-	it now...
+	Lan,acho que você
+	exagerou... Ele
+	já entendeu...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -115,7 +115,10 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm right,aren't I?"
+	"""
+	Talvez... Mas é
+	verdade,né?!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -130,10 +133,10 @@ script 7 mmbn1 {
 		mugshot = Higsby
 		palette = 0
 	msgOpen
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"It's true!"
+	"É verdade,é!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -141,7 +144,7 @@ script 7 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Lan is right!"
+	"O Lan tá certo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -150,22 +153,22 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I should collect
-	chips by busting
-	viruses...
+	Eu devia coletar
+	chips deletando
+	vírus... 
 	"""
 	mugshotAnimate
 		animation = 1
-	"*snort*"
+	"Ronc!"
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll be good now,
-	I promise. Trade
-	chips sometime?
+	Mas prometo melhorar
+	agora. Quer trocar
+	chips um dia?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -183,10 +186,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Sure! Why not?
-	But...
-	"""
+	"Talvez... Mas..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -195,8 +195,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You do have to pay
-	for your crimes...
+	Você precisa pagar
+	pelos crimes...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -205,18 +205,18 @@ script 8 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So"
+	"Então"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	You better
-	do something to help
-	everyone out,okay?
+	Melhor
+	fazer algo pra aju-
+	dar todo mundo,tá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -235,9 +235,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Restart the
-	server and put the
-	net back to normal!
+	Lan! Reinicia o
+	servidor pra Rede
+	voltar ao normal!
 	"""
 	mugshotAnimate
 		animation = 1

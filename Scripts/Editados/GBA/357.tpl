@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! There's got
-	to be a program
-	locking this door!
+	MegaMan! A porta
+	deve ser barrada
+	por um programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,8 +20,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Find it and delete
-	it!
+	Encontra e deleta
+	o negócio!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,7 +39,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!"
+	"É pra já!"
 	mugshotAnimate
 		animation = 1
 	keyWait

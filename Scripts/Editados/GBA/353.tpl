@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh?
-	Did you just hear
-	Mayl's voice?
+	Ué? Ei,você ouviu
+	a voz da Mayl?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +28,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? I think you're
-	hearing things...
+	Hã? Acho que tá
+	ouvindo coisas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,7 +38,7 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Hey,we found it!"
+	"Ah,aqui está!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57,8 +56,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This sure does look
-	like the WWW's...
+	Isso definitivamente
+	parece ser a...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,9 +76,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Secret Metroline!
-	We can get to the
-	lab from here!
+	... Metrolinha se-
+	creta! Podemos ir ao
+	laboratório daqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -98,8 +97,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,but our pass
-	is out of date,
+	É,mas o nosso
+	tíquete tá vencido,
 	Lan...
 	"""
 	mugshotAnimate
@@ -119,8 +118,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's give it a
-	try,anyway!
+	Ah,bora tentar
+	mesmo assim!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -137,9 +136,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nope,no good...
-	Maybe we should ask
-	your dad?
+	Não deu certo...
+	Que tal perguntarmos
+	pro seu pai?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -155,17 +154,16 @@ script 7 mmbn1 {
 	msgOpen
 	flagSet
 		flag = 116
-	"Intruder alert!"
+	"Alerta de intruso!\n"
 	waitSkip
 		frames = 30
 	"""
-	
-	Leave the premises
-	at once!
+	Deixe as instalações
+	agora! 
 	"""
 	waitSkip
 		frames = 30
-	" Leave!"
+	"Agora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -182,7 +180,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh-oh!"
+	"Eita!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -200,8 +198,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's get out of
-	here,quick!
+	Vamos sair daqui,
+	rápido!
 	"""
 	mugshotAnimate
 		animation = 1

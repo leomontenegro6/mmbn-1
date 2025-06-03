@@ -52,16 +52,16 @@ script 15 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	The computer's
-	memory is full,so
-	it has frozen up.
+	A memória do compu-
+	tador está cheia.
+	Ele trava.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Do you want to
-	try to restart it?
+	Quer tentar
+	reniciar? 
 	
 	"""
 	option
@@ -71,7 +71,7 @@ script 15 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -79,7 +79,7 @@ script 15 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -88,7 +88,7 @@ script 15 mmbn1 {
 			jump = 16,
 			jump = continue
 		]
-	"You leave it alone."
+	"Você o deixa quieto."
 	keyWait
 	msgClose
 	flagSet
@@ -100,8 +100,8 @@ script 15 mmbn1 {
 script 16 mmbn1 {
 	msgOpen
 	"""
-	The computer is
-	fixed!
+	O computador foi
+	consertado!
 	"""
 	keyWait
 	msgClose
@@ -121,13 +121,13 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -671,9 +671,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I know how to
-	modify battle chips!
-	Pretty cool,huh?
+	Eu sei modificar
+	chips! Muito
+	maneiro,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -683,9 +683,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm modifying one
-	now,so please don't
-	disturb me.
+	Tô modificando um
+	agora. Não me in-
+	terrompa,por favor.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -706,8 +706,8 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What do you want
-	now!?
+	O que você quer
+	agora?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -717,8 +717,8 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,wait I've got a
-	good idea!
+	Ah,tive uma
+	ótima ideia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -728,9 +728,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There's some chips
-	that I need some
-	data from.
+	Eu tô precisando
+	dos dados de uns
+	chips aí.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -739,7 +739,7 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"If you give me 30\n"
+	"Me dê 30 chips\n"
 	printChip
 		buffer = 0
 		chip = 34
@@ -747,7 +747,7 @@ script 191 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"\nchips,"
+	","
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -756,9 +756,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll give you an
-	original custom
-	chip!
+	e eu te dou um chip
+	original totalmente
+	customizado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -767,7 +767,7 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"What do you say?"
+	"Que tal?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -780,7 +780,7 @@ script 191 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"Claro! "
 	option
 		left = 0
 		right = 0
@@ -788,7 +788,7 @@ script 191 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No way!\n"
+	"Não!\n"
 	select
 		default = 0
 		disableB = false
@@ -825,8 +825,8 @@ script 192 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,well.
-	Suit yourself.
+	Tá bom,né?
+	Como quiser.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -849,9 +849,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks! Now I can
-	make a new original
-	chip!
+	Valeu! Agora posso
+	fazer um novo chip
+	original!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -861,9 +861,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It will take some
-	time,so come back
-	later.
+	Isso deve levar um
+	tempo,então volte
+	depois.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -882,9 +882,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I finished the chip!
-	I'm such a genius.
-	Here you go!
+	Eu terminei o chip!
+	Sou um gênio,mesmo.
+	Aqui está ele!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -903,8 +903,8 @@ script 194 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -913,7 +913,9 @@ script 194 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -929,7 +931,10 @@ script 195 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry,I need 30\n"
+	"""
+	Foi mal,mas preciso
+	de 30 
+	"""
 	printChip
 		buffer = 0
 		chip = 34
@@ -937,7 +942,7 @@ script 195 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"\nchips."
+	"\ns."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -946,20 +951,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe you have some
-	in your chip folder?
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	You can't trade
-	chips that are in
-	your chip folder!
+	Talvez você tenha
+	alguns na sua
+	pasta...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -969,9 +963,9 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All you have to do
-	is take them out of
-	your chip folder.
+	Não dá pra trocar
+	chips que estão na
+	sua pasta de chips!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -981,9 +975,20 @@ script 195 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't have 30
-	chips yet,you'll
-	have to go get more!
+	É só tirar ele
+	de lá primeiro.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Se cê não tiver 30
+	chips ainda,vai
+	ter que ir atrás!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1000,8 +1005,8 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder what I should
-	make next...
+	Qual será o próximo
+	que eu faço...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1081,13 +1086,13 @@ script 219 mmbn1s {
 }
 script 220 mmbn1 {
 	msgOpen
-	"Prevention first!"
+	"Prevenção sempre!"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Perform a virus
-	check once a week!
+	Escaneeie vírus
+	uma vez por semana!
 	"""
 	keyWait
 	end
@@ -1096,7 +1101,7 @@ script 220 mmbn1 {
 }
 script 221 mmbn1 {
 	msgOpen
-	"The power is off"
+	"Está desligado."
 	keyWait
 	end
 		delay = 5
@@ -1109,9 +1114,9 @@ script 222 mmbn1 {
 		jumpIfFalse = 225
 	msgOpen
 	"""
-	Nobody uses the AV
-	room much,so the
-	desks are very clean
+	Como é raro usarem
+	a sala AV,as mesas
+	estão bem limpas.
 	"""
 	keyWait
 	end
@@ -1121,9 +1126,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	There are cleaning
-	supplies in here.
-	Smells pretty bad
+	Tem material de
+	limpeza aqui. O
+	cheiro é horrível!
 	"""
 	keyWait
 	end
@@ -1143,8 +1148,8 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	There's something
-	on the table...
+	Tem alguma coisa
+	na mesa...
 	"""
 	keyWait
 	clearMsg
@@ -1161,8 +1166,8 @@ script 225 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -1171,7 +1176,9 @@ script 225 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -1192,16 +1199,16 @@ script 226 mmbn1 {
 		jumpIfFalse = 228
 	msgOpen
 	"""
-	A WWW re-education
-	program is playing!
-	Pretty scary stuff!
+	O programa de reedu-
+	cação da WWW está
+	ativo! Que medo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here!
+	Parece que dá para
+	se conectar aqui!
 	"""
 	keyWait
 	end
@@ -1211,15 +1218,15 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	Nothing is being
-	displayed
+	Nada aparece na
+	tela.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here
+	Parece que dá para
+	se conectar aqui.
 	"""
 	keyWait
 	end
@@ -1229,8 +1236,8 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	Nothing is being
-	displayed
+	Nada aparece na
+	tela.
 	"""
 	keyWait
 	end

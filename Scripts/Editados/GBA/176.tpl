@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go,huh!"
+	"Vamos lá,é!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25,9 +25,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nah,I'm used to
-	this! Don't worry
-	about me!
+	Não,eu tô acostuma-
+	do a isso! Não se
+	preocupe comigo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43,7 +43,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Keep it up!"
+	"Não desistam!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -52,9 +52,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't let the WWW
-	get the best of
-	you!!
+	Não deixem a WWW
+	levar a melhor
+	sobre vocês!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -71,14 +71,17 @@ script 4 mmbn1s {
 }
 script 5 mmbn1 {
 	msgOpen
-	"It's securely locked"
+	"""
+	Está firmemente
+	trancada.
+	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	There seems to be a
-	jack in port here,
-	though...
+	Parece haver uma
+	entrada de conexão
+	aqui.
 	"""
 	keyWait
 	clearMsg
@@ -95,9 +98,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	I'll disable the
-	lock!
+	Lan! Vou abrir a
+	tranca!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -116,13 +118,13 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -147,9 +149,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Mayl told me to
-	give this to
-	you...
+	A Mayl me disse pra
+	te dar isto aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -174,8 +175,8 @@ script 9 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -184,7 +185,9 @@ script 9 mmbn1 {
 	printCode
 		buffer = 0
 		code = R
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -203,8 +206,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't lose it,
-	now!
+	Não vá perder,
+	hein!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -221,8 +224,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't forget that
-	we're helping,too!
+	Não esquece que a
+	gente tá ajudando
+	também!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -263,8 +267,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,do you want
-	to challenge Higs?
+	Lan,desafiar Higsby
+	pra uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -276,7 +280,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -284,7 +288,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -309,9 +313,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Collecting rare
-	chips ain't easy,
-	huh!
+	Coletar chips raros
+	não é mole,não! É!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -331,9 +334,9 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's right,huh!
-	You gotta hurry on,
-	huh!
+	É isso aí!
+	Você tem que se
+	apressar,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -350,9 +353,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm practicing,huh!
-	You gotta gimme
-	some time,huh!
+	Eu estou treinando,
+	é! Me dê mais um
+	tempo,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -369,9 +372,9 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Defeat is a result
-	of lack of skill,not
-	lack of chips,huh!
+	A derrota provém de
+	falta de habilidade,
+	não de chips,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -388,8 +391,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Are you using the
-	right chips,huh?
+	Você está usando
+	seus chips direito?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -399,8 +402,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Think you should
-	recheck that,huh?
+	Talvez devesse dar
+	outra conferida
+	nisso,é.
 	"""
 	mugshotAnimate
 		animation = 1

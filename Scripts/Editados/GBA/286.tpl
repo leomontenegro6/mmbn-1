@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey!"
+	"Ei!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -20,7 +20,7 @@ script 1 mmbn1 {
 		mugshot = MegaMan
 		palette = 0
 	msgOpen
-	"*gulp!*"
+	"Ah!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -47,8 +47,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What do you think
-	you're doing here?
+	O que pensa que está
+	fazendo aqui?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -66,7 +66,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh-oh..."
+	"Ai..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -83,7 +83,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Umm"
+	"Errr"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -92,7 +92,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"I,uh,got lost..."
+	"Eu,er,me perdi..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -110,9 +110,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I see. Well,you're
-	not supposed to be
-	in here.
+	Sei. Bem,não é pra
+	ninguém estar aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -121,7 +120,7 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So"
+	"Então"
 	mugshotAnimate
 		animation = 1
 	"."
@@ -130,14 +129,14 @@ script 6 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"..."
+	".\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Go home!
-	Got it?
+	Vai pra casa!
+	Ouviu?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -155,7 +154,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Y-Yes!"
+	"T-Tá!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -173,9 +172,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good! Now go home
-	like a good little
-	boy.
+	Ótimo! Bom,seja
+	um bom menino,
+	então...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -208,7 +207,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Well? We going home?"
+	"E aí? Vamos embora?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -226,8 +225,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You kidding?
-	Let's do it!
+	Tá brincando?
+	Vamos é em frente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239,13 +238,13 @@ script 11 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait

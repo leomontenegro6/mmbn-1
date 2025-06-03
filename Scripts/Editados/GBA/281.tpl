@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,the pond!"
+	"Ei,a fonte!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What if there's no
-	water at school?
+	Será que a escola
+	também tá sem água?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,7 +35,10 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh no! I hope not!"
+	"""
+	Ai,não!
+	Espero que tenha!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -53,9 +56,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,maybe it's just
-	this neighborhood or
-	something...
+	Bem,talvez seja
+	só por esta área,
+	sei lá...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,9 +77,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm worried...
-	I'm going to go
-	check!
+	Eu tô preocupada...
+	Vou dar uma olhada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -92,7 +94,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"So thirsty..."
+	"Que sede..."
 	mugshotAnimate
 		animation = 1
 	keyWait

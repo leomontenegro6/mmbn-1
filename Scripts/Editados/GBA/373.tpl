@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's have a
-	demonstration on how
-	to delete viruses.
+	OK,hora de uma
+	demonstração de como
+	deletar vírus.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When fighting,you
-	must first send chip
-	data to your Navi.
+	Ao lutar,você deve
+	primeiro mandar
+	chips ao seu Navi.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -56,9 +56,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You choose the chips
-	to send in this
-	window.
+	Você escolhe os
+	chips para enviar
+	nesta janela aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,9 +77,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Chip icons are shown
-	at the bottom of
-	the setup window.
+	Os ícones dos chips
+	são mostrados na
+	parte inferior.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +89,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	From here,you choose
-	which chips you want
-	to send to the Navi.
+	Aqui,você escolhe
+	quais chips deseja
+	enviar para o Navi.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -108,9 +108,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This shows the chip
-	data you have
-	selected.
+	Isto mostra o chip
+	que escolheu.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -120,8 +119,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It shows the
-	attack rating.
+	Aqui vemos a
+	classificação do
+	ataque.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -138,8 +138,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the virus's
-	Hit Points (HP).
+	Estes são os Pontos
+	de Vida dos vírus
+	(PV).
 	"""
 	mugshotAnimate
 		animation = 1
@@ -149,8 +150,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It shows how tough
-	this virus is.
+	Mostram o quão
+	resistente esse
+	vírus é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -167,9 +169,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can normally
-	only send one chip
-	at a time,but...
+	Normalmente,só se
+	pode mandar um chip
+	por vez,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -179,9 +181,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can send
-	multiple copies of
-	the same chip,
+	você pode mandar
+	múltiplas cópias
+	de um mesmo chip,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -191,7 +193,7 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	such as two or three
+	como dois ou três
 	Cannons.
 	"""
 	mugshotAnimate
@@ -202,9 +204,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This will let you
-	use more weapons,and
-	fight much better!
+	Isso lhe permite
+	usar mais armas e
+	lutar melhor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -248,9 +250,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,now we'll choose
-	which chip data to
-	send to the Navi.
+	OK,vamos escolher
+	uns chips para
+	mandar ao Navi.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,9 +262,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Select with the
-	A Button. Press the
-	R Button to
+	Selecione-os
+	apertando A.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -272,8 +273,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	see an explanation
-	of a chip.
+	Aperte R para ver
+	a descrição do
+	chip.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -290,9 +292,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You chose a Cannon,
-	I see. That means
-	you can choose
+	Você escolheu o
+	Cannon.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -301,7 +302,10 @@ script 21 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"one more Cannon!"
+	"""
+	Então,pode escolher
+	mais um Cannon!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -317,8 +321,8 @@ script 22 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't need to
-	cancel!
+	Não precisa
+	cancelar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -335,9 +339,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,it's possible
-	to fight with just
-	one cannon,
+	Bem,é possível
+	lutar com só um
+	Cannon,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -347,9 +351,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	but since we can
-	choose another,let's
-	go ahead and do so.
+	mas,como podemos
+	adicionar outro,
+	selecione-o.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -366,9 +370,9 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't need to
-	use that feature
-	just yet...
+	Não precisa usar
+	essa função por
+	ora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -385,8 +389,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You haven't chosen
-	any chips!
+	Você não selecionou
+	nenhum chip...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -396,9 +400,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's possible to
-	fight with just your
-	gun,
+	É possível lutar
+	apenas com seu
+	MegaTiro,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -408,8 +412,9 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But let's choose
-	some chips this time.
+	mas,desta vez
+	vamos selecionar
+	chips.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -426,9 +431,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't need to
-	use that feature
-	just yet...
+	Não precisa usar
+	essa função por
+	ora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -469,9 +474,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's send this
-	data to your Navi!
-	Choose “OK“.
+	OK,vamos mandar es-
+	ses dados para o seu
+	Navi! Aperte "OK".
 	"""
 	mugshotAnimate
 		animation = 1
@@ -488,9 +493,9 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't worry,you can
-	fight with this chip
-	so let's press on.
+	Dá para lutar com
+	esse chip. Pode
+	prosseguir.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -507,9 +512,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've sent the data.
-	Now,it's time to
-	fight the virus!
+	Enviamos os dados.
+	Agora,é hora de
+	enfrentar os vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -532,9 +537,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,I'll explain how
-	to fight as we
-	actually do so.
+	Agora,vou explicar
+	como se luta
+	enquanto lutamos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -544,9 +549,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can move your
-	Navi up,down,left,
-	and right.
+	Pode mover seu Navi
+	para cima,baixo,
+	esquerda e direta
 	"""
 	mugshotAnimate
 		animation = 1
@@ -556,9 +561,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You shoot with the
-	B Button.It's weak,
-	but fast.
+	e usar o Atirador
+	com B.
+	É fraco,mas rápido.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -573,9 +578,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Your HP are shown at
-	the top left. If you
-	go down to 0 HP
+	Seus PV aparecem no
+	canto superior es-
+	querdo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -585,9 +590,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	your Navi is
-	deleted,so be
-	careful!
+	Se chegarem a 0,
+	seu Navi é deleta-
+	do,então,cuidado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -604,9 +609,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Above your Navi's
-	head is the chip
-	data you sent.
+	Sobre a cabeça do
+	seu Navi ficam os
+	chips enviados.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -616,8 +621,9 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can only use it
-	once,so be careful!
+	Você só pode usá-los
+	uma vez cada,então,
+	planeje bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -634,9 +640,8 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's a good
-	question!
-	Everyone,look here.
+	Boa pergunta!
+	Turma,atenção.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -653,9 +658,9 @@ script 44 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is your battle
-	gauge. It slowly
-	fills as you fight.
+	A barra de customi-
+	zação. Ela vai se
+	enchendo sozinha.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -665,9 +670,9 @@ script 44 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When it's full,press
-	the L or R Button.
-	You can then go
+	Quando encher,
+	aperte L ou R
+	para ir à tela de
 	"""
 	mugshotAnimate
 		animation = 1
@@ -677,9 +682,9 @@ script 44 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	to the battle setup
-	screen and choose
-	new chips to send.
+	chips e escolher
+	novos chips para
+	enviar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -689,8 +694,8 @@ script 44 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's try it!
-	Good luck!
+	OK,vamos tentar!
+	Boa sorte!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -707,9 +712,9 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And that's the basic
-	battle technique!
-	Easy,right?
+	E essas são as téc-
+	nicas básicas de
+	luta! Simples,não?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -726,9 +731,9 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ms.Mari! What do
-	you do if you've
-	used your chips,
+	Srta. Mari! E se
+	eu usar todos os
+	meus chips
 	"""
 	mugshotAnimate
 		animation = 1
@@ -738,8 +743,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	and the virus still
-	isn't dead?
+	e o vírus ainda não
+	tiver morrido?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -765,9 +770,9 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's send some
-	data to the Navi
-	again.
+	OK,vamos enviar uns
+	dados para o Navi
+	de novo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -777,8 +782,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Try it yourself this
-	time!
+	Tente sozinho desta
+	vez!
 	"""
 	mugshotAnimate
 		animation = 1

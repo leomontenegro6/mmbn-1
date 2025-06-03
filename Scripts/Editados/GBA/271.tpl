@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I didn't think you'd
-	make it this far!
+	Não achei que
+	chegaria tão longe!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,9 +28,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've got to stop
-	the announcement
-	program,quick!
+	Eu tenho que parar
+	o programa do
+	anúncio,e rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -46,15 +46,15 @@ script 2 mmbn1 {
 		mugshot = NumberMan
 		palette = 0
 	msgOpen
-	"?"
+	"? "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	 But being a WWW
-	slave is fun! Isn't
-	it,Mr.Higsby?
+	Mas é legal ser
+	escravo da WWW! Não
+	é,Sr. Higsby?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yes! With my new WWW
-	salary I can buy
-	lots of rare chips!
+	Sim! Com o salário
+	de lá,posso comprar
+	muitos chips raros!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,9 +94,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I knew it! And you
-	call yourself a
-	teacher!
+	Eu sabia! E você
+	ainda se diz um
+	professor?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +114,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Heh"
+	"He"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -124,8 +124,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I did feel a little
-	bad at first,huh.
+	Eu me senti meio mal
+	no começo,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,7 +143,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mr.Higsby!"
+	"Sr. Higsby!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -161,9 +161,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yes! But then I knew
-	I'd do anything for
-	rare chips,huh!
+	Mas! Eu jurei que
+	faria de tudo por
+	chips raros,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -182,9 +182,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who needs rare chips
-	bought with the
-	WWW's dirty money!
+	De que valem chips
+	raros com o dinheiro
+	sujo da WWW?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -202,15 +202,15 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh!"
+	"Hein?! "
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Silence!"
+	"Silêncio!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -219,8 +219,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,you face me and
-	NumberMan!
+	Agora,enfrente o
+	NumberMan e eu!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239,9 +239,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No problem!
-	Let's go,MegaMan!
-	Battle routine,set!!
+	Com prazer! Bora,
+	MegaMan! Rotina de
+	batalha,preparar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -259,7 +259,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Execute!!"
+	"Executar!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

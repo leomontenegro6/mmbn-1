@@ -3,8 +3,8 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -23,8 +23,8 @@ script 0 mmbn1 {
 			amount = 1000
 		]
 	"""
-	MegaMan got 1000
-	zennys!
+	MegaMan adquiriu
+	1000 zennys!
 	"""
 	playerFinish
 	playerAnimate
@@ -38,8 +38,8 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -58,8 +58,8 @@ script 1 mmbn1 {
 			amount = 800
 		]
 	"""
-	MegaMan got 800
-	zennys!
+	MegaMan adquiriu
+	800 zennys!
 	"""
 	playerFinish
 	playerAnimate
@@ -73,8 +73,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -93,8 +93,8 @@ script 2 mmbn1 {
 			amount = 1200
 		]
 	"""
-	MegaMan got 1200
-	zennys!
+	MegaMan adquiriu
+	1200 zennys!
 	"""
 	playerFinish
 	playerAnimate
@@ -401,9 +401,9 @@ script 99 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Not being able to
-	see the floor makes
-	it difficult
+	Não poder ver o chão
+	dificulta bastante
+	as coisas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -413,9 +413,9 @@ script 99 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	sometimes,but if you
-	look carefully there
-	is sometimes a clue.
+	Mas,às vezes,se
+	olhar com atenção,
+	verá pistas.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -432,8 +432,8 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Have you figured
-	this out yet?
+	Você já percebeu
+	isso?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -443,9 +443,9 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The boxes which
-	are connected to
-	the light bulbs
+	As caixas que estão
+	conectadas às
+	lâmpadas
 	"""
 	mugshotAnimate
 		animation = 1
@@ -455,8 +455,9 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	are never adjacent
-	to each other!
+	nunca ficam
+	adjacentes uma
+	à outra!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -492,9 +493,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	From here,there will
-	start to be more
-	battery boxes.
+	Daqui em diante,
+	aparecerão mais
+	caixas de bateria.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -504,9 +505,8 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Think hard about how
-	you place the
-	batteries!
+	Pense bem sobre como
+	você as posiciona!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -516,9 +516,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	These are the
-	batteries that
-	I control.
+	Estas são as
+	baterias que eu
+	controlo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -528,9 +528,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If they run out of
-	power,I will
-	recharge them.
+	Se ficarem sem
+	energia,eu posso
+	recarregá-las.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -572,20 +572,22 @@ script 106 mmbn1 {
 	flagSet
 		flag = 217
 	"""
-	MegaMan got programs
-	“
+	MegaMan pegou
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 9
 	"""
-	“
-	and “
+	"
+	e "
 	"""
 	printItem
 		buffer = 0
 		item = 10
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -607,9 +609,9 @@ script 107 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You'll need to
-	think hard before
-	setting a battery.
+	É necessário pensar
+	bastante antes de
+	colocar uma bateria.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -619,9 +621,9 @@ script 107 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	These are the
-	batteries that
-	I control.
+	Estas são as
+	baterias que eu
+	controlo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -631,9 +633,9 @@ script 107 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If they run out of
-	power,I will
-	recharge them.
+	Se ficarem sem
+	energia,eu posso
+	recarregá-las.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -642,31 +644,31 @@ script 107 mmbn1 {
 		delay = 0
 	mugshotHide
 	"""
-	MegaMan got
-	several programs!
+	MegaMan recebeu
+	vários programas!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"“"
+	"\""
 	printItem
 		buffer = 0
 		item = 11
 	"""
-	“
-	“
+	",
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 12
 	"""
-	“
-	“
+	",
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 13
-	"“"
+	"\""
 	flagSet
 		flag = 713
 	playerLock
@@ -779,9 +781,9 @@ script 114 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Here you go,
-	some fresh
-	batteries!
+	Prontinho:
+	baterias novinhas
+	em folha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -808,10 +810,7 @@ script 118 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	All your base are
-	belong to us!!
-	"""
+	"Eu voltarei...!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -838,8 +837,8 @@ script 119 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Intruder alert!
-	Intruder alert!
+	Alerta de intruso!
+	Alerta de intruso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -952,8 +951,8 @@ script 149 mmbn1s {
 script 150 mmbn1 {
 	msgOpen
 	"""
-	Insert batteries
-	into the box.
+	Insira as baterias
+	nas caixas.
 	"""
 	keyWait
 	end
@@ -973,7 +972,11 @@ script 154 mmbn1 {
 	flagClear
 		flag = 211
 	msgOpen
-	"Throw the switch?\n"
+	"""
+	Acionar o
+	interruptor?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -981,7 +984,7 @@ script 154 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -989,7 +992,7 @@ script 154 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1009,7 +1012,10 @@ script 155 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Switch... ON!"
+	"""
+	Interruptor...
+	ligado!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1030,15 +1036,15 @@ script 158 mmbn1 {
 	soundPlay
 		track = 197
 	"""
-	A bulb has been
-	turned on!
+	Uma lâmpada se
+	acendeu!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	A path is
-	revealed!
+	Um caminho se
+	revela!
 	"""
 	keyWait
 	end
@@ -1062,9 +1068,9 @@ script 162 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? Nothing
-	happened!
-	Wrong box,maybe?
+	Ué? Não rolou nada!
+	Será que escolhemos
+	a caixa errada?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1084,7 +1090,11 @@ script 165 mmbn1s {
 }
 script 166 mmbn1 {
 	msgOpen
-	"Remove the battery?\n"
+	"""
+	Remover a
+	bateria?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -1092,7 +1102,7 @@ script 166 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1100,7 +1110,7 @@ script 166 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1116,8 +1126,8 @@ script 166 mmbn1 {
 script 167 mmbn1 {
 	msgOpen
 	"""
-	You remove the
-	battery.
+	Você remove a
+	bateria.
 	"""
 	keyWait
 	clearMsg
@@ -1125,8 +1135,8 @@ script 167 mmbn1 {
 	soundPlay
 		track = 196
 	"""
-	It has been returned
-	to your inventory.
+	Ela foi devolvida
+	ao seu inventário.
 	"""
 	keyWait
 	end
@@ -1145,8 +1155,8 @@ script 170 mmbn1s {
 script 171 mmbn1 {
 	msgOpen
 	"""
-	Insert batteries
-	into the box.
+	Insira as baterias
+	nas caixas.
 	"""
 	keyWait
 	end
@@ -1182,9 +1192,9 @@ script 179 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,we don't
-	need to play with
-	that anymore!
+	MegaMan,não
+	precisamos mais
+	mexer nisso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1193,7 +1203,7 @@ script 179 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Let's get going!"
+	"Vamos indo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1213,8 +1223,8 @@ script 182 mmbn1s {
 script 183 mmbn1 {
 	msgOpen
 	"""
-	Turn off the
-	switch?
+	Desligar o
+	interruptor? 
 	
 	"""
 	option
@@ -1224,7 +1234,7 @@ script 183 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1232,7 +1242,7 @@ script 183 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1252,8 +1262,8 @@ script 184 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	You turned off
-	the switch.
+	Você desligou o
+	interruptor.
 	"""
 	keyWait
 	end
@@ -1271,21 +1281,22 @@ script 187 mmbn1s {
 }
 script 188 mmbn1 {
 	msgOpen
-	"Warning!!"
+	"Alerta!!"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Unpowered batteries
-	detected!
+	Baterias
+	descarregadas
+	detectadas!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Switch disabled to
-	prevent system
-	damage!
+	Interruptor desati-
+	vado para evitar
+	danos ao sistema!
 	"""
 	keyWait
 	end
@@ -1303,14 +1314,14 @@ script 191 mmbn1s {
 }
 script 192 mmbn1 {
 	msgOpen
-	"Warning!!"
+	"Alerta!!"
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Switch activated!
-	Deactivate before
-	touching boxes!
+	Interruptor ativado!
+	Desative-o antes de
+	tocar nas caixas!
 	"""
 	keyWait
 	end
@@ -1332,8 +1343,8 @@ script 196 mmbn1 {
 		flag = 211
 	msgOpen
 	"""
-	Put a battery
-	in this box?
+	Inserir bateria
+	nesta caixa? 
 	
 	"""
 	option
@@ -1343,7 +1354,7 @@ script 196 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1351,7 +1362,7 @@ script 196 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1384,8 +1395,8 @@ script 200 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This battery is
-	out!
+	Esta bateria tá
+	descarregada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1395,8 +1406,8 @@ script 200 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go get it
-	recharged!
+	Vamos recarregar
+	ela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1409,13 +1420,13 @@ script 201 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1431,13 +1442,13 @@ script 202 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1453,13 +1464,13 @@ script 203 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1470,8 +1481,8 @@ script 203 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1487,13 +1498,13 @@ script 204 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1509,13 +1520,13 @@ script 205 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1526,8 +1537,8 @@ script 205 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1543,13 +1554,13 @@ script 206 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1560,8 +1571,8 @@ script 206 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1577,13 +1588,13 @@ script 207 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1594,8 +1605,8 @@ script 207 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1606,8 +1617,8 @@ script 207 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1623,13 +1634,13 @@ script 208 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1645,13 +1656,13 @@ script 209 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1662,8 +1673,8 @@ script 209 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1679,13 +1690,13 @@ script 210 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1696,8 +1707,8 @@ script 210 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1713,13 +1724,13 @@ script 211 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1730,8 +1741,8 @@ script 211 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1742,8 +1753,8 @@ script 211 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1759,13 +1770,13 @@ script 212 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1776,8 +1787,8 @@ script 212 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1793,13 +1804,13 @@ script 213 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1810,8 +1821,8 @@ script 213 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1822,8 +1833,8 @@ script 213 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1839,13 +1850,13 @@ script 214 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1856,8 +1867,8 @@ script 214 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1868,8 +1879,8 @@ script 214 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1883,11 +1894,14 @@ script 214 mmbn1 {
 }
 script 215 mmbn1 {
 	msgOpenQuick
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
-	"“A“ batteriesremaining:"
+	"""
+	Baterias "A"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -1896,7 +1910,10 @@ script 215 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“B“ batteriesremaining:"
+	"""
+	Baterias "B"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -1905,7 +1922,10 @@ script 215 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“C“ batteriesremaining:"
+	"""
+	Baterias "C"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -1914,7 +1934,10 @@ script 215 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“D“ batteriesremaining:"
+	"""
+	Baterias "D"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -1929,13 +1952,13 @@ script 216 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1951,13 +1974,13 @@ script 217 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1968,8 +1991,8 @@ script 217 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1985,11 +2008,14 @@ script 218 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
-	"“B“ batteriesremaining:"
+	"""
+	Baterias "B"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -1998,7 +2024,10 @@ script 218 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“E“ batteriesremaining:"
+	"""
+	Baterias "E"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2013,13 +2042,13 @@ script 219 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2030,8 +2059,8 @@ script 219 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2042,8 +2071,8 @@ script 219 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2059,13 +2088,13 @@ script 220 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2076,8 +2105,8 @@ script 220 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2093,11 +2122,14 @@ script 221 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
-	"“A“ batteriesremaining:"
+	"""
+	Baterias "A"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2106,7 +2138,10 @@ script 221 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“C“ batteriesremaining:"
+	"""
+	Baterias "C"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2115,7 +2150,10 @@ script 221 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“E“ batteriesremaining:"
+	"""
+	Baterias "E"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2130,11 +2168,14 @@ script 222 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
-	"“B“ batteriesremaining:"
+	"""
+	Baterias "B"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2143,7 +2184,10 @@ script 222 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“C“ batteriesremaining:"
+	"""
+	Baterias "C"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2152,7 +2196,10 @@ script 222 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“E“ batteriesremaining:"
+	"""
+	Baterias "E"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2167,13 +2214,13 @@ script 223 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2184,8 +2231,8 @@ script 223 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2196,8 +2243,8 @@ script 223 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2208,8 +2255,8 @@ script 223 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2225,11 +2272,14 @@ script 224 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
-	"“D“ batteriesremaining:"
+	"""
+	Baterias "D"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2238,7 +2288,10 @@ script 224 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"“E“ batteriesremaining:"
+	"""
+	Baterias "E"
+	restantes: 
+	"""
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -2253,13 +2306,13 @@ script 225 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2270,8 +2323,8 @@ script 225 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2282,8 +2335,8 @@ script 225 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2299,13 +2352,13 @@ script 226 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2316,8 +2369,8 @@ script 226 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2328,8 +2381,8 @@ script 226 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2345,13 +2398,13 @@ script 227 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2362,8 +2415,8 @@ script 227 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2374,8 +2427,8 @@ script 227 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2386,8 +2439,8 @@ script 227 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2403,13 +2456,13 @@ script 228 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2420,8 +2473,8 @@ script 228 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2432,8 +2485,8 @@ script 228 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2449,13 +2502,13 @@ script 229 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2466,8 +2519,8 @@ script 229 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2478,8 +2531,8 @@ script 229 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2490,8 +2543,8 @@ script 229 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2507,13 +2560,13 @@ script 230 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2524,8 +2577,8 @@ script 230 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2536,8 +2589,8 @@ script 230 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2548,8 +2601,8 @@ script 230 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2565,13 +2618,13 @@ script 231 mmbn1 {
 	msgOpenQuick
 	soundPlay
 		track = 195
-	"Battery installed."
+	"Bateria instalada."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	“A“ batteries
-	remaining:
+	Baterias "A"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2582,8 +2635,8 @@ script 231 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“B“ batteries
-	remaining:
+	Baterias "B"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2594,8 +2647,8 @@ script 231 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“C“ batteries
-	remaining:
+	Baterias "C"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2606,8 +2659,8 @@ script 231 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“D“ batteries
-	remaining:
+	Baterias "D"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2618,8 +2671,8 @@ script 231 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	“E“ batteries
-	remaining:
+	Baterias "E"
+	restantes: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -2647,16 +2700,16 @@ script 235 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Recharging!\n"
+	"Recarregando!\n"
 	mugshotAnimate
 		animation = 1
-	"*zzzzppppt*"
+	"Zzzzppt!"
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Recharged!"
+	"Recarregada!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -2740,9 +2793,9 @@ script 241 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please come back
-	if you need them
-	recharged again!
+	Se precisar recar-
+	regá-las de novo,
+	é só voltar aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2759,9 +2812,8 @@ script 242 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like the
-	generator is back
-	online.
+	Parece que o gerador
+	tá operante.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2771,9 +2823,9 @@ script 242 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The bulbs are lit
-	even without
-	batteries!
+	As lâmpadas estão
+	acesas mesmo sem
+	baterias!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2799,9 +2851,9 @@ script 246 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The generator is
-	back online,so
-	we don't need
+	O gerador está
+	operante,então
+	não precisamos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2810,10 +2862,7 @@ script 246 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	to use the
-	batteries anymore.
-	"""
+	"mais usar baterias."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -2826,16 +2875,16 @@ script 247 mmbn1 {
 		flag = 221
 	msgOpen
 	"""
-	Improper input
-	detected...
+	Entrada incorreta
+	detectada...
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Battery box
-	rewired to new
-	configuration
+	A caixa de bateria
+	mudou para uma
+	nova configuração.
 	"""
 	keyWait
 	end

@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Please forgive
-	me,sir!
+	... Por favor,
+	me perdoe,senhor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,7 +27,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Fool!"
+	"Sua tola!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -36,8 +36,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You have failed me
-	again!
+	Você me desapontou
+	de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,7 +55,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Please..."
+	"Por favor..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -73,8 +73,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	S-s-silence!!
-	No more excuses!
+	SILÊNCIO!
+	Chega de desculpas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -92,7 +92,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Awhhh..."
+	"Auhhh..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -109,7 +109,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"C---C-C-Count Zap!"
+	"C-C-C-Conde Zap!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -126,7 +126,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yes Lord Wily!!"
+	"Sim,senhor Wily!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -144,9 +144,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Listen up!
-	Enough with these
-	two-bit schemes!
+	Escute! Estou farto
+	desses planos
+	infantis!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,9 +156,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's take this town
-	down once and for
-	all!
+	Vamos acabar com
+	esta cidade de uma
+	vez por todas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,8 +168,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	C-C-Count Zap! I-I'm
-	counting on you!!!
+	C-C-Conde Zap! Estou
+	contando com você!!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,7 +178,7 @@ script 7 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Understood!?"
+	"Entendeu?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -196,8 +196,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I hear and I obey
-	Lord Wily!
+	Como desejar,senhor
+	Wily!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -211,13 +211,13 @@ script 9 mmbn1 {
 	msgOpen
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	keyWait
 	end
 		delay = 0

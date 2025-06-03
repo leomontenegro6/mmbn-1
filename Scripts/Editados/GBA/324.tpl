@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,Mom!
-	Dad's invited us
-	to a party!
+	Mamãe! O papai
+	convidou a gente
+	pra uma festa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"How wonderful!"
+	"Que maravilha!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -37,9 +37,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How sweet of him to
-	think of his family
-	at such a busy time!
+	Tão meigo ele,pen-
+	sar na família quan-
+	do está tão ocupado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +48,7 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So,Lan,"
+	"Então,Lan,"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -57,8 +57,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When and where are
-	we supposed to meet?
+	quando e onde fica-
+	mos de encontrá-lo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,9 +77,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	At 7,in front of the
-	TV in the 1st floor
-	lobby of the SciLab.
+	Às 19h,em frente à
+	TV no primeiro
+	andar do SciLab.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -97,15 +97,15 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"OK!"
+	"OK! "
 	mugshotAnimate
 		animation = 1
-	" ..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"But wait!"
+	"Hã? Espera!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -114,8 +114,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's almost 7 now!
-	We have to hurry!
+	Já são quase 19h!
+	Temos que correr!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,7 +133,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mom!!"
+	"Mãe!! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -141,9 +141,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	 Since you
-	always take so long,
-	I'll go ahead,OK?
+	Como você
+	sempre demora,
+	eu vou na frente,tá?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -153,9 +153,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Man,if I had to
-	wait for her,I'd
-	never get to eat...
+	... Ufa. Se esperas-
+	se por ela,eu ia
+	morrer de fome...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -173,18 +173,17 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"C'mon Lan"
+	"Não inventa,Lan"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I know
-	you just can't wait
-	to see your dad...
+	Sei que tá louquinho
+	pra ver o seu pai!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -203,8 +202,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	H-Hey,stop saying
-	that!
+	E-ei,não precisa
+	falar isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -213,7 +212,7 @@ script 6 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Geez..."
+	"Unrr..."
 	mugshotAnimate
 		animation = 1
 	keyWait

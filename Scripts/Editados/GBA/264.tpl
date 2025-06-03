@@ -29,8 +29,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Mr.Higsby,where's
-	Ms.Mari?
+	Sr. Higsby,cadê a
+	Srta. Mari?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ms.Mari? She was
-	sick and went to the
-	nurse's office,huh.
+	A Srta. Mari? Ela
+	passou mal e foi
+	pra enfermaria,é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wha..!?"
+	"Ué...?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -86,17 +86,17 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Quiet,everyone!"
+	"Silêncio!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n..."
+	"\n... "
 	mugshotAnimate
 		animation = 2
 	"""
-	first class will
-	be study hall,huh.
+	primeiro,terão
+	estudo independente.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -114,7 +114,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"All right!"
+	"Legal!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -132,8 +132,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't rejoice
-	just yet,huh!
+	Não comemorem
+	ainda,é!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,9 +143,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I want you all to do
-	math drills. I'll be
-	checking them later!
+	Vocês farão exercí-
+	cios de matemática.
+	E eu vou corrigir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -163,7 +163,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Shucks..."
+	"Droga..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -181,8 +181,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now,jack in to the
-	blackboard!
+	Agora,conectem-se
+	no quadro!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -191,7 +191,7 @@ script 8 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Huh!"
+	"É!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -206,7 +206,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"All right everyone"
+	"Então,turma"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -215,7 +215,7 @@ script 9 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Good luck!"
+	"Boa sorte!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -233,9 +233,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man,math is hard,
-	especially in the
-	morni...huh?
+	Urgh,matemática é
+	dureza,ainda mais
+	de manh... hã?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -252,8 +252,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Eeek!! What's
-	that!?
+	Ahhh!! O que é
+	isso?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -271,7 +271,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We will now announce\n"
+	"Viemos anunciar"
 	mugshotAnimate
 		animation = 1
 	"."
@@ -287,8 +287,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The real goal of our
-	plan
+	nosso verdadeiro
+	plano de
 	"""
 	mugshotAnimate
 		animation = 1
@@ -298,7 +298,7 @@ script 12 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"to control the net!"
+	"controlar a Rede!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -316,9 +316,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! This is a WWW
-	re-education
-	program!
+	Lan! Esse é um
+	programa de
+	reeducação da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -337,9 +337,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The WWW's true plan
-	is to start a war...
-	the EndGame!
+	A WWW pretende
+	começar uma guerra...
+	A Fase Final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -349,9 +349,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We will take control
-	of the military net
-	and all other nets! 
+	Tomaremos as redes
+	militares,e todas
+	as demais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -361,9 +361,9 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The only cure for
-	this rotten world
-	is.
+	A única cura para
+	este mundo pútrido
+	é.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -372,12 +372,12 @@ script 14 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"deletion!!!"
+	"a deleção!!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -394,7 +394,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Noooo!"
+	"Nããããoo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -412,8 +412,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why? Why would
-	they do that?
+	Por quê? Por que
+	eles fariam isso?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -432,9 +432,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	To reach our goals,
-	The WWW is hiring
-	new staff members!
+	Para alcançar nossa
+	meta,precisamos de
+	novos membros!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -444,9 +444,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We will begin a new
-	instruction program,
-	starting today!
+	Portanto,dou início
+	ao programa de
+	reeducação da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -456,9 +456,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Children! Study well
-	and become good
-	slaves to WWW!
+	Crianças! Estudem e
+	se tornem bons
+	escravos da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -476,10 +476,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	What!?
-	No way man,not me!
-	"""
+	"O quê?! Nunca!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -497,9 +494,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh no,I can't
-	turn my terminal
-	off!
+	Ah,não! Não consigo
+	desligar o meu
+	terminal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -518,8 +515,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Heeeey!
-	The door's locked!
+	A-aaahh! A porta tá
+	trancada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -538,9 +535,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Everyone,be calm!
-	Me and GutsMan will
-	stop them!
+	Pessoal,calma!
+	O GutsMan e eu
+	vamos pará-los!
 	"""
 	mugshotAnimate
 		animation = 1

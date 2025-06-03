@@ -1,0 +1,4 @@
+- Checar por textos em inglês programaticamente via script.
+- Aplicar revisão ortográfica programaticamente via LanguageTool depois.
+- Modificar fonte do jogo para ficar mais similar à do MMBN2 sem VWF.
+- Editar gráficos dos menus.

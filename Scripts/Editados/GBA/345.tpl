@@ -9,7 +9,7 @@ script 0 mmbn1 {
 		animation = 2
 	"""
 	L-Lan...
-	The PET battery...
+	A bateria do PET...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -26,9 +26,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!
-	I have to recharge
-	quick!
+	MegaMan! Tenho
+	que recarregar,
+	e rápido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,9 +45,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hooey! Looks like
-	your battery's out
-	again!
+	Puxa! Parece que
+	sua bateria acabou
+	de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -57,9 +57,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thought you might be
-	needing a recharge
-	soon...heh heh...
+	Imaginei que logo
+	precisariam de uma
+	recarga... He he...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,8 +69,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm still a' fixing
-	the control room...
+	Ainda estou
+	consertando a sala
+	de controle...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,8 +81,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So I can't stay
-	long...
+	Então,não posso
+	ficar muito tempo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -90,7 +91,7 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Sorry,kiddo..."
+	"Desculpe,garoto..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -99,9 +100,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...Huh? Ayee! How'd
-	my generator get
-	such a big crack!
+	... Hã? Ah! Como meu
+	gerador ficou com
+	essa rachadura?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -135,17 +136,20 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan...
-	I...I'm OK...
+	Lan... Eu... Eu tô
+	bem...
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
-	"Let's hurry..."
+	"""
+	Vamos nos
+	apressar...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -161,9 +165,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing!?
-	Recharge now or your
-	Navi's a goner!
+	O que está fazendo?!
+	Recarregue agora,ou
+	seu Navi já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,10 +185,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -204,9 +205,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're going to have
-	to hit that button
-	quicker this time!
+	Terá que apertar o
+	botão mais rápido
+	desta vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,10 +216,7 @@ script 7 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

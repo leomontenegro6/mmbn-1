@@ -11,8 +11,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,challenge Miyu
-	to a NetBattle?
+	Lan,desafiar Miyu
+	pra uma NetLuta?
 	
 	"""
 	mugshotAnimate
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -32,7 +32,7 @@ script 1 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 1
 		disableB = false
@@ -53,8 +53,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You obviously lack
-	spirit...
+	Claramente,lhe
+	falta espírito...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -71,8 +71,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How could my spirits
-	have failed me?
+	Mas como os
+	espíritos falharam
+	comigo...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -95,8 +96,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Your spirits have
-	beaten me again...
+	Seu espírito me
+	venceu de novo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -113,8 +114,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Remember,your body
-	is but a shell
+	Lembre-se: o corpo é
+	apenas uma casca
 	"""
 	mugshotAnimate
 		animation = 1
@@ -140,9 +141,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If that is what your
-	spirits tell you to
-	do...
+	Se é isso que o seu
+	espírito lhe diz
+	para fazer...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -170,8 +171,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let the feast of
-	souls begin!
+	Que comece o
+	banquete das almas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -180,7 +181,7 @@ script 8 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"SkullMan,arise!"
+	"SkullMan,vinde!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -221,7 +222,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"My name is Miyu"
+	"Meu nome é Miyu"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -230,18 +231,9 @@ script 10 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Welcome to my store."
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
 	"""
-	All of the antiques
-	here have sprits...
-	Can you feel them?
+	Bem-vindo à minha
+	loja.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -251,8 +243,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can feel the
-	bright burning
+	Todas as
+	antiguidades daqui
+	têm espíritos...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -262,9 +255,20 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	of the spirit
-	contained in your
-	Navi!
+	consegue sentir?
+	Pois eu sinto a
+	intensa chama
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	advinda do espírito
+	contido em seu Navi!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -283,9 +287,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You have truly shown
-	me the power of
-	your spirit...
+	Você,de fato,me
+	mostrou o poder do
+	seu espírito...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -295,9 +299,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That Navi should do
-	well in defeating
-	the evil spirits
+	Esse Navi será hábil
+	em derrotar os
+	espíritos malignos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -307,9 +311,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	which surround us
-	now...
-	Here! Take this!
+	que nos cercam
+	agora...
+	Aqui! Para você.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -333,17 +337,23 @@ script 12 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 50
-	"“!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"(Use this on the net\n to expand the area\n you can access!)"
+	"""
+	(Use na Rede para
+	expandir as áreas
+	que pode acessar!)
+	"""
 	playerFinish
 	playerAnimate
 		animation = 7
@@ -363,9 +373,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The spirits of your
-	Navi and yourself
-	shall grow together,
+	Os espíritos do
+	seu Navi e o seu
+	crescerão juntos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -374,7 +384,7 @@ script 13 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"and become as one."
+	"e se tornarão um só."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -398,9 +408,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sorry,I'm not
-	open for business
-	yet.
+	Peço desculpas,mas
+	ainda não abrimos a
+	loja.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -421,13 +431,13 @@ script 16 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -453,7 +463,7 @@ script 20 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I can feel"
+	"Posso sentir um"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -463,8 +473,8 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	an evil spirit in
-	the runaway bus!
+	espírito maligno no
+	ônibus desgovernado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -498,8 +508,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That Navi you have!
-	Its spirit shines
+	Esse Navi que você
+	tem! O espírito
+	dele brilha
 	"""
 	mugshotAnimate
 		animation = 1
@@ -509,9 +520,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	far brighter than
-	that of any other
-	I've seen!
+	mais intensamente do
+	que qualquer outro
+	que eu já vi!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -521,8 +532,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The light...
-	It's almost like...
+	A luz... é quase
+	como se...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -550,8 +561,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That Navi you have!
-	Its spirit shines
+	Esse Navi que você
+	tem! Seu espírito
+	brilha
 	"""
 	mugshotAnimate
 		animation = 1
@@ -561,9 +573,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	far brighter than
-	that of any other
-	I've seen!
+	mais intensamente do
+	que qualquer outro
+	que eu já vi!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -573,8 +585,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The light...
-	It's almost like...
+	A luz... é quase
+	como se...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -605,9 +617,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The glow of your
-	Navi's spirit has
-	grown greater still!
+	O brilho do espírito
+	do seu Navi aumentou
+	ainda mais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -617,9 +629,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Could this be like
-	the sudden burst of
-	light
+	Seria isso como uma
+	súbita explosão de
+	luz
 	"""
 	mugshotAnimate
 		animation = 1
@@ -629,8 +641,8 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	before a candle
-	burns out
+	antes de uma vela se
+	apagar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -640,7 +652,7 @@ script 35 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Or"
+	"Ou"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -1208,16 +1220,16 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A large vase...
-	But not just a
-	normal vase
+	Um vaso enorme,
+	mas não um vaso
+	comum.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You can jack in
-	here!
+	Você pode se
+	conectar nele!
 	"""
 	keyWait
 	end
@@ -1227,17 +1239,14 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Decorated with
-	scenes of rivers
-	and mountains
+	Decorado com ilus-
+	trações de rios e
+	montanhas.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"""
-	Looks very
-	expensive
-	"""
+	"Parece bem caro."
 	keyWait
 	end
 		delay = 5
@@ -1246,8 +1255,8 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Trash to some,
-	treasure to others
+	O lixo de uns é o
+	tesouro de outros.
 	"""
 	keyWait
 	end
@@ -1257,9 +1266,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Only employees
-	are allowed in the
-	back
+	Somente funcionários
+	podem entrar nos
+	fundos.
 	"""
 	keyWait
 	end
@@ -1269,16 +1278,17 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	Not an antique,but
-	very well used
+	Não é uma antigui-
+	dade,mas está bem
+	gasto.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looking carefully,
-	you discover a jack
-	in port
+	Olhando bem,você
+	vê uma entrada
+	de conexão.
 	"""
 	keyWait
 	end

@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! The bus
-	is here again!
+	MegaMan! O ônibus
+	tá aqui de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,9 +28,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Roger! The signal
-	should change soon!
-	We'll make it!
+	Beleza! O sinal deve
+	mudar logo! A gente
+	vai conseguir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +48,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I hope so!"
+	"Tomara!"
 	mugshotAnimate
 		animation = 1
 	keyWait

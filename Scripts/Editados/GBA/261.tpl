@@ -10,9 +10,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Man!
-	How come nobody
-	woke me up?
+	Cara! Por que
+	ninguém me acordou?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,9 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I did a few times!
-	You just didn't get
-	up,Lan!
+	Eu tentei um monte
+	de vezes! Você que
+	não saía da cama!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,7 +48,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What time is it!?"
+	"Que horas são?!"
 	mugshotAnimate
 		animation = 1
 	clearMsg
@@ -65,7 +64,10 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You got 5 minutes!"
+	"""
+	Você só tem mais 5
+	minutos!
+	"""
 	mugshotAnimate
 		animation = 1
 	clearMsg
@@ -82,8 +84,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What about everyone
-	else?
+	E o resto do
+	pessoal?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -127,7 +129,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Duh!"
+	"E-Er,eu sabia!"
 	mugshotAnimate
 		animation = 1
 	end

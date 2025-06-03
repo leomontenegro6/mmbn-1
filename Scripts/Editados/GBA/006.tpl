@@ -7,9 +7,9 @@ script 0 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Lan's terminal
-	program MegaMan.EXE
-	is installed.
+	O terminal do Lan.
+	MegaMan.EXE está
+	instalado nele.
 	"""
 	waitHold
 	"  "
@@ -21,9 +21,9 @@ script 1 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Program for making
-	ice inside the net.
-	(charges left:
+	Programa para criar
+	gelo na Rede. (Usos
+	rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -41,8 +41,9 @@ script 2 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Warning: This water
-	gun is not a toy!
+	Aviso: esta pistola
+	d'água não é
+	brinquedo!
 	"""
 	waitHold
 	"  "
@@ -54,9 +55,9 @@ script 3 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	An ID/time card.
-	All teachers at ACDC
-	elementary carry it.
+	Cartão de ID.
+	Todos os professores
+	de ACDC têm um.
 	"""
 	waitHold
 	"  "
@@ -68,9 +69,9 @@ script 4 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	An ID card for the
-	SciLab. This one's
-	Dad's...I think.
+	Cartão de ID do
+	SciLab. Este é do
+	papai... eu acho.
 	"""
 	waitHold
 	"  "
@@ -82,9 +83,9 @@ script 5 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Knob program for
-	the faucet program
-	on the net.
+	Um programa de
+	torneira para usar
+	na Rede.
 	"""
 	waitHold
 	"  "
@@ -96,9 +97,9 @@ script 6 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Message from Froid
-	in 5th grade to his
-	dad: “I'm OK!“
+	Mensagem do Froid da
+	quinta série para o
+	pai: "Tô bem!"
 	"""
 	waitHold
 	"  "
@@ -110,9 +111,9 @@ script 7 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Response to Mayl's
-	mail:“I'll go
-	shopping with you!“
+	Resposta pra Mayl:
+	"Eu faço compras com
+	você!"
 	"""
 	waitHold
 	"  "
@@ -124,9 +125,9 @@ script 8 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Code known only to
-	WWW's friends. Opens
-	lock programs.
+	Código de membros da
+	WWW. Abre programas
+	bloqueados.
 	"""
 	waitHold
 	"  "
@@ -138,9 +139,9 @@ script 9 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para luzes na Rede.
+	(Usos rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -158,9 +159,9 @@ script 10 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para luzes na Rede.
+	(Usos rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -178,9 +179,9 @@ script 11 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para luzes na Rede.
+	(Usos rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -198,9 +199,9 @@ script 12 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para luzes na Rede.
+	(Usos rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -218,9 +219,9 @@ script 13 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Battery program for
-	lights on the net.
-	(charges left:
+	Programa de bateria
+	para luzes na Rede.
+	(Usos rest: 
 	"""
 	printItemAmount
 		minLength = 0
@@ -238,15 +239,15 @@ script 14 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Hand-made generator
-	for recharging 
+	Gerador portátil
+	para 
 	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
 	.
-	Not very sturdy.
+	Pouco resistente.
 	"""
 	waitHold
 	"  "
@@ -267,9 +268,9 @@ script 15 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	A Metroline pass...
-	but it doesn't work
-	on normal lines.
+	Tíquete da Metroli-
+	nha. Não funciona
+	na estação normal.
 	"""
 	waitHold
 	"  "
@@ -290,8 +291,8 @@ script 17 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	False teeth for
-	the elderly.
+	Dentes falsos para
+	idosos.
 	"""
 	waitHold
 	"  "
@@ -438,9 +439,9 @@ script 33 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the piano in
-	Mayl's house.
+	Endereço para a rede
+	do piano na casa da
+	Mayl.
 	"""
 	waitHold
 	"  "
@@ -452,9 +453,9 @@ script 34 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the portrait in
-	Yai's house.
+	Endereço para a rede
+	do retrato na casa
+	da Yai.
 	"""
 	waitHold
 	"  "
@@ -466,9 +467,9 @@ script 35 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the computer in
-	Dex's house.
+	Endereço para a rede
+	do PC na casa do
+	Dex.
 	"""
 	waitHold
 	"  "
@@ -489,9 +490,9 @@ script 37 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	Dad's computer down
-	at the SciLab.
+	Endereço para a rede
+	do computador do
+	papai no SciLab.
 	"""
 	waitHold
 	"  "
@@ -503,9 +504,9 @@ script 38 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the cash register at
-	Sal's lunch stand.
+	Endereço para a rede
+	da caixa registra-
+	dora da Sal.
 	"""
 	waitHold
 	"  "
@@ -526,9 +527,9 @@ script 40 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the magnifying glass
-	at Miyu's Antiques.
+	Endereço para a rede
+	da lupa na loja da
+	Miyu.
 	"""
 	waitHold
 	"  "
@@ -558,8 +559,9 @@ script 43 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	Masa's fish stand.
+	Endereço para a rede
+	da barraca de peixe
+	do Masa.
 	"""
 	waitHold
 	"  "
@@ -580,8 +582,9 @@ script 45 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	The net address of
-	the WWW Labs.
+	Endereço para a rede
+	do laboratório da
+	WWW.
 	"""
 	waitHold
 	"  "
@@ -611,9 +614,8 @@ script 48 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Dex's
-	net links.
+	Senha de acesso aos
+	links do Dex.
 	"""
 	waitHold
 	"  "
@@ -625,9 +627,8 @@ script 49 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Sal's
-	net links.
+	Senha de acesso aos
+	links da Sal.
 	"""
 	waitHold
 	"  "
@@ -639,9 +640,8 @@ script 50 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing Miyu's
-	net links.
+	Senha de acesso aos
+	links da Miyu.
 	"""
 	waitHold
 	"  "
@@ -662,9 +662,9 @@ script 52 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(C-level)
+	Senha de acesso aos
+	links da WWW
+	(nível-C)
 	"""
 	waitHold
 	"  "
@@ -676,9 +676,9 @@ script 53 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(B-level)
+	Senha de acesso aos
+	links da WWW
+	(nível-B)
 	"""
 	waitHold
 	"  "
@@ -690,9 +690,9 @@ script 54 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(A-level)
+	Senha de acesso aos
+	links da WWW
+	(nível-A)
 	"""
 	waitHold
 	"  "
@@ -704,9 +704,9 @@ script 55 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	Pass for
-	accessing WWW's
-	net links.(S-level)
+	Senha de acesso aos
+	links da WWW
+	(nível-S)
 	"""
 	waitHold
 	"  "
@@ -754,9 +754,9 @@ script 60 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	ACDC station on
-	the Metroline.
+	Tíquete para a
+	estação ACDC da
+	Metrolinha.
 	"""
 	waitHold
 	"  "
@@ -768,9 +768,9 @@ script 61 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	Government station
-	on the Metroline.
+	Tíquete para a
+	estação Governo da
+	Metrolinha.
 	"""
 	waitHold
 	"  "
@@ -782,9 +782,9 @@ script 62 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	1 child ticket for
-	Dentown station
-	on the Metroline.
+	Tíquete para a
+	estação Distrito
+	Den da Metrolinha.
 	"""
 	waitHold
 	"  "
@@ -823,9 +823,9 @@ script 70 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	A Metroline pass
-	that doesn't work.
-	...It's expired.
+	Um tíquete da
+	Metrolinha...
+	Está expirado.
 	"""
 	waitHold
 	"  "

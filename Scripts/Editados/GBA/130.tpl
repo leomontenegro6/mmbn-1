@@ -8,8 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,the children are
-	scared,poor things.
+	Ah,as crianças
+	estão morrendo de
+	medo... Tadinhas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Someone must do
-	something,but I 
-	can't leave them!
+	Alguém tem que tomar
+	uma atitude,mas não
+	posso deixá-las!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37,7 +38,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm scared!"
+	"Eu tô com medo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -52,7 +53,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I hate this noise!"
+	"Odeio esse barulho!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -68,8 +69,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll have bad
-	dreams,I'm sure!
+	Eu vou ter
+	pesadelos,certeza!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -88,13 +89,13 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -109,7 +110,7 @@ script 5 mmbn1 {
 		mugshot = PigtailsGirl
 		palette = 0
 	msgOpen
-	"*bawls*"
+	"Buáááá!"
 	keyWait
 	end
 		delay = 0
@@ -120,7 +121,7 @@ script 6 mmbn1 {
 		mugshot = BlueShirtBoy
 		palette = 0
 	msgOpen
-	"*cries*"
+	"Ééénn!*"
 	keyWait
 	end
 		delay = 0
@@ -768,8 +769,9 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	It's always nice to
-	be greeted warmly!
+	Uma recepção
+	calorosa é sempre
+	bom!
 	"""
 	keyWait
 	end
@@ -779,16 +781,16 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	A very old
-	blackboard
+	Um quadro negro
+	bem velho.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	It's old,but you
-	can still jack in
-	to it
+	Apesar de velho,
+	ainda dá pra se
+	conectar nele.
 	"""
 	keyWait
 	end
@@ -798,9 +800,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	A statue created
-	by the first
-	principal,they say
+	Uma estátua criada
+	pelo primeiro dire-
+	tor,ao que parece.
 	"""
 	keyWait
 	end
@@ -810,9 +812,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	A class schedule.
-	1st graders only
-	have 4 classes a day
+	É o nosso cronogra-
+	ma. O 1o. ano sempre
+	tem 4 aulas por dia.
 	"""
 	keyWait
 	end
@@ -822,8 +824,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	Some kind of larvae
-	are crawling inside
+	Tem larvas de
+	algum tipo
+	rastejando dentro.
 	"""
 	keyWait
 	end
@@ -833,9 +836,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	Two of the guppies
-	are floating belly-
-	up
+	Dois dos lebistes
+	tão boiando de
+	barriga pra cima.
 	"""
 	keyWait
 	end
@@ -845,8 +848,8 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	A diary of guppy
-	raising
+	Um diário sobre a
+	criação de lebistes.
 	"""
 	keyWait
 	end
@@ -856,9 +859,9 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	A 1st grader's desk.
-	Wow,these are
-	small!
+	As mesas do primeiro
+	ano. Nossa! São tão
+	pequenininhas!
 	"""
 	keyWait
 	end
@@ -867,7 +870,7 @@ script 227 mmbn1 {
 }
 script 228 mmbn1 {
 	msgOpen
-	"The teacher's desk"
+	"A mesa do professor."
 	keyWait
 	end
 		delay = 5
@@ -890,16 +893,16 @@ script 229 mmbn1 {
 		jumpIfFalse = 221
 	msgOpen
 	"""
-	A WWW re-education
-	program is playing!
-	Pretty scary stuff!
+	O programa de reedu-
+	cação da WWW está
+	ativo! Que medo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here!
+	Parece que dá para
+	se conectar aqui!
 	"""
 	keyWait
 	end

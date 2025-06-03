@@ -38,9 +38,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The server should
-	be close!
-	Be careful!
+	O servidor deve
+	tá por perto!
+	Toma cuidado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,9 +69,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like not
-	much is going on
-	here,huh?
+	Parece que não tá
+	rolando nada aqui,
+	né?
 	"""
 	mugshotAnimate
 		animation = 1

@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"But..."
+	"Mas...\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -15,9 +15,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	but
-	BombMan is never
-	defeated!
+	mas BombMan nunca
+	foi derrotado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34,8 +33,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I've got the
-	WWW's address!
+	Lan,peguei o
+	endereço da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,9 +53,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Then let's use it to
-	break into the WWW's
-	network!
+	Vamos usar ele pra
+	invadir a rede da
+	WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,7 +73,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Fool..."
+	"Idiotas...\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -82,9 +81,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They don't
-	call me BombMan for
-	nothing!
+	Não me chamam de
+	"BombMan" à toa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,8 +92,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	NetBomb program
-	activated!
+	Programa NetBomba,
+	ativar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -111,7 +109,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"!?"
+	"?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -128,7 +126,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uhoh! MegaMan!?"
+	"Ah! MegaMan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -143,7 +141,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You OK?"
+	"Você tá bem?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -160,14 +158,14 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah..."
+	"Tô... "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"but..."
+	"Mas..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -176,9 +174,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh no!
-	The net's been
-	closed off!
+	Ah! A rede foi
+	bloqueada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -197,8 +194,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Darn!
-	We were so close!
+	Droga! A gente tava
+	tão perto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -217,9 +214,9 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sure we can use
-	this address
-	somehow!
+	Com certeza existe
+	algum jeito da gente
+	usar este endereço!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -238,8 +235,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're right!
-	Let's talk to Dad!
+	Você tá certo!
+	Bora falar com o
+	papai!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -7,22 +7,22 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan!"
+	"Ai,Lan!"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Look on TV!\n"
+	"Veja só na TV!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"It's awful!"
+	"É horrível!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -38,9 +38,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am pleased to
-	announce that the
-	WWW master plan...
+	Tenho o prazer de
+	anunciar que o plano
+	mestre da WWW...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -50,8 +50,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Is entering the
-	final phase!
+	está entrando em
+	sua fase final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -61,9 +61,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our next targets are
-	this country's
-	military satellites!
+	Nossos próximos
+	alvos: os satélites
+	militares de Ni-Hon!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We will be launching
-	a hacking rocket
-	from our WWW labs...
+	Logo lançaremos um
+	foguete de nosso
+	laboratório da WWW.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,19 +84,18 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Once we have control"
+	"""
+	Assim que assumirmos
+	o controle
+	"""
 	mugshotAnimate
 		animation = 1
-	"\n"
 	waitSkip
 		frames = 30
-	"..."
+	"...\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	The EndGame
-	begins!
-	"""
+	"a Fase Final\ncomeçará!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -114,9 +113,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	We've got to get to
-	the WWW labs!
+	Lan! A gente tem
+	que ir pro
+	laboratório da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -134,7 +133,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right on! Let's go!"
+	"É! Vamos lá!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -150,9 +149,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!?
-	Where are you going
-	at a time like this?
+	Lan?! Aonde você vai
+	numa hora destas?!
 	"""
 	mugshotAnimate
 		animation = 1

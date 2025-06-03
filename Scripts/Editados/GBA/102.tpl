@@ -21,9 +21,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder why you can
-	jack into some
-	machines but not all
+	Por que só dá pra
+	gente se conectar
+	em certas máquinas?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,8 +63,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Someone in here is
-	causing problems...
+	Tem alguém arrumando
+	treta aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -93,8 +93,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wonder if this
-	thing works now?
+	Será que esta coisa
+	funciona agora?
 	"""
 	mugshotAnimate
 		animation = 1

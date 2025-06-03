@@ -8,10 +8,10 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry!\n"
+	"Desculpa!\n"
 	mugshotAnimate
 		animation = 1
-	"*snort*"
+	"Ronc!"
 	wait
 		frames = 30
 	end
@@ -26,17 +26,17 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"W-Wait!!"
+	"E-espera!!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n..."
+	"\n... "
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? What's
-	going on?
+	Ué? O que tá
+	acontecendo?
 	"""
 	mugshotAnimate
 		animation = 1

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Darn!
-	This is a tough
-	program!
+	Droga!
+	Este é programa é
+	dos difíceis!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,7 +29,10 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let us help you!"
+	"""
+	Deixe-nos ajudar
+	você!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -46,7 +49,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What...Froid?"
+	"O quê... Sr. Froid?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64,9 +67,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've got a lot of
-	making up to you to
-	do...IceMan!
+	Ainda tenho muita
+	dívida com você...
+	IceMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,7 +87,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yessir!"
+	"Sim,senhor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -99,7 +102,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thanks,IceMan!"
+	"Obrigado,IceMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -114,7 +117,10 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's get Wily!"
+	"""
+	Hora de acabar com
+	o Wily!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -131,7 +137,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right on!"
+	"Isso aí!"
 	mugshotAnimate
 		animation = 1
 	keyWait

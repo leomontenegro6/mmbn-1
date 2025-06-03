@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey! You're late!"
+	"Ei! Tá atrasado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorrysorry!"
+	"Desculpa,desculpa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -43,15 +43,15 @@ script 2 mmbn1 {
 	"Lan"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you
-	have water this
-	morning at home?
+	você tava
+	com água em casa
+	hoje de manhã?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -68,7 +68,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What,you too?"
+	"Pera,você também?"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -85,9 +85,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah! I couldn't
-	even wash my face
-	this morning...yuck
+	Aham! Não pude lavar
+	o rosto antes de
+	sair... Urgh!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -105,8 +105,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can wash it when
-	we get to school!
+	Ah,você lava quando
+	chegar na escola!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,7 +123,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I hope so..."
+	"Tomara..."
 	mugshotAnimate
 		animation = 1
 	controlUnlock

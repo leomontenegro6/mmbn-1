@@ -4,7 +4,7 @@ script 0 mmbn1 {
 	msgOpen
 	flagSet
 		flag = 165
-	"*beep*"
+	"Bip!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -20,8 +20,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Mail! Should I
-	open it?
+	E-mail!
+	Quer que eu abra?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,7 +39,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Please!"
+	"Sim,por favor!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -55,25 +55,25 @@ script 3 mmbn1 {
 		palette = 1
 	msgOpen
 	"""
-	So? Are you looking
-	for the kid who was
-	kidnapped?
+	Você tá procurando
+	pelo menino que foi
+	sequestrado?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	...I forgot to
-	mention his last name
-	is “Froid.“
+	... Esqueci de
+	falar: o sobrenome
+	dele é "Froid."
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	And...it looks like
-	the WWW is involved!
-	So,good luck!
+	E... parece que a
+	WWW tá envolvida!
+	Então,boa sorte!
 	"""
 	keyWait
 	clearMsg
@@ -90,8 +90,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,she said
-	“Froid.“
+	Lan,ela disse
+	"Froid"!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -110,18 +110,17 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's the name of
-	the guy at the water
-	works!
+	É o nome do cara da
+	estação de água!
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	" "
+	"\n"
 	mugshotAnimate
 		animation = 2
-	"That means..."
+	"O que quer dizer..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -139,9 +138,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The WWW took Froid's
-	son and made him bug
-	the water program!
+	Que a WWW pegou o
+	filho do Froid e
+	causou tudo isso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -151,8 +150,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Things are starting
-	to make sense...
+	Agora tudo começou
+	a fazer sentido...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -171,8 +170,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yai...She could've
-	told me sooner!
+	Yai... Ela podia ter
+	falado antes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -191,9 +190,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If we save his son,
-	maybe Dr.Froid will
-	stop the bug?
+	Se salvarmos o filho
+	do Dr. Froid,ele
+	pode parar o bug!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -211,7 +210,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right! Good idea!"
+	"Isso! Boa ideia!"
 	mugshotAnimate
 		animation = 1
 	keyWait

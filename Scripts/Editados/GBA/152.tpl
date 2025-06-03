@@ -18,9 +18,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There are 5 kinds
-	of chip:Fire,Water,
-	Electric,Wood,and
+	Há 5 tipos de chip:
+	Fogo,Água,Elétrico,
+	Madeira e Neutro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,9 +30,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Neutral. Each type
-	is stronger than
-	others against one
+	Cada tipo é mais
+	forte contra um
+	certo outro tipo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42,8 +42,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	type. Say,is this
-	the SciLab?
+	Por sinal,este
+	aqui é o SciLab?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -55,7 +55,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -63,7 +63,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -75,8 +75,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,then this must
-	be the Waterworks!
+	Ah,então,estamos
+	no Sistema Hídrico!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -93,19 +93,19 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hmmm? That's
-	strange
+	Hmmm? Ué,que
+	estranho
 	"""
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Where's
-	my laboratory?
+	Cadê
+	o meu laboratório?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -127,9 +127,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the
-	Waterworks
-	information desk.
+	Esta é a recepção
+	do Sistema Hídrico.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,9 +138,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The machinery that
-	cleans the water
-	is on another floor.
+	A máquina que limpa
+	a água fica em outro
+	andar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -163,9 +162,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Welcome to the
-	Waterworks!
-	Water is our life!
+	Bem-vindo ao
+	Sistema Hídrico!
+	Água é vida!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -192,9 +191,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why do government
-	offices always keep
-	you waiting so long?
+	Por que órgãos do
+	governo nos fazem
+	esperar tanto?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,8 +203,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,let's chat
-	while we're waiting.
+	Bom,vamos conversar
+	enquanto espero.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,9 +214,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The Wood Armor that
-	I bought on the net
-	near here is great!
+	Adorei a Armadura de
+	Madeira que comprei
+	na net aqui perto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -227,9 +226,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The power of nature
-	reduces damage to
-	half of normal!
+	O poder da natureza
+	reduz o dano pela
+	metade do normal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -239,9 +238,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Unfortunately,it
-	doesn't work against
-	fire attacks at all.
+	Mas,infelizmente,
+	isso não vale para
+	ataques de Fogo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -251,9 +250,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Armor uses natural
-	defenses to reduce
-	damage,so they all
+	As armaduras usam
+	defesas naturais
+	pra reduzir danos,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -263,9 +262,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	have a weak spot.
-	Be sure to change
-	armor at times.
+	então,têm pontos
+	fracos. Logo,tro-
+	que-as regularmente.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -287,8 +286,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please pay your
-	water bill here.
+	Por favor,pague sua
+	conta de água aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -310,9 +309,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the sewer
-	construction
-	information desk.
+	Este é o balcão de
+	informações do
+	esgoto.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -329,9 +328,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That elevator may
-	only be used by
-	staff members.
+	Esse elevador é
+	somente para
+	funcionários.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -348,9 +347,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,I think that
-	you have to push
-	that button.
+	Lan,acho que você
+	tem que apertar
+	aquele botão ali.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -400,9 +399,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We're looking into
-	the water shortage
-	problem.
+	Estamos investigando
+	o problema da
+	escassez de água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -412,9 +411,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't have
-	any further business
-	please move along.
+	Se não tem mais
+	nada a tratar aqui,
+	por favor...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -431,9 +430,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why can't they do
-	anything?? I'm
-	going home!!
+	Por que não fazem
+	nada?! Argh,eu vou
+	pra casa!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -454,8 +453,8 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Can you please
-	wait your turn?
+	Pode,por favor,
+	esperar a sua vez?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -472,8 +471,8 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry to have kept
-	you waiting.
+	Desculpe por tê-lo
+	feito esperar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -482,17 +481,17 @@ script 18 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Um"
+	"Hm"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	 Are you an
-	official NetBattler?
+	Você é
+	NetLutador Oficial?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -504,7 +503,7 @@ script 18 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -512,7 +511,7 @@ script 18 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -524,9 +523,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If it's about the
-	water shortage,
-	go over there.
+	Se é sobre a
+	escassez de água,
+	é no outro balcão.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -543,8 +542,8 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh! May I see
-	your ID card?
+	Ah! Posso ver o
+	seu cartão de ID?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -558,9 +557,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't have
-	your ID,I can't
-	let you in...
+	Se não tem ID,não
+	posso deixá-lo
+	passar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -577,9 +576,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We're working on
-	it! We're working
-	on it!
+	Estamos trabalhando
+	nisso! Estamos
+	trabalhando nisso!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -595,7 +594,10 @@ script 21 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Please calm down!"
+	"""
+	Por favor,
+	acalmem-se!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -610,7 +612,10 @@ script 22 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's going on!?"
+	"""
+	O que está
+	acontecendo?!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -626,9 +631,8 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonder when things
-	will be back to
-	normal?
+	Quando as coisas vão
+	voltar ao normal?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -645,8 +649,8 @@ script 24 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can't get milk
-	for my baby!
+	Estou sem leite
+	para o meu bebê!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -663,8 +667,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Bring out whoever
-	is in charge!!
+	Eu quero falar com o
+	encarregado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -675,11 +679,11 @@ script 25 mmbn1 {
 }
 script 26 mmbn1 {
 	msgOpen
-	"An elevator switch."
+	"O botão do elevador."
 	keyWait
 	clearMsg
 		delay = 0
-	"Lan used the\n"
+	"Lan usou o\n"
 	printItem
 		buffer = 0
 		item = 4
@@ -688,8 +692,8 @@ script 26 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	The elevator doors
-	opened!
+	A porta do elevador
+	se abriu!
 	"""
 	keyWait
 	checkFlag
@@ -712,8 +716,8 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go check out
-	the pump room!
+	Vamos dar uma olhada
+	na sala da bomba!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -756,9 +760,9 @@ script 35 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Everyone finally
-	left! Now I can go
-	home!
+	Todos finalmente
+	foram embora! Agora
+	posso ir pra casa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -806,7 +810,7 @@ script 45 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Is this the SciLab?"
+	"Este é o SciLab?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -817,7 +821,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -825,7 +829,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -836,7 +840,37 @@ script 45 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"What? Yes it is!"
+
+	mugshotAnimate
+		animation = 1
+	"\n"
+	option
+		left = 1
+		right = 1
+		up = 0
+		down = 0
+	space
+		count = 2
+	"Sim "
+	option
+		left = 0
+		right = 0
+		up = 1
+		down = 1
+	space
+		count = 2
+	"Não"
+	select
+		default = 0
+		disableB = false
+		clear = true
+		targets = [
+			jump = 46,
+			jump = continue
+		]
+	mugshotAnimate
+		animation = 2
+	"Quê? É,sim!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -844,7 +878,7 @@ script 45 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Or,is it??"
+	"Ou não é?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -853,8 +887,8 @@ script 45 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now I'm all
-	confused...
+	Agora dei um nó
+	na cabeça...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -871,9 +905,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,OK... I thought
-	that I was lost
-	for a bit there...
+	Ah,OK... Achei que
+	tinha me perdido...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -895,9 +928,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the
-	Waterworks
-	information desk.
+	Esta é a recepção
+	do Sistema Hídrico.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -907,8 +939,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The water pump has
-	been fixed!
+	A bomba d'água foi
+	consertada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -930,9 +962,9 @@ script 48 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Welcome to the
-	Waterworks!
-	Water is our life!
+	Bem-vindo ao
+	Sistema Hídrico!
+	Água é vida!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -954,9 +986,9 @@ script 49 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Even with the crisis
-	over,they still keep
-	us waiting!
+	Mesmo com a crise
+	acabada,eles ainda
+	nos fazem esperar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -978,8 +1010,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please pay your
-	water bill here.
+	Por favor,pague sua
+	conta de água aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1001,9 +1033,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the sewer
-	construction
-	information desk.
+	Este é o balcão de
+	informações do
+	esgoto.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1053,9 +1085,9 @@ script 63 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I hate being at my
-	desk when my project
-	isn't going well.
+	Odeio estar na minha
+	mesa quando meu pro-
+	jeto não vai bem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1065,9 +1097,9 @@ script 63 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I've got to work,
-	but I'm not making
-	any progress...
+	Preciso trabalhar,
+	mas não estou pro-
+	gredindo em nada...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1077,8 +1109,8 @@ script 63 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wish that I could
-	be a student again.
+	Queria voltar a
+	ser estudante.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1087,7 +1119,7 @@ script 63 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Well,back to work!"
+	"Fazer o quê?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1103,9 +1135,9 @@ script 64 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This whole building
-	was paid for with
-	my taxes!!
+	Todo este prédio foi
+	pago com meus
+	impostos!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1142,9 +1174,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Our customers are
-	becoming more and
-	more worried...
+	Nossos clientes
+	estão cada vez
+	mais preocupados...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1154,9 +1186,9 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We need to do
-	something about the
-	WWW fast!!
+	Precisamos fazer
+	algo quanto à WWW,
+	e rápido!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1178,9 +1210,8 @@ script 71 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the
-	Waterworks
-	information desk.
+	Esta é a recepção
+	do Sistema Hídrico.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1190,8 +1221,8 @@ script 71 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The water pump has
-	been fixed!
+	A bomba d'água foi
+	consertada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1213,9 +1244,9 @@ script 72 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Welcome to the
-	Waterworks!
-	Water is our life!
+	Bem-vindo ao
+	Sistema Hídrico!
+	Água é vida!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1242,9 +1273,9 @@ script 73 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Even with the crisis
-	over,they still make
-	us wait!!
+	Mesmo com a crise
+	resolvida,eles ainda
+	nos fazem esperar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1266,8 +1297,8 @@ script 74 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Please pay your
-	water bill here.
+	Por favor,pague sua
+	conta de água aqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1289,9 +1320,9 @@ script 75 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the sewer
-	construction
-	information desk.
+	Este é o balcão de
+	informações do
+	esgoto.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1326,9 +1357,9 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Even with the crisis
-	over,they still make
-	us wait!!
+	Mesmo com a crise
+	resolvida,eles ainda
+	nos fazem esperar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1344,7 +1375,7 @@ script 81 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Me? A WWW member??"
+	"Eu? Membro da WWW?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -1353,8 +1384,8 @@ script 81 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You've got to be
-	kidding!
+	Você só pode estar
+	brincando!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1364,9 +1395,9 @@ script 81 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Speaking of the WWW,
-	I recently met a man
-	who knew about them.
+	Aliás,conheci um
+	sujeito entendido
+	deles,estes dias.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1376,8 +1407,9 @@ script 81 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think he said he
-	lives in ACDC Town.
+	Acho que ele disse
+	que morava no
+	Bairro ACDC.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1403,9 +1435,9 @@ script 85 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Now is the time when
-	we scientists must
-	show what we can do!
+	É hora de mostrar
+	do que nós,cientis-
+	tas,somos capazes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1422,9 +1454,9 @@ script 86 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If war starts,I'll
-	bet that this place
-	will be a target!
+	Se vier guerra,
+	aposto que este
+	lugar será um alvo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1441,8 +1473,8 @@ script 87 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I hope they find
-	the WWW base fast!
+	Espero que achem a
+	base da WWW logo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1459,8 +1491,9 @@ script 88 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So many things
-	happening lately...
+	Muitas coisas têm
+	acontecido estes
+	dias...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1470,9 +1503,9 @@ script 88 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What's the
-	government do,
-	besides take taxes!?
+	E o que o governo
+	faz,além de cobrar
+	impostos?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1482,9 +1515,9 @@ script 88 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well... Maybe I'm
-	being a little hard
-	on them...
+	Bem... Talvez eu es-
+	teja sendo um pouco
+	duro com eles...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1501,8 +1534,9 @@ script 89 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What will I do if
-	there's a war??
+	O que eu vou fazer
+	se tiver uma
+	guerra?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1512,9 +1546,9 @@ script 89 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm so worried I
-	can't get any work
-	done...
+	Estou tão preocupada
+	que não consigo ter-
+	minar meu trabalho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1531,9 +1565,9 @@ script 90 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess no one
-	cares about sewer
-	construction now.
+	Acho que ninguém
+	quer saber do
+	esgoto agora.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1857,9 +1891,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My son asked me to
-	look for a chip
-	for him.
+	Meu filho me pediu
+	pra arranjar um
+	chip pra ele.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1868,7 +1902,7 @@ script 190 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"A "
+	"Um "
 	printChip
 		buffer = 0
 		chip = 43
@@ -1877,9 +1911,9 @@ script 190 mmbn1 {
 		buffer = 0
 		code = H
 	"""
-	,
-	he said. Supposed
-	to be pretty rare.
+	.
+	Parece ser bem
+	raro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1889,9 +1923,9 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's not anywhere!
-	I don't suppose that
-	you would have one?
+	E eu não consigo
+	achar! Você não
+	teria um,teria?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1901,8 +1935,8 @@ script 190 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you do,I'll give
-	you this 
+	Se tiver,te dou
+	este 
 	"""
 	printChip
 		buffer = 0
@@ -1911,7 +1945,7 @@ script 190 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"\nfor it..."
+	"\nem troca..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1924,7 +1958,7 @@ script 190 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1932,7 +1966,7 @@ script 190 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1954,8 +1988,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,well...
-	Thanks anyway.
+	Bom...
+	Obrigado mesmo
+	assim.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1984,9 +2019,9 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks so much!
-	My son will be
-	so happy!
+	Muito obrigado!
+	O meu filho vai
+	ficar tão feliz!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2012,8 +2047,8 @@ script 193 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -2022,7 +2057,9 @@ script 193 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -2039,8 +2076,8 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sorry,it has
-	to be a
+	Desculpe,mas tem
+	que ser um
 	
 	"""
 	printChip
@@ -2059,9 +2096,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't suppose
-	you have one in
-	your chip folder?
+	Será que você não
+	colocou na sua
+	pasta de chips?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2071,9 +2108,9 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can only trade
-	chips that are in
-	your backpack.
+	Só dá para trocar
+	chips que estejam
+	na sua mochila.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2083,9 +2120,8 @@ script 194 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you don't have
-	one in your folder,
-	well,maybe next
+	Mas se não tiver
+	um nem na pasta...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2094,7 +2130,10 @@ script 194 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"time."
+	"""
+	Bom,quem sabe na
+	próxima.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -2109,7 +2148,7 @@ script 195 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You'll trade that\n"
+	"Você troca esse\n"
 	printChip
 		buffer = 0
 		chip = 43
@@ -2118,8 +2157,8 @@ script 195 mmbn1 {
 		buffer = 0
 		code = H
 	"""
-	 for
-	my 
+	 pelo
+	meu 
 	"""
 	printChip
 		buffer = 0
@@ -2141,7 +2180,7 @@ script 195 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -2149,7 +2188,7 @@ script 195 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -2171,9 +2210,9 @@ script 196 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks so much!
-	My son will be
-	so happy!
+	Muito obrigado!
+	O meu filho vai
+	ficar tão feliz!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2213,9 +2252,9 @@ script 200 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's strange?
-	I put in my money
-	but I can't buy
+	Estranho... Inseri
+	dinheiro,mas não
+	consigo comprar
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2225,9 +2264,9 @@ script 200 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	anything...
-	Could someone jack
-	in and fix this?
+	nada... Alguém pode
+	se conectar aí e
+	consertar isso?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2246,8 +2285,8 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks! I got my
-	cola!
+	Valeu! Peguei o
+	meu refrigerante!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2257,8 +2296,8 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This brand is only
-	in this machine!
+	Esta marca só tem
+	nesta máquina!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2268,8 +2307,9 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can't work without
-	it! Hahahaha!
+	Sem ela,o trabalho
+	não rende!
+	Ha ha ha ha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2279,8 +2319,8 @@ script 201 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Take this for your
-	trouble...
+	Tome,um agrado pra
+	você...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2299,8 +2339,8 @@ script 201 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -2309,7 +2349,9 @@ script 201 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -2326,8 +2368,9 @@ script 202 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Gosh,I really
-	wanted that cola!
+	Poxa,e eu tava
+	tão sedento por
+	esse refri!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2337,8 +2380,9 @@ script 202 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So close,and yet
-	so far...
+	Tão perto,
+	e ainda assim,
+	tão longe...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2355,9 +2399,9 @@ script 203 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This cola tastes
-	really bad,but I
-	keep drinking it!
+	Este refri é horrí-
+	vel,mas não consigo
+	parar de beber!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2367,8 +2411,8 @@ script 203 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yuck!!
-	One more!
+	Ieurrrgh!!
+	Mais um!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -2433,9 +2477,9 @@ script 220 mmbn1 {
 		jumpIfOutOfRange = continue
 	msgOpen
 	"""
-	There is a wide
-	variety of drinks
-	inside
+	Há uma grande
+	variedade de bebidas
+	dentro.
 	"""
 	keyWait
 	end
@@ -2445,9 +2489,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	A broken vending
-	machine. There's a
-	jack in port here
+	Uma máquina de ven-
+	das quebrada. Tem
+	entrada de conexão.
 	"""
 	keyWait
 	end
@@ -2457,14 +2501,14 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	It only shows a
-	test pattern and
-	it's beeping
+	Só mostra uma tela
+	de teste com um
+	longo "bip".
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Somehow creepy"
+	"É meio sinistro."
 	keyWait
 	end
 		delay = 5
@@ -2473,9 +2517,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Please smoke only
-	in the smoking
-	area
+	Por favor,fume
+	somente na área
+	para fumantes.
 	"""
 	keyWait
 	end
@@ -2485,9 +2529,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	“If you desire an
-	appointment,write
-	your name here“
+	"Se deseja agendar
+	horário,escreva seu
+	nome aqui."
 	"""
 	keyWait
 	end
@@ -2497,9 +2541,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	This is a modern
-	TV with a jack in
-	port
+	É uma TV moderna
+	com entrada de
+	conexão.
 	"""
 	keyWait
 	end
@@ -2509,9 +2553,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	There are several
-	posters about the
-	environment here
+	Há vários cartazes
+	sobre o meio-
+	ambiente aqui.
 	"""
 	keyWait
 	end
@@ -2521,8 +2565,8 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	Only staff members
-	may go in there
+	Somente pessoal
+	autorizado.
 	"""
 	keyWait
 	end
@@ -2532,9 +2576,8 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	Somebody has
-	bought all of
-	the drinks
+	Alguém comprou todas
+	as bebidas.
 	"""
 	keyWait
 	end

@@ -3,8 +3,8 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	A chip exchanger!
-	Insert 3 chips?
+	Um Troca-Chips!
+	Inserir 3 chips?
 	
 	"""
 	option
@@ -14,7 +14,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -22,7 +22,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -47,9 +47,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,you don't
-	have 3 chips in
-	your pack.
+	Lan,você não tem 3
+	chips na mochila.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,7 +61,7 @@ script 2 mmbn1 {
 	wait
 		frames = 30
 	msgOpen
-	"Trade these 3 chips?\n"
+	"Trocar estes chips?\n"
 	option
 		left = 1
 		right = 1
@@ -70,7 +69,7 @@ script 2 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -78,7 +77,7 @@ script 2 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -93,11 +92,11 @@ script 2 mmbn1 {
 }
 script 3 mmbn1 {
 	msgOpen
-	"Here goes!\n"
+	"Lá vai!\n"
 	soundDisableTextSFX
 	soundPlay
 		track = 233
-	"*gak* *gak*...gonk!"
+	"Pla Plu... Tonc!"
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -109,8 +108,8 @@ script 3 mmbn1 {
 	flagSet
 		flag = 1030
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 1
@@ -119,7 +118,9 @@ script 3 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -127,7 +128,7 @@ script 3 mmbn1 {
 		delay = 0
 	flagClear
 		flag = 1030
-	"Exchange once more?\n"
+	"Trocar de novo?\n"
 	option
 		left = 1
 		right = 1
@@ -135,7 +136,7 @@ script 3 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -143,7 +144,7 @@ script 3 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -170,9 +171,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,Lan. You don't
-	have 3 chips left.
-	Try later!
+	Desculpa,Lan,mas
+	você não tem nem 3
+	chips. Tenta depois!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -188,8 +189,8 @@ script 5 mmbn1s {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	A super exchanger!
-	Insert 10 chips?
+	Troca-Chips espe-
+	cial! Inserir 10?
 	
 	"""
 	option
@@ -199,7 +200,7 @@ script 6 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -207,7 +208,7 @@ script 6 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -232,9 +233,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,you don't
-	have 10 chips in
-	your pack.
+	Lan,você não tem 10
+	chips na mochila.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -248,8 +248,8 @@ script 8 mmbn1 {
 		frames = 30
 	msgOpen
 	"""
-	Trade these
-	10 chips?
+	Trocar estes 10
+	chips?
 	
 	"""
 	option
@@ -259,7 +259,7 @@ script 8 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -267,7 +267,7 @@ script 8 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -282,11 +282,11 @@ script 8 mmbn1 {
 }
 script 9 mmbn1 {
 	msgOpen
-	"Here goes!\n"
+	"Lá vai!\n"
 	soundDisableTextSFX
 	soundPlay
 		track = 233
-	"*gak* *gak*...gonk!"
+	"Pla Plu... Tonc!"
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -298,8 +298,8 @@ script 9 mmbn1 {
 	flagSet
 		flag = 1030
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 1
@@ -308,7 +308,9 @@ script 9 mmbn1 {
 	printCode
 		buffer = 2
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -316,7 +318,7 @@ script 9 mmbn1 {
 		delay = 0
 	flagClear
 		flag = 1030
-	"Exchange once more?\n"
+	"Trocar de novo?\n"
 	option
 		left = 1
 		right = 1
@@ -324,7 +326,7 @@ script 9 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -332,7 +334,7 @@ script 9 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -359,9 +361,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,Lan. You don't
-	have 10 chips left.
-	Try later!
+	Foi mal,Lan. Você
+	não tem 10 chips aí.
+	Tenta depois!
 	"""
 	mugshotAnimate
 		animation = 1

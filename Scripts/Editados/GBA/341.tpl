@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Right on!
-	That should fix the
-	power out!
+	Aê! Isso deve
+	resolver a queda
+	de energia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,9 +29,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,back to the
-	restaurant! Your mom
-	is worried sick!
+	Lan,pro restauran-
+	te! Sua mãe deve
+	estar preocupada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,7 +49,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You're right..."
+	"É..."
 	mugshotAnimate
 		animation = 1
 	keyWait

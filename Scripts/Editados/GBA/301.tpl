@@ -8,8 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Mayl isn't here
-	yet,is she?
+	A Mayl ainda não
+	chegou,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,8 +28,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What could it be
-	this time?
+	O que será que é
+	desta vez?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,18 +45,18 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Wait,Lan"
+	"Espera"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Does the
-	traffic light look
-	odd to you,too?
+	Você não
+	acha que o semáforo
+	tá estranho?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,8 +73,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Huh? It's green both
-	ways!
+	Hã? Ué,tá verde nos
+	dois lados!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,7 +94,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"A!"
+	"AH!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -102,7 +102,7 @@ script 4 mmbn1 {
 	" "
 	mugshotAnimate
 		animation = 2
-	"Watch out!"
+	"CUIDADO!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -117,7 +117,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"An accident!"
+	"Um acidente!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -134,7 +134,7 @@ script 6 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh no!?"
+	"Ai,nossa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -149,7 +149,10 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Help! Somebody help!"
+	"""
+	Socorro!
+	Alguém,ajuda!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait

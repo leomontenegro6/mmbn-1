@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How can this be!?
-	A civilian Navi beat
-	a NetBattler? Never!
+	Como é possivel?! Um
+	Navi civil venceu um
+	Oficial? Como?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,7 +28,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Don't get it?"
+	"Não entendeu?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -37,8 +37,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	'Cause you're an
-	official Navi,you
+	Como você é um
+	Navi oficial,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,9 +48,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	can carry your own
-	battle chips--so you
-	can fight alone!
+	administra seus
+	próprios chips...
+	e luta sozinho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,9 +69,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's right...
-	And I've fought
-	alone every time!
+	Óbvio... Eu lutei
+	sozinho este tempo
+	todo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -81,8 +81,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And I've never lost!
-	Not once!
+	E nunca perdi!
+	Nem uma vez sequer!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -101,9 +101,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...'Cause I'm a
-	civilian Navi,I
-	can't fight alone.
+	... Como eu sou um
+	Navi civil,não
+	posso lutar sozinho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -113,8 +113,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's why I've got
-	Lan backing me up!
+	Eu sempre tenho o
+	Lan lá pra me
+	apoiar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -124,8 +125,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've come this far
-	together...
+	Nós chegamos até aqui
+	juntos... 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,10 +134,7 @@ script 3 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	Because
-	we fight as a team!
-	"""
+	"porque \nlutamos em equipe!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -145,9 +143,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The better friends
-	you are with your
-	operator...
+	Quanto mais forte
+	o laço entre você
+	e o seu operador...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,10 +154,7 @@ script 3 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	The better you
-	fight!
-	"""
+	"melhor você luta!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -176,7 +171,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Friends?"
+	"Laço?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -194,9 +189,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	ProtoMan!
-	Don't listen to
-	their nonsense!
+	ProtoMan! Não dê
+	ouvidos a essa
+	baboseira!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -205,7 +200,7 @@ script 5 mmbn1 {
 		delay = 5
 	mugshotAnimate
 		animation = 2
-	"Jack out,now!"
+	"Saia agora!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -223,8 +218,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wait,please,
-	Lord Chaud!!
+	Por favor,espere,
+	senhor Chaud!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -233,7 +228,10 @@ script 6 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"You're MegaMan..."
+	"""
+	Você se chama
+	MegaMan... certo?
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -241,10 +239,7 @@ script 6 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	right? Just tell me
-	one thing...
-	"""
+	"Só me diga..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -253,9 +248,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How do you see your
-	operator,this “Lan“?
-	Who is he to you?
+	Como você vê Lan,o
+	seu operador? Quem
+	ele é para você?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -273,7 +268,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Why..."
+	"Ele..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -281,7 +276,10 @@ script 7 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"He's my best friend!"
+	"""
+	Ele é o meu melhor
+	amigo!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -298,7 +296,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Friend...huh..."
+	"Amigo... é...?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -307,8 +305,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I never thought
-	of that...
+	Eu nunca pensei
+	nisso...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -327,8 +325,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go,ProtoMan!
-	Jack out!!
+	Vamos,ProtoMan!
+	Desconectar!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -345,9 +343,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we have to jack
-	out too and get that
-	power plant going!
+	Lan,também temos
+	que sair e reativar
+	a usina!
 	"""
 	mugshotAnimate
 		animation = 1

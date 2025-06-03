@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Eeeeek!"
+	"AHHHH!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -27,8 +27,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	! MegaMan,what's
-	wrong!?
+	! MegaMan,o que
+	aconteceu?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -37,7 +37,7 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"MegaMan!?"
+	"MegaMan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -52,7 +52,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Who's there!?"
+	"Quem tá aí?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -70,9 +70,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't bother calling
-	your Navi! He just
-	went boom!
+	Não adianta chamar
+	o seu Navi!
+	Ele já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -91,9 +91,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You!
-	You're the panel
-	repair man!
+	Você! O moço do
+	conserto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,9 +111,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hah! That was just a
-	disguise! I work for
-	the WWW,silly kid!
+	Ha! Era só um dis-
+	farce! Eu trabalho
+	pra WWW,moleque!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,8 +132,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So all the other
-	oven explosions...
+	Então,todas as
+	outras explosões
+	dos fogões...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -153,9 +153,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're pretty smart.
-	Me and my Navi do
-	good work,huh?
+	Garoto esperto. Eu
+	e o meu Navi tra-
+	balhamos bem,he.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,9 +165,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sorry,but you gotta
-	join your Navi!
-	You can't escape!
+	Agora,você vai se
+	juntar ao seu Navi!
+	Não vai escapar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,7 +178,7 @@ script 7 mmbn1 {
 }
 script 8 mmbn1 {
 	msgOpen
-	"Hah hah hah!"
+	"Ha ha haaa!"
 	keyWait
 	clearMsg
 		delay = 5

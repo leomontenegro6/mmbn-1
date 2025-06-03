@@ -16,13 +16,15 @@ script 0 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got his
-	“
+	Lan pegou o
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -31,9 +33,9 @@ script 0 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Press START to see
-	chip data and read
-	mail
+	Aperte START para
+	ver dados de chip
+	e ler e-mails.
 	"""
 	keyWait
 	clearMsg
@@ -44,9 +46,9 @@ script 0 mmbn1 {
 	soundPlay
 		track = 133
 	"""
-	Lan got an AI
-	Navigation program,
-	“MegaMan.EXE“!
+	Lan recebeu o pro-
+	grama IA de navega-
+	ção "MegaMan.EXE"!
 	"""
 	playerFinish
 	playerAnimate
@@ -64,8 +66,8 @@ script 0 mmbn1 {
 script 1 mmbn1 {
 	msgOpen
 	"""
-	Lan,don't forget
-	your 
+	Lan,não vá esquecer
+	seu 
 	"""
 	printItem
 		buffer = 0
@@ -83,7 +85,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! Good morning!"
+	"Lan! Bom dia!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -100,7 +102,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Morning,MegaMan!"
+	"Bom dia,MegaMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -118,9 +120,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you need to talk
-	to me,just push the
-	L Button.
+	Se quiser falar
+	comigo,é só apertar
+	L.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -130,8 +132,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,let's get to
-	school!
+	OK! Vamos pra
+	escola!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -154,9 +156,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You want to jack
-	in? Let's do that
-	after school!
+	Quer se conectar?
+	A gente faz isso
+	depois da aula!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -177,8 +179,8 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Check your
-	mail again!
+	Lan! Veja seus
+	e-mails de novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -197,13 +199,13 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -227,9 +229,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,this is no time
-	to jack in! Go see
-	Mom!
+	Lan,isso não é hora
+	de conectar! Fale
+	com a sua mãe!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,7 +262,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Here it is!!"
+	"Aqui está!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -285,13 +287,15 @@ script 16 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan got:
-	“
+	Lan pegou:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 2
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -310,7 +314,7 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"OK! Let's go!"
+	"OK! Vamos lá!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -321,8 +325,8 @@ script 17 mmbn1 {
 script 18 mmbn1 {
 	msgOpen
 	"""
-	MegaMan isn't in
-	the 
+	MegaMan não está
+	no 
 	"""
 	printItem
 		buffer = 0
@@ -359,8 +363,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Turn in for the
-	day?
+	Pronto pra
+	dormir?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -372,7 +376,7 @@ script 25 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -380,7 +384,7 @@ script 25 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -403,8 +407,8 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Save the day's
-	events in your 
+	Salvar os eventos do
+	dia no seu 
 	"""
 	printItem
 		buffer = 0
@@ -420,7 +424,7 @@ script 26 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -428,7 +432,7 @@ script 26 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -453,8 +457,8 @@ script 27 mmbn1 {
 		palette = 0
 	msgOpen
 	"""
-	A file exists.
-	OK to overwrite?
+	Já há um arquivo.
+	Sobrescrever?
 	
 	"""
 	option
@@ -464,7 +468,7 @@ script 27 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -472,7 +476,7 @@ script 27 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -489,12 +493,12 @@ script 27 mmbn1 {
 	"OK!"
 	mugshotAnimate
 		animation = 1
-	"\n..."
+	"\n... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Saved!"
+	"Salvo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -511,7 +515,7 @@ script 28 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good night,Lan!"
+	"Boa noite,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -542,8 +546,8 @@ script 29 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There was an error
-	saving. Try again?
+	Houve um erro ao
+	salvar. Repetir?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -555,7 +559,7 @@ script 29 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -563,7 +567,7 @@ script 29 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -612,12 +616,12 @@ script 33 mmbn1 {
 	"OK!"
 	mugshotAnimate
 		animation = 1
-	"\n..."
+	"\n... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"Saved!"
+	"Salvo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -762,8 +766,8 @@ script 75 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -824,8 +828,8 @@ script 90 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1228,8 +1232,8 @@ script 220 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	Lan's secret tools
-	are hidden here
+	O Lan esconde umas
+	besteiras aqui.
 	"""
 	keyWait
 	end
@@ -1239,9 +1243,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Lots of things that
-	Lan never uses,but
-	can't throw away
+	Muitas coisas que
+	Lan nunca usa,mas
+	não joga fora.
 	"""
 	keyWait
 	end
@@ -1251,16 +1255,17 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	Lan has hidden some
-	test answers in this
-	bookshelf
+	Lan escondeu res-
+	postas de provas
+	nessa estante.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Hope that Mom
-	doesn't find it...
+	Tomara que a
+	mamãe não
+	encontre...
 	"""
 	keyWait
 	end
@@ -1273,7 +1278,10 @@ script 223 mmbn1 {
 		jumpIfTrue = 224
 		jumpIfFalse = continue
 	msgOpen
-	"That's not your\n"
+	"""
+	Esse não é o
+	seu 
+	"""
 	printItem
 		buffer = 0
 		item = 0
@@ -1286,9 +1294,9 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	Your PC. If you jack
-	in here,you can send
-	MegaMan into the net
+	Seu PC. Nele,pode
+	se conectar e mandar
+	MegaMan pra Rede.
 	"""
 	keyWait
 	end
@@ -1298,8 +1306,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	It's still a little
-	early to go to bed
+	Ainda tá meio cedo
+	demais pra ir pra
+	cama.
 	"""
 	keyWait
 	end

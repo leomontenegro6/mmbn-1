@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan! Now!"
+	"MegaMan! Agora!"
 	mugshotAnimate
 		animation = 1
 	clearMsg

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll bet you didn't
-	think you could jack
-	into this thing!
+	Duvido que você
+	achou que poderia
+	se conectar a isto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This vase is
-	actually an air
-	cleaner!
+	Este vaso,na
+	verdade,é um
+	purificador de ar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,9 +32,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Antiques are easily
-	damaged by humidity
-	and pollutants.
+	Antiguidades são fa-
+	cilmente danificadas
+	pela umidade.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,9 +44,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We keep the air in
-	this shop just right
-	for the antiques!
+	Então,nós deixamos
+	o ar da loja no
+	nível certo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,9 +63,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ooops! The humidity
-	is rising! Gotta
-	clear some moisture.
+	Ops! A umidade tá
+	aumentando! Preciso
+	tirar um pouco.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,8 +77,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -96,8 +96,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -106,7 +106,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = C
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

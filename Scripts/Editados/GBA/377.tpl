@@ -21,9 +21,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can't put in
-	more than 10 of the
-	same chip.
+	Você não pode botar
+	mais de 10 chips do
+	mesmo tipo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -40,9 +40,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't have 30
-	chips in your chip
-	folder!
+	Você não tem 30
+	chips na pasta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53,14 +52,14 @@ script 3 mmbn1 {
 }
 script 4 mmbn1s {
 	"""
-	Sort
+	Ordem
 	
 	ID
-	Alphabet
-	Code
-	Attack
-	Element
-	Quantity
+	Alfabeto
+	Código
+	Ataque
+	Elemento
+	Quantid.
 	"""
 	end
 	"  "
@@ -73,8 +72,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can only insert
-	max 5 NaviChips.
+	Você só pode incluir
+	5 ChipsNavi.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -207,7 +206,10 @@ script 40 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"This is my status!"
+	"""
+	Esta é minha
+	condição atual!
+	"""
 	mugshotAnimate
 		animation = 1
 	waitHold
@@ -222,7 +224,7 @@ script 41 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Boost which feature?"
+	"Aumentar recurso?"
 	mugshotAnimate
 		animation = 1
 	waitHold
@@ -239,8 +241,8 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Back to normal
-	armor!
+	Voltando para
+	armadura normal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -257,7 +259,7 @@ script 44 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Equipped "
+	"Equipou "
 	printItem
 		buffer = 1
 		item = 0
@@ -277,10 +279,10 @@ script 45 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Raise Buster attack?"
+	"Aumentar ataque?"
 	mugshotAnimate
 		animation = 1
-	"\n(PowerUPs left:"
+	"\n(PowerUPs: "
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -294,7 +296,7 @@ script 45 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -302,7 +304,7 @@ script 45 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -322,8 +324,8 @@ script 46 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaBuster attack
-	power raised!
+	Ataque do MegaTiro
+	aumentado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -340,10 +342,10 @@ script 47 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Raise Buster speed?"
+	"Aumentar rapidez?"
 	mugshotAnimate
 		animation = 1
-	"\n(PowerUPs left:"
+	"\n(PowerUPs: "
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -357,7 +359,7 @@ script 47 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -365,7 +367,7 @@ script 47 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -385,8 +387,8 @@ script 48 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaBuster rapid
-	fire speed raised!
+	Velocidade do
+	MegaTiro aumentada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -403,10 +405,10 @@ script 49 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Raise Buster charge?"
+	"Aumentar carga?"
 	mugshotAnimate
 		animation = 1
-	"\n(PowerUPs left:"
+	"\n(PowerUPs: "
 	printItemAmount
 		minLength = 0
 		padZeros = false
@@ -420,7 +422,7 @@ script 49 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -428,7 +430,7 @@ script 49 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -448,8 +450,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaBuster charge
-	level raised!
+	Carga do MegaTiro
+	aumentada!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -466,10 +468,7 @@ script 51 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"""
-	You can't boost this
-	feature any more!
-	"""
+	"Já está no máximo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -486,8 +485,8 @@ script 52 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't have
-	a PowerUP to use...
+	Você não tem Power-
+	UPs para usar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -505,8 +504,8 @@ script 53 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't have any
-	armor...
+	Você não tem
+	armaduras...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -523,7 +522,7 @@ script 54 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Which armor?"
+	"Qual armadura?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -546,7 +545,7 @@ script 54 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"Cancelar"
 	select
 		default = 0
 		disableB = false
@@ -565,7 +564,7 @@ script 55 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Which armor?"
+	"Qual armadura?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -599,7 +598,7 @@ script 55 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"Cancelar"
 	select
 		default = 0
 		disableB = false
@@ -619,7 +618,7 @@ script 56 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Which armor?"
+	"Qual armadura?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -665,7 +664,7 @@ script 56 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"Cancelar"
 	select
 		default = 0
 		disableB = false
@@ -700,8 +699,8 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like you
-	got new mail!
+	Parece que há
+	e-mails não lidos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -719,7 +718,7 @@ script 61 mmbn1 {
 		flag = 1029
 	mugshotAnimate
 		animation = 2
-	"Read which mail?"
+	"Ler e-mail?"
 	mugshotAnimate
 		animation = 1
 	waitHold
@@ -832,14 +831,14 @@ script 92 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"One moment please!"
+	"Aguarde,por favor!"
 	mugshotAnimate
 		animation = 1
 	waitHold
 	"  "
 }
 script 93 mmbn1s {
-	"None"
+	"Nada"
 	end
 	"  "
 }
@@ -851,9 +850,9 @@ script 94 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Both picked “None“!
-	You can't trade that
-	way!
+	Os dois escolheram
+	"Nada"! Assim,não
+	dá pra trocar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -870,9 +869,9 @@ script 95 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Trade complete!...
-	But was it really
-	worth it...?
+	Troca concluída!...
+	Mas valeu mesmo a
+	pena...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -900,8 +899,9 @@ script 97 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Transmission error!
-	Cancelling battle...
+	Erro de
+	transmissão!
+	Cancelando luta...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -923,7 +923,7 @@ script 99 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"You should save!"
+	"É preciso salvar!"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -934,7 +934,7 @@ script 99 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -942,7 +942,7 @@ script 99 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -967,7 +967,7 @@ script 100 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"You should save!"
+	"É preciso salvar!"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -978,7 +978,7 @@ script 100 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -986,7 +986,7 @@ script 100 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1002,8 +1002,8 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A file exists.
-	OK to overwrite?
+	Já há um arquivo.
+	Sobrescrever?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1015,7 +1015,7 @@ script 100 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1023,7 +1023,7 @@ script 100 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1043,8 +1043,8 @@ script 101 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Saving...
-	One moment please!
+	Salvando...
+	Aguarde,por favor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1058,7 +1058,7 @@ script 102 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Save complete!"
+	"Salvo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1077,8 +1077,8 @@ script 103 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Trade BattleChips
-	with a friend.
+	Trocar chips com
+	um(a) amigo(a).
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1095,8 +1095,8 @@ script 104 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Practice NetBattles
-	against a friend!
+	Treinar NetLutas
+	com um(a) amigo(a)!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1113,9 +1113,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	NetBattle against
-	a friend! The loser
-	loses 1 BattleChip!
+	NetLutar contra um
+	amigo! O perdedor
+	cede 1 chip!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1130,8 +1130,8 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Transmission error!
-	Please try again.
+	Erro de transmissão!
+	Tente novamente.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1150,9 +1150,9 @@ script 107 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't have
-	enough chips to
-	select this mode!
+	Lhe faltam chips
+	para selecionar
+	esse modo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1170,9 +1170,9 @@ script 108 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Your friend is still
-	choosing which chip
-	to trade...
+	Seu amigo está
+	escolhendo o chip
+	para trocar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1186,7 +1186,7 @@ script 109 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Trade these 2 chips?"
+	"Trocar estes chips?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -1197,7 +1197,7 @@ script 109 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1205,7 +1205,7 @@ script 109 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"Não\n"
 	select
 		default = 0
 		disableB = false
@@ -1224,7 +1224,7 @@ script 110 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Trade complete!"
+	"Troca concluída!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -1242,9 +1242,9 @@ script 111 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Neither player is
-	ready...
-	One moment please!
+	Nenhum jogador está
+	pronto... Aguarde,
+	por favor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1259,8 +1259,8 @@ script 112 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Good job,Lan!
-	Way to go!
+	Bom trabalho,Lan!
+	Mandou bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1278,9 +1278,9 @@ script 113 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Too bad,Lan...
-	...I'll try harder
-	next time!
+	Que pena,Lan...
+	... Na próxima
+	eu me esforço mais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1310,17 +1310,17 @@ script 115 mmbn1s {
 	"  "
 }
 script 116 mmbn1s {
-	"Trade"
+	"Trocar"
 	end
 	"  "
 }
 script 117 mmbn1s {
-	"Battle(test)"
+	"Luta(teste)"
 	end
 	"  "
 }
 script 118 mmbn1s {
-	"Battle(real!)"
+	"Luta(sério!)"
 	end
 	"  "
 }
@@ -1332,9 +1332,9 @@ script 119 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You picked different
-	modes! Pick the same
-	mode,OK?
+	Vocês escolheram
+	modos diferentes!
+	Escolham o mesmo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1358,8 +1358,8 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Save progress up to
-	this point?
+	Salvar o progresso
+	até este ponto?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1371,7 +1371,7 @@ script 120 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1379,7 +1379,7 @@ script 120 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1395,8 +1395,8 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A file exists.
-	OK to overwrite?
+	Já há um arquivo.
+	Sobrescrever?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1408,7 +1408,7 @@ script 120 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1416,7 +1416,7 @@ script 120 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1436,8 +1436,8 @@ script 121 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Saving...
-	One moment please!
+	Salvando...
+	Aguarde,por favor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1451,7 +1451,7 @@ script 122 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Save complete!"
+	"Salvo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1461,22 +1461,22 @@ script 122 mmbn1 {
 	"  "
 }
 script 123 mmbn1s {
-	"Play Time"
+	"Tempo"
 	end
 	"  "
 }
 script 124 mmbn1s {
-	"Data Library"
+	"Coleção"
 	end
 	"  "
 }
 script 125 mmbn1s {
-	"Battle Chips"
+	"Chips"
 	end
 	"  "
 }
 script 126 mmbn1s {
-	"Credits"
+	"Zennys"
 	end
 	"  "
 }
@@ -1533,7 +1533,7 @@ script 131 mmbn1 {
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Save failed..."
+	"Falha ao salvar..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1541,7 +1541,7 @@ script 131 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Try again?"
+	"Tentar de novo?"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -1552,7 +1552,7 @@ script 131 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1560,7 +1560,7 @@ script 131 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1576,8 +1576,8 @@ script 131 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A file exists.
-	OK to overwrite?
+	Já há um arquivo.
+	Sobrescrever?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1589,7 +1589,7 @@ script 131 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1597,7 +1597,7 @@ script 131 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1633,8 +1633,8 @@ script 134 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Save progress up to
-	this point?
+	Salvar o progresso
+	até este ponto?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1646,7 +1646,7 @@ script 134 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1654,7 +1654,7 @@ script 134 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false

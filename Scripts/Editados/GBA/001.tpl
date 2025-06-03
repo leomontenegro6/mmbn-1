@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan! I'm sending
-	more chip data!
-	Give me one turn!
+	MegaMan! Vou mandar
+	novos chips! Me dá
+	só mais um turno!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -27,8 +27,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I can't send
-	any more data...
+	Não consigo mandar
+	mais dados...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -79,8 +79,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Transmission error!
-	Cancelling battle...
+	Erro de
+	transmissão!
+	Cancelando luta...
 	"""
 	mugshotAnimate
 		animation = 1

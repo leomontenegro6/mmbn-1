@@ -4,7 +4,7 @@ script 0 mmbn1 {
 	msgOpen
 	soundPlay
 		track = 170
-	"*Brrring...*"
+	"Trrriiiim..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -19,7 +19,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Dr.Hikari speaking"
+	"Alô? É o Dr. Hikari"
 	mugshotAnimate
 		animation = 1
 	"."
@@ -29,8 +29,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,hello honey! Yes,
-	Lan was just here.
+	Ah,querida! Sim,o
+	Lan acabou de sair.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +48,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I'm worried"
+	"Estou preocupada"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -58,8 +58,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think those two
-	are in trouble...
+	Acho que os dois
+	estão em apuros...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,8 +78,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't worry,I'll
-	look out for them.
+	Não se preocupe,eu
+	vou cuidar deles.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +89,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll never let what
-	happened last time
-	happen again...
+	Não vou deixar o que
+	aconteceu da última
+	vez se repetir...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,7 +109,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Honey"
+	"Querido"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -119,8 +119,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm sorry to have
-	called you at work.
+	Desculpa por te
+	ligar no trabalho.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,9 +139,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No,I'm sorry for
-	not being at home
-	more...
+	Não,desculpa eu por
+	não ficar mais em
+	casa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,21 +168,21 @@ script 6 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"That is true."
+	"Isso é verdade."
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	But,it's OK!
-	I'll be fine by
-	myself here!
+	Mas tudo bem! Eu
+	vou ficar bem aqui,
+	sozinha!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -200,17 +200,17 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good"
+	"Bom"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm glad
-	to hear that.
+	Fico feliz em ouvir
+	isso.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -228,7 +228,7 @@ script 8 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Bye!"
+	"Tchau!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -241,10 +241,10 @@ script 8 mmbn1 {
 script 9 mmbn1 {
 	mugshotHide
 	msgOpen
-	"*bleep*"
+	"biiip "
 	waitSkip
 		frames = 30
-	" *bleep*"
+	"biiip"
 	keyWait
 	end
 		delay = 0
@@ -258,9 +258,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dr.Hikari! I've got
-	info on the virus in
-	the WWW rocket!
+	Dr. Hikari! Tenho
+	informações sobre o
+	vírus no foguete!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -282,15 +282,12 @@ script 11 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	It's the
-	LifeVirus
-	"""
+	"É o LifeVirus"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -299,7 +296,7 @@ script 11 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"I see..."
+	"Entendo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -310,14 +307,14 @@ script 11 mmbn1 {
 	"Lan"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	and Hub don't
-	have a chance...
+	e Hub não têm
+	a menor chance...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -327,9 +324,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...We've got to act
-	fast! Can you help
-	me?
+	... Temos que agir
+	rápido! Pode me
+	ajudar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -347,7 +344,7 @@ script 12 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yessir!"
+	"Sim,senhor!"
 	mugshotAnimate
 		animation = 1
 	keyWait

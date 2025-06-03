@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Eeek!!"
+	"AHHHH!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,7 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"That's your mom!"
+	"É a sua mãe!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -32,7 +32,7 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"What could be wrong?"
+	"O que será que\naconteceu?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -49,7 +49,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Let's go!"
+	"Vamos lá ver!"
 	mugshotAnimate
 		animation = 1
 	keyWait

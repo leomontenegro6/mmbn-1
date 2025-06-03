@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Help us!!"
+	"Ajude-nos!!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -16,8 +16,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The oven
-	has been 
+	O fogão
+	foi 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -26,8 +26,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	taken over
-	by 
+	tomado por
+	um 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,7 +35,7 @@ script 0 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"a virus!"
+	"vírus!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -43,27 +43,21 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Who are we? "
+	"Quem somos nós?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	We're
-	the oven 
-	"""
+	"\nSomos programas de"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	control
-	programs!
-	"""
+	"\ncontrole do forno!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -71,7 +65,7 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"No,we're not"
+	"Não,não somos"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -79,7 +73,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"viruses!"
+	"vírus!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -94,7 +88,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You can't "
+	"Não dá para "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -102,8 +96,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	see the
-	viruses! 
+	ver os
+	vírus no mapa! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,8 +106,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They just
-	suddenly attack!
+	Eles
+	atacam de repente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -122,14 +116,14 @@ script 1 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Be "
+	"Tome "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"careful!"
+	"cuidado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -144,7 +138,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"The program "
+	"O programa que "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -152,9 +146,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	that's
-	controlling the
-	viruses 
+	está
+	controlando os vírus
 	"""
 	mugshotAnimate
 		animation = 1
@@ -162,7 +155,7 @@ script 2 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"is somewhere"
+	"\nestá em algum canto"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -171,8 +164,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	in the oven control
-	area. 
+	da área do controle
+	do forno. 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,8 +174,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's creating
-	the fire!
+	E está
+	criando fogo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -191,7 +184,7 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"If you delete him,"
+	"Se o deletar,"
 	mugshotAnimate
 		animation = 1
 	"\n"
@@ -200,8 +193,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	it should stop the
-	fire!
+	poderá apagar o
+	fogo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -211,8 +204,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The oven control
-	area 
+	A área de controle
+	do forno 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -221,8 +214,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	is somewhere
-	deep inside!
+	fica mais
+	ao fundo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -238,27 +231,21 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Because of the "
+	"Devido ao calor,"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	heat
-	the oven network 
-	"""
+	"\na rede do forno"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	is
-	broken up.
-	"""
+	"\nestá quebrada."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -266,28 +253,25 @@ script 3 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"You can maybe "
+	"Você pode apagar"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	put it
-	out if you get 
-	"""
+	"\no fogo se tiver "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"the\n"
+	"o\n"
 	printItem
 		buffer = 0
 		item = 1
-	" from the"
+	","
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -295,17 +279,17 @@ script 3 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"thawing section "
+	"""
+	da seção de
+	descongelamento
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	of
-	the network!
-	"""
+	"\nda rede!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -320,7 +304,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"This is the "
+	"Este é o "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -328,8 +312,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	center
-	of the oven 
+	centro da
+	Rede do 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -338,8 +322,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	network.
-	We're being 
+	forno. Esta-
+	mos sendo 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -347,7 +331,7 @@ script 4 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"deleted!"
+	"deletados!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -368,24 +352,21 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"We have almost "
+	"Quase não temos"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	no
-	anti-virus 
-	"""
+	"\nrecursos "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"features"
+	"anti-vírus."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -393,7 +374,7 @@ script 5 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"We're hoping that"
+	"Esperamos que você"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -401,7 +382,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"you can delete "
+	"possa deletar "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -409,15 +390,15 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	the
-	viruses!
+	os
+	vírus! 
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"*beep*"
+	"Bip!"
 	keyWait
 	end
 		delay = 5
@@ -426,9 +407,9 @@ script 5 mmbn1 {
 script 6 mmbn1 {
 	msgOpen
 	"""
-	There's no response.
-	The program is no
-	longer functioning.
+	Sem resposta. O
+	programa não está
+	mais funcionando.
 	"""
 	keyWait
 	end
@@ -450,7 +431,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"This is the "
+	"Esta é a "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -458,8 +439,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	thawing
-	section.
+	seção de
+	descongelamento.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -468,18 +449,18 @@ script 7 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"If you use "
+	"Usando "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"this\n"
+	"este\n"
 	printItem
 		buffer = 0
 		item = 1
-	",you can"
+	",você pode"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -487,7 +468,7 @@ script 7 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"extinguish 7 fires."
+	"apagar 7 chamas."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -495,17 +476,9 @@ script 7 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Please try to "
-	mugshotAnimate
-		animation = 1
-	waitSkip
-		frames = 10
-	mugshotAnimate
-		animation = 2
 	"""
-	get
-	into the oven
-	control 
+	Por favor,tente
+	chegar 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -513,7 +486,17 @@ script 7 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"area!"
+	"""
+	à área de
+	controle 
+	"""
+	mugshotAnimate
+		animation = 1
+	waitSkip
+		frames = 10
+	mugshotAnimate
+		animation = 2
+	"do forno!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -521,7 +504,7 @@ script 7 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Then,please "
+	"Daí,por favor,\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -529,8 +512,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	delete
-	the master virus 
+	delete o vírus mes-
+	tre 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -538,10 +521,7 @@ script 7 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"""
-	to
-	fix the oven!
-	"""
+	"e conserte tudo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -565,13 +545,13 @@ script 8 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got the
-	“
+	MegaMan adquiriu o
+	programa "
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“program!"
+	"\"!"
 	playerFinish
 	playerUnlock
 	keyWait
@@ -589,7 +569,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Examine a "
+	"Examine o "
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -597,8 +577,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	fire to
-	use the 
+	fogo para
+	usar o 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -617,20 +597,20 @@ script 9 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"If you use up "
+	"Se gastar todo "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"the\n"
+	"o\n"
 	printItem
 		buffer = 0
 		item = 1
 	"""
-	,please come
-	back 
+	,volte aqui
+	para 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -638,7 +618,7 @@ script 9 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"for another."
+	"pegar mais."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -646,7 +626,7 @@ script 9 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"However,it will "
+	"No entanto,demorará\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -654,9 +634,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	take
-	time to recompile,so
-	the 
+	para recompilar.
+	As 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -664,7 +643,7 @@ script 9 mmbn1 {
 		frames = 10
 	mugshotAnimate
 		animation = 2
-	"fires that you"
+	"chamas que você "
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -672,24 +651,27 @@ script 9 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"extinguished will"
+	"apagou "
+	mugshotAnimate
+		animation = 1
+	"irão "
+	waitSkip
+		frames = 10
+	mugshotAnimate
+		animation = 2
+	"voltar."
 	mugshotAnimate
 		animation = 1
 	"\n"
 	waitSkip
 		frames = 10
+	"Boa sorte! "
 	mugshotAnimate
 		animation = 2
-	"return"
-	mugshotAnimate
-		animation = 1
-	"..."
-	waitSkip
-		frames = 10
-	"\n"
-	mugshotAnimate
-		animation = 2
-	"Good luck!"
+	"""
+	Você
+	consegue.
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -713,11 +695,11 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You still have some\n"
+	"Ainda lhe restam\n"
 	printItem
 		buffer = 0
 		item = 1
-	" remaining"
+	"."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -726,8 +708,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you want a new
-	one?
+	Gostaria de um
+	novo?
 	
 	"""
 	mugshotAnimate
@@ -739,7 +721,7 @@ script 11 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -747,7 +729,7 @@ script 11 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -759,9 +741,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Then good luck
-	getting to the
-	thaw section!
+	Boa sorte na jornada
+	rumo à seção de
+	descongelamento!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -778,8 +760,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It looks like you
-	used up the
+	Parece que esgotou
+	os usos do
 	
 	"""
 	printItem
@@ -793,8 +775,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you want a new
-	one?
+	Gostaria de um
+	novo?
 	
 	"""
 	mugshotAnimate
@@ -806,7 +788,7 @@ script 12 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -814,7 +796,7 @@ script 12 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -826,9 +808,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Really? Are you sure
-	you can get to the
-	thawing section?
+	Certeza? Conseguirá
+	chegar na seção de
+	descongelamento?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -840,8 +822,8 @@ script 12 mmbn1 {
 script 13 mmbn1 {
 	msgOpen
 	"""
-	It's burning
-	brightly.
+	Está queimando
+	com força.
 	"""
 	keyWait
 	end
@@ -851,9 +833,9 @@ script 13 mmbn1 {
 script 14 mmbn1 {
 	msgOpen
 	"""
-	There's no response.
-	The program is no
-	longer functioning.
+	Sem resposta.
+	O programa não
+	funciona mais.
 	"""
 	keyWait
 	end
@@ -871,21 +853,22 @@ script 15 mmbn1 {
 		item = 1
 		amount = 7
 	"""
-	MegaMan got the
-	“
+	MegaMan adquiriu o
+	programa "
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“program!"
+	"\"!"
 	playerFinish
 	playerUnlock
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Your remaining uses
-	has returned to 
+	O número de usos
+	restantes voltou
+	a 
 	"""
 	printItemAmount
 		minLength = 0
@@ -897,8 +880,8 @@ script 15 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	All of the flames
-	have been refreshed!
+	Todas as chamas se
+	reacenderam!
 	"""
 	flagSet
 		flag = 221
@@ -910,8 +893,8 @@ script 15 mmbn1 {
 script 16 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -929,8 +912,8 @@ script 16 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -939,7 +922,9 @@ script 16 mmbn1 {
 	printCode
 		buffer = 0
 		code = Q
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -950,8 +935,8 @@ script 16 mmbn1 {
 script 17 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -970,8 +955,8 @@ script 17 mmbn1 {
 			amount = 400
 		]
 	"""
-	MegaMan got 400
-	zennys!
+	MegaMan adquiriu
+	400 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -983,8 +968,8 @@ script 17 mmbn1 {
 script 18 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -1002,8 +987,8 @@ script 18 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -1012,7 +997,9 @@ script 18 mmbn1 {
 	printCode
 		buffer = 0
 		code = A
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -1023,8 +1010,8 @@ script 18 mmbn1 {
 script 19 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -1042,8 +1029,8 @@ script 19 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -1052,7 +1039,9 @@ script 19 mmbn1 {
 	printCode
 		buffer = 0
 		code = B
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -1069,7 +1058,7 @@ script 20 mmbn1 {
 		jumpIfLess = 23
 	msgOpen
 	"""
-	Extinguish flame?
+	Apagar chamas?
 	(
 	"""
 	printItemAmount
@@ -1077,7 +1066,7 @@ script 20 mmbn1 {
 		padZeros = false
 		padLeft = false
 		item = 1
-	" uses remaining)\n"
+	" usos restantes)\n"
 	option
 		left = 1
 		right = 1
@@ -1085,7 +1074,7 @@ script 20 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1093,7 +1082,7 @@ script 20 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1122,20 +1111,17 @@ script 21 mmbn1 {
 		jumpIfGreater = continue
 		jumpIfLess = continue
 	msgOpen
-	"You have "
+	"Lhe restam "
 	printItemAmount
 		minLength = 0
 		padZeros = false
 		padLeft = false
 		item = 1
-	"""
-	 uses
-	of the 
-	"""
+	"\nusos do "
 	printItem
 		buffer = 0
 		item = 1
-	"\nremaining."
+	"."
 	keyWait
 	end
 		delay = 5
@@ -1144,14 +1130,14 @@ script 21 mmbn1 {
 script 22 mmbn1 {
 	msgOpen
 	"""
-	You have no more
-	uses of the
+	Não lhe restam mais
+	usos do 
 	
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	" remaining."
+	"."
 	keyWait
 	end
 		delay = 5
@@ -1163,7 +1149,7 @@ script 23 mmbn1 {
 		jumpIfTrue = continue
 		jumpIfFalse = 13
 	msgOpen
-	"You don't have the\n"
+	"Você naõ tem o\n"
 	printItem
 		buffer = 0
 		item = 1
@@ -1176,8 +1162,8 @@ script 23 mmbn1 {
 script 24 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -1196,8 +1182,8 @@ script 24 mmbn1 {
 			amount = 200
 		]
 	"""
-	MegaMan got 200
-	zennys!
+	MegaMan adquiriu
+	200 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -1226,9 +1212,9 @@ script 29 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This teleporter will
-	take you to the oven
-	control area.
+	Este portal levará
+	você à área de
+	controle.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1237,7 +1223,7 @@ script 29 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Be careful!"
+	"Cuidado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1253,9 +1239,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thank you for saving
-	us! There are still
-	some viruses,but we
+	Obrigado por nos
+	salvar! Ainda restam
+	alguns vírus,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1265,8 +1251,8 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	can handle things
-	from here!
+	mas podemos assumir
+	a partir daqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1295,8 +1281,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	By the way,do you
-	need a 
+	Aliás,você precisa
+	de um 
 	"""
 	printItem
 		buffer = 0
@@ -1311,7 +1297,7 @@ script 32 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1319,7 +1305,7 @@ script 32 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1331,8 +1317,8 @@ script 32 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just tell me if
-	you ever do!
+	Me avise se
+	precisar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1348,7 +1334,7 @@ script 33 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Here you go!"
+	"Aqui vai!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1371,13 +1357,15 @@ script 34 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got:
-	“
+	MegaMan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -1413,7 +1401,7 @@ script 41 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hello,MegaMan!"
+	"Olá,MegaMan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1430,11 +1418,15 @@ script 42 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You still have some\n"
+	"""
+	Ainda lhe restam
+	alguns usos do
+	
+	"""
 	printItem
 		buffer = 0
 		item = 1
-	" remaining."
+	"."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1443,8 +1435,8 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Do you want a new
-	one?
+	Gostaria de um
+	novo?
 	
 	"""
 	mugshotAnimate
@@ -1456,7 +1448,7 @@ script 42 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"Sim "
 	option
 		left = 0
 		right = 0
@@ -1464,7 +1456,7 @@ script 42 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"Não"
 	select
 		default = 0
 		disableB = false
@@ -1475,7 +1467,7 @@ script 42 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"See you around!"
+	"A gente se vê!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1494,21 +1486,22 @@ script 43 mmbn1 {
 		item = 1
 		amount = 7
 	"""
-	MegaMan got the
-	“
+	MegaMan adquiriu o
+	programa "
 	"""
 	printItem
 		buffer = 0
 		item = 1
-	"“program!"
+	"\"!"
 	playerFinish
 	playerUnlock
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Your remaining uses
-	has returned to 
+	O número de usos
+	restantes voltou
+	a 
 	"""
 	printItemAmount
 		minLength = 0
@@ -1520,8 +1513,8 @@ script 43 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	All of the flames
-	have been refreshed!
+	Todas as chamas se
+	reacenderam!
 	"""
 	keyWait
 	end

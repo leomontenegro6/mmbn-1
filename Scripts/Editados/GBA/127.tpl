@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's up,Lan?"
+	"Que foi,Lan?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -16,9 +16,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That announcment
-	playing in your
-	class,too?
+	O anúncio tá
+	tocando na sua
+	sala,também?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -35,9 +35,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I tried to jack in
-	to delete the virus,
-	but it got me!
+	Tentei conectar pra
+	deletar o vírus,
+	mas ele me pegou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,9 +54,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That announcement
-	starts to make sense
-	after a while...
+	Esse anúncio começa
+	a fazer sentido de-
+	pois de um tempo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I must say,there
-	are many unique
-	kids in your class!
+	Olha,tem uma
+	galera bem peculiar
+	na sua turma!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,13 +94,13 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -137,7 +137,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Everyone's left!"
+	"Todo mundo vazou!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -164,7 +164,7 @@ script 15 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,Lan!"
+	"Ei,Lan!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -175,9 +175,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Everyone left! They
-	went home so they
-	won't get thirsty!
+	Todo mundo já foi!
+	Foram pra casa,pra
+	não passar sede!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -194,14 +194,14 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Where did he go?
-	He won't answer his
+	Aonde ele foi? Ele
+	não responde ao
 	
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	" or mail!"
+	" ou e-mails!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -216,7 +216,7 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Don't talk to me!"
+	"Não fala comigo!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -224,7 +224,7 @@ script 17 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"It makes me thirsty!"
+	"Vai me dar sede!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -240,8 +240,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The lost boy's dad
-	is busy at work!
+	O pai do garoto per-
+	dido é ocupado de-
+	mais com trabalho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -251,8 +252,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	He can't even take
-	off a day like this!
+	Não pode folgar do
+	trabalho nem numa
+	situação destas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -867,17 +869,17 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	Old blackboards
-	used to make a
-	horrible noise
+	Velhos quadros
+	negros emitem um
+	som horrível ao
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	when scratched.
-	You can jack in
-	to this board
+	serem arranhados.
+	Dá pra se conectar
+	nele.
 	"""
 	keyWait
 	end
@@ -887,8 +889,9 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	Group 3 has
-	cleaning duty
+	O Grupo 3 está
+	encarregado da
+	limpeza.
 	"""
 	keyWait
 	end
@@ -898,9 +901,9 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	5th graders have
-	classes all through
-	6th period
+	O quinto ano tem
+	aulas durante todo
+	o sexto horário.
 	"""
 	keyWait
 	end
@@ -914,15 +917,15 @@ script 223 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	There are many books
-	here
+	Há vários livros
+	aqui.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	You found a chip
-	among the books!
+	Você achou um chip
+	entre os livros!
 	"""
 	keyWait
 	clearMsg
@@ -939,8 +942,8 @@ script 223 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	Lan found a chip for
-	“
+	Lan achou o chip
+	"
 	"""
 	printChip
 		buffer = 0
@@ -949,7 +952,9 @@ script 223 mmbn1 {
 	printCode
 		buffer = 0
 		code = J
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -960,7 +965,10 @@ script 223 mmbn1 {
 }
 script 224 mmbn1 {
 	msgOpen
-	"Nothing else there"
+	"""
+	Não há mais nada
+	aqui.
+	"""
 	keyWait
 	end
 		delay = 5
@@ -969,9 +977,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	Putting books near
-	the window makes
-	the covers fade
+	Colocar livros perto
+	da janela faz as
+	capas desbotarem.
 	"""
 	keyWait
 	end
@@ -981,9 +989,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	A lot of previous
-	students have left
-	graffiti here
+	Muitos alunos ante-
+	riores desenharam
+	coisas aqui.
 	"""
 	keyWait
 	end
@@ -993,9 +1001,9 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	You can learn a
-	lot about ants with
-	an ant farm
+	Uma fazenda de for-
+	migas ensina muito
+	sobre elas.
 	"""
 	keyWait
 	end
@@ -1005,9 +1013,9 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	Hm,smells strange.
-	Wonder what they're
-	raising in there?
+	Hm,cheiro estranho.
+	O que será que
+	estão cultivando?
 	"""
 	keyWait
 	end
@@ -1016,7 +1024,7 @@ script 228 mmbn1 {
 }
 script 229 mmbn1 {
 	msgOpen
-	"The teacher's desk"
+	"A mesa do professor."
 	keyWait
 	end
 		delay = 5
@@ -1039,16 +1047,16 @@ script 230 mmbn1 {
 		jumpIfFalse = 220
 	msgOpen
 	"""
-	A WWW re-education
-	program is playing!
-	Pretty scary stuff!
+	O programa de reedu-
+	cação da WWW está
+	ativo! Que medo!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Looks like you can
-	jack in here!
+	Parece que dá para
+	se conectar aqui!
 	"""
 	keyWait
 	end

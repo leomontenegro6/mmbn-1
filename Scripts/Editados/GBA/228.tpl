@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Until recently,we
-	were viruses working
-	for the WWW!
+	Até recentemente,
+	éramos vírus a
+	serviço da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We've reformed,
-	though,and now we
-	work as teachers!
+	Largamos o crime e
+	agora trabalhamos
+	como professores!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,9 +32,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure does feel a lot
-	better doing this
-	job!
+	Definitivamente um
+	trabalho que nos
+	faz sentir melhor!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,9 +51,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We're working extra
-	hard to make up for
-	our crimes!
+	Estamos trabalhando
+	dobrado para expiar
+	por nossos crimes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -65,8 +65,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -83,13 +83,15 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a
-	PowerUp:“
+	MegaMan adquiriu o
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
 		item = 65
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

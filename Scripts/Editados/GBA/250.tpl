@@ -14,18 +14,9 @@ script 0 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"welcome home!"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
 	"""
-	A man from NetSafety
-	is checking our home
-	control panel.
+	bem-vindo de
+	volta!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -34,7 +25,19 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"You heard,right?"
+	"""
+	Um homem da Net-
+	Segurança veio ver o
+	nosso controlador.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"Você ouviu,né?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -43,8 +46,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	About the ovens
-	exploding?
+	Sobre os fogões
+	explodindo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,9 +66,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's the accident
-	Mayl was talking
-	about this morning.
+	O lance de que a
+	Mayl tava falando
+	hoje de manhã.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -83,7 +86,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hello."
+	"Oi. "
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -92,9 +95,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We think a virus
-	might be responsible
-	for the accidents...
+	Achamos que um
+	vírus possa ser a
+	causa dos acidentes.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,9 +107,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We're checking every
-	home's control panel
-	just to be safe.
+	Estamos checando os
+	sistemas de todas as
+	casas por precaução.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -125,8 +128,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm glad it didn't
-	happen to us!
+	Ainda bem que isso 
+	não aconteceu com
+	a gente!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -143,9 +147,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	go to your
-	room so you won't
-	get in the way.
+	vá pro seu
+	quarto pra não
+	atrapalhar o moço.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -163,10 +167,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Let's get on
-	the net!
-	"""
+	"Bora pra Rede!"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -6,37 +6,37 @@ script 0 mmbn1s {
 	"  "
 }
 script 1 mmbn1s {
-	"IceBlock"
+	"Gelo"
 	end
 	"  "
 }
 script 2 mmbn1s {
-	"WaterGun"
+	"PistÁgua"
 	end
 	"  "
 }
 script 3 mmbn1s {
-	"SchoolID"
+	"IDEscola"
 	end
 	"  "
 }
 script 4 mmbn1s {
-	"SciLabID"
+	"IDSciLab"
 	end
 	"  "
 }
 script 5 mmbn1s {
-	"Handle"
+	"Manivela"
 	end
 	"  "
 }
 script 6 mmbn1s {
-	"Message"
+	"Mensagem"
 	end
 	"  "
 }
 script 7 mmbn1s {
-	"Response"
+	"Resposta"
 	end
 	"  "
 }
@@ -46,37 +46,37 @@ script 8 mmbn1s {
 	"  "
 }
 script 9 mmbn1s {
-	"BatteryA"
+	"BateriaA"
 	end
 	"  "
 }
 script 10 mmbn1s {
-	"BatteryB"
+	"BateriaB"
 	end
 	"  "
 }
 script 11 mmbn1s {
-	"BatteryC"
+	"BateriaC"
 	end
 	"  "
 }
 script 12 mmbn1s {
-	"BatteryD"
+	"BateriaD"
 	end
 	"  "
 }
 script 13 mmbn1s {
-	"BatteryE"
+	"BateriaE"
 	end
 	"  "
 }
 script 14 mmbn1s {
-	"Charger"
+	"Carga"
 	end
 	"  "
 }
 script 15 mmbn1s {
-	"WWW Pass"
+	"Tíqt WWW"
 	end
 	"  "
 }
@@ -85,7 +85,7 @@ script 16 mmbn1s {
 	"  "
 }
 script 17 mmbn1s {
-	"Dentures"
+	"Dentdura"
 	end
 	"  "
 }
@@ -169,7 +169,7 @@ script 36 mmbn1s {
 	"  "
 }
 script 37 mmbn1s {
-	"@Dad"
+	"@Pai"
 	end
 	"  "
 }
@@ -252,7 +252,7 @@ script 54 mmbn1s {
 	"  "
 }
 script 55 mmbn1s {
-	"Pa'sMemo"
+	"Pai Memo"
 	end
 	"  "
 }
@@ -273,17 +273,17 @@ script 59 mmbn1s {
 	"  "
 }
 script 60 mmbn1s {
-	"ACDCPass"
+	"TíqtACDC"
 	end
 	"  "
 }
 script 61 mmbn1s {
-	"GovtPass"
+	"TíqtGovr"
 	end
 	"  "
 }
 script 62 mmbn1s {
-	"TownPass"
+	"TíqtDen"
 	end
 	"  "
 }
@@ -292,7 +292,7 @@ script 63 mmbn1s {
 	"  "
 }
 script 64 mmbn1s {
-	"HPmemory"
+	"MemóriPV"
 	end
 	"  "
 }
@@ -302,7 +302,7 @@ script 65 mmbn1s {
 	"  "
 }
 script 66 mmbn1s {
-	"Armor"
+	"Armadura"
 	end
 	"  "
 }
@@ -311,17 +311,17 @@ script 67 mmbn1s {
 	"  "
 }
 script 68 mmbn1s {
-	"HeatArmr"
+	"ArmdFogo"
 	end
 	"  "
 }
 script 69 mmbn1s {
-	"AquaArmr"
+	"ArmdÁgua"
 	end
 	"  "
 }
 script 70 mmbn1s {
-	"WoodArmr"
+	"ArmdMdra"
 	end
 	"  "
 }

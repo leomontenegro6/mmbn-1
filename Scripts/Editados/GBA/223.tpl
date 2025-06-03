@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I am a test Navi.
-	We develop new PETs
-	here!
+	Sou um Navi de
+	teste. Desenvolvemos
+	novos PETs aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard that a new
-	kind of Navi was
-	developed here...
+	Soube que um novo
+	tipo de Navi foi
+	criado aqui...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -32,9 +32,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'd love to meet it.
-	I heard that it uses
-	human...
+	Adoraria conhecê-lo.
+	Ouvi dizer que ele
+	usa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -44,9 +44,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ooops!! I almost
-	gave away some top
-	secret information!
+	Ops!! Quase que eu
+	vazo informações
+	ultrassecretas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,8 +63,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dr.Hikari has given
-	us emotions
+	O Dr. Hikari nos
+	deu emoções.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,9 +74,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We now laugh,and get
-	mad,and worry like
-	humans do.
+	Agora,nós rimos,te-
+	mos raiva e nos pre-
+	ocupamos com outros.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -86,9 +86,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Is that not the
-	defining condition
-	of humanity?
+	Não é essa a
+	condição definidora
+	da humanidade?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -100,8 +100,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -119,8 +119,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -129,7 +129,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = J
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

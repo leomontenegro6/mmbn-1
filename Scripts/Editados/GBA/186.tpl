@@ -13,35 +13,18 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ahead is "
+	"À frente fica "
 	waitSkip
 		frames = 10
 	"""
-	the
-	oven control 
-	"""
-	waitSkip
-		frames = 10
-	"section."
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"Someone is "
-	waitSkip
-		frames = 10
-	"""
-	at the
-	master virus
+	a
+	seção de 
 	"""
 	waitSkip
 		frames = 10
 	"""
-	 with
-	their Navi.
+	controle
+	do forno.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -50,22 +33,42 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"It's far "
+	"Alguém está "
 	waitSkip
 		frames = 10
 	"""
-	stronger
-	than a 
+	contro-
+	lando o vírus 
 	"""
 	waitSkip
 		frames = 10
 	"""
-	normal virus!
-	Be 
+	mestre
+	com seu Navi.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"É muito mais "
+	waitSkip
+		frames = 10
+	"""
+	forte
+	do que um 
 	"""
 	waitSkip
 		frames = 10
-	"careful!"
+	"""
+	vírus
+	normal! 
+	"""
+	waitSkip
+		frames = 10
+	"Cuidado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -84,22 +87,22 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"I..."
+	"Não... "
 	waitSkip
 		frames = 10
-	"can't..."
+	"aguen"
 	waitSkip
 		frames = 10
-	"hold..."
+	"to..."
 	waitSkip
 		frames = 10
-	"\non..."
+	"\nmais... "
 	waitSkip
 		frames = 10
-	"much..."
+	"ungh "
 	waitSkip
 		frames = 10
-	"longer.."
+	"..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -110,8 +113,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -129,8 +132,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -139,7 +142,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = Q
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -150,8 +155,8 @@ script 2 mmbn1 {
 script 3 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -170,8 +175,8 @@ script 3 mmbn1 {
 			amount = 500
 		]
 	"""
-	MegaMan got 500
-	zennys!
+	MegaMan adquiriu
+	500 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -183,8 +188,8 @@ script 3 mmbn1 {
 script 4 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -202,8 +207,8 @@ script 4 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -212,7 +217,9 @@ script 4 mmbn1 {
 	printCode
 		buffer = 0
 		code = T
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait

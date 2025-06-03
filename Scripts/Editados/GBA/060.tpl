@@ -703,9 +703,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Let's get to
-	the room where the
-	rocket is!
+	Lan! Vamos para a
+	sala onde o foguete
+	está!
 	"""
 	mugshotAnimate
 		animation = 1

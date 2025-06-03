@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hwaaa..."
+	"Huaaa..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -22,7 +22,7 @@ script 1 mmbn1 {
 		mugshot = Lan
 		palette = 0
 	msgOpen
-	"!?"
+	"?!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -38,9 +38,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What's wrong
-	with him? He looks
-	a little pale...
+	O que há com ele?
+	Tá meio pálido...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,8 +88,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Is he okay?
-	Maybe the shock...
+	Ele tá bem?
+	Parece em choque...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -109,9 +108,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't tell me your
-	not going to give
-	me a link again!
+	Não vá dizer de novo
+	que não vai me dar
+	o link!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,30 +132,30 @@ script 7 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	I can't believe I
-	lost to you! It must
-	be fate!
+	Não acredito que
+	perdi pra você! Será
+	que foi destino?!
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	But I always
-	keep my promises!
-	The link is yours!
+	Mas eu cumpro
+	minhas promesas!
+	O link é seu!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -175,20 +174,24 @@ script 8 mmbn1 {
 	soundPlay
 		track = 133
 	"""
-	Lan got:
-	“
+	Lan recebeu:
+	"
 	"""
 	printItem
 		buffer = 0
 		item = 48
-	"“"
+	"\""
 	playerFinish
 	playerAnimate
 		animation = 7
 	keyWait
 	clearMsg
 		delay = 0
-	"(Use this on the net\n to expand the area\n you can access!)"
+	"""
+	(Use na Rede para
+	expandir as áreas
+	que pode acessar!)
+	"""
 	keyWait
 	clearMsg
 		delay = 5
@@ -204,8 +207,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Thanks,Dex!
-	I owe you one!
+	Valeu,Dex!
+	Te devo uma!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -224,8 +227,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,wait!
-	Use this,too!
+	Ei,espera!
+	Leva isto aqui,
+	também!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -244,8 +248,8 @@ script 11 mmbn1 {
 	soundPlay
 		track = 133
 	"""
-	Lan got a chip for
-	“
+	Lan adquiriu o
+	chip "
 	"""
 	printChip
 		buffer = 0
@@ -254,7 +258,9 @@ script 11 mmbn1 {
 	printCode
 		buffer = 0
 		code = G
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 7
@@ -273,8 +279,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You got talent,Lan!
-	So
+	Cê tem talento,Lan!
+	Então
 	"""
 	mugshotAnimate
 		animation = 1
@@ -286,10 +292,13 @@ script 12 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	".\n"
+	". "
 	mugshotAnimate
 		animation = 2
-	"Go make me proud!"
+	"""
+	me deixe
+	orgulhoso!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -307,8 +316,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I guess Dex wasn't
-	so bad after all...
+	Acho que o Dex não
+	é tão mau,no fim
+	das contas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -326,10 +336,7 @@ script 14 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Yeah...
-	Thanks,Dex!
-	"""
+	"É... valeu,Dex!"
 	mugshotAnimate
 		animation = 1
 	keyWait

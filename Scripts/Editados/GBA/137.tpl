@@ -17,7 +17,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hello there,Lan!"
+	"Olá,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -26,8 +26,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you know that
-	I have a twin?
+	Sabia que eu
+	tenho uma gêmea?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,7 +39,7 @@ script 0 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No "
+	"Não "
 	option
 		left = 0
 		right = 0
@@ -47,7 +47,7 @@ script 0 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Yes"
+	"Sim"
 	select
 		default = 0
 		disableB = false
@@ -58,7 +58,7 @@ script 0 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Oh,you did?"
+	"Ah,já sabia?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -74,8 +74,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My twin sister's
-	name is Yuri!
+	O nome da minha irmã
+	gêmea é Yuri!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -85,8 +85,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	She works in Dentown
-	as a teacher!
+	Ela trabalha no
+	Distrito Den como
+	professora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,7 +118,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hello there,Lan!"
+	"Olá,Lan!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -126,8 +127,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Did you know that
-	I have a twin?
+	Sabia que eu
+	tenho uma gêmea?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -139,7 +140,7 @@ script 5 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"No "
+	"Não "
 	option
 		left = 0
 		right = 0
@@ -147,7 +148,7 @@ script 5 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Yes"
+	"Sim"
 	select
 		default = 0
 		disableB = false
@@ -158,7 +159,7 @@ script 5 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Oh,you did?"
+	"Ah,já sabia?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -174,8 +175,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My twin sister's
-	name is Yuri!
+	O nome da minha irmã
+	gêmea é Yuri!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -185,8 +186,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	She works in Dentown
-	as a teacher!
+	Ela trabalha no
+	Distrito Den como
+	professora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -209,9 +211,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Me? A former member
-	of the WWW? You've
-	got to be kidding!
+	Eu? Ex-membro da
+	WWW? Você só pode
+	estar brincando!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -221,9 +223,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But I guess that I
-	AM young and
-	beautiful...
+	Mas acho que eu SOU
+	uma moça linda...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -233,8 +234,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just kidding!
-	Just kidding!
+	É brincadeira!
+	Brincadeira!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -244,8 +245,9 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe I should go
-	take a rest...
+	Talvez eu precise
+	descansar um
+	pouco...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -262,9 +264,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I wasn't able to get
-	in touch with Yuri
-	for almost a year.
+	Não consigo contatar
+	a Yuri já faz quase
+	um ano.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -299,9 +301,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yuri has gone off
-	again! At a time
-	like this!!
+	A Yuri sumiu de
+	novo!
+	E justo agora!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -925,9 +927,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	This is the server
-	for the school
-	network
+	Esse é o servidor da
+	Rede da escola.
 	"""
 	keyWait
 	end
@@ -937,16 +938,17 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	A graph of net
-	crime rates
+	Um gráfico da taxa
+	de criminalidade na
+	rede.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Crime was falling,
-	but is now on the
-	rise again
+	O crime estava em
+	queda,mas agora
+	voltou a crescer.
 	"""
 	keyWait
 	end
@@ -955,7 +957,10 @@ script 221 mmbn1 {
 }
 script 222 mmbn1 {
 	msgOpen
-	"“Net crime is on\n the rise! Use\n precaution!“"
+	"""
+	"NetCrime em alta!
+	Previna-se!"
+	"""
 	keyWait
 	end
 		delay = 5
@@ -964,9 +969,8 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	Ah,nothing like
-	the aroma of fresh
-	coffee
+	Ah,nada como o aroma
+	de café fresco.
 	"""
 	keyWait
 	end
@@ -976,8 +980,8 @@ script 223 mmbn1 {
 script 224 mmbn1 {
 	msgOpen
 	"""
-	The class roll is
-	listed here
+	A lista de chamada
+	está exposta aqui.
 	"""
 	keyWait
 	end
@@ -987,8 +991,8 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	What a silly
-	looking doll...
+	Esse boneco é tão
+	feinho...
 	"""
 	keyWait
 	end
@@ -998,9 +1002,9 @@ script 225 mmbn1 {
 script 226 mmbn1 {
 	msgOpen
 	"""
-	There are some very
-	difficult books
-	lined up here
+	Tem uns livros bem
+	difíceis enfilei-
+	rados aqui.
 	"""
 	keyWait
 	end
@@ -1010,9 +1014,9 @@ script 226 mmbn1 {
 script 227 mmbn1 {
 	msgOpen
 	"""
-	The manual for the
-	server. Looks pretty
-	technical
+	O manual do
+	servidor. Parece
+	bem técnico.
 	"""
 	keyWait
 	end
@@ -1022,8 +1026,8 @@ script 227 mmbn1 {
 script 228 mmbn1 {
 	msgOpen
 	"""
-	The door is locked
-	and won't open
+	A porta está
+	trancada e não abre.
 	"""
 	keyWait
 	end
@@ -1033,9 +1037,9 @@ script 228 mmbn1 {
 script 229 mmbn1 {
 	msgOpen
 	"""
-	It's probably not a
-	good idea to open
-	a teacher's desk
+	Não acho uma boa
+	ideia fuçar a mesa
+	da professora.
 	"""
 	keyWait
 	end

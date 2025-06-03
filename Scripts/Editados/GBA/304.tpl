@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Why you"
+	"Ora,seu"
 	mugshotAnimate
 		animation = 1
 	"."
@@ -22,17 +22,17 @@ script 0 mmbn1 {
 	"!\n"
 	mugshotAnimate
 		animation = 2
-	"Hey"
+	"Ei"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	It's you
-	again!
+	é você de
+	novo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,8 +51,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You were at the
-	Waterworks!
+	Você tava no Sistema
+	Hídrico!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,8 +62,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're a WWW
-	operator?!
+	É uma operadora da
+	WWW?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -82,8 +82,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's right,
-	You meddling kid!
+	Isso mesmo,moleque
+	intrometido!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -102,8 +102,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,you're the one
-	who's meddling!
+	A intrometida aqui
+	é você!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -122,15 +122,16 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You don't know the
-	trouble I've
+	Você não sabe dos
+	perrengues que eu
+	passei
 	"""
 	mugshotAnimate
 		animation = 1
 	"..."
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
 	"Arrghh!"
@@ -142,9 +143,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This time I'll break
-	all the traffic
-	signals for good!
+	Desta vez,eu vou
+	quebrar todos os
+	semáforos de vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -153,13 +154,12 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Heh,heh!"
+	"He,he!\n"
 	waitSkip
 		frames = 30
 	"""
-	
-	And I'll get you
-	good,too!
+	E acabar com
+	você,é claro!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -175,7 +175,7 @@ script 5 mmbn1 {
 		mugshot = Lan
 		palette = 0
 	msgOpen
-	"!?"
+	"?!"
 	keyWait
 	clearMsg
 		delay = 5
@@ -191,9 +191,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	That's right! I've
-	been looking at your
-	personal files...
+	É isso aí! Eu vi os
+	seus arquivos
+	pessoais...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -203,9 +203,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,there's nothing
-	sadder than losing
-	the ones we love...
+	Ah,existe tragédia
+	maior que perder
+	a pessoa amada?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,8 +215,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And I think you're
-	gonna be REAL sad!
+	E sinto que você
+	vai sentir FORTE
+	essa tragédia!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -242,8 +243,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I got a bad feeling
-	about this...
+	Eu tô com um péssimo
+	pressentimento...
 	"""
 	mugshotAnimate
 		animation = 1

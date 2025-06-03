@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh,uhh..."
+	"Ur,urgh..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -15,7 +15,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"The PET's battery..."
+	"A bateria do PET..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -23,7 +23,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Uh,Lan..."
+	"Ung,Lan..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -57,9 +57,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't give up yet!
-	I made this while
-	you were fighting!
+	Não desista ainda!
+	Eu fiz isto enquanto
+	vocês lutavam!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,8 +69,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It's a hand-held
-	generator!
+	É um gerador
+	portátil!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -80,8 +80,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Press the B Btn. to
-	recharge!
+	Aperte B para
+	recarregar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -91,9 +91,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But you can only
-	recharge for 20
-	seconds!
+	Mas você só poderá
+	recarregar por 20
+	segundos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -103,9 +103,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll count,and you
-	press the B Btn. as
-	much as you can!
+	Explicando: é só
+	apertar B o mais
+	rápido que puder!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,7 +123,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Thanks!!"
+	"Obrigado!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -142,10 +142,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...GO!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -178,15 +175,15 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan? Is that you!?
-	I thought the 
+	Lan? É você?! Achei
+	que o 
 	"""
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	's
-	battery died...
+	 tinha
+	descarregado...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -204,7 +201,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Phew..."
+	"Ufa..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -219,7 +216,7 @@ script 7 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"I'm sorry."
+	"Desculpa."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -237,9 +234,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,no sweat! All's
-	well that ends well,
-	huh?
+	Ei,relaxa!
+	O que importa é que
+	tudo terminou bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -249,9 +246,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Speaking of ends,
-	let's get to that
-	power plant!
+	E,falando em termi-
+	nar coisas... Vamos
+	pra usina elétrica!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -269,7 +266,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Roger!!"
+	"Entendido!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -285,9 +282,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing!?
-	Recharge now or your
-	Navi's a goner!
+	O que está fazendo?!
+	Recarregue agora,ou
+	seu Navi já era!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -305,10 +302,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Ready?
-	And...Go!!
-	"""
+	"Pronto? E... vai!!"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	It looks like we can
-	jack in here!!
+	Lan! Parece que dá
+	pra gente se
+	conectar aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -31,13 +31,13 @@ script 1 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"OK! Jack in!!"
+	"OK! Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -61,7 +61,7 @@ script 2 mmbn1 {
 		animation = 2
 	flagSet
 		flag = 177
-	"Waaaait!!"
+	"ESSSPERAAA!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -70,21 +70,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You wanna delete
-	your Navi!? Jacking
-	in now is suicide!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	If the power's out
-	here,it's out on
-	the Net,too!
+	Você quer deletar o
+	seu Navi?! Conectar
+	agora é suicídio!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -94,16 +82,26 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you jack in now,
-	your 
+	Se estamos sem
+	energia aqui,a Net
+	também está!
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Se você se conectar
+	agora,a bateria do
+	seu 
 	"""
 	printItem
 		buffer = 0
 		item = 0
-	"""
-	's battery
-	will run out quick!
-	"""
+	" já era!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -111,21 +109,20 @@ script 2 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"And..."
+	"E... "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" If your "
+	"se a bateria do\n"
 	printItem
 		buffer = 0
 		item = 0
 	"""
-	's
-	battery runs out
-	while you're in...
+	 acabar enquanto
+	estão conectados...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -135,9 +132,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The energy sent to
-	your Navi is cut
-	off completely...
+	A energia enviada ao
+	seu Navi será corta-
+	da completamente...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -147,24 +144,23 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	and your Navi won't
-	be able to heal
-	by itself!
+	e ele não será capaz
+	de se curar sozinho!
 	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
 	clearMsg
 		delay = 0
-	"..."
+	"... "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	It'd just be a
-	matter of time 'fore
-	you got deleted!
+	Seria só uma
+	questão de tempo até
+	ele ser deletado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -182,7 +178,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"You serious!?"
+	"Sério?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -194,15 +190,12 @@ script 3 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	What should
-	I do!?
-	"""
+	"O que eu faço?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -219,7 +212,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,let's go!!"
+	"Lan,vamos lá!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -237,8 +230,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you saying,
-	MegaMan!?
+	O que você tá dizendo
+	MegaMan?! 
 	"""
 	mugshotAnimate
 		animation = 1
@@ -246,10 +239,7 @@ script 5 mmbn1 {
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	 Y-You
-	might get deleted!
-	"""
+	"V-você \npode ser deletado!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -267,9 +257,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	All we have to do
-	is defeat the WWW
-	Navi and jack out!
+	É só a gente
+	derrotar o Navi da
+	WWW e desconectar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -291,14 +281,14 @@ script 7 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	No!
-	It's too dangerous!
+	Não!
+	É perigoso demais!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -317,9 +307,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! If we don't go
-	now,there's a chance
-	that your mom...
+	Lan! Se não formos
+	agora,há uma chance
+	de que sua mãe...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -329,9 +319,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...and all the other
-	people stuck in here
-	will die!
+	... e todos os
+	outros aqui acabem
+	morrendo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -340,7 +330,7 @@ script 8 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"And."
+	"E."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -348,15 +338,15 @@ script 8 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	 I think
-	you're a good enough
-	operator to do it!
+	eu sei que você
+	é bom o bastante
+	pra encarar essa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -378,15 +368,15 @@ script 9 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Yeah,
-	I won't let them
-	delete you!
+	É,eu não vou
+	te deixar ser
+	deletado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -400,13 +390,13 @@ script 9 mmbn1 {
 		delay = 1
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -426,7 +416,7 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Whoa!!"
+	"Opa!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -441,7 +431,7 @@ script 11 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"MegaMan!?"
+	"MegaMan?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -459,9 +449,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	They've got some
-	heavy protection
-	on this thing!
+	Eles têm uma
+	proteção pesada
+	nessa coisa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -479,7 +469,10 @@ script 13 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Can you get through?"
+	"""
+	Você consegue
+	passar?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -497,8 +490,8 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No problem,just give
-	me a second!
+	Tranquilo. Me dá só
+	um segundo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -507,14 +500,14 @@ script 14 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"There!"
+	"Pronto! "
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	" Got it!"
+	"Consegui!"
 	mugshotAnimate
 		animation = 1
 	keyWait

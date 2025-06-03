@@ -7,19 +7,19 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hoo,"
+	"Hu,"
 	waitSkip
 		frames = 10
-	"hoo,"
+	"hu,"
 	waitSkip
 		frames = 10
-	"hoo,"
+	"hu..."
 	waitSkip
 		frames = 10
 	"\n"
 	flagClear
 		flag = 147
-	"Waaah hah hah hah!"
+	"Uaa ha ha haa!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -28,8 +28,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Wonderful---
-	Simply wonderful!!
+	Maravilhoso!
+	Simplesmente
+	maravilhoso!!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -38,13 +39,12 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"I have them all!"
+	"São todos meus!\n"
 	waitSkip
 		frames = 10
 	"""
-	
-	All of the super-
-	programs are mine!
+	Os superprogramas
+	são todos meus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -53,7 +53,7 @@ script 0 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So super..."
+	"Super potentes..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -61,7 +61,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Such programs!!"
+	"Super dominantes!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -77,14 +77,14 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	By combining these 4
-	programs,
+	E,combinando os 4
+	programas,
 	"""
 	flagClear
 		flag = 147
 	"""
-	I can make
-	YOU-KNOW-WHAT!!!!
+	realiza-
+	rei minha ambição!!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,30 +104,27 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ahh,hah hah...\n"
+	"Ahh,ha ha...\n"
 	mugshotAnimate
 		animation = 1
-	"*phew*"
+	"Arh..."
 	keyWait
 	clearMsg
 		delay = 0
 	mugshotAnimate
 		animation = 2
 	"""
-	And once I've made
-	that...
+	E,uma vez realiza-
+	da... 
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"I"
+	"enfim\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	 can delete
-	the world!
-	"""
+	"deletarei o mundo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -147,9 +144,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No more annoying
-	people with their
-	annoying machines!
+	Chega de pessoas
+	irritantes com seus
+	sistemas irritantes!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -168,14 +165,15 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And I will get my
-	revenge against...
+	E também enfim terei
+	minha vingança
+	sobre...
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	"\n"
+	" "
 	mugshotAnimate
 		animation = 2
 	"Hikari!!!"

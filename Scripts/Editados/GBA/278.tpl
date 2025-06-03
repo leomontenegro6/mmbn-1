@@ -3,25 +3,25 @@
 script 0 mmbn1 {
 	msgOpen
 	"""
-	One month has passed
-	since the “School-
-	jacking“ incident.
+	Passou-se um mês
+	desde o incidente
+	da escola.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	WWW net crime grows
-	worse,and the damage
-	more serious daily!
+	Os crimes da WWW só
+	ficam piores,e os
+	danos,mais graves!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Peace didn't last
-	long in the town
-	of ACDC...
+	Naturalmente,a paz
+	não durou muito no
+	Bairro ACDC...
 	"""
 	keyWait
 	end
@@ -35,7 +35,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! It's morning!"
+	"Lan! Já amanheceu!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -52,7 +52,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh,uhh..."
+	"Ur,urgh..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -68,8 +68,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	C'mon,it's Saturday!
-	Lemme sleep!
+	Qual é,é sábado!
+	Me deixa dormir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -87,7 +87,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ah! You're right!"
+	"Ah! É mesmo,né?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -104,7 +104,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Told ya."
+	"Te disse."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -122,9 +122,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...But remember you
-	have weekend class
-	this week?
+	... Mas você tem
+	aula no fim de
+	semana,esta semana.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -142,7 +142,10 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Oh,man!"
+	"""
+	Ah,cara!
+	Tá me zoando!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait

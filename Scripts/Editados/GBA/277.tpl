@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan! We did it!"
+	"Lan! Conseguimos!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -25,9 +25,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Right on! Let's
-	get the security
-	program running!
+	Isso aí! Agora bora
+	consertar o programa
+	de segurança!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -45,7 +45,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Leave it to me!"
+	"Deixa comigo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -61,9 +61,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This should let the
-	Metroline open
-	safely!
+	Isso deve fazer com
+	que a Metrolinha
+	inaugure sem trela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -73,9 +73,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's hurry up and
-	get that PowerUp
-	program!
+	Bora rápido lá
+	pegar o programa
+	do PowerUp!
 	"""
 	mugshotAnimate
 		animation = 1

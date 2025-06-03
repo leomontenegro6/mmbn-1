@@ -8,9 +8,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looks like everyone
-	is already in the
-	classroom...
+	Parece que o pessoal
+	já tá na sala...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -29,8 +28,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,any new
-	mail?
+	MegaMan,chegou
+	algum e-mail pra
+	mim?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,8 +49,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! Didn't you hear
-	what I just said?
+	Lan! Não ouviu o que
+	eu disse?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,8 +69,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You better get to
-	class,quick!
+	É melhor você ir
+	pra aula,agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -89,9 +89,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Geez!
-	You have 2 new
-	messages.
+	Urgh... Você tem 2
+	novas mensagens.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -101,9 +100,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The first is NetNews
-	“Student net crime
-	 on the rise!“
+	Uma é NetNotícias.
+	"Crimes na Rede
+	estudantil em alta!"
 	"""
 	mugshotAnimate
 		animation = 1
@@ -112,10 +111,7 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	The other one's from
-	Miss Yai:
-	"""
+	"E outra é da Yai:"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -123,7 +119,11 @@ script 4 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"“I called your name\n for you in homeroom\n so you owe me one.“"
+	"""
+	"Eu chamei seu nome
+	na chamada,então
+	você me deve uma."
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -140,26 +140,23 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"That Yai"
+	"Essa Yai"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	" Grr"
+	"Hm"
 	mugshotAnimate
 		animation = 1
-	"""
-	...
-	...
-	"""
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,no point
-	hurrying,I guess!
+	Bom,não tem pra que
+	ter pressa,então!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,8 +175,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why do I even
-	bother...
+	Nem sei por que
+	eu tento...
 	"""
 	mugshotAnimate
 		animation = 1

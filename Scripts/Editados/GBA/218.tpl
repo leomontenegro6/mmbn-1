@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm the control
-	program for this
-	game machine.
+	Sou o programa de
+	controle deste
+	console.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -20,9 +20,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Games keep getting
-	better and better...
-	Sure keeps me busy!
+	Os jogos ficam cada
+	vez melhores... e
+	me mantêm ocupado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -39,9 +39,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When playing games,
-	be sure to turn on
-	the lights,and
+	Quando jogar video
+	games,deixe as
+	luzes acesas
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,8 +51,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	don't sit too close
-	to the TV!
+	e não fique muito
+	perto da TV!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,9 +62,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	When playing for a
-	long time,be sure to
-	rest every hour!
+	E se for jogar por
+	muito tempo,descanse
+	a cada uma hora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -76,8 +76,8 @@ script 1 mmbn1 {
 script 2 mmbn1 {
 	msgOpen
 	"""
-	MegaMan accessed the
-	mystery data...
+	MegaMan acessou os
+	dados misteriosos...
 	"""
 	keyWait
 	clearMsg
@@ -95,8 +95,8 @@ script 2 mmbn1 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	"""
-	MegaMan got a chip
-	for “
+	MegaMan adquiriu
+	o chip "
 	"""
 	printChip
 		buffer = 0
@@ -105,7 +105,9 @@ script 2 mmbn1 {
 	printCode
 		buffer = 0
 		code = K
-	"“!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4

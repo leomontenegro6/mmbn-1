@@ -5,10 +5,10 @@ script 0 mmbn1 {
 		mugshot = Chaud
 		palette = 0
 	msgOpen
-	"..."
+	"... "
 	mugshotAnimate
 		animation = 2
-	"You again?"
+	"Você de novo?"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -17,8 +17,8 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What are you doing
-	in the SciLab?
+	O que está fazendo
+	no SciLab?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -28,9 +28,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is no place for
-	little boys to be
-	playing games!
+	Aqui não é lugar
+	para criancinhas
+	brincarem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -49,9 +49,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Just 'cause I'm a
-	kid doesn't mean you
-	can push me around!
+	Aí! Eu ser criança
+	não te dá o direito
+	de me esnobar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Yeah! Yeah!"
+	"Isso aí!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -89,15 +89,12 @@ script 3 mmbn1 {
 	"Hmph"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"""
-	Noisy
-	little brats...
-	"""
+	"Tão barulhentos..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -106,9 +103,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't have time to
-	deal with you now...
-	Later,brat.
+	Não tenho tempo pra
+	vocês agora...
+	Até mais,pirralho.
 	"""
 	mugshotAnimate
 		animation = 1

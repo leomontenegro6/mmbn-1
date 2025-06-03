@@ -18,9 +18,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Central
-	DenCity,the
-	middle of town.
+	Este é Centro do
+	Distrito Den. O
+	coração de DenCity.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -30,9 +30,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	To the North,South,
-	East,and West are
-	Blocks 1-4.
+	Ao norte,sul,leste
+	e oeste ficam os
+	blocos 1-4.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -42,9 +42,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You must pass
-	through this Block
-	to get to any other.
+	É preciso atraves-
+	sar este bloco pra
+	chegar nos outros.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -66,9 +66,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm on my way to
-	the antique shop on
-	Block2.
+	Estou a caminho da
+	loja de antiguidades
+	no Bloco 2.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -78,9 +78,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm tired from all
-	this walking!
-	<wheeze>
+	E essa caminhada to-
+	da me deixou morto!
+	Uff,uff...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -102,8 +102,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the business
-	center of DenCity!
+	Este é o centro
+	comercial do
+	Distrito Den!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -125,9 +126,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is the most
-	popular part of town
-	for young people.
+	Esta é a parte mais
+	popular da cidade
+	dentre os jovens.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -144,9 +145,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	May not be a good
-	idea to jack in
-	there,Lan.
+	Pode não ser uma
+	boa ideia se
+	conectar aí,Lan.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -165,8 +166,8 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You've got mail!
+	Lan! Chegou um
+	e-mail!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -215,9 +216,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We've gotta
-	stop everyone from
-	buying that program!
+	Lan! Temos que impe-
+	dir o pessoal de
+	comprar o programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -238,9 +239,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan! We've gotta
-	stop everyone from
-	buying that program!
+	Lan! Temos que impe-
+	dir o pessoal de
+	comprar o programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -257,9 +258,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hang on a sec,
-	I want to check
-	something out...
+	Espera só um segun-
+	do. Quero conferir
+	uma coisa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -276,8 +277,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm busy here!
-	Go away! Shoo!
+	Tô ocupada!
+	Cai fora! Xô!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -299,9 +300,8 @@ script 14 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	There was an
-	accident here just
-	now!
+	Teve um acidente
+	aqui ainda agora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -324,9 +324,9 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Never mind the
-	antiques,I want that
-	program!
+	Esquece as antigui-
+	dades! Eu quero é
+	esse programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -345,8 +345,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're being duped
-	by the WWW!
+	O senhor tá sendo
+	enganado pela WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -364,7 +364,7 @@ script 17 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's that!?"
+	"O quê?!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -372,7 +372,7 @@ script 17 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"I see"
+	"Entendo"
 	mugshotAnimate
 		animation = 1
 	"...!"
@@ -381,7 +381,7 @@ script 17 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"I'm leaving!"
+	"Adeus,então!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -407,9 +407,9 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Give me my program!
-	I just withdrew all
-	my savings.
+	Me dá o programa!
+	Saquei todas as
+	minhas economias!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -428,9 +428,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	No! Don't!
-	I'll fix the
-	signals!
+	Não! Não compra!
+	Eu vou consertar
+	os semáforos!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -449,9 +449,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You will? Well,I
-	guess I won't need
-	that program,then!
+	Vai? Acho que não
+	vou precisar do
+	programa,então!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -478,9 +478,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sell it to me!
-	I'll pay you double!
-	Triple!
+	Vende pra mim!
+	Te pago o dobro!
+	O triplo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -498,7 +498,11 @@ script 22 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Please,calm down!"
+	"""
+	Por favor,calma!
+	Eu dou um jeito
+	nisso!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -516,9 +520,9 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,you're right!
-	I don't even have
-	a driver's license!
+	Ah,tem razão! Eu
+	nem tenho carteira
+	de motorista!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -573,9 +577,9 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Where did everyone
-	go? It's like a
-	ghost town here!
+	Pra onde foi todo
+	mundo? Tá tudo
+	deserto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -592,9 +596,9 @@ script 31 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we need to get
-	to Block4 to meet
-	Mayl!
+	Lan,precisamos ir
+	pro Bloco 4 e
+	achar a Mayl!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -635,9 +639,9 @@ script 40 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,if we go that
-	way we won't get
-	there in time!
+	Lan,se formos por
+	aí,não vamos
+	chegar a tempo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -654,9 +658,9 @@ script 41 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we need to get
-	in front of the bus
-	to stop it in time!
+	Lan,temos que
+	ultrapassar o
+	ônibus pra pará-lo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -673,8 +677,8 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,we can't stop
-	the bus from there!
+	Lan,não temos como
+	parar o ônibus daí!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -714,9 +718,8 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan!
-	You got mail from
-	Mayl!
+	Lan! Chegou e-mail
+	da Mayl!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -733,9 +736,9 @@ script 51 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The bus is slowing
-	down! Let's get in
-	front and stop it!
+	O ônibus tá parando!
+	Vamos na frente e
+	pará-lo de vez!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -776,9 +779,9 @@ script 60 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have to help
-	Mayl! The bus is
-	gonna explode!
+	Temos que ajudar a
+	Mayl! O ônibus vai
+	explodir! Depressa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -795,9 +798,9 @@ script 61 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	We have to help
-	Mayl! The bus is
-	gonna explode!
+	Temos que ajudar a
+	Mayl! O ônibus vai
+	explodir! Depressa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -825,13 +828,13 @@ script 65 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Jack in!!"
+	"Conectar!!"
 	waitSkip
 		frames = 10
 	"\nMegaMan.EXE,"
 	waitSkip
 		frames = 10
-	"\ntransmit!"
+	"\ntransmissão!"
 	mugshotAnimate
 		animation = 1
 	wait
@@ -864,9 +867,9 @@ script 71 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Central
-	DenTown,the center
-	of DenCity.
+	Este é o Centro do
+	Distrito Den,o
+	coração da cidade.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -883,9 +886,9 @@ script 72 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I love antiques. But
-	I think that I spent
-	a little too much...
+	Adoro antiguidades.
+	Mas acho que gastei
+	demais...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -902,9 +905,9 @@ script 73 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	DenCity is famous
-	for its electronics
-	industry.
+	DenCity é famosa
+	por sua indústria
+	eletrônicos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -914,8 +917,8 @@ script 73 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And DenTown is the
-	center of it all!
+	E o Distrito Den
+	é o centro dela!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -932,9 +935,9 @@ script 74 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I don't want a
-	driver's license
-	any more
+	Não quero mais
+	tirar carteira
+	de motorista
 	"""
 	mugshotAnimate
 		animation = 1
@@ -945,9 +948,8 @@ script 74 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	What if something
-	like that happens
-	again!?
+	E se algo assim
+	acontecer de novo?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -979,8 +981,8 @@ script 80 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	This is Central
-	Dentown,the center of
+	Este é o Distrito
+	Den,o coração de
 	DenCity.
 	"""
 	mugshotAnimate
@@ -1003,9 +1005,9 @@ script 81 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm not afraid of
-	the EndGame,but will
-	my antiques be safe?
+	Não tenho medo da
+	Fase Final. Mas...
+	minhas antiguidades
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1015,9 +1017,9 @@ script 81 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,and my children
-	and grandchildren,of
-	course...
+	Ah,e meus filhos e
+	netos também,
+	claro...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1034,9 +1036,9 @@ script 82 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If the EndGame comes
-	about,it will ruin
-	our electronics...
+	Se a WWW fizer 
+	aquilo,vai arruinar
+	nossos eletrônicos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1046,8 +1048,8 @@ script 82 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How will people live
-	without their PETs?
+	Como as pessoas vão
+	viver sem os PETS?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1075,11 +1077,10 @@ script 83 mmbn1 {
 		palette = 0
 	msgOpen
 	mugshotAnimate
-		animation = 2
 	"""
-	I decided not to
-	get my driver's
-	license...
+	Decidi não tirar
+	minha carteira de
+	motorista...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1089,9 +1090,9 @@ script 83 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Who needs one if
-	the world is about
-	to come to an end?
+	Quem precisa de
+	uma se o mundo tá
+	prestes a acabar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1108,9 +1109,9 @@ script 84 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're calling me a
-	WWW member??
-	How rude!!
+	Acha que eu estou
+	com a WWW?!
+	Tá doido?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1127,9 +1128,9 @@ script 85 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nobody as cute as I
-	am could ever be in
-	the WWW...
+	Nunca que alguém
+	linda como eu seria
+	da WWW! Eu,hein...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1146,9 +1147,9 @@ script 86 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you're a WWW
-	member,then you know
-	about the Undernet!
+	Se você é um membro
+	da WWW,deve saber
+	da Undernet!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1157,7 +1158,7 @@ script 86 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Tell me,now!!"
+	"Desembucha,agora!!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1175,9 +1176,8 @@ script 87 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I said I don't know
-	anything about the
-	WWW!!
+	Eu já disse,não
+	sei nada da WWW!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1203,8 +1203,8 @@ script 88 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Grrr!! Another false
-	lead...
+	Grrr!! Outra pista
+	falsa...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1214,8 +1214,9 @@ script 88 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	How will I get into
-	the Undernet...?
+	Como faço pra
+	chegar na
+	Undernet...?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1235,7 +1236,7 @@ script 89 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Huh? You again?"
+	"Hã? Você de novo?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1244,8 +1245,9 @@ script 89 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm busy here!
-	Leave me alone!
+	Eu estou ocupado
+	agora! Me deixe
+	em paz!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1263,7 +1265,10 @@ script 90 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's your problem?"
+	"""
+	Qual é o seu
+	problema?
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1272,9 +1277,9 @@ script 90 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I heard you were
-	having problems,so I
-	just came to help!
+	Ouvi que cê tava
+	com dificuldade,
+	aí vim ajudar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1293,8 +1298,9 @@ script 91 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Why would I ever
-	need your help!?
+	Por que eu
+	precisaria da
+	SUA ajuda?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1303,7 +1309,10 @@ script 91 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Out of my way!"
+	"""
+	Saia logo da minha
+	frente!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1322,7 +1331,7 @@ script 92 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What a jerk..."
+	"Que babaca..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1339,7 +1348,7 @@ script 93 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hey,Lan..."
+	"Lan..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1366,10 +1375,20 @@ script 94 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
+	"Eu sei..."
+	mugshotAnimate
+		animation = 1
+	waitSkip
+		frames = 30
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
 	"""
-	I don't want to help
-	Chaud,but we have to
-	stop the EndGame!
+	Não quero ajudar o
+	Chaud,mas temos que
+	parar a Fase Final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1379,9 +1398,9 @@ script 94 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan,let's try to
-	find the WWW
-	server's address!
+	MegaMan,bora achar o
+	endereço do servidor
+	da WWW!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1400,8 +1419,8 @@ script 95 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK! First we'll need
-	to get into the
+	OK! Primeiro,
+	temos que ir pra
 	Undernet!
 	"""
 	mugshotAnimate
@@ -1412,9 +1431,9 @@ script 95 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Chaud just said that
-	any WWW member
-	should know how...
+	O Chaud disse que
+	um membro da WWW
+	saberia como...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1468,9 +1487,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'm not afraid of
-	the EndGame,but will
-	my antiques be safe?
+	Não tenho medo da
+	Fase Final. Mas...
+	minhas antiguidades!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1480,9 +1499,9 @@ script 105 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oh,and my children
-	and grandchildren,of
-	course...
+	Ah,e meus filhos e
+	netos também,
+	claro...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1499,8 +1518,8 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Me? A WWW member?
-	You must be joking!
+	Eu? Membro da WWW?
+	Só pode ser gozação!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1510,9 +1529,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	However,I did meet a
-	man who knows a lot
-	about them...
+	Mas já conheci um
+	sujeito que sabia
+	muito sobre eles...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1522,9 +1541,9 @@ script 106 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I think he said that
-	he lives in ACDC
-	Town...
+	Acho que ele disse
+	que morava no
+	Bairro ACDC...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1550,9 +1569,9 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The EndGame?
-	Is that that new
-	PetBoy game?
+	A Fase Final? Esse
+	é aquele novo jogo
+	pro PetBoy?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1891,8 +1910,8 @@ script 219 mmbn1s {
 script 220 mmbn1 {
 	msgOpen
 	"""
-	A very large office
-	building
+	Um enorme prédio
+	empresarial.
 	"""
 	keyWait
 	end
@@ -1902,28 +1921,28 @@ script 220 mmbn1 {
 script 221 mmbn1 {
 	msgOpen
 	"""
-	The DenTown Movie
-	Theater
+	O cinema do Distrito
+	Den.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
-	"Now Showing..."
+	"Em cartaz..."
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	The ultimate in
-	horror! “Attack of
-	the Killer PETs“!
+	O ápice do terror!
+	"Ataque dos PETs
+	Assassinos"!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Rom Cruze stars in,
-	“Upgrade Impossible
-	3“!!
+	Wagnet Meuram
+	estrela em "Backup
+	de Elite 2"!!
 	"""
 	keyWait
 	end
@@ -1933,16 +1952,16 @@ script 221 mmbn1 {
 script 222 mmbn1 {
 	msgOpen
 	"""
-	The most famous
-	florist in DenCity
+	A florista mais
+	famosa do Distrito
+	Den.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Lots of beautiful
-	flowers are on
-	display
+	Muitas flores lindas
+	estão expostas.
 	"""
 	keyWait
 	end
@@ -1952,8 +1971,9 @@ script 222 mmbn1 {
 script 223 mmbn1 {
 	msgOpen
 	"""
-	You can't jack in
-	to this signal
+	Não é possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end
@@ -1972,16 +1992,17 @@ script 224 mmbn1 {
 		jumpIfFalse = continue
 	msgOpen
 	"""
-	You can jack in to
-	this signal
+	É possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	But there doesn't
-	seem to be any
-	reason to now
+	Mas não parece
+	haver motivo para
+	isso agora.
 	"""
 	keyWait
 	end
@@ -1991,8 +2012,9 @@ script 224 mmbn1 {
 script 225 mmbn1 {
 	msgOpen
 	"""
-	You can jack in to
-	this signal
+	É possível se
+	conectar nesse
+	semáforo.
 	"""
 	keyWait
 	end

@@ -6,7 +6,7 @@ script 0 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Get closer\n  to hit\n  faster"
+	"  Tiro ace-\n  lera quan-\n  do perto."
 	flagSet
 		flag = 1030
 	waitHold
@@ -18,7 +18,7 @@ script 1 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A nice,big\n  cannon!"
+	"  Um canhão\n  potente!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -30,7 +30,7 @@ script 2 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A nice,big\n  cannon!"
+	"  Um canhão\n  potente!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -42,7 +42,7 @@ script 3 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A nice,big\n  cannon!"
+	"  Um canhão\n  potente!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -54,7 +54,7 @@ script 4 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cut down\n  enemies!\n  Range=1"
+	"  Corta\n  alvo!\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -66,7 +66,7 @@ script 5 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cut down\n  column!\n  Range=1"
+	"  Corta\n  coluna!\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -78,7 +78,7 @@ script 6 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cut down\n  enemies!\n  Range=2"
+	"  Corta\n  alvo!\n  Dist=2"
 	flagSet
 		flag = 1030
 	waitHold
@@ -90,7 +90,7 @@ script 7 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Throw a\n  bomb!\n  Depth=3"
+	"  Jogue uma\n  bomba!\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -102,7 +102,7 @@ script 8 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cross\n  bomb\n  Depth=3"
+	"  Bomba\n  cruzada\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -114,7 +114,7 @@ script 9 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Bomb with\n  a big boom\n  Depth=3"
+	"  Bomba tão\n  potente\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -126,7 +126,7 @@ script 10 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Gun with\n  a 1-panel\n  blast"
+	"  Tiro com\n  expl. de\n  1 quadro"
 	flagSet
 		flag = 1030
 	waitHold
@@ -138,7 +138,7 @@ script 11 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Bubbles w/\n  a 1-panel\n  blast"
+	"  Bolhas com\n  explos. de\n  1 quadro"
 	flagSet
 		flag = 1030
 	waitHold
@@ -150,7 +150,7 @@ script 12 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fire with\n  a 1-panel\n  blast"
+	"  Fogo com\n  explos. de\n  1 quadro"
 	flagSet
 		flag = 1030
 	waitHold
@@ -162,7 +162,7 @@ script 13 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Throw a\n  bomb!\n  Depth=3"
+	"  Jogue uma\n  bomba!\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -174,7 +174,7 @@ script 14 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hits enemy\n  and keeps\n  going 1pnl"
+	"  Atinge e\n  avança\n  1 quadro"
 	flagSet
 		flag = 1030
 	waitHold
@@ -186,7 +186,7 @@ script 15 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  4-panel\n  diagonal\n  blast"
+	"  Tiro\n  diagonal\n  4 quadros"
 	flagSet
 		flag = 1030
 	waitHold
@@ -198,7 +198,7 @@ script 16 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Piercing\n  ground\n  wave"
+	"  Onda de\n  terra que\n  Penetra"
 	flagSet
 		flag = 1030
 	waitHold
@@ -210,7 +210,7 @@ script 17 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Piercing\n  ground\n  wave"
+	"  Onda de\n  terra que\n  Penetra"
 	flagSet
 		flag = 1030
 	waitHold
@@ -222,7 +222,7 @@ script 18 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Piercing\n  ground\n  wave"
+	"  Onda de\n  terra que\n  Penetra"
 	flagSet
 		flag = 1030
 	waitHold
@@ -234,7 +234,7 @@ script 19 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fire that\n  can move\n  up & down"
+	"  Fogo que\n  transita\n  coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -246,7 +246,7 @@ script 20 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Water that\n  can move\n  up & down"
+	"  Água que\n  transita\n  coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -258,7 +258,7 @@ script 21 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Log that\n  can move\n  up & down"
+	"  Tora que\n  transita\n  coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -270,7 +270,7 @@ script 22 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cracks a\n  panel\n  Depth=3"
+	"  Quebra\n  paineis\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -282,7 +282,7 @@ script 23 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cracks a\n  panel\n  Depth=3"
+	"  Quebra\n  paineis\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -294,7 +294,7 @@ script 24 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cracks a\n  panel\n  Depth=3"
+	"  Quebra\n  paineis\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -306,7 +306,7 @@ script 25 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cuts down\n  column\n  Range=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -318,7 +318,7 @@ script 26 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cuts down\n  column\n  Range=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -330,7 +330,7 @@ script 27 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cuts down\n  column\n  Range=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -342,7 +342,7 @@ script 28 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Knocks\n  stuff over\n  Range=1"
+	"  Derruba\n  coisas\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -354,7 +354,7 @@ script 29 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Knocks\n  stuff over\n  Range=1"
+	"  Derruba\n  coisas\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -366,7 +366,7 @@ script 30 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Warrior's\n  sword\n  Range=3"
+	"  Espada do\n  guerreiro\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -378,7 +378,7 @@ script 31 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Knock over\n  all in\n  your path!"
+	"  Derruba\n  tudo\n  na frente!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -390,7 +390,7 @@ script 32 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Knight's\n  sword\n  Range=3"
+	"  Espada do\n  Cavaleiro\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -402,7 +402,7 @@ script 33 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Legendary\n  sword\n  Range=3"
+	"  Espada\n  lendária\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -414,7 +414,7 @@ script 34 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hold A Btn\n  for 3 sec\n  defense!"
+	"  Segure A\n  para def.\n  de 3 seg!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -448,7 +448,7 @@ script 37 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fires a\n  3-arrow\n  burst"
+	"  Rajada de\n  3 flechas\n  explosivas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -460,7 +460,7 @@ script 38 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fires a\n  3-spear\n  burst"
+	"  Rajada de\n  3 flechas\n  explosivas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -472,7 +472,7 @@ script 39 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fires a\n  3-lance\n  burst"
+	"  Rajada de\n  3 flechas\n  explosivas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -484,7 +484,7 @@ script 40 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  twister w/\n  3 hits"
+	"  Cria um\n  tornado de\n  3ataques"
 	flagSet
 		flag = 1030
 	waitHold
@@ -496,7 +496,7 @@ script 41 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  twister w/\n  5 hits"
+	"  Cria um\n  tornado de\n  5ataques"
 	flagSet
 		flag = 1030
 	waitHold
@@ -508,7 +508,7 @@ script 42 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  twister w/\n  8 hits"
+	"  Cria um\n  tornado de\n  8ataques"
 	flagSet
 		flag = 1030
 	waitHold
@@ -520,7 +520,7 @@ script 43 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Breaks\n  panels\n  Depth=3"
+	"  Quebra\n  quadros\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -532,7 +532,7 @@ script 44 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A rolling\n  lightning\n  attack"
+	"  Trovão\n  gira-\n  tório"
 	flagSet
 		flag = 1030
 	waitHold
@@ -544,7 +544,7 @@ script 45 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A rolling\n  lightning\n  attack"
+	"  Trovão\n  gira-\n  tório"
 	flagSet
 		flag = 1030
 	waitHold
@@ -556,7 +556,7 @@ script 46 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  A rolling\n  lightning\n  attack"
+	"  Trovão\n  gira-\n  tório"
 	flagSet
 		flag = 1030
 	waitHold
@@ -590,7 +590,7 @@ script 49 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Squirming\n  snake\n  attack!"
+	"  Ataque\n  cobra\n  contorc."
 	flagSet
 		flag = 1030
 	waitHold
@@ -602,7 +602,7 @@ script 50 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Shocking\n  snake\n  attack!"
+	"  Ataque\n  cobra\n  elétrico!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -614,7 +614,7 @@ script 51 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Scorching\n  snake\n  attack!"
+	"  Ataque\n  cobra\n  de fogo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -626,7 +626,7 @@ script 52 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Breaks\n  cubes\n  Range=1"
+	"  Quebra\n  cubos\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -660,7 +660,7 @@ script 55 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Engulf all\n  around you\n  in flames!"
+	"  Cerca\n  você\n  com fogo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -694,7 +694,7 @@ script 58 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Missile\n  that can\n  turn once"
+	"  Rato que\n  dobra\n  uma vez"
 	flagSet
 		flag = 1030
 	waitHold
@@ -706,7 +706,7 @@ script 59 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Missile\n  that can\n  turn once"
+	"  Rato que\n  dobra\n  uma vez"
 	flagSet
 		flag = 1030
 	waitHold
@@ -718,7 +718,7 @@ script 60 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Missile\n  that can\n  turn once"
+	"  Rato que\n  dobra\n  uma vez"
 	flagSet
 		flag = 1030
 	waitHold
@@ -730,7 +730,7 @@ script 61 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  lock on\n  satellite!"
+	"  Cria um\n  satélite\n  com mira!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -742,7 +742,7 @@ script 62 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  lock on\n  satellite!"
+	"  Cria um\n  satélite\n  com mira!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -754,7 +754,7 @@ script 63 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates a\n  lock on\n  satellite!"
+	"  Cria um\n  satélite\n  com mira!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -766,7 +766,7 @@ script 64 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Erase 1\n  panel\n  Range=1"
+	"  Apaga 1\n  quadro\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -778,7 +778,7 @@ script 65 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Erase\n  column\n  Range=1"
+	"  Apaga\n  coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -801,7 +801,7 @@ script 67 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  10HP"
+	"  Cura\n  10PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -813,7 +813,7 @@ script 68 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  30HP"
+	"  Cura\n  30PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -825,7 +825,7 @@ script 69 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  50HP"
+	"  Cura\n  50PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -837,7 +837,7 @@ script 70 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  80HP"
+	"  Cura\n  80PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -849,7 +849,7 @@ script 71 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  120HP"
+	"  Cura\n  120PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -861,7 +861,7 @@ script 72 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  150HP"
+	"  Cura\n  150PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -873,7 +873,7 @@ script 73 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  200HP"
+	"  Cura\n  200PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -885,7 +885,7 @@ script 74 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Recover\n  300HP"
+	"  Cura\n  300PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -908,7 +908,7 @@ script 76 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Steal left\n  column of\n  enemy area"
+	"  Rouba\n  coluna do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -942,7 +942,7 @@ script 79 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  All panels\n  become\n  cracked!"
+	"  Racha\n  todos os\n  quadros!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -954,7 +954,7 @@ script 80 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Erases\n  all empty\n  panels"
+	"  Apaga\n  todos os\n  quadros"
 	flagSet
 		flag = 1030
 	waitHold
@@ -977,7 +977,7 @@ script 82 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Escape\n  from most\n  enemies"
+	"  Fuja de\n  inimigos"
 	flagSet
 		flag = 1030
 	waitHold
@@ -989,7 +989,7 @@ script 83 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Destroy\n  enemy chip\n  data"
+	"  Destroi os\n  chips\n  inimigos"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1001,7 +1001,7 @@ script 84 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Negate all\n  attacks w/\n  damage<100"
+	"  Anula\n  ataques de\n  dano<100"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1013,7 +1013,7 @@ script 85 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Null<10dmg\n  Weak vs.\n  \[Elec\]"
+	"  Anula<10dn\n  Fraco vs.\n  Elét"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1025,7 +1025,7 @@ script 86 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Null<40dmg\n  Weak vs.\n  \[Aqua\]"
+	"  Anula<40dn\n  Fraco vs.\n  Água"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1037,7 +1037,7 @@ script 87 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Null<80dmg\n  Weak vs.\n  \[Fire\]"
+	"  Anula<80dn\n  Fraco vs.\n  Fogo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1049,7 +1049,7 @@ script 88 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Repair\n  panels in\n  your area"
+	"  Conserta\n  quadros da\n  sua área"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1083,7 +1083,7 @@ script 91 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rains up\n  & down on\n  1 column"
+	"  Chove de\n  cima-baixo\n  1 coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1095,7 +1095,7 @@ script 92 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rains up\n  & down on\n  1 column"
+	"  Chove de\n  cima-baixo\n  1 coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1107,7 +1107,7 @@ script 93 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rains up\n  & down on\n  1 column"
+	"  Chove de\n  cima-baixo\n  1 coluna"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1119,7 +1119,7 @@ script 94 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates an\n  ice cube\n  Range=1"
+	"  Cria cubo\n  de gelo\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1131,7 +1131,7 @@ script 95 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Creates 3\n  rock cubes\n  randomly"
+	"  Cria 3 cu-\n  bos de pe-\n  dra aleat."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1154,7 +1154,7 @@ script 97 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Sets time\n  bomb in\n  enemy area"
+	"  Põe bomba-\n  relógio\n  no inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1166,7 +1166,7 @@ script 98 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Sets time\n  bomb in\n  enemy area"
+	"  Põe bomba-\n  relógio\n  no inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1178,7 +1178,7 @@ script 99 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Sets time\n  bomb in\n  enemy area"
+	"  Põe bomba-\n  relógio\n  no inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1190,7 +1190,7 @@ script 100 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Temporary\n  immunity"
+	"  Imunidade\n  temporária"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1202,7 +1202,7 @@ script 101 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Temporary\n  immunity"
+	"  Imunidade\n  temporária"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1214,7 +1214,7 @@ script 102 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Temporary\n  immunity"
+	"  Imunidade\n  temporária"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1226,7 +1226,7 @@ script 103 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  30 seconds\n  stoneshape\n  Defense UP"
+	"  Defesa de\n  pedra por\n  30 seg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1249,7 +1249,7 @@ script 105 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Remote\n  control\n  smasher!"
+	"  Esmaga via\n  controle\n  remoto!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1261,7 +1261,7 @@ script 106 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Remote\n  control\n  smasher!"
+	"  Esmaga via\n  controle\n  remoto!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1273,7 +1273,7 @@ script 107 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Remote\n  control\n  smasher!"
+	"  Esmaga via\n  controle\n  remoto!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1285,7 +1285,7 @@ script 108 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1-turn of\n  MetGuard\n  w/ B Btn."
+	"  1 turno de\n  MetGuard\n  com B."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1297,7 +1297,7 @@ script 109 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1-turn of\n  MiniBomb\n  w/ B Btn."
+	"  1 turno de\n  MiniBomb\n  com B."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1309,7 +1309,7 @@ script 110 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1-turn use\n  of Sword\n  with B Btn"
+	"  1 turno de\n  Sword com\n  B."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1321,7 +1321,7 @@ script 111 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1-turn of\n  GutsPnch\n  with B Btn."
+	"  1 turno de\n  GutsPnch\n  com B."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1333,7 +1333,7 @@ script 112 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  circles\n  you once"
+	"  Relâmpago\n  circula\n  1 vez"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1345,7 +1345,7 @@ script 113 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  circles\n  you twice"
+	"  Relâmpago\n  circula\n  2 vezes"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1357,7 +1357,7 @@ script 114 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  circles\n  you thrice"
+	"  Relâmpago\n  circula\n  3 vezes"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1369,7 +1369,7 @@ script 115 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Set candle\n  & recover\n  some HP"
+	"  Fixa vela\n  e recupera\n  PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1381,7 +1381,7 @@ script 116 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Set candle\n  & recover\n  some HP"
+	"  Fixa vela\n  e recupera\n  PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1393,7 +1393,7 @@ script 117 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Set candle\n  & recover\n  some HP"
+	"  Fixa vela\n  e recupera\n  PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1405,7 +1405,7 @@ script 118 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Slows down\n  custom\n  gauge"
+	"  Desacelera\n  barra de\n  customiz."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1417,7 +1417,7 @@ script 119 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Speeds up\n  custom\n  gauge"
+	"  Acelera\n  barra de\n  customiz."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1440,7 +1440,7 @@ script 121 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Charge to\n  drain HP\n  from enemy"
+	"  Drena PV\n  do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1452,7 +1452,7 @@ script 122 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Charge to\n  drain HP\n  from enemy"
+	"  Drena PV\n  do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1464,7 +1464,7 @@ script 123 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Charge to\n  drain HP\n  from enemy"
+	"  Drena PV\n  do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1476,7 +1476,7 @@ script 124 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hides a\n  mine in\n  enemy area"
+	"  Esconde\n  mina na\n  área inim."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1488,7 +1488,7 @@ script 125 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hides a\n  mine in\n  enemy area"
+	"  Esconde\n  mina na\n  área inim."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1500,7 +1500,7 @@ script 126 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hides a\n  mine in\n  enemy area"
+	"  Esconde\n  mina na\n  área inim."
 	flagSet
 		flag = 1030
 	waitHold
@@ -1512,7 +1512,7 @@ script 127 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rolling\n  3-column\n  explosion!"
+	"  Explosão\n  rolante\n  3 colunas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1524,7 +1524,7 @@ script 128 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rolling\n  3-column\n  explosion!"
+	"  Explosão\n  rolante\n  3 colunas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1536,7 +1536,7 @@ script 129 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Rolling\n  3-column\n  explosion!"
+	"  Explosão\n  rolante\n  3 colunas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1548,7 +1548,7 @@ script 130 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Aqua wall\n  Comes back\n  if damaged"
+	"  Parede á-\n  gua. Volta\n  se atacada"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1560,7 +1560,7 @@ script 131 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Aqua wall\n  Comes back\n  if damaged"
+	"  Parede á-\n  gua. Volta\n  se atacada"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1572,7 +1572,7 @@ script 132 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Aqua wall\n  Comes back\n  if damaged"
+	"  Parede á-\n  gua. Volta\n  se atacada"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1584,7 +1584,7 @@ script 133 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  wave!\n  \[Aqua\]"
+	"  Onda\n  mortal!\n  Água"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1596,7 +1596,7 @@ script 134 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  lava wave!\n  \[Fire\]"
+	"  Onda\n  de lava\n  Fogo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1608,7 +1608,7 @@ script 135 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  giant wave\n  \[Aqua\]"
+	"  Tsunami\n  3 fileiras\n  Água"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1620,7 +1620,7 @@ script 136 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Do damage\n  = to your\n  HP loss"
+	"  Cause dano\n  = perda\n  de PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1632,7 +1632,7 @@ script 137 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Invisible\n  until you\n  attack!"
+	"  Invisível\n  até\n  atacar!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1644,7 +1644,7 @@ script 138 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Invisible\n  when not\n  attacking!"
+	"  Invisível\n  enquanto\n  não atacar"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1656,7 +1656,7 @@ script 139 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Looks\n  right for\n  enemy"
+	"  Busca\n  inimigos\n  direita"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1668,7 +1668,7 @@ script 140 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Looks\n  diagonally\n  for enemy"
+	"  Busca\n  inimigos\n  diagonal"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1680,7 +1680,7 @@ script 141 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Looks up &\n  down for\n  enemy"
+	"  Busca inmg\n  em cima\n  e baixo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1692,7 +1692,7 @@ script 142 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Set Anubis\n  statue to\n  reduce HP"
+	"  Estátua\n  de Anúbis\n  reduz PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1726,7 +1726,7 @@ script 145 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hold btn.\n  to create\n  shield!"
+	"  Segure B\n  e crie\n  escudo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1738,7 +1738,7 @@ script 146 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Turns dmg\n  from 1 hit\n  into HP"
+	"  Transforma\n  dano de 1\n  atq em PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1750,7 +1750,7 @@ script 147 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Nullify\n  1 enemy\n  attack"
+	"  Anula\n  1 ataque\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1762,7 +1762,7 @@ script 148 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  coffin\n  laser!"
+	"  Caixão\n  laser\n  3 linhas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1774,7 +1774,7 @@ script 149 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  coffin\n  laser!"
+	"  Caixão\n  laser\n  3 linhas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1786,7 +1786,7 @@ script 150 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  coffin\n  laser!"
+	"  Caixão\n  laser\n  3 linhas!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1798,7 +1798,7 @@ script 151 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Split into\n  3 for star\n  attack"
+	"  Divide em\n  3 para\n  ataque"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1810,7 +1810,7 @@ script 152 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Split into\n  3 for star\n  attack"
+	"  Divide em\n  3 para\n  ataque"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1822,7 +1822,7 @@ script 153 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Split into\n  3 for star\n  attack"
+	"  Divide em\n  3 para\n  ataque"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1867,7 +1867,7 @@ script 157 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Magic fire\n  =instant\n  delete!?"
+	"  Fogo mág.\n  =deleção\n  imediata?!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1879,7 +1879,7 @@ script 158 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Magic fire\n  =instant\n  delete!?"
+	"  Fogo mág.\n  =deleção\n  imediata?!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1891,7 +1891,7 @@ script 159 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Magic fire\n  =instant\n  delete!?"
+	"  Fogo mág.\n  =deleção\n  imediata?!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1903,7 +1903,7 @@ script 160 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit enemy\n  and heal\n  some HP"
+	"  Atinge\n  inimigo e\n  cura PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1915,7 +1915,7 @@ script 161 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit enemy\n  and heal\n  some HP"
+	"  Atinge\n  inimigo e\n  cura PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1927,7 +1927,7 @@ script 162 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit enemy\n  and heal\n  some HP"
+	"  Atinge\n  inimigo e\n  cura PV"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1939,7 +1939,7 @@ script 163 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Shock foe\n  and crack\n  enemy area"
+	"  Devasta e\n  racha área\n  inimiga"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1951,7 +1951,7 @@ script 164 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Shock foe\n  and crack\n  enemy area"
+	"  Devasta e\n  racha área\n  inimiga"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1963,7 +1963,7 @@ script 165 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Shock foe\n  and crack\n  enemy area"
+	"  Devasta e\n  racha área\n  inimiga"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1975,7 +1975,7 @@ script 166 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit column\n  w/ nearest\n  enemy"
+	"  Ataca col.\n  c/ alvo\n  próximo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1987,7 +1987,7 @@ script 167 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit column\n  w/ nearest\n  enemy"
+	"  Ataca col.\n  c/ alvo\n  próximo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -1999,7 +1999,7 @@ script 168 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Hit column\n  w/ nearest\n  enemy"
+	"  Ataca col.\n  c/ alvo\n  próximo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2011,7 +2011,7 @@ script 169 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Skewer\n  entire\n  enemy area"
+	"  Espeta a\n  área do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2023,7 +2023,7 @@ script 170 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Skewer\n  entire\n  enemy area"
+	"  Espeta a\n  área do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2035,7 +2035,7 @@ script 171 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Skewer\n  entire\n  enemy area"
+	"  Espeta a\n  área do\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2047,7 +2047,7 @@ script 172 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1 row\n  fire arm"
+	"  Braço de\n  fogo 1\n  fileira"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2059,7 +2059,7 @@ script 173 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1 row\n  fire arm"
+	"  Braço de\n  fogo 1\n  fileira"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2071,7 +2071,7 @@ script 174 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  1 row\n  fire arm"
+	"  Braço de\n  fogo 1\n  fileira"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2083,7 +2083,7 @@ script 175 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  DieRollx10\n  damage to\n  enemy area"
+	"  Dadosx10\n  dano à\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2095,7 +2095,7 @@ script 176 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  DieRollx20\n  damage to\n  enemy area"
+	"  Dadosx20\n  dano à\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2107,7 +2107,7 @@ script 177 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  DieRollx30\n  damage to\n  enemy area"
+	"  Dadosx30\n  dano à\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2119,7 +2119,7 @@ script 178 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Drops 3x3\n  stones on\n  enemy area"
+	"  Pedras 3x3\n  caem no\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2131,7 +2131,7 @@ script 179 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Drops 4x3\n  stones on\n  enemy area"
+	"  Pedras 4x3\n  caem no\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2143,7 +2143,7 @@ script 180 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Drops 5x3\n  stones on\n  enemy area"
+	"  Pedras 5x3\n  caem no\n  inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2155,7 +2155,7 @@ script 181 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Blizzard\n  attack on\n  enemy area"
+	"  Ataque\n  nevasca na\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2167,7 +2167,7 @@ script 182 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Blizzard\n  attack on\n  enemy area"
+	"  Ataque\n  nevasca na\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2179,7 +2179,7 @@ script 183 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Blizzard\n  attack on\n  enemy area"
+	"  Ataque\n  nevasca na\n  área inimg"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2191,7 +2191,7 @@ script 184 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Big skull\n  attack on\n  one enemy"
+	"  Ataque\n  caveira em\n  um inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2203,7 +2203,7 @@ script 185 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Big skull\n  attack on\n  one enemy"
+	"  Ataque\n  caveira em\n  um inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2215,7 +2215,7 @@ script 186 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Big skull\n  attack on\n  one enemy"
+	"  Ataque\n  caveira em\n  um inimigo"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2227,7 +2227,7 @@ script 187 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Towers of\n  \[Aqua\] &\n  \[Fire\]!"
+	"  Torres de\n  Água &\n  Fogo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2239,7 +2239,7 @@ script 188 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Towers of\n  \[Aqua\] &\n  \[Fire\]!"
+	"  Torres de\n  Água &\n  Fogo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2251,7 +2251,7 @@ script 189 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Towers of\n  \[Aqua\] &\n  \[Fire\]!"
+	"  Torres de\n  Água &\n  Fogo!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2263,7 +2263,7 @@ script 190 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Enemy area\n  CrossBomb\n  Depth=3"
+	"  CrossBomb\n  no inimigo\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2275,7 +2275,7 @@ script 191 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Enemy area\n  CrossBomb\n  Depth=3"
+	"  CrossBomb\n  no inimigo\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2287,7 +2287,7 @@ script 192 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Enemy area\n  CrossBomb\n  Depth=3"
+	"  CrossBomb\n  no inimigo\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2299,7 +2299,7 @@ script 193 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  shark fin\n  attack"
+	"  Ataque\n  tubarão\n  3 linhas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2311,7 +2311,7 @@ script 194 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  shark fin\n  attack"
+	"  Ataque\n  tubarão\n  3 linhas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2323,7 +2323,7 @@ script 195 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  3-row\n  shark fin\n  attack"
+	"  Ataque\n  tubarão\n  3 linhas"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2335,7 +2335,7 @@ script 196 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  hits enemy\n  panel!"
+	"  Trovão nos\n  quadros\n  inimigos!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2347,7 +2347,7 @@ script 197 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  hits enemy\n  panel!"
+	"  Trovão nos\n  quadros\n  inimigos!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2359,7 +2359,7 @@ script 198 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Lightning\n  hits enemy\n  panel!"
+	"  Trovão nos\n  quadros\n  inimigos!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2371,7 +2371,7 @@ script 199 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Explodes\n  on entire\n  area!"
+	"  Explode\n  a área\n  inteira!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2823,7 +2823,7 @@ script 240 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Increases total HP\n  by 20 points!"
+	"  Aumenta PV\n  máximo em 20"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2835,7 +2835,7 @@ script 241 mmbn1 {
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Powers up your\n  MegaBuster!"
+	"  Aprimora seu\n  MegaTiro!"
 	flagSet
 		flag = 1030
 	waitHold
@@ -2870,9 +2870,9 @@ script 244 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	\[Fire\]power doubles
-	defense! Ineffective
-	vs.\[Aqua\]attacks.
+	Fogo dobra
+	defesa! Fraco
+	contra Água.
 	"""
 	flagSet
 		flag = 1030
@@ -2886,9 +2886,9 @@ script 245 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	\[Aqua\]power doubles
-	defense! Ineffective
-	vs.\[Elec\]attacks.
+	Água dobra
+	defesa! Fraco
+	contra Elét.
 	"""
 	flagSet
 		flag = 1030
@@ -2902,9 +2902,9 @@ script 246 mmbn1 {
 		delay = 0
 	msgOpenQuick
 	"""
-	\[Wood\]power doubles
-	defense! Ineffective
-	vs.\[Fire\]attacks.
+	Mdra dobra
+	defesa! Fraco
+	contra Fogo.
 	"""
 	flagSet
 		flag = 1030

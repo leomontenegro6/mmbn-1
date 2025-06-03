@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,it's Dad!"
+	"Lan,é o seu pai!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -15,7 +15,7 @@ script 0 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Your dad's here!"
+	"Ele chegou!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -31,9 +31,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,did you wait
-	long? You're looking
-	fit as a fiddle!
+	Oi,Lan. Esperou
+	muito? Você parece
+	ótimo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -43,8 +43,9 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Where's Mom? Didn't
-	she come with you?
+	Cadê a sua mãe?
+	Ela não veio com
+	você?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -63,9 +64,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	She's coming! She
-	just had to get
-	dressed!
+	Ela já tá vindo!
+	Só não tinha termi-
+	nado de se vestir!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -84,9 +85,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hahaha! Well,that'll
-	take a while,if I
-	know your mother!
+	Ha ha ha! Bom,conhe-
+	cendo a sua mãe,
+	isso pode demorar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -116,7 +117,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Sorry! Here I am!"
+	"Desculpa! Cheguei!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -125,9 +126,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Honey! How have you
-	been? Are you keeping
-	well?
+	Querido! Como você
+	está? Está se cui-
+	dando direitinho?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -147,8 +148,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Well,you seem good
-	enough!
+	Bom,você parece
+	bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -158,9 +159,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Let's go downstairs
-	to the restaurant
-	floor and eat!
+	Vamos descer para o
+	andar do restaurante
+	e comer!
 	"""
 	mugshotAnimate
 		animation = 1

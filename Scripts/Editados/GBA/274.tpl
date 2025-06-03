@@ -2,7 +2,7 @@
 
 script 0 mmbn1 {
 	msgOpen
-	"-After Class-"
+	"Depois da aula..."
 	keyWait
 	clearMsg
 		delay = 5
@@ -17,7 +17,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Phew..."
+	"Ufa..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -34,7 +34,10 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Rough day today,huh?"
+	"""
+	Dia puxado hoje,
+	né?
+	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -59,7 +62,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What?"
+	"Que foi?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -76,7 +79,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Today,wasn't"
+	"Hoje não é"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -103,9 +106,9 @@ script 5 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah!
-	The Metroline's
-	opening today!
+	Ah! A inauguração
+	da Metrolinha é
+	hoje!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -124,9 +127,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hey,let's surprise
-	your dad down at the
-	SciLab!
+	Ei,bora fazer uma
+	surpresa pro seu
+	pai no SciLab!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -136,9 +139,9 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And we can pick up
-	that PowerUp program
-	for me!
+	Aproveitamos e
+	pegamos o meu
+	programa de PowerUp!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -156,7 +159,7 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Good idea!"
+	"Boa!"
 	mugshotAnimate
 		animation = 1
 	keyWait

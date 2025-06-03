@@ -24,10 +24,7 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"""
-	Whoaaaaa!!
-	L-Lan.
-	"""
+	"Aaaaaa!! L-Lan"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -47,7 +44,7 @@ script 2 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"What's wrong!?"
+	"O que foi?!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -64,7 +61,7 @@ script 3 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"S-Sorry,"
+	"D-Desculpa..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -72,17 +69,14 @@ script 3 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	I'm stuck in a trap!
-	I-
-	"""
+	"Caí numa armadilha!\n"
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"I can't move..."
+	"Tô paralisado..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -99,7 +93,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Where are you?"
+	"Onde você tá?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -116,7 +110,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Near the AV room"
+	"Perto da sala AV"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -125,7 +119,7 @@ script 5 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Sorry"
+	"Foi mal"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -144,8 +138,8 @@ script 6 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Don't worry!
-	I'll check it out!!
+	Não se preocupa!
+	Eu vou lá ver!!
 	"""
 	mugshotAnimate
 		animation = 1

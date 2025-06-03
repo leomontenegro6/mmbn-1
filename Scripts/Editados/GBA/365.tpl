@@ -5,13 +5,13 @@ script 0 mmbn1 {
 		mugshot = Lan
 		palette = 0
 	msgOpen
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	waitSkip
 		frames = 30
-	"・"
+	"."
 	keyWait
 	clearMsg
 		delay = 5
@@ -52,18 +52,18 @@ script 2 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	Your father gave me
-	this
-	"""
+	"Seu pai me deu"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"""
+	...
+	isto 
+	"""
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"here."
+	"aqui."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -79,9 +79,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hub.bat
-	...
-	What's this?
+	Hub.bat...
+	O que é isso?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -98,8 +97,8 @@ script 4 mmbn1 {
 	flagSet
 		flag = 238
 	"""
-	Emergency...
-	Receiving call...
+	Emergência...
+	Recebendo ligação...
 	"""
 	keyWait
 	clearMsg
@@ -115,7 +114,7 @@ script 5 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Hello?"
+	"Alô?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -149,7 +148,10 @@ script 7 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Dad! MegaMan's..."
+	"""
+	Pai!
+	O MegaMan tá...
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -167,8 +169,9 @@ script 8 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Dr.Hikari,I'm sorry,
-	I was too late...
+	Dr. Hikari,eu peço
+	perdão. Cheguei
+	tarde demais...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -186,7 +189,7 @@ script 9 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Lan,listen to me!"
+	"Lan,escuta bem!"
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -195,8 +198,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You can still save
-	MegaMan!
+	Você ainda pode
+	salvar o MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -214,17 +217,17 @@ script 10 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"But!"
+	"Mas...!"
 	mugshotAnimate
 		animation = 1
-	" "
+	"\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	He's not
-	responding...
+	Ele não tá
+	respondendo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -243,9 +246,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Apply the Hub.bat
-	to MegaMan,there may
-	still be time...
+	Aplique o Hub.bat no
+	MegaMan. Ainda dá
+	tempo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -255,9 +258,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But before you use
-	Hub.bat,I have to
-	tell you something.
+	Mas,antes de usar o
+	Hub.bat,tenho que
+	te contar uma coisa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -267,9 +270,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It might make it...
-	hard for you to use
-	MegaMan...OK?
+	Pode tornar... di-
+	fícil usar o Mega-
+	Man depois... OK?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -288,9 +291,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...I don't really
-	understand what
-	you mean...
+	... Não tô
+	entendendo o que o
+	senhor quer dizer...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -300,9 +303,9 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But I'll do anything
-	if it might save
-	MegaMan!
+	Mas eu faço qualquer
+	coisa se for pra
+	salvar o MegaMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -320,7 +323,7 @@ script 13 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Then,listen..."
+	"Então,escute..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -331,9 +334,9 @@ script 13 mmbn1 {
 	soundPlayBGM
 		track = 9
 	"""
-	About 10 years ago,
-	I was working on a
-	new kind of Navi.
+	Há 10 anos,eu
+	trabalhava em um
+	novo tipo de Navi.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -343,9 +346,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A kind of Navi that
-	could truly befriend
-	its operator.
+	Um Navi que poderia
+	se tornar amigo de
+	seu operador.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -355,8 +358,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But a program is
-	only a program.
+	Mas um programa não
+	passa disso:
+	um programa.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -366,9 +370,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Though I could make
-	a Navi follow its
-	operator's orders,
+	Embora eu pudesse
+	fazer o Navi obede-
+	cer seu operador,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -378,9 +382,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I couldn't make one
-	think and act on
-	its own.
+	não conseguia criar
+	um que pensasse
+	por conta própria.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -390,8 +394,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	So I started
-	thinking...
+	Então,comecei a
+	pensar...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -401,9 +405,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Maybe if you had
-	some connection with
-	your Navi...
+	Talvez se o operador
+	tivesse uma ligação
+	maior com o Navi...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -413,9 +417,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	The Navi could
-	respond to your
-	emotions...
+	o Navi poderia
+	responder às
+	emoções dele...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -425,8 +429,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	and thereby create
-	its own emotions
+	e,assim,criar suas
+	próprias emoções
 	"""
 	mugshotAnimate
 		animation = 1
@@ -436,7 +440,7 @@ script 13 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"So I tried."
+	"Então,eu tentei."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -445,21 +449,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Looking at human DNA
-	I came to a
-	conclusion.
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	If I made a Navi
-	with DNA just like
-	its operator's
+	Analisando o DNA
+	humano,cheguei a
+	uma conclusão.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -469,9 +461,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	it's basic values
-	and emotions would
-	be the same.
+	Se eu fizesse um
+	Navi com DNA idên-
+	tico ao do operador,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -481,9 +473,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Operator and Navi
-	would become a
-	single entity!
+	seus valores básicos
+	e emoções também
+	seriam os mesmos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -493,8 +485,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Making an ultimate
-	Navi!
+	Operador e Navi se
+	tornariam uma só
+	entidade!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -504,9 +497,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But,it was tough
-	making a program
-	with DNA...
+	Assim,criando um
+	Navi definitivo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -516,9 +508,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I could make about
-	95% of the program,
-	but no more...
+	Mas fazer um pro-
+	grama com DNA se
+	mostrou difícil...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -528,9 +520,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I just couldn't
-	figure out that last
-	five percent!
+	Fui capaz de fazer
+	95 por cento dele,
+	mas nada mais...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -540,8 +532,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	My research came to
-	a sudden stop...
+	Eu não conseguia
+	chegar aos últimos
+	cinco por cento!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -551,36 +544,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	It was around then
-	that I had a son...
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"A cute baby boy"
-	mugshotAnimate
-		animation = 1
-	"..."
-	waitSkip
-		frames = 30
-	"\n"
-	mugshotAnimate
-		animation = 2
-	"We named him “Hub.“"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	But our happiness
-	didn't last long...
+	Minha pesquisa,
+	de repente,havia
+	empacado...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -590,9 +556,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	He had heart trouble
-	and became too weak
-	to live...
+	Foi mais ou menos
+	nessa época que eu
+	tive um filho...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -601,7 +567,7 @@ script 13 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"So I thought"
+	"Um menino lindo"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -611,8 +577,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Somehow,I will keep
-	his memory alive.
+	Nós o chamamos de
+	"Hub."
 	"""
 	mugshotAnimate
 		animation = 1
@@ -622,8 +588,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,Hub was your
-	twin brother.
+	Mas nossa felicidade
+	não durou muito...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -633,9 +599,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You were born from
-	the same egg...your
-	DNA is identical.
+	Ele tinha problemas
+	cardíacos. Não tinha
+	como sobreviver...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -644,31 +610,7 @@ script 13 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	I could use Hub's
-	DNA to make a NAVI
-	for you...
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	Suddenly,I had the
-	DNA solution I had
-	been searching for!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"The Navi I made"
+	"Então,eu pensei"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -677,18 +619,9 @@ script 13 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"was MegaMan.EXE!"
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
 	"""
-	And the results
-	proved that I was
-	right!
+	"Vou manter a
+	memória dele viva."
 	"""
 	mugshotAnimate
 		animation = 1
@@ -698,8 +631,8 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan.EXE is a new
-	generation of Navi.
+	Lan,Hub era seu
+	irmão gêmeo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -709,8 +642,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	As close to you as
-	a brother...
+	Vocês nasceram do
+	mesmo óvulo... seu
+	DNA é idêntico.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -720,8 +654,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	But there was a
-	danger...
+	Eu poderia usar o
+	DNA do Hub pra fazer
+	um Navi pra você...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -731,8 +666,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If I made the DNA
-	100% the same...
+	De repente,eu tinha
+	a solução de DNA
+	que procurava!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -741,54 +677,128 @@ script 13 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"""
-	The Navi's internal
-	and external state
-	might synch with you
-	"""
+	"O Navi que eu fiz"
 	mugshotAnimate
 		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	So damage to the
-	Navi would damage
-	you,too!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	So I changed 
-	MegaMan.EXE's DNA
-	by 0.001%
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"If you use Hub.bat"
-	mugshotAnimate
-		animation = 1
-	","
+	"..."
 	waitSkip
 		frames = 30
 	"\n"
 	mugshotAnimate
 		animation = 2
+	"foi MegaMan.EXE!"
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
 	"""
-	that 0.001% will
-	disappear...
+	E os resultados
+	provaram que eu
+	estava certo!
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	MegaMan.EXE é uma
+	nova geração de
+	Navi.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Tão próximo de você
+	quanto um irmão.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Mas havia um
+	risco...
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Se eu fizesse o DNA
+	100 por cento
+	igual,os estados
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	interno e externo
+	dele poderiam sin-
+	cronizar com você.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Com isso,danos ao
+	Navi também te
+	afetariam!
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Então,eu mudei o
+	DNA do MegaMan.EXE
+	em 0,001 por cento.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"Se usar o Hub.bat"
+	mugshotAnimate
+		animation = 1
+	",\n"
+	waitSkip
+		frames = 30
+	mugshotAnimate
+		animation = 2
+	"""
+	esse 0,001 por cento
+	desaparecerá...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -810,15 +820,15 @@ script 14 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
 	"""
-	You mean
-	MegaMan will be born
-	again...as my twin?
+	Aí o MegaMan vai
+	renascer... como
+	meu irmão gêmeo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -854,9 +864,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I was always sending
-	MegaMan into such
-	dangerous places...
+	Eu sempre mandei o
+	MegaMan pra lugares
+	tão perigosos...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -865,7 +875,7 @@ script 16 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Did MegaMan"
+	"O MegaMan"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -875,8 +885,8 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I mean Hub,know the
-	truth?
+	Digo,o Hub,sabia
+	disso?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -895,8 +905,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I asked Hub to keep
-	it a secret.
+	Eu pedi ao Hub para
+	manter isso em
+	segredo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -906,9 +917,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	If you knew the
-	truth,you'd be too
-	scared to use him.
+	Se você soubesse a
+	verdade,teria medo
+	demais de usá-lo.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -918,9 +929,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And a Navi that you
-	can't use isn't a
-	good Navi...
+	E um Navi que não
+	dá para usar não é
+	um bom Navi...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -930,20 +941,17 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	...So,what will you
-	do?
+	... E então,o que
+	você vai fazer?
 	"""
 	mugshotAnimate
 		animation = 1
 	waitSkip
 		frames = 30
-	" "
+	"\n"
 	mugshotAnimate
 		animation = 2
-	"""
-	I'll let
-	you decide.
-	"""
+	"A decisão é sua."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -960,7 +968,7 @@ script 18 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"But,Hub"
+	"Mas,o Hub"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -970,7 +978,7 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	I'll lose
+	Eu vou perder o
 	MegaMan...
 	"""
 	mugshotAnimate
@@ -989,10 +997,11 @@ script 19 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
+		animation = 2
 	"""
-	Remember,if your DNA
-	is 100% the same,
-	you will be affected
+	Lembre-se: se seus
+	DNAs ficarem 100
+	por cento iguais,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1002,8 +1011,28 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	by whatever affects
-	your Navi.
+	você será afetado
+	por tudo que afetar
+	o seu Navi.
+	"""
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"... E vice-versa!"
+	mugshotAnimate
+		animation = 1
+	keyWait
+	clearMsg
+		delay = 0
+	mugshotAnimate
+		animation = 2
+	"""
+	Lan,se acreditar que
+	pode vencer a WWW...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1013,32 +1042,9 @@ script 19 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	And the reverse is
-	true,too!
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	Lan,if you truly
-	think you can beat
-	the WWW...
-	"""
-	mugshotAnimate
-		animation = 1
-	keyWait
-	clearMsg
-		delay = 0
-	mugshotAnimate
-		animation = 2
-	"""
-	I think Hub will
-	sense that,and he'll
-	come back to help!
+	eu acho que o Hub
+	sentirá isso e
+	voltará pra ajudar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1068,7 +1074,8 @@ script 20 mmbn1 {
 		animation = 2
 	"""
 	OK!
-	I'll use Hub.bat!
+	Eu vou usar o
+	Hub.bat!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1096,8 +1103,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	You're doing the
-	right thing!
+	Você está fazendo a
+	coisa certa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1113,8 +1120,8 @@ script 22 mmbn1 {
 	soundPlay
 		track = 219
 	"""
-	Applying Hub.bat
-	to MegaMan.EXE...
+	Aplicando Hub.bat em
+	MegaMan.EXE...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1133,8 +1140,8 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hub! Come fight
-	by my side!
+	Hub! Venha lutar ao
+	meu lado!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1168,7 +1175,7 @@ script 25 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"No reply"
+	"Sem resposta"
 	mugshotAnimate
 		animation = 1
 	"..."

@@ -7,7 +7,7 @@ script 0 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Are you okay?"
+	"Você tá bem?"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -24,24 +24,24 @@ script 1 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh..oww"
+	"Uhn... Ai"
 	mugshotAnimate
 		animation = 1
-	"..."
+	"...\n"
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 2
-	"I think so"
+	"Acho que "
 	mugshotAnimate
 		animation = 1
-	"."
+	"tô."
 	waitSkip
 		frames = 30
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Thanks,Mega!"
+	"Obrigada,Mega!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -59,8 +59,8 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Sure you don't have
-	any errors?
+	Tem certeza de que
+	tá bem?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -79,9 +79,9 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Yep,I'm fine,really!
-	But what about Mayl?
-	You better jack out!
+	Sim,tenho! Mas e
+	a Mayl? É melhor
+	desconectar!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -99,7 +99,7 @@ script 4 mmbn1 {
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Right!"
+	"Certo!"
 	mugshotAnimate
 		animation = 1
 	keyWait

@@ -21,8 +21,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Another jack-innable
-	vending machine...
+	Outra máquina de
+	vendas conectável...
 	"""
 	mugshotAnimate
 		animation = 1
