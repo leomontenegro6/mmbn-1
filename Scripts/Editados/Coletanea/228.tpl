@@ -1,6 +1,6 @@
 @size 101
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkShopStock
 		shop = 1
 		jumpIfStocked = continue
@@ -51,7 +51,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -69,11 +69,11 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	startShop
 		shop = 1
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkItem
 		item = 33
 		amount = 1
@@ -98,7 +98,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
 	"""
 	Parece conectado a
@@ -141,7 +141,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	checkItem
 		item = 34
 		amount = 1
@@ -166,7 +166,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	msgOpen
 	"""
 	Parece conectado a
@@ -209,7 +209,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	checkItem
 		item = 35
 		amount = 1
@@ -234,7 +234,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	msgOpen
 	"""
 	Parece conectado a
@@ -274,7 +274,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	checkItem
 		item = 48
 		amount = 1
@@ -302,7 +302,7 @@ script 18 mmbn1 {
 	jump
 		target = 20
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	msgOpen
 	"""
 	Está escrito: "PC do
@@ -369,7 +369,7 @@ script 19 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -398,7 +398,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -448,7 +448,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	checkItem
 		item = 1
 		amount = 1
@@ -464,7 +464,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	msgOpen
 	"Usar o "
 	printItem
@@ -507,7 +507,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	checkTakeItem
 		item = 1
 		amount = 1
@@ -539,7 +539,7 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan usou seu
@@ -553,7 +553,7 @@ script 28 mmbn1 {
 	end
 		delay = 0
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -572,7 +572,7 @@ script 35 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"Para os demais...\n"
+	"Aos demais...\n"
 	waitSkip
 		frames = 30
 	"SUMAM!"
@@ -599,7 +599,7 @@ script 35 mmbn1 {
 	end
 		delay = 0
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	msgOpen
 	"\""
 	printItem
@@ -630,7 +630,7 @@ script 36 mmbn1 {
 	end
 		delay = 0
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -669,7 +669,7 @@ script 37 mmbn1 {
 	end
 		delay = 5
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 657
@@ -689,7 +689,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpen
 	startGiveRandomChipCode
 		jumpIfAll = continue
@@ -750,7 +750,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpen
 	startGiveRandomZenny
 		jump = continue
@@ -790,7 +790,7 @@ script 52 mmbn1 {
 	end
 		delay = 0
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	msgOpen
 	"""
 	Era um vírus
@@ -804,7 +804,7 @@ script 53 mmbn1 {
 	end
 		delay = 0
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 658
@@ -824,19 +824,19 @@ script 54 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	jump
 		target = 51
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	jump
 		target = 52
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	jump
 		target = 53
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 659
@@ -856,19 +856,19 @@ script 58 mmbn1 {
 	end
 		delay = 0
 }
-script 59 mmbn1 {
+script 59 mmbn1-lc {
 	jump
 		target = 51
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	jump
 		target = 52
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	jump
 		target = 53
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 660
@@ -888,19 +888,19 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	jump
 		target = 51
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	jump
 		target = 52
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	jump
 		target = 53
 }
-script 66 mmbn1 {
+script 66 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 661
@@ -920,19 +920,19 @@ script 66 mmbn1 {
 	end
 		delay = 0
 }
-script 67 mmbn1 {
+script 67 mmbn1-lc {
 	jump
 		target = 51
 }
-script 68 mmbn1 {
+script 68 mmbn1-lc {
 	jump
 		target = 52
 }
-script 69 mmbn1 {
+script 69 mmbn1-lc {
 	jump
 		target = 53
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 662
@@ -952,19 +952,19 @@ script 70 mmbn1 {
 	end
 		delay = 0
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	jump
 		target = 51
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	jump
 		target = 52
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	jump
 		target = 53
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 663
@@ -984,19 +984,19 @@ script 74 mmbn1 {
 	end
 		delay = 0
 }
-script 75 mmbn1 {
+script 75 mmbn1-lc {
 	jump
 		target = 51
 }
-script 76 mmbn1 {
+script 76 mmbn1-lc {
 	jump
 		target = 52
 }
-script 77 mmbn1 {
+script 77 mmbn1-lc {
 	jump
 		target = 53
 }
-script 78 mmbn1 {
+script 78 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 664
@@ -1016,19 +1016,19 @@ script 78 mmbn1 {
 	end
 		delay = 0
 }
-script 79 mmbn1 {
+script 79 mmbn1-lc {
 	jump
 		target = 51
 }
-script 80 mmbn1 {
+script 80 mmbn1-lc {
 	jump
 		target = 52
 }
-script 81 mmbn1 {
+script 81 mmbn1-lc {
 	jump
 		target = 53
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	checkFlag
 		flag = 225
 		jumpIfTrue = 93
@@ -1056,7 +1056,7 @@ script 90 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Me chamo Glyde.
+	Me chamo Glide.
 	Sou o NetNavi de
 	Yai,colega do Lan.
 	"""
@@ -1091,9 +1091,9 @@ script 90 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Eu tenho uns compro-
-	missos agora,e
-	preciso retornar.
+	Tenho um compromis-
+	so agora e preciso
+	retornar.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1127,7 +1127,7 @@ script 90 mmbn1 {
 	jump
 		target = 91
 }
-script 91 mmbn1 {
+script 91 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -1158,7 +1158,7 @@ script 91 mmbn1 {
 	jump
 		target = 92
 }
-script 92 mmbn1 {
+script 92 mmbn1-lc {
 	mugshotShow
 		mugshot = Glide
 		palette = 0
@@ -1211,7 +1211,7 @@ script 92 mmbn1 {
 	end
 		delay = 5
 }
-script 93 mmbn1 {
+script 93 mmbn1-lc {
 	mugshotShow
 		mugshot = Glide
 		palette = 0
@@ -1229,7 +1229,7 @@ script 93 mmbn1 {
 	end
 		delay = 5
 }
-script 94 mmbn1 {
+script 94 mmbn1-lc {
 	checkFlag
 		flag = 227
 		jumpIfTrue = 98
@@ -1242,8 +1242,8 @@ script 94 mmbn1 {
 		animation = 2
 	"""
 	Aaah! Aaah! Não
-	consigo achar a
-	minha casa!!
+	consigo achar o
+	caminho pra casa!!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1252,7 +1252,7 @@ script 94 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Glyde! Me encontra!"
+	"Glide! Me encontra!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1273,7 +1273,7 @@ script 94 mmbn1 {
 	end
 		delay = 5
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	flagSet
 		flag = 226
 	mugshotShow
@@ -1294,7 +1294,7 @@ script 95 mmbn1 {
 	jump
 		target = 96
 }
-script 96 mmbn1 {
+script 96 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -1304,7 +1304,7 @@ script 96 mmbn1 {
 	"""
 	É mesmo!
 	MegaMan,vai contar
-	pro Glyde!
+	pro Glide!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1314,7 +1314,7 @@ script 96 mmbn1 {
 	jump
 		target = 97
 }
-script 97 mmbn1 {
+script 97 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1332,7 +1332,7 @@ script 97 mmbn1 {
 	end
 		delay = 5
 }
-script 98 mmbn1 {
+script 98 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1348,7 +1348,7 @@ script 98 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	... Hã? O Glyde está
+	... Hã? O Glide está
 	a caminho?
 	"""
 	mugshotAnimate
@@ -1366,7 +1366,7 @@ script 98 mmbn1 {
 	end
 		delay = 5
 }
-script 100 mmbn1 {
+script 100 mmbn1-lc {
 	mugshotShow
 		mugshot = Glide
 		palette = 0
@@ -1382,7 +1382,7 @@ script 100 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Me chamo Glyde.
+	Me chamo Glide.
 	Sou o NetNavi de
 	Yai,colega do Lan.
 	"""
@@ -1448,7 +1448,7 @@ script 100 mmbn1 {
 	keyWait
 	clearMsg
 		delay = 0
-	"Se usar este\n"
+	"Se usar esse\n"
 	printItem
 		buffer = 0
 		item = 34

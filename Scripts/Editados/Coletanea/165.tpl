@@ -1,6 +1,6 @@
 @size 235
 
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -41,7 +41,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -58,7 +58,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -76,7 +76,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	checkItem
 		item = 50
 		amount = 1
@@ -99,7 +99,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -125,7 +125,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -143,13 +143,13 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	flagSet
 		flag = 45
 	msgClose
 	waitHold
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	checkFlag
 		flag = 45
 		jumpIfTrue = 2
@@ -162,7 +162,7 @@ script 8 mmbn1 {
 		animation = 2
 	"""
 	Que comece o
-	festival das almas!
+	banquete das almas!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -180,7 +180,7 @@ script 8 mmbn1 {
 	jump
 		target = 7
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -264,7 +264,7 @@ script 10 mmbn1 {
 	jump
 		target = 1
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -284,7 +284,7 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Esse Navi é hábil
+	Esse Navi será hábil
 	em derrotar os
 	espíritos malignos
 	"""
@@ -308,7 +308,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -332,9 +332,9 @@ script 12 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	(Use isto na net
-	para expandir a
-	área para acessar!)
+	(Use na net para
+	expandir as áreas
+	que pode acessar!)
 	"""
 	playerFinish
 	playerAnimate
@@ -346,7 +346,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -372,7 +372,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	checkChapter
 		lower = 52
 		upper = 52
@@ -386,8 +386,8 @@ script 15 mmbn1 {
 		animation = 2
 	"""
 	Peço desculpas,mas
-	ainda não abrimos
-	para negócios.
+	ainda não abrimos a
+	loja.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -397,7 +397,7 @@ script 15 mmbn1 {
 	jump
 		target = 1
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -422,7 +422,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -450,7 +450,7 @@ script 20 mmbn1 {
 	jump
 		target = 1
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -493,7 +493,7 @@ script 26 mmbn1 {
 	jump
 		target = 1
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -536,7 +536,7 @@ script 30 mmbn1 {
 	jump
 		target = 1
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	mugshotShow
 		mugshot = Miyu
 		palette = 0
@@ -591,7 +591,7 @@ script 35 mmbn1 {
 	jump
 		target = 1
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Um vaso enorme,
@@ -609,7 +609,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Decorado com ilus-
@@ -624,7 +624,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	O lixo de uns é o
@@ -634,7 +634,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Somente funcionários
@@ -645,7 +645,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Não é uma antigui-

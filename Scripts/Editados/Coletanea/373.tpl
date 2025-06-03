@@ -1,6 +1,6 @@
 @size 50
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -39,7 +39,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -47,7 +47,7 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	O AreaGrab,por
+	O Steal,por
 	exemplo,aumenta
 	a área em que seu
 	"""
@@ -68,7 +68,7 @@ script 2 mmbn1 {
 	end
 		delay = 1
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -85,7 +85,7 @@ script 3 mmbn1 {
 	end
 		delay = 1
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -105,9 +105,9 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Também podemos
-	escolher um tipo
-	diferente de chip
+	É possível escolher
+	dois chips diferen-
+	tes juntos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -117,8 +117,8 @@ script 4 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	se ele for de mesmo
-	código.
+	se eles forem de
+	mesmo código.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -149,7 +149,7 @@ script 4 mmbn1 {
 	end
 		delay = 1
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -191,7 +191,7 @@ script 5 mmbn1 {
 	end
 		delay = 1
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -220,7 +220,7 @@ script 6 mmbn1 {
 	end
 		delay = 1
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -238,7 +238,7 @@ script 7 mmbn1 {
 	end
 		delay = 1
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -246,8 +246,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	OK,vamos tentar.
-	Selecione AreaGrab e
+	OK,vamos lá. Sele-
+	cione AreaGrab e
 	WideSword em ordem.
 	"""
 	mugshotAnimate
@@ -256,7 +256,7 @@ script 10 mmbn1 {
 	end
 		delay = 1
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -265,8 +265,8 @@ script 11 mmbn1 {
 		animation = 2
 	"""
 	Pegue o AreaGrab
-	primeiro. Para can-
-	celar,aperte [SwitchB].
+	primeiro. Para
+	cancelar,[SwitchB].
 	"""
 	mugshotAnimate
 		animation = 1
@@ -274,7 +274,7 @@ script 11 mmbn1 {
 	end
 		delay = 1
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -292,7 +292,7 @@ script 12 mmbn1 {
 	end
 		delay = 1
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -321,7 +321,7 @@ script 13 mmbn1 {
 	end
 		delay = 1
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -339,7 +339,7 @@ script 14 mmbn1 {
 	end
 		delay = 1
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -357,7 +357,7 @@ script 15 mmbn1 {
 	end
 		delay = 1
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -374,7 +374,7 @@ script 20 mmbn1 {
 	end
 		delay = 1
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -403,7 +403,7 @@ script 21 mmbn1 {
 	end
 		delay = 1
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -429,7 +429,7 @@ script 22 mmbn1 {
 	end
 		delay = 1
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -447,7 +447,7 @@ script 23 mmbn1 {
 	end
 		delay = 1
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -465,7 +465,7 @@ script 24 mmbn1 {
 	end
 		delay = 1
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -483,7 +483,7 @@ script 30 mmbn1 {
 	end
 		delay = 1
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -509,7 +509,7 @@ script 31 mmbn1 {
 	end
 		delay = 1
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -537,7 +537,7 @@ script 32 mmbn1 {
 	end
 		delay = 1
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -588,7 +588,7 @@ script 40 mmbn1 {
 	end
 		delay = 1
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -637,7 +637,7 @@ script 41 mmbn1 {
 	end
 		delay = 1
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0

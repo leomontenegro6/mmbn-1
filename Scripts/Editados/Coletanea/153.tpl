@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -82,7 +82,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -135,7 +135,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -166,7 +166,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -192,7 +192,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -210,7 +210,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkItem
 		item = 4
 		amount = 1
@@ -236,7 +236,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -274,7 +274,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -317,7 +317,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -356,7 +356,7 @@ script 8 mmbn1 {
 	end
 		delay = 0
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -384,7 +384,7 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -460,7 +460,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -478,8 +478,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Foi o Dr. Hikari quem
-	inventou o
+	Foi o Dr. Hikari
+	quem inventou o
 	
 	"""
 	printItem
@@ -504,7 +504,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -521,7 +521,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -559,7 +559,7 @@ script 20 mmbn1 {
 	end
 		delay = 5
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkItem
 		item = 4
 		amount = 1
@@ -591,7 +591,7 @@ script 21 mmbn1 {
 	jump
 		target = 22
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	"""
@@ -602,7 +602,7 @@ script 22 mmbn1 {
 	end
 		delay = 5
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	msgOpen
 	"O botão do elevador."
 	keyWait
@@ -624,7 +624,7 @@ script 23 mmbn1 {
 	end
 		delay = 5
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -642,7 +642,7 @@ script 24 mmbn1 {
 	end
 		delay = 5
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -682,7 +682,7 @@ script 25 mmbn1 {
 	end
 		delay = 5
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -724,7 +724,7 @@ script 26 mmbn1 {
 	end
 		delay = 5
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -738,7 +738,7 @@ script 27 mmbn1 {
 	end
 		delay = 5
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -756,7 +756,7 @@ script 28 mmbn1 {
 	end
 		delay = 5
 }
-script 29 mmbn1 {
+script 29 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -782,7 +782,7 @@ script 29 mmbn1 {
 	end
 		delay = 5
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -824,7 +824,7 @@ script 30 mmbn1 {
 	end
 		delay = 5
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -842,7 +842,7 @@ script 35 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -868,7 +868,7 @@ script 40 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -896,7 +896,7 @@ script 41 mmbn1 {
 	end
 		delay = 0
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -926,7 +926,7 @@ script 42 mmbn1 {
 	end
 		delay = 0
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -940,7 +940,7 @@ script 43 mmbn1 {
 	end
 		delay = 0
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -958,7 +958,7 @@ script 44 mmbn1 {
 	end
 		delay = 0
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -992,7 +992,7 @@ script 45 mmbn1 {
 	end
 		delay = 0
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -1026,13 +1026,13 @@ script 46 mmbn1 {
 	end
 		delay = 0
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	flagSet
 		flag = 151
 	end
 		delay = 0
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1049,7 +1049,7 @@ script 57 mmbn1 {
 	end
 		delay = 0
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -1104,7 +1104,7 @@ script 58 mmbn1 {
 	end
 		delay = 0
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1134,7 +1134,7 @@ script 60 mmbn1 {
 	end
 		delay = 0
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	msgOpen
 	"O botão do elevador."
 	keyWait
@@ -1150,7 +1150,7 @@ script 61 mmbn1 {
 		delay = 0
 	"""
 	A porta do elevador
-	se abriu! Qual andar?
+	abriu! Qual andar?
 	"""
 	keyWait
 	clearMsg
@@ -1187,7 +1187,7 @@ script 61 mmbn1 {
 	end
 		delay = 0
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	option
 		left = 0
 		right = 0
@@ -1224,7 +1224,7 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1255,7 +1255,7 @@ script 65 mmbn1 {
 	end
 		delay = 0
 }
-script 66 mmbn1 {
+script 66 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1288,7 +1288,7 @@ script 66 mmbn1 {
 	end
 		delay = 0
 }
-script 67 mmbn1 {
+script 67 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1323,7 +1323,7 @@ script 67 mmbn1 {
 	end
 		delay = 0
 }
-script 68 mmbn1 {
+script 68 mmbn1-lc {
 	checkChapter
 		lower = 81
 		upper = 82
@@ -1359,7 +1359,7 @@ script 68 mmbn1 {
 	end
 		delay = 0
 }
-script 69 mmbn1 {
+script 69 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1404,7 +1404,7 @@ script 69 mmbn1 {
 	end
 		delay = 0
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1465,7 +1465,7 @@ script 70 mmbn1 {
 	end
 		delay = 0
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -1500,25 +1500,25 @@ script 71 mmbn1 {
 	end
 		delay = 0
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	flagSet
 		flag = 52
 	end
 		delay = 0
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	flagSet
 		flag = 50
 	end
 		delay = 0
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	flagSet
 		flag = 51
 	end
 		delay = 0
 }
-script 80 mmbn1 {
+script 80 mmbn1-lc {
 	checkItem
 		item = 53
 		amount = 1
@@ -1554,7 +1554,7 @@ script 80 mmbn1 {
 	end
 		delay = 0
 }
-script 81 mmbn1 {
+script 81 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1624,7 +1624,7 @@ script 81 mmbn1 {
 	jump
 		target = 82
 }
-script 82 mmbn1 {
+script 82 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -1653,7 +1653,7 @@ script 82 mmbn1 {
 	jump
 		target = 83
 }
-script 83 mmbn1 {
+script 83 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1753,7 +1753,7 @@ script 83 mmbn1 {
 	end
 		delay = 0
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -1787,7 +1787,7 @@ script 90 mmbn1 {
 	end
 		delay = 0
 }
-script 91 mmbn1 {
+script 91 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -1805,7 +1805,7 @@ script 91 mmbn1 {
 	end
 		delay = 0
 }
-script 92 mmbn1 {
+script 92 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -1823,7 +1823,7 @@ script 92 mmbn1 {
 	end
 		delay = 0
 }
-script 93 mmbn1 {
+script 93 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1853,7 +1853,7 @@ script 93 mmbn1 {
 	end
 		delay = 0
 }
-script 94 mmbn1 {
+script 94 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1883,7 +1883,7 @@ script 94 mmbn1 {
 	end
 		delay = 0
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -1913,7 +1913,7 @@ script 95 mmbn1 {
 	end
 		delay = 0
 }
-script 96 mmbn1 {
+script 96 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1931,7 +1931,7 @@ script 96 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Se deseja agendar um
@@ -1942,7 +1942,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	checkChapter
 		lower = 36
 		upper = 39
@@ -1957,7 +1957,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Uma máquina de
@@ -1968,7 +1968,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Somente
@@ -1978,7 +1978,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Um padrão de teste
@@ -1996,7 +1996,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	Pôsteres sem
@@ -2007,7 +2007,7 @@ script 225 mmbn1 {
 	end
 		delay = 5
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	msgOpen
 	"""
 	Por favor,fume
@@ -2018,7 +2018,7 @@ script 226 mmbn1 {
 	end
 		delay = 5
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	msgOpen
 	"""
 	Alguém comprou todas
@@ -2028,7 +2028,7 @@ script 227 mmbn1 {
 	end
 		delay = 5
 }
-script 229 mmbn1 {
+script 229 mmbn1-lc {
 	msgOpen
 	"""
 	Essa TV não parece

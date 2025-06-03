@@ -37,7 +37,7 @@ script 8 mmbn1s {
 	end
 }
 script 9 mmbn1s {
-	"Mayl      Presente"
+	"Mayl      Presente Yai"
 	end
 }
 script 10 mmbn1s {

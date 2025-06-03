@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkFlag
 		flag = 42
 		jumpIfTrue = 3
@@ -46,7 +46,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 42
 	checkGiveItem
@@ -74,7 +74,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	flagSet
 		flag = 42
 	checkGiveItem
@@ -102,7 +102,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpen
 	"""
 	Trocar
@@ -136,7 +136,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	flagClear
 		flag = 42
 	checkTakeItem
@@ -162,7 +162,7 @@ script 4 mmbn1 {
 	jump
 		target = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkTakeItem
 		item = 60
 		amount = 1
@@ -179,7 +179,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkTakeItem
 		item = 61
 		amount = 1
@@ -196,7 +196,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -228,7 +228,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 83
@@ -256,7 +256,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MetrolineMan
 		palette = 0
@@ -285,7 +285,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = Girl
 		palette = 0
@@ -315,7 +315,7 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	checkFlag
 		flag = 148
 		jumpIfTrue = 31
@@ -339,7 +339,7 @@ script 30 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A cidade que nunca
+	O distrito que nunca
 	dorme!
 	"""
 	mugshotAnimate
@@ -348,7 +348,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	mugshotShow
 		mugshot = MetrolineMan
 		palette = 0
@@ -377,7 +377,7 @@ script 31 mmbn1 {
 	end
 		delay = 0
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	mugshotShow
 		mugshot = Girl
 		palette = 0
@@ -395,7 +395,7 @@ script 32 mmbn1 {
 	end
 		delay = 0
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	mugshotShow
 		mugshot = MetrolineMan
 		palette = 0
@@ -447,7 +447,7 @@ script 35 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Esta escada rolante
@@ -457,7 +457,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Esta loja tem a
@@ -468,7 +468,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	O ápice do terror!
@@ -486,7 +486,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Uma caixa de coleta

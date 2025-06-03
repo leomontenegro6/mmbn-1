@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -41,7 +41,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -93,7 +93,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -147,7 +147,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -188,7 +188,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -234,7 +234,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -264,7 +264,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -290,7 +290,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -298,7 +298,7 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,que medo do
+	Eu tenho medo do
 	escuro!!
 	"""
 	mugshotAnimate
@@ -307,7 +307,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -335,7 +335,7 @@ script 8 mmbn1 {
 	end
 		delay = 0
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -365,7 +365,7 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Maid
 		palette = 0
@@ -397,7 +397,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -427,7 +427,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MomWithMakeup
 		palette = 0
@@ -435,8 +435,8 @@ script 12 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ai,querido!
-	Ai,querido!
+	Ai,céus!
+	Ai,céus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -444,7 +444,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -461,7 +461,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -478,7 +478,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -496,7 +496,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Maid
 		palette = 0
@@ -514,7 +514,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -531,19 +531,19 @@ script 17 mmbn1 {
 	end
 		delay = 0
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	flagSet
 		flag = 160
 	end
 		delay = 0
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	flagSet
 		flag = 198
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -565,7 +565,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -583,7 +583,7 @@ script 21 mmbn1 {
 	end
 		delay = 5
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = Maid
 		palette = 0
@@ -591,8 +591,8 @@ script 25 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Se o caos começasse
-	agora...
+	Se a Fase Final
+	começasse agora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -611,7 +611,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 66
@@ -641,7 +641,7 @@ script 35 mmbn1 {
 	end
 		delay = 0
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 66
@@ -671,7 +671,7 @@ script 36 mmbn1 {
 	end
 		delay = 0
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 66
@@ -709,7 +709,7 @@ script 37 mmbn1 {
 	end
 		delay = 0
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -738,7 +738,7 @@ script 45 mmbn1 {
 	end
 		delay = 0
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -767,7 +767,7 @@ script 46 mmbn1 {
 	end
 		delay = 0
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	mugshotShow
 		mugshot = Woman
 		palette = 0
@@ -785,7 +785,7 @@ script 47 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -803,7 +803,7 @@ script 55 mmbn1 {
 	end
 		delay = 5
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -831,7 +831,7 @@ script 56 mmbn1 {
 	end
 		delay = 5
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	mugshotShow
 		mugshot = Woman
 		palette = 0
@@ -839,8 +839,8 @@ script 57 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ufa,estou feliz
-	que acabou...
+	Ufa,ainda bem que
+	acabou...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -848,7 +848,7 @@ script 57 mmbn1 {
 	end
 		delay = 5
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1062
 		jumpIfTrue = 194
@@ -982,7 +982,7 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -999,7 +999,7 @@ script 191 mmbn1 {
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	checkChipCodePack
 		chip = 101
 		code = J
@@ -1101,7 +1101,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -1186,7 +1186,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -1204,18 +1204,18 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	A cozinha é por
-	aqui. Emana um
+	aqui. Exala um
 	cheiro maravilhoso!
 	"""
 	keyWait
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Comidas deliciosas
@@ -1225,7 +1225,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Uma linha de PETs
@@ -1246,7 +1246,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Estas garrafas de
@@ -1264,7 +1264,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Um carrinho usado

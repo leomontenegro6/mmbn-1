@@ -1,10 +1,11 @@
 @size 41
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
-	Parece ter conexão
-	pela net...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
@@ -17,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 74
 	msgOpen
@@ -37,7 +38,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -87,7 +88,7 @@ script 4 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	Esta é uma "máquina
@@ -137,12 +138,12 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	flagSet
 		flag = 1086
 	startVirusMachineBattle
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 35
 		upper = 87
@@ -195,7 +196,7 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -215,7 +216,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -234,7 +235,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	"""
@@ -247,7 +248,7 @@ script 13 mmbn1 {
 	jump
 		target = 14
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -266,7 +267,7 @@ script 14 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -282,7 +283,7 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	"""
@@ -296,7 +297,7 @@ script 16 mmbn1 {
 	jump
 		target = 17
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -315,7 +316,7 @@ script 17 mmbn1 {
 	jump
 		target = 18
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	flagSet
 		flag = 226
 	mugshotShow
@@ -325,7 +326,7 @@ script 18 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Pronto,recebi a
+	Certo,recebi a
 	mensagem para o
 	seu pai.
 	"""
@@ -335,7 +336,7 @@ script 18 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0

@@ -1,6 +1,6 @@
 @size 126
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 37
 		upper = 37
@@ -27,7 +27,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -45,7 +45,7 @@ script 110 mmbn1 {
 	end
 		delay = 0
 }
-script 115 mmbn1 {
+script 115 mmbn1-lc {
 	checkFlag
 		flag = 176
 		jumpIfTrue = 117
@@ -74,7 +74,7 @@ script 115 mmbn1 {
 script 116 mmbn1s {
 	end
 }
-script 117 mmbn1 {
+script 117 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -92,7 +92,7 @@ script 117 mmbn1 {
 	end
 		delay = 0
 }
-script 120 mmbn1 {
+script 120 mmbn1-lc {
 	checkFlag
 		flag = 217
 		jumpIfTrue = 121
@@ -125,7 +125,7 @@ script 120 mmbn1 {
 	end
 		delay = 0
 }
-script 121 mmbn1 {
+script 121 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -154,7 +154,7 @@ script 121 mmbn1 {
 	end
 		delay = 0
 }
-script 125 mmbn1 {
+script 125 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0

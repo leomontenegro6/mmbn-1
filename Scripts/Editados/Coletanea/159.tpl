@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -44,7 +44,7 @@ script 0 mmbn1 {
 	"""
 	É preciso atraves-
 	sar este bloco pra
-	chegar no outro.
+	chegar nos outros.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52,7 +52,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -87,7 +87,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -110,7 +110,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -133,7 +133,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -151,7 +151,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -170,7 +170,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 51
 		upper = 51
@@ -200,7 +200,7 @@ script 10 mmbn1 {
 	"""
 	Lan! Temos que impe-
 	dir essa gente de
-	compraro programa!
+	comprar o programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -208,7 +208,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkFlag
 		flag = 159
 		jumpIfTrue = 12
@@ -222,7 +222,7 @@ script 11 mmbn1 {
 	"""
 	Lan! Temos que impe-
 	dir essa gente de
-	compraro programa!
+	comprar o programa!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -230,7 +230,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -248,7 +248,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMadd
 		palette = 0
@@ -265,7 +265,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	checkChapter
 		lower = 51
 		upper = 55
@@ -287,7 +287,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	checkFlag
 		flag = 162
 		jumpIfTrue = 17
@@ -313,7 +313,7 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -333,7 +333,7 @@ script 16 mmbn1 {
 	jump
 		target = 17
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = OldMan
 		palette = 0
@@ -368,7 +368,7 @@ script 17 mmbn1 {
 	end
 		delay = 0
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	checkFlag
 		flag = 163
 		jumpIfTrue = 20
@@ -394,7 +394,7 @@ script 18 mmbn1 {
 	jump
 		target = 19
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -414,7 +414,7 @@ script 19 mmbn1 {
 	jump
 		target = 20
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -436,7 +436,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkFlag
 		flag = 164
 		jumpIfTrue = 23
@@ -462,7 +462,7 @@ script 21 mmbn1 {
 	jump
 		target = 22
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -482,7 +482,7 @@ script 22 mmbn1 {
 	jump
 		target = 23
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -504,7 +504,7 @@ script 23 mmbn1 {
 	end
 		delay = 0
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	checkFlag
 		flag = 156
 		jumpIfTrue = continue
@@ -522,7 +522,7 @@ script 24 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -540,7 +540,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -558,7 +558,7 @@ script 31 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -576,7 +576,7 @@ script 40 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -594,7 +594,7 @@ script 41 mmbn1 {
 	end
 		delay = 0
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -611,7 +611,7 @@ script 42 mmbn1 {
 	end
 		delay = 0
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	flagAddMail
 		flag = 13
 	mugshotShow
@@ -630,7 +630,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -648,7 +648,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -666,7 +666,7 @@ script 60 mmbn1 {
 	end
 		delay = 0
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -684,7 +684,7 @@ script 61 mmbn1 {
 	end
 		delay = 0
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -709,7 +709,7 @@ script 65 mmbn1 {
 	end
 		delay = 0
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -727,7 +727,7 @@ script 71 mmbn1 {
 	end
 		delay = 0
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	mugshotShow
 		mugshot = OldMan
 		palette = 0
@@ -745,7 +745,7 @@ script 72 mmbn1 {
 	end
 		delay = 0
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -774,7 +774,7 @@ script 73 mmbn1 {
 	end
 		delay = 0
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -804,7 +804,7 @@ script 74 mmbn1 {
 	end
 		delay = 0
 }
-script 80 mmbn1 {
+script 80 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -822,7 +822,7 @@ script 80 mmbn1 {
 	end
 		delay = 0
 }
-script 81 mmbn1 {
+script 81 mmbn1-lc {
 	checkChapter
 		lower = 81
 		upper = 82
@@ -857,7 +857,7 @@ script 81 mmbn1 {
 	end
 		delay = 0
 }
-script 82 mmbn1 {
+script 82 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -886,7 +886,7 @@ script 82 mmbn1 {
 	end
 		delay = 0
 }
-script 83 mmbn1 {
+script 83 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -929,7 +929,7 @@ script 83 mmbn1 {
 	end
 		delay = 0
 }
-script 84 mmbn1 {
+script 84 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -947,7 +947,7 @@ script 84 mmbn1 {
 	end
 		delay = 0
 }
-script 85 mmbn1 {
+script 85 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -955,9 +955,9 @@ script 85 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Nunca alguém linda
-	como eu estaria na
-	WWW! Eu,hein...
+	Nunca que alguém
+	linda como eu seria
+	da WWW! Eu,hein...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -965,7 +965,7 @@ script 85 mmbn1 {
 	end
 		delay = 0
 }
-script 86 mmbn1 {
+script 86 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -993,7 +993,7 @@ script 86 mmbn1 {
 	jump
 		target = 87
 }
-script 87 mmbn1 {
+script 87 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -1012,7 +1012,7 @@ script 87 mmbn1 {
 	jump
 		target = 88
 }
-script 88 mmbn1 {
+script 88 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -1050,7 +1050,7 @@ script 88 mmbn1 {
 	jump
 		target = 89
 }
-script 89 mmbn1 {
+script 89 mmbn1-lc {
 	flagSet
 		flag = 222
 	mugshotShow
@@ -1080,7 +1080,7 @@ script 89 mmbn1 {
 	jump
 		target = 90
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -1111,7 +1111,7 @@ script 90 mmbn1 {
 	jump
 		target = 91
 }
-script 91 mmbn1 {
+script 91 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -1144,7 +1144,7 @@ script 91 mmbn1 {
 	end
 		delay = 0
 }
-script 92 mmbn1 {
+script 92 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -1160,14 +1160,14 @@ script 92 mmbn1 {
 	jump
 		target = 93
 }
-script 93 mmbn1 {
+script 93 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Ei,Lan..."
+	"Lan..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -1176,7 +1176,7 @@ script 93 mmbn1 {
 	jump
 		target = 94
 }
-script 94 mmbn1 {
+script 94 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -1196,7 +1196,7 @@ script 94 mmbn1 {
 	"""
 	Não quero ajudar o
 	Chaud,mas temos que
-	parar esse caos!
+	parar a Fase Final!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1218,7 +1218,7 @@ script 94 mmbn1 {
 	jump
 		target = 95
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1248,13 +1248,13 @@ script 95 mmbn1 {
 	end
 		delay = 0
 }
-script 96 mmbn1 {
+script 96 mmbn1-lc {
 	flagSet
 		flag = 149
 	end
 		delay = 0
 }
-script 105 mmbn1 {
+script 105 mmbn1-lc {
 	checkItem
 		item = 53
 		amount = 1
@@ -1290,7 +1290,7 @@ script 105 mmbn1 {
 	end
 		delay = 0
 }
-script 106 mmbn1 {
+script 106 mmbn1-lc {
 	mugshotShow
 		mugshot = OldMan
 		palette = 0
@@ -1311,8 +1311,8 @@ script 106 mmbn1 {
 		animation = 2
 	"""
 	Mas já conheci um
-	cara que sabe muito
-	sobre eles...
+	sujeito que sabia
+	muito sobre eles...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -1332,7 +1332,7 @@ script 106 mmbn1 {
 	end
 		delay = 0
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -1340,7 +1340,7 @@ script 110 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	O caos? É aquele
+	Fase Final? É aquele
 	novo jogo pro
 	PetBoy?
 	"""
@@ -1350,7 +1350,7 @@ script 110 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Um enorme prédio
@@ -1360,7 +1360,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	O cinema do Distrito
@@ -1390,7 +1390,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	A florista mais
@@ -1408,7 +1408,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Não é possível se
@@ -1419,7 +1419,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 95
@@ -1447,7 +1447,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	É possível se

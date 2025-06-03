@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Somente
@@ -10,7 +10,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	msgOpen
 	"""
 	Somente
@@ -20,7 +20,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -90,7 +90,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 71
@@ -121,7 +121,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 71
@@ -152,7 +152,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 71
@@ -190,7 +190,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -210,7 +210,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -229,7 +229,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -245,7 +245,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -261,7 +261,7 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -293,7 +293,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -309,7 +309,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -340,7 +340,7 @@ script 13 mmbn1 {
 	jump
 		target = 14
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -356,7 +356,7 @@ script 14 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -377,7 +377,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -428,7 +428,7 @@ script 20 mmbn1 {
 	jump
 		target = 71
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	msgOpen
 	"""
 	Ele está grudado
@@ -441,7 +441,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpen
 	"""
 	Está pensativo
@@ -454,7 +454,7 @@ script 22 mmbn1 {
 	end
 		delay = 0
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -484,7 +484,7 @@ script 23 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -521,7 +521,7 @@ script 30 mmbn1 {
 	jump
 		target = 31
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	"Froid mostrou o\n"
@@ -537,7 +537,7 @@ script 31 mmbn1 {
 	jump
 		target = 32
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -577,7 +577,7 @@ script 32 mmbn1 {
 	jump
 		target = 33
 }
-script 33 mmbn1 {
+script 33 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -603,7 +603,7 @@ script 33 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -641,7 +641,7 @@ script 40 mmbn1 {
 	jump
 		target = 71
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	msgOpen
 	"""
 	Ele está grudado na
@@ -652,7 +652,7 @@ script 41 mmbn1 {
 	end
 		delay = 0
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	msgOpen
 	"""
 	Está pensativo
@@ -663,7 +663,7 @@ script 42 mmbn1 {
 	end
 		delay = 0
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -681,7 +681,7 @@ script 43 mmbn1 {
 	end
 		delay = 0
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -696,8 +696,8 @@ script 50 mmbn1 {
 		animation = 2
 	"""
 	Então,a WWW lançou
-	sua jogada,o
-	caos...
+	sua jogada,a
+	Fase Final...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -741,7 +741,7 @@ script 50 mmbn1 {
 	jump
 		target = 71
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpen
 	"""
 	Ele está grudado na
@@ -752,7 +752,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpen
 	"""
 	Está pensativo
@@ -763,7 +763,7 @@ script 52 mmbn1 {
 	end
 		delay = 0
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -793,7 +793,7 @@ script 53 mmbn1 {
 	end
 		delay = 0
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -808,8 +808,8 @@ script 60 mmbn1 {
 		animation = 2
 	"""
 	Então,a WWW lançou
-	sua jogada,o
-	caos...
+	sua jogada,a
+	Fase Final...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -853,7 +853,7 @@ script 60 mmbn1 {
 	jump
 		target = 71
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	msgOpen
 	"""
 	Ele está grudado na
@@ -864,7 +864,7 @@ script 61 mmbn1 {
 	end
 		delay = 0
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpen
 	"""
 	Está pensativo
@@ -875,7 +875,7 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -905,7 +905,7 @@ script 63 mmbn1 {
 	end
 		delay = 0
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -930,7 +930,7 @@ script 64 mmbn1 {
 	jump
 		target = 65
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -953,7 +953,7 @@ script 65 mmbn1 {
 	end
 		delay = 0
 }
-script 66 mmbn1 {
+script 66 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -971,13 +971,13 @@ script 66 mmbn1 {
 	end
 		delay = 0
 }
-script 67 mmbn1 {
+script 67 mmbn1-lc {
 	checkFlag
 		flag = 250
 		jumpIfTrue = 64
 		jumpIfFalse = 63
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 79
@@ -999,7 +999,7 @@ script 70 mmbn1 {
 		jumpIfInRange = 60
 		jumpIfOutOfRange = continue
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1040,7 +1040,7 @@ script 71 mmbn1 {
 	end
 		delay = 0
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	checkFlag
 		flag = 56
 		jumpIfTrue = 74
@@ -1065,7 +1065,7 @@ script 72 mmbn1 {
 	end
 		delay = 0
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -1082,7 +1082,7 @@ script 73 mmbn1 {
 	end
 		delay = 0
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -1105,7 +1105,7 @@ script 74 mmbn1 {
 	end
 		delay = 0
 }
-script 75 mmbn1 {
+script 75 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -1123,7 +1123,7 @@ script 75 mmbn1 {
 	end
 		delay = 0
 }
-script 76 mmbn1 {
+script 76 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -1141,7 +1141,7 @@ script 76 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	O computador que
@@ -1152,7 +1152,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Parece ter uma
@@ -1163,7 +1163,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Várias telas e
@@ -1174,7 +1174,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	checkFlag
 		flag = 741
 		jumpIfTrue = 224
@@ -1220,7 +1220,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Não parece haver
@@ -1230,7 +1230,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	Aqui fica a lista de

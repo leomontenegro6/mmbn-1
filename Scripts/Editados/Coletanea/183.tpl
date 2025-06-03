@@ -1,6 +1,6 @@
 @size 32
 
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkItem
 		item = 3
 		amount = 1
@@ -41,7 +41,7 @@ script 5 mmbn1 {
 	"""
 	Cartão de identi-
 	ficação aceito.
-	Senha aceita.
+	Inserir aceita.
 	"""
 	keyWait
 	clearMsg
@@ -49,7 +49,7 @@ script 5 mmbn1 {
 	jump
 		target = 7
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgClose
 	passcodeStart
 		pickRandom = true
@@ -62,7 +62,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"Inserir senha?\n"
 	option
@@ -92,7 +92,7 @@ script 7 mmbn1 {
 	end
 		delay = 5
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	msgOpen
 	mugshotAnimate
 		animation = 2
@@ -131,7 +131,7 @@ script 8 mmbn1 {
 	end
 		delay = 5
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	msgOpen
 	"""
 	Confirmar senha
@@ -166,7 +166,7 @@ script 9 mmbn1 {
 	end
 		delay = 5
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	passcodeCheck
 		jumpIfTooLow = continue
 		jumpIfTooHigh = 11
@@ -193,7 +193,7 @@ script 10 mmbn1 {
 	jump
 		target = 18
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -212,7 +212,7 @@ script 11 mmbn1 {
 	jump
 		target = 18
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -236,7 +236,7 @@ script 14 mmbn1 {
 	jump
 		target = 18
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -260,7 +260,7 @@ script 15 mmbn1 {
 	jump
 		target = 18
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -284,7 +284,7 @@ script 16 mmbn1 {
 	jump
 		target = 18
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -308,7 +308,7 @@ script 17 mmbn1 {
 	jump
 		target = 18
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	msgOpen
 	"Tentar de novo?\n"
 	option
@@ -339,7 +339,7 @@ script 18 mmbn1 {
 	end
 		delay = 5
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -360,7 +360,7 @@ script 20 mmbn1 {
 	jump
 		target = 6
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -381,7 +381,7 @@ script 21 mmbn1 {
 	jump
 		target = 6
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -402,7 +402,7 @@ script 22 mmbn1 {
 	jump
 		target = 6
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -423,7 +423,7 @@ script 23 mmbn1 {
 	jump
 		target = 6
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	msgOpen
 	"""
 	Senha aceita.
@@ -435,7 +435,7 @@ script 25 mmbn1 {
 	jump
 		target = 26
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -454,7 +454,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -463,7 +463,7 @@ script 27 mmbn1 {
 		animation = 2
 	"""
 	Lan,parece que a
-	trava tá vinculada
+	tranca tá vinculada
 	a alguma coisa!
 	"""
 	mugshotAnimate
@@ -474,7 +474,7 @@ script 27 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	É preciso o cartão
+	É preciso um cartão
 	de ID pra completar
 	a verificação.
 	"""
@@ -497,7 +497,7 @@ script 27 mmbn1 {
 	end
 		delay = 5
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou

@@ -1,6 +1,6 @@
 @size 191
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 66
 		upper = 67
@@ -17,7 +17,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 180 mmbn1 {
+script 180 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -35,7 +35,7 @@ script 180 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0

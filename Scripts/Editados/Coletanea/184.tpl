@@ -1,6 +1,6 @@
 @size 46
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -80,7 +80,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -129,7 +129,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -221,7 +221,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -293,7 +293,7 @@ script 3 mmbn1 {
 	end
 		delay = 5
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -334,7 +334,7 @@ script 4 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkFlag
 		flag = 194
 		jumpIfTrue = 14
@@ -398,7 +398,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta. O
@@ -409,7 +409,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkFlag
 		flag = 157
 		jumpIfTrue = 11
@@ -525,7 +525,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	msgOpen
 	playerLock
 	playerAnimate
@@ -553,7 +553,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -669,7 +669,7 @@ script 9 mmbn1 {
 	end
 		delay = 5
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkItem
 		item = 1
 		amount = 1
@@ -730,7 +730,7 @@ script 11 mmbn1 {
 	"""
 	Boa sorte na jornada
 	rumo à seção de
-	controle do fogão!
+	descongelamento!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -738,7 +738,7 @@ script 11 mmbn1 {
 	end
 		delay = 5
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -796,7 +796,7 @@ script 12 mmbn1 {
 	"""
 	Certeza? Conseguirá
 	chegar na seção de
-	controle do fogão?
+	descongelamento?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -804,7 +804,7 @@ script 12 mmbn1 {
 	end
 		delay = 5
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	msgOpen
 	"""
 	Está queimando
@@ -814,7 +814,7 @@ script 13 mmbn1 {
 	end
 		delay = 5
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta.
@@ -825,7 +825,7 @@ script 14 mmbn1 {
 	end
 		delay = 5
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotHide
 	msgClose
 	msgOpen
@@ -872,7 +872,7 @@ script 15 mmbn1 {
 	end
 		delay = 5
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou os
@@ -911,7 +911,7 @@ script 16 mmbn1 {
 	end
 		delay = 5
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou os
@@ -943,7 +943,7 @@ script 17 mmbn1 {
 	end
 		delay = 5
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou os
@@ -982,7 +982,7 @@ script 18 mmbn1 {
 	end
 		delay = 5
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou os
@@ -1021,7 +1021,7 @@ script 19 mmbn1 {
 	end
 		delay = 5
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	checkItem
 		item = 1
 		amount = 1
@@ -1066,7 +1066,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	flagSet
 		flag = 219
 	checkTakeItem
@@ -1097,7 +1097,7 @@ script 21 mmbn1 {
 	end
 		delay = 5
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpen
 	"""
 	Não lhe restam mais
@@ -1111,7 +1111,7 @@ script 22 mmbn1 {
 	end
 		delay = 5
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	checkFlag
 		flag = 193
 		jumpIfTrue = continue
@@ -1126,7 +1126,7 @@ script 23 mmbn1 {
 	end
 		delay = 5
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou os
@@ -1158,7 +1158,7 @@ script 24 mmbn1 {
 	end
 		delay = 5
 }
-script 29 mmbn1 {
+script 29 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1184,7 +1184,7 @@ script 29 mmbn1 {
 	end
 		delay = 5
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1213,12 +1213,12 @@ script 30 mmbn1 {
 	end
 		delay = 5
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	keyWait
 	end
 		delay = 5
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	checkItem
 		item = 1
 		amount = 1
@@ -1277,7 +1277,7 @@ script 32 mmbn1 {
 	end
 		delay = 5
 }
-script 33 mmbn1 {
+script 33 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1293,7 +1293,7 @@ script 33 mmbn1 {
 	jump
 		target = 33
 }
-script 34 mmbn1 {
+script 34 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -1322,7 +1322,7 @@ script 34 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1338,7 +1338,7 @@ script 41 mmbn1 {
 	jump
 		target = 31
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1401,7 +1401,7 @@ script 42 mmbn1 {
 	end
 		delay = 0
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotHide
 	msgClose
 	msgOpen

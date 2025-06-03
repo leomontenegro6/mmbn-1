@@ -1,6 +1,6 @@
 @size 6
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 34
 		upper = 84
@@ -12,7 +12,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -21,7 +21,7 @@ script 1 mmbn1 {
 		animation = 2
 	"""
 	Esta é a área mais
-	profunda da net...
+	profunda da Rede...
 	"""
 	mugshotAnimate
 		animation = 1

@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 53
 		upper = 54
@@ -34,7 +34,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Woman
 		palette = 0
@@ -64,7 +64,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 53
 		upper = 54
@@ -87,7 +87,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpen
 	"Um ponto de ônibus."
 	waitSkip
@@ -101,7 +101,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	flagAddMail
 		flag = 11
 	mugshotShow
@@ -120,7 +120,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -138,7 +138,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -163,7 +163,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -180,7 +180,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -208,7 +208,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -225,7 +225,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -242,7 +242,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -275,7 +275,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -293,7 +293,7 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -301,8 +301,7 @@ script 28 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Vá logo e
-	derrote-os!
+	Vai logo! Cai fora!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -312,7 +311,7 @@ script 28 mmbn1 {
 	jump
 		target = 36
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -353,7 +352,7 @@ script 36 mmbn1 {
 	end
 		delay = 0
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -361,9 +360,9 @@ script 37 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Para que lutar
-	agora? Não vejo
-	motivo pra isso...
+	Não vejo por que
+	lutar com um pirra-
+	lho como você.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -371,7 +370,7 @@ script 37 mmbn1 {
 	end
 		delay = 0
 }
-script 38 mmbn1 {
+script 38 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -389,7 +388,7 @@ script 38 mmbn1 {
 	end
 		delay = 0
 }
-script 39 mmbn1 {
+script 39 mmbn1-lc {
 	checkFlag
 		flag = 100
 		jumpIfTrue = 38
@@ -411,7 +410,7 @@ script 39 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -429,7 +428,7 @@ script 40 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -446,7 +445,7 @@ script 41 mmbn1 {
 	end
 		delay = 0
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	checkFlag
 		flag = 99
 		jumpIfTrue = 37
@@ -470,7 +469,7 @@ script 42 mmbn1 {
 	jump
 		target = 43
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = ProtoMan
 		palette = 0
@@ -486,13 +485,13 @@ script 43 mmbn1 {
 	jump
 		target = 44
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	flagSet
 		flag = 99
 	msgClose
 	waitHold
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -523,7 +522,7 @@ script 45 mmbn1 {
 	jump
 		target = 36
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	mugshotShow
 		mugshot = Woman
 		palette = 0
@@ -541,7 +540,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1061
 		jumpIfTrue = 194
@@ -684,7 +683,7 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	mugshotShow
 		mugshot = PigtailsGirl
 		palette = 0
@@ -698,7 +697,7 @@ script 191 mmbn1 {
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	checkChipCodePack
 		chip = 14
 		code = K
@@ -799,7 +798,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = PigtailsGirl
 		palette = 0
@@ -864,7 +863,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = PigtailsGirl
 		palette = 0
@@ -878,7 +877,7 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Não é possível se
@@ -889,7 +888,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 95
@@ -916,7 +915,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Sob manutenção
@@ -926,7 +925,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Um prédio sem um
@@ -936,7 +935,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Você pode se

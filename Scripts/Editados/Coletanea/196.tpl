@@ -1,6 +1,6 @@
 @size 18
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 87
@@ -30,7 +30,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan pressionou o
@@ -51,7 +51,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -69,7 +69,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 87
@@ -103,7 +103,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan pressionou o
@@ -124,7 +124,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -142,7 +142,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 87
@@ -180,7 +180,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan pressionou o
@@ -201,7 +201,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -219,7 +219,7 @@ script 8 mmbn1 {
 	end
 		delay = 0
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 87
@@ -261,7 +261,7 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan pressionou o
@@ -282,7 +282,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -300,7 +300,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -321,7 +321,7 @@ script 12 mmbn1 {
 		animation = 2
 	"""
 	A gente tem que
-	fazer em ordem!
+	fazer na ordem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -329,7 +329,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -347,7 +347,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -386,7 +386,7 @@ script 15 mmbn1 {
 	end
 		delay = 5
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -409,8 +409,7 @@ script 16 mmbn1 {
 			amount = 2400
 		]
 	"""
-	MegaMan pegou 2400
-	zennys!
+	MegaMan pegou 240!
 	"""
 	playerFinish
 	playerUnlock
@@ -418,7 +417,7 @@ script 16 mmbn1 {
 	end
 		delay = 5
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou

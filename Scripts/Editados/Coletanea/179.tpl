@@ -1,6 +1,6 @@
 @size 20
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Essa porta é
@@ -25,7 +25,7 @@ script 0 mmbn1 {
 	"""
 	Dica de senha:
 	Número de cadeiras
-	da 5A
+	na 5A.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -36,7 +36,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -68,7 +68,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -88,7 +88,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -96,7 +96,7 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Quando encontrar,
+	Quando descobrir,
 	aperte [SwitchL]!
 	"""
 	mugshotAnimate
@@ -116,7 +116,7 @@ script 3 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkFlag
 		flag = 164
 		jumpIfTrue = 15
@@ -161,7 +161,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkFlag
 		flag = 164
 		jumpIfTrue = 16
@@ -207,7 +207,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkFlag
 		flag = 164
 		jumpIfTrue = 17
@@ -220,7 +220,7 @@ script 7 mmbn1 {
 		animation = 2
 	"""
 	Quer ir para a
-	fechadura?
+	tranca?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -260,7 +260,7 @@ script 7 mmbn1 {
 	end
 		delay = 5
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -274,7 +274,7 @@ script 8 mmbn1 {
 	end
 		delay = 5
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -304,10 +304,10 @@ script 9 mmbn1 {
 	end
 		delay = 5
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpen
 	"""
-	MegaMan acessou
+	MegaMan acessou os
 	dados misteriosos...
 	"""
 	keyWait
@@ -343,7 +343,7 @@ script 10 mmbn1 {
 	end
 		delay = 5
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -361,7 +361,7 @@ script 15 mmbn1 {
 	end
 		delay = 5
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Glide
 		palette = 0
@@ -379,7 +379,7 @@ script 16 mmbn1 {
 	end
 		delay = 5
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -419,20 +419,19 @@ script 17 mmbn1 {
 		]
 	mugshotAnimate
 		animation = 2
-	"Sério?"
+	"Mesmo?"
 	mugshotAnimate
 		animation = 1
 	keyWait
 	end
 		delay = 5
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lembrando que o
-	caminho mais longo
-	é o certo,viu?
+	O caminho mais longo
+	era o certo,né?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -440,7 +439,7 @@ script 18 mmbn1 {
 	end
 		delay = 5
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0

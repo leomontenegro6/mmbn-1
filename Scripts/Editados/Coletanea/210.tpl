@@ -1,10 +1,11 @@
 @size 10
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
-	Parece ter conexão
-	pela net...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
@@ -17,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 8
 	msgOpen
@@ -37,7 +38,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -87,7 +88,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChipCode
 		chip = 65
 		code = B
@@ -133,7 +134,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou

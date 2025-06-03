@@ -1,6 +1,6 @@
 @size 121
 
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkItem
 		item = 49
 		amount = 1
@@ -21,7 +21,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
 	"""
 	Está escrito: "É
@@ -62,7 +62,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	checkItem
 		item = 50
 		amount = 1
@@ -83,7 +83,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	msgOpen
 	"""
 	Está escrito: "É
@@ -124,7 +124,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	checkChapter
 		lower = 34
 		upper = 84
@@ -190,7 +190,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -210,7 +210,7 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Descendo e virando a
+	Descendo e virando à
 	direita,você chega
 	no Distrito Den.
 	"""
@@ -222,7 +222,7 @@ script 15 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Descendo e virando a
+	Descendo e virando à
 	esquerda,você chega
 	à área ACDC.
 	"""
@@ -244,7 +244,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -271,7 +271,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	msgOpen
 	"\""
 	printItem
@@ -302,7 +302,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -336,7 +336,7 @@ script 22 mmbn1 {
 	end
 		delay = 0
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	checkItem
 		item = 8
 		amount = 1
@@ -365,7 +365,7 @@ script 23 mmbn1 {
 	end
 		delay = 0
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	msgOpen
 	"\""
 	printItem
@@ -396,7 +396,7 @@ script 24 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -430,7 +430,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 665
@@ -450,7 +450,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpen
 	startGiveRandomChipCode
 		jumpIfAll = continue
@@ -511,7 +511,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpen
 	startGiveRandomZenny
 		jump = continue
@@ -551,7 +551,7 @@ script 52 mmbn1 {
 	end
 		delay = 0
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	msgOpen
 	"""
 	Era um vírus
@@ -565,7 +565,7 @@ script 53 mmbn1 {
 	end
 		delay = 0
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 666
@@ -585,19 +585,19 @@ script 54 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	jump
 		target = 51
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	jump
 		target = 52
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	jump
 		target = 53
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 667
@@ -617,19 +617,19 @@ script 58 mmbn1 {
 	end
 		delay = 0
 }
-script 59 mmbn1 {
+script 59 mmbn1-lc {
 	jump
 		target = 51
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	jump
 		target = 52
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	jump
 		target = 53
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 668
@@ -649,19 +649,19 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	jump
 		target = 51
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	jump
 		target = 52
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	jump
 		target = 53
 }
-script 66 mmbn1 {
+script 66 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 669
@@ -681,19 +681,19 @@ script 66 mmbn1 {
 	end
 		delay = 0
 }
-script 67 mmbn1 {
+script 67 mmbn1-lc {
 	jump
 		target = 51
 }
-script 68 mmbn1 {
+script 68 mmbn1-lc {
 	jump
 		target = 52
 }
-script 69 mmbn1 {
+script 69 mmbn1-lc {
 	jump
 		target = 53
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 670
@@ -713,19 +713,19 @@ script 70 mmbn1 {
 	end
 		delay = 0
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	jump
 		target = 51
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	jump
 		target = 52
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	jump
 		target = 53
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 671
@@ -745,19 +745,19 @@ script 74 mmbn1 {
 	end
 		delay = 0
 }
-script 75 mmbn1 {
+script 75 mmbn1-lc {
 	jump
 		target = 51
 }
-script 76 mmbn1 {
+script 76 mmbn1-lc {
 	jump
 		target = 52
 }
-script 77 mmbn1 {
+script 77 mmbn1-lc {
 	jump
 		target = 53
 }
-script 78 mmbn1 {
+script 78 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 672
@@ -777,19 +777,19 @@ script 78 mmbn1 {
 	end
 		delay = 0
 }
-script 79 mmbn1 {
+script 79 mmbn1-lc {
 	jump
 		target = 51
 }
-script 80 mmbn1 {
+script 80 mmbn1-lc {
 	jump
 		target = 52
 }
-script 81 mmbn1 {
+script 81 mmbn1-lc {
 	jump
 		target = 53
 }
-script 82 mmbn1 {
+script 82 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 673
@@ -809,19 +809,19 @@ script 82 mmbn1 {
 	end
 		delay = 0
 }
-script 83 mmbn1 {
+script 83 mmbn1-lc {
 	jump
 		target = 51
 }
-script 84 mmbn1 {
+script 84 mmbn1-lc {
 	jump
 		target = 52
 }
-script 85 mmbn1 {
+script 85 mmbn1-lc {
 	jump
 		target = 53
 }
-script 86 mmbn1 {
+script 86 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 674
@@ -841,19 +841,19 @@ script 86 mmbn1 {
 	end
 		delay = 0
 }
-script 87 mmbn1 {
+script 87 mmbn1-lc {
 	jump
 		target = 51
 }
-script 88 mmbn1 {
+script 88 mmbn1-lc {
 	jump
 		target = 52
 }
-script 89 mmbn1 {
+script 89 mmbn1-lc {
 	jump
 		target = 53
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 675
@@ -873,19 +873,19 @@ script 90 mmbn1 {
 	end
 		delay = 0
 }
-script 91 mmbn1 {
+script 91 mmbn1-lc {
 	jump
 		target = 51
 }
-script 92 mmbn1 {
+script 92 mmbn1-lc {
 	jump
 		target = 52
 }
-script 93 mmbn1 {
+script 93 mmbn1-lc {
 	jump
 		target = 53
 }
-script 94 mmbn1 {
+script 94 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 676
@@ -905,19 +905,19 @@ script 94 mmbn1 {
 	end
 		delay = 0
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	jump
 		target = 51
 }
-script 96 mmbn1 {
+script 96 mmbn1-lc {
 	jump
 		target = 52
 }
-script 97 mmbn1 {
+script 97 mmbn1-lc {
 	jump
 		target = 53
 }
-script 98 mmbn1 {
+script 98 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 677
@@ -937,19 +937,19 @@ script 98 mmbn1 {
 	end
 		delay = 0
 }
-script 99 mmbn1 {
+script 99 mmbn1-lc {
 	jump
 		target = 51
 }
-script 100 mmbn1 {
+script 100 mmbn1-lc {
 	jump
 		target = 52
 }
-script 101 mmbn1 {
+script 101 mmbn1-lc {
 	jump
 		target = 53
 }
-script 102 mmbn1 {
+script 102 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 678
@@ -969,19 +969,19 @@ script 102 mmbn1 {
 	end
 		delay = 0
 }
-script 103 mmbn1 {
+script 103 mmbn1-lc {
 	jump
 		target = 51
 }
-script 104 mmbn1 {
+script 104 mmbn1-lc {
 	jump
 		target = 52
 }
-script 105 mmbn1 {
+script 105 mmbn1-lc {
 	jump
 		target = 53
 }
-script 106 mmbn1 {
+script 106 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 679
@@ -1001,19 +1001,19 @@ script 106 mmbn1 {
 	end
 		delay = 0
 }
-script 107 mmbn1 {
+script 107 mmbn1-lc {
 	jump
 		target = 51
 }
-script 108 mmbn1 {
+script 108 mmbn1-lc {
 	jump
 		target = 52
 }
-script 109 mmbn1 {
+script 109 mmbn1-lc {
 	jump
 		target = 53
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 680
@@ -1033,19 +1033,19 @@ script 110 mmbn1 {
 	end
 		delay = 0
 }
-script 111 mmbn1 {
+script 111 mmbn1-lc {
 	jump
 		target = 51
 }
-script 112 mmbn1 {
+script 112 mmbn1-lc {
 	jump
 		target = 52
 }
-script 113 mmbn1 {
+script 113 mmbn1-lc {
 	jump
 		target = 53
 }
-script 120 mmbn1 {
+script 120 mmbn1-lc {
 	mugshotShow
 		mugshot = EvilNavi
 		palette = 0
@@ -1067,7 +1067,7 @@ script 120 mmbn1 {
 	"""
 	Acha que tu me
 	segura,é? Prepara
-	para ser deletado!
+	pra ser deletado!
 	"""
 	mugshotAnimate
 		animation = 1

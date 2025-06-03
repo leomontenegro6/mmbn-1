@@ -1,6 +1,6 @@
 @size 11
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -51,7 +51,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -67,7 +67,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -107,7 +107,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -121,7 +121,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -131,7 +131,7 @@ script 5 mmbn1 {
 	"""
 	? O que uma criança
 	como você faz aqui?
-	Saia do caminho!
+	Não atrapalhe!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -141,7 +141,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -160,7 +160,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -201,7 +201,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -220,7 +220,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -240,8 +240,8 @@ script 9 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Qual será o tipo de
-	NetNavis que eles
+	Quais serão os tipos
+	de NetNavis que eles
 	usam...?
 	"""
 	mugshotAnimate
@@ -252,7 +252,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -260,9 +260,9 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Foco,Lan! Bora
-	conferir o sistema
-	hídrico!
+	Foco,MegaMan! Bora
+	conferir o Sistema
+	Hídrico!
 	"""
 	mugshotAnimate
 		animation = 1

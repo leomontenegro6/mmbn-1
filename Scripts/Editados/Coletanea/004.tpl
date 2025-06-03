@@ -878,21 +878,21 @@ script 120 mmbn1s {
 script 121 mmbn1s {
 	"""
 	Drena PV
-	do inimigo
+	do alvo
 	"""
 	end
 }
 script 122 mmbn1s {
 	"""
 	Drena PV
-	do inimigo
+	do alvo
 	"""
 	end
 }
 script 123 mmbn1s {
 	"""
 	Drena PV
-	do inimigo
+	do alvo
 	"""
 	end
 }

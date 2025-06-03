@@ -1,6 +1,6 @@
 @size 26
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Está firmemente
@@ -18,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -43,7 +43,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -52,7 +52,8 @@ script 2 mmbn1 {
 		animation = 2
 	"""
 	Eu sei que você
-	consegue! Salve-nos!
+	consegue! Salve a
+	todos nós!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -62,7 +63,7 @@ script 2 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -103,7 +104,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkFlag
 		flag = 56
 		jumpIfTrue = 13
@@ -115,9 +116,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Eu vou vencer,com a
-	ajuda da minha famí-
-	lia... e o IceMan!
+	Vou vencer,com o
+	apoio da minha fa-
+	mília... e o IceMan!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -128,7 +129,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -145,7 +146,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -163,7 +164,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -181,7 +182,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -190,8 +191,8 @@ script 15 mmbn1 {
 		animation = 2
 	"""
 	Você se segurou?
-	Precisa dar tudo
-	de si!
+	Devia lutar com
+	tudo!
 	"""
 	mugshotAnimate
 		animation = 1

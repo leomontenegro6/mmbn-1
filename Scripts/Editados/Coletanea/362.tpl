@@ -1,6 +1,6 @@
 @size 27
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -59,7 +59,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -77,7 +77,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -93,7 +93,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0
@@ -109,7 +109,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -128,7 +128,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -159,7 +159,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -182,7 +182,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -218,7 +218,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0
@@ -234,7 +234,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -248,7 +248,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -264,7 +264,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0
@@ -281,7 +281,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -300,7 +300,7 @@ script 14 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -336,7 +336,7 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -352,7 +352,7 @@ script 16 mmbn1 {
 	jump
 		target = 17
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -369,8 +369,8 @@ script 17 mmbn1 {
 		animation = 2
 	"""
 	Você
-	me salvou. Obrigado
-	todos vocês,gente.
+	me salvou. Agradeço
+	a todos vocês.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -380,7 +380,7 @@ script 17 mmbn1 {
 	jump
 		target = 18
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -456,7 +456,7 @@ script 18 mmbn1 {
 	jump
 		target = 19
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -487,7 +487,7 @@ script 19 mmbn1 {
 	jump
 		target = 20
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -503,7 +503,7 @@ script 20 mmbn1 {
 	jump
 		target = 21
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = MagicMan
 		palette = 0
@@ -519,7 +519,7 @@ script 21 mmbn1 {
 	end
 		delay = 5
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -551,7 +551,7 @@ script 22 mmbn1 {
 	jump
 		target = 23
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -567,7 +567,7 @@ script 23 mmbn1 {
 	jump
 		target = 24
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -587,7 +587,7 @@ script 24 mmbn1 {
 	jump
 		target = 25
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = MagicMan
 		palette = 0
@@ -615,7 +615,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0

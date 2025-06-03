@@ -1,6 +1,6 @@
 @size 8
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -22,7 +22,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -60,9 +60,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Parece que cheguei
-	rápido! Você precisa
-	de uma recarga.
+	E parece que foi bem
+	na hora! Você preci-
+	sa de uma recarga.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -72,9 +72,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Devo voltar ao cen-
-	tro de controle logo
-	após isto...
+	Preciso voltar ao
+	centro de controle
+	logo após isto...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -104,8 +104,8 @@ script 2 mmbn1 {
 		animation = 2
 	"""
 	Hmm,essa não. O
-	gerador está agindo
-	estranho de novo...
+	gerador está dando
+	defeito de novo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -113,7 +113,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -132,7 +132,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -149,7 +149,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -169,7 +169,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -183,7 +183,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkFlag
 		flag = 209
 		jumpIfTrue = 5

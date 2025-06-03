@@ -1,6 +1,6 @@
 @size 26
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -48,7 +48,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -62,7 +62,7 @@ script 2 mmbn1 {
 	end
 		delay = 1
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -84,7 +84,7 @@ script 3 mmbn1 {
 	"""
 	você irá lutar por
 	um turno sem nenhum
-	chips. Porém...
+	chip. Porém...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -130,7 +130,7 @@ script 3 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"OK,prova relâmpago!"

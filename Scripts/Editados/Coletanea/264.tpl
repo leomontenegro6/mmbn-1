@@ -1,6 +1,6 @@
 @size 15
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -56,7 +56,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -75,7 +75,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -95,7 +95,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -164,7 +164,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	soundPlay
@@ -176,7 +176,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -194,7 +194,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -210,7 +210,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -229,7 +229,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 0
@@ -249,7 +249,7 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -276,7 +276,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 0
@@ -292,7 +292,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -308,7 +308,7 @@ script 13 mmbn1 {
 	jump
 		target = 14
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -327,7 +327,7 @@ script 14 mmbn1 {
 		animation = 2
 	"""
 	MegaMan!
-	Atrás deles!
+	Pega eles!
 	"""
 	mugshotAnimate
 		animation = 1

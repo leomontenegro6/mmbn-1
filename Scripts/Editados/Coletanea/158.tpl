@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 67
@@ -56,7 +56,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -80,7 +80,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 67
@@ -113,11 +113,11 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	flagSet
 		flag = 216
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -148,9 +148,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Você viu alguma
-	coisa entrando
-	nela?
+	Está vendo ela
+	passando ali?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -158,7 +157,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -180,7 +179,7 @@ script 11 mmbn1 {
 	"""
 	Não há mais
 	problemas agora,
-	isso eu garanto!
+	isso,eu garanto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -188,7 +187,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -219,9 +218,7 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Você viu alguma
-	coisa entrando
-	nela?
+	Viu ela fluindo?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -229,7 +226,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -251,7 +248,7 @@ script 21 mmbn1 {
 	"""
 	Não há mais
 	problemas agora,
-	isso eu garanto!
+	isso,eu garanto!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -259,7 +256,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedWoman
 		palette = 0
@@ -299,7 +296,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -341,7 +338,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1063
 		jumpIfTrue = 194
@@ -486,7 +483,7 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -494,9 +491,9 @@ script 191 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	É,acho que uma
-	criança não iria
-	querer
+	É,acho que seria
+	impossível uma
+	criança ter um
 	"""
 	mugshotAnimate
 		animation = 1
@@ -505,14 +502,14 @@ script 191 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"um chip destes."
+	"chip desses."
 	mugshotAnimate
 		animation = 1
 	keyWait
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	checkChipCodePack
 		chip = 171
 		code = W
@@ -558,8 +555,8 @@ script 192 mmbn1 {
 		animation = 2
 	"""
 	Fantástico! Obriga-
-	do! Isso vai me
-	ajudar com vírus!
+	do! Agora dou conta
+	daqueles vírus!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -644,7 +641,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -653,8 +650,8 @@ script 193 mmbn1 {
 		animation = 2
 	"""
 	Desculpa,é um chip
-	secreto. Não posso
-	dá-lo de graça.
+	ultrassecreto. Não
+	posso dar de graça.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -740,9 +737,8 @@ script 193 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Enfim,eles não
-	estariam na sua
-	pasta,talvez?
+	Enfim,será que não
+	estão na sua pasta?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -774,7 +770,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -792,7 +788,7 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	A porta está

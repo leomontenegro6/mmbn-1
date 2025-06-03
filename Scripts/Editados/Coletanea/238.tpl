@@ -1,6 +1,6 @@
 @size 66
 
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpen
 	"""
 	Verificando sua téc-
@@ -28,7 +28,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
 	"""
 	Verificando sua téc-
@@ -53,7 +53,7 @@ script 11 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	msgOpen
 	"""
 	Aqueles a quem falta
@@ -101,10 +101,9 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	"""
-	E agora,de volta
-	a você!!
+	Recue,então!
 	"""
 	keyWait
 	flagSet
@@ -112,7 +111,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = EvilNavi
 		palette = 0
@@ -141,7 +140,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = EvilNavi
 		palette = 0
@@ -149,9 +148,9 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Covardes nunca
-	vão conseguir
-	passar por aqui!
+	Os covardes não
+	conseguem sobreviver
+	aqui!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -159,7 +158,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -191,7 +190,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 795
@@ -211,7 +210,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpen
 	startGiveRandomChipCode
 		jumpIfAll = continue
@@ -272,7 +271,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpen
 	startGiveRandomZenny
 		jump = continue
@@ -312,7 +311,7 @@ script 52 mmbn1 {
 	end
 		delay = 0
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	msgOpen
 	"""
 	Era um vírus
@@ -326,7 +325,7 @@ script 53 mmbn1 {
 	end
 		delay = 0
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 796
@@ -346,19 +345,19 @@ script 54 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	jump
 		target = 51
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	jump
 		target = 52
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	jump
 		target = 53
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 797
@@ -378,19 +377,19 @@ script 58 mmbn1 {
 	end
 		delay = 0
 }
-script 59 mmbn1 {
+script 59 mmbn1-lc {
 	jump
 		target = 51
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	jump
 		target = 52
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	jump
 		target = 53
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 798
@@ -410,15 +409,15 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	jump
 		target = 51
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	jump
 		target = 52
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	jump
 		target = 53
 }

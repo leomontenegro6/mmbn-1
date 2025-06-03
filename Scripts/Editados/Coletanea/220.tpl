@@ -1,6 +1,6 @@
 @size 26
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -42,8 +42,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Agora deixe-me
-	voltar ao trabalho!
+	Agora,se me der
+	licença,vou voltar
+	ao trabalho!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -51,7 +52,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -69,7 +70,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -110,7 +111,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -129,7 +130,7 @@ script 20 mmbn1 {
 	jump
 		target = 21
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = EvilNavi
 		palette = 0
@@ -137,9 +138,8 @@ script 21 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Agora que tu me
-	viu aqui,cê já
-	era!
+	Agora que tu me viu
+	aqui,cê já era!
 	"""
 	mugshotAnimate
 		animation = 1

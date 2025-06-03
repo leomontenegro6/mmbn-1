@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 82
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	A festa está mais
+	A festa é mais
 	adiante,por ali.
 	"""
 	mugshotAnimate
@@ -38,7 +38,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 67
@@ -97,7 +97,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	option
 		left = 0
 		right = 0
@@ -134,7 +134,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 65
@@ -157,7 +157,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -175,7 +175,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgOpen
 	"""
 	Não está
@@ -185,7 +185,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -205,8 +205,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Como vamos continuar
-	com os negócios?
+	Como vamos evitar
+	a falência?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -214,7 +214,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -236,25 +236,25 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	flagSet
 		flag = 49
 	end
 		delay = 0
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	flagSet
 		flag = 50
 	end
 		delay = 0
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	flagSet
 		flag = 51
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Mesmo estando 30
@@ -271,7 +271,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	O lixo do SciLab
@@ -289,7 +289,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Todas as bebidas
@@ -300,7 +300,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	O botão do
@@ -325,7 +325,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"Qual andar?"
 	keyWait
@@ -339,7 +339,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	Não está
@@ -349,17 +349,18 @@ script 225 mmbn1 {
 	end
 		delay = 5
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	msgOpen
 	"""
 	Não há energia!
-	Não se mexe!
+	Ele não sai do
+	lugar!
 	"""
 	keyWait
 	end
 		delay = 5
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -367,9 +368,9 @@ script 227 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Parece que podemos
-	chegar na usina a
-	partir daqui!
+	Parece que dá pra
+	chegar na usina
+	daqui!
 	"""
 	mugshotAnimate
 		animation = 1

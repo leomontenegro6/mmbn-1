@@ -11,7 +11,7 @@ script 0 mmbn1s {
 script 1 mmbn1s {
 	end
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -29,7 +29,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -59,7 +59,7 @@ script 4 mmbn1s {
 	"""
 	end
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -99,7 +99,7 @@ script 22 mmbn1s {
 script 23 mmbn1s {
 	end
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -108,13 +108,13 @@ script 40 mmbn1 {
 		animation = 2
 	"""
 	Esta é minha
-	situação atual!
+	condição atual!
 	"""
 	mugshotAnimate
 		animation = 1
 	waitHold
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -129,7 +129,7 @@ script 41 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -147,7 +147,7 @@ script 43 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -166,7 +166,7 @@ script 44 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -209,7 +209,7 @@ script 45 mmbn1 {
 		]
 	waitHold
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -227,14 +227,14 @@ script 46 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
 	msgOpenQuick
 	mugshotAnimate
 		animation = 2
-	"Aumentar agilidade?"
+	"Aumentar rapidez?"
 	mugshotAnimate
 		animation = 1
 	"\n(PowerUPs: "
@@ -270,7 +270,7 @@ script 47 mmbn1 {
 		]
 	waitHold
 }
-script 48 mmbn1 {
+script 48 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -288,7 +288,7 @@ script 48 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 49 mmbn1 {
+script 49 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -331,7 +331,7 @@ script 49 mmbn1 {
 		]
 	waitHold
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -339,7 +339,7 @@ script 50 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Carga do Atirador
+	Carga do MegaTiro
 	aumentada!
 	"""
 	mugshotAnimate
@@ -349,7 +349,7 @@ script 50 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -364,7 +364,7 @@ script 51 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -382,7 +382,7 @@ script 52 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -400,7 +400,7 @@ script 53 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -441,7 +441,7 @@ script 54 mmbn1 {
 		]
 	waitHold
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -494,7 +494,7 @@ script 55 mmbn1 {
 		]
 	waitHold
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -560,7 +560,7 @@ script 56 mmbn1 {
 		]
 	waitHold
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -580,7 +580,7 @@ script 60 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -592,12 +592,12 @@ script 61 mmbn1 {
 		flag = 1029
 	mugshotAnimate
 		animation = 2
-	"Ler e-mails?"
+	"Ler e-mail?"
 	mugshotAnimate
 		animation = 1
 	waitHold
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -605,7 +605,7 @@ script 90 mmbn1 {
 	jump
 		target = 106
 }
-script 91 mmbn1 {
+script 91 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -613,7 +613,7 @@ script 91 mmbn1 {
 	jump
 		target = 119
 }
-script 92 mmbn1 {
+script 92 mmbn1-lc {
 	clearMsg
 		delay = 0
 	mugshotAnimate
@@ -624,10 +624,10 @@ script 92 mmbn1 {
 	waitHold
 }
 script 93 mmbn1s {
-	"Nenhum"
+	"Nada"
 	end
 }
-script 94 mmbn1 {
+script 94 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -636,7 +636,7 @@ script 94 mmbn1 {
 		animation = 2
 	"""
 	Os dois escolheram
-	"Nenhum"! Assim,não
+	"Nada"! Assim,não
 	dá pra trocar!
 	"""
 	mugshotAnimate
@@ -645,7 +645,7 @@ script 94 mmbn1 {
 	end
 		delay = 5
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -673,7 +673,7 @@ script 96 mmbn1s {
 		padLeft = true
 	end
 }
-script 97 mmbn1 {
+script 97 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -692,7 +692,7 @@ script 97 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 99 mmbn1 {
+script 99 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -732,7 +732,7 @@ script 99 mmbn1 {
 		]
 	waitHold
 }
-script 100 mmbn1 {
+script 100 mmbn1-lc {
 	checkFlag
 		flag = 1033
 		jumpIfTrue = continue
@@ -813,7 +813,7 @@ script 100 mmbn1 {
 		]
 	waitHold
 }
-script 101 mmbn1 {
+script 101 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -828,7 +828,7 @@ script 101 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 102 mmbn1 {
+script 102 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -843,7 +843,7 @@ script 102 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 103 mmbn1 {
+script 103 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -861,7 +861,7 @@ script 103 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 104 mmbn1 {
+script 104 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -879,7 +879,7 @@ script 104 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 105 mmbn1 {
+script 105 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -898,7 +898,7 @@ script 105 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 106 mmbn1 {
+script 106 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -917,7 +917,7 @@ script 106 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 107 mmbn1 {
+script 107 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -936,7 +936,7 @@ script 107 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 108 mmbn1 {
+script 108 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -952,7 +952,7 @@ script 108 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 109 mmbn1 {
+script 109 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -989,7 +989,7 @@ script 109 mmbn1 {
 		]
 	waitHold
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1005,7 +1005,7 @@ script 110 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 111 mmbn1 {
+script 111 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1021,7 +1021,7 @@ script 111 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 112 mmbn1 {
+script 112 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1039,7 +1039,7 @@ script 112 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 113 mmbn1 {
+script 113 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1058,7 +1058,7 @@ script 113 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 114 mmbn1 {
+script 114 mmbn1-lc {
 	waitHold
 }
 script 115 mmbn1s {
@@ -1087,7 +1087,7 @@ script 118 mmbn1s {
 	"Luta(sério!)"
 	end
 }
-script 119 mmbn1 {
+script 119 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1106,7 +1106,7 @@ script 119 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 120 mmbn1 {
+script 120 mmbn1-lc {
 	checkFlag
 		flag = 1033
 		jumpIfTrue = continue
@@ -1190,7 +1190,7 @@ script 120 mmbn1 {
 		]
 	waitHold
 }
-script 121 mmbn1 {
+script 121 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1205,7 +1205,7 @@ script 121 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 122 mmbn1 {
+script 122 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1233,7 +1233,7 @@ script 125 mmbn1s {
 	end
 }
 script 126 mmbn1s {
-	"Créditos"
+	"Zennys"
 	end
 }
 script 127 mmbn1s {
@@ -1278,7 +1278,7 @@ script 130 mmbn1s {
 	"[z]"
 	end
 }
-script 131 mmbn1 {
+script 131 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1369,10 +1369,10 @@ script 132 mmbn1s {
 	"/176"
 	end
 }
-script 133 mmbn1 {
+script 133 mmbn1-lc {
 	waitHold
 }
-script 134 mmbn1 {
+script 134 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0

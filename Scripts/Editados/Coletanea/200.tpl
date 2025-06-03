@@ -1,6 +1,6 @@
 @size 248
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -34,7 +34,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -68,7 +68,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -107,7 +107,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 99 mmbn1 {
+script 99 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -137,7 +137,7 @@ script 99 mmbn1 {
 	end
 		delay = 0
 }
-script 115 mmbn1 {
+script 115 mmbn1-lc {
 	checkFlag
 		flag = 736
 		jumpIfTrue = 116
@@ -264,7 +264,7 @@ script 115 mmbn1 {
 	end
 		delay = 5
 }
-script 116 mmbn1 {
+script 116 mmbn1-lc {
 	checkItem
 		item = 13
 		amount = 1
@@ -312,7 +312,7 @@ script 116 mmbn1 {
 	end
 		delay = 5
 }
-script 126 mmbn1 {
+script 126 mmbn1-lc {
 	mugshotShow
 		mugshot = CorruptMrProg
 		palette = 0
@@ -320,9 +320,9 @@ script 126 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Estou com medo...
-	Quero... que você...
-	me delete!
+	R... Receio que...
+	tenho de pedir...
+	que você me delete!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -341,7 +341,7 @@ script 126 mmbn1 {
 		noEscape = true
 		battle = 2
 }
-script 150 mmbn1 {
+script 150 mmbn1-lc {
 	msgOpen
 	"""
 	Insira as baterias
@@ -351,7 +351,7 @@ script 150 mmbn1 {
 	end
 		delay = 5
 }
-script 154 mmbn1 {
+script 154 mmbn1-lc {
 	flagClear
 		flag = 211
 	msgOpen
@@ -387,7 +387,7 @@ script 154 mmbn1 {
 	end
 		delay = 0
 }
-script 155 mmbn1 {
+script 155 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -405,7 +405,7 @@ script 155 mmbn1 {
 		flag = 211
 	waitHold
 }
-script 158 mmbn1 {
+script 158 mmbn1-lc {
 	mugshotHide
 	msgOpenQuick
 	soundPlay
@@ -425,7 +425,7 @@ script 158 mmbn1 {
 	end
 		delay = 5
 }
-script 162 mmbn1 {
+script 162 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -443,7 +443,7 @@ script 162 mmbn1 {
 	end
 		delay = 5
 }
-script 166 mmbn1 {
+script 166 mmbn1-lc {
 	msgOpen
 	"""
 	Remover a
@@ -477,7 +477,7 @@ script 166 mmbn1 {
 	end
 		delay = 0
 }
-script 167 mmbn1 {
+script 167 mmbn1-lc {
 	msgOpen
 	"""
 	Você remove a
@@ -496,7 +496,7 @@ script 167 mmbn1 {
 	end
 		delay = 5
 }
-script 171 mmbn1 {
+script 171 mmbn1-lc {
 	msgOpen
 	"""
 	Insira as baterias
@@ -506,7 +506,7 @@ script 171 mmbn1 {
 	end
 		delay = 5
 }
-script 179 mmbn1 {
+script 179 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -525,14 +525,14 @@ script 179 mmbn1 {
 		delay = 0
 	mugshotAnimate
 		animation = 2
-	"Vamos em frente!"
+	"Vamos indo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
 	end
 		delay = 5
 }
-script 183 mmbn1 {
+script 183 mmbn1-lc {
 	msgOpen
 	"""
 	Desligar o
@@ -566,7 +566,7 @@ script 183 mmbn1 {
 	end
 		delay = 5
 }
-script 184 mmbn1 {
+script 184 mmbn1-lc {
 	checkFlag
 		flag = 221
 		jumpIfTrue = 247
@@ -580,7 +580,7 @@ script 184 mmbn1 {
 	end
 		delay = 5
 }
-script 188 mmbn1 {
+script 188 mmbn1-lc {
 	msgOpen
 	"Aviso!!"
 	keyWait
@@ -589,7 +589,7 @@ script 188 mmbn1 {
 	"""
 	Baterias
 	descarregadas
-	desconectadas!
+	detectadas!
 	"""
 	keyWait
 	clearMsg
@@ -603,7 +603,7 @@ script 188 mmbn1 {
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	msgOpen
 	"Aviso!!"
 	keyWait
@@ -621,7 +621,7 @@ script 192 mmbn1 {
 script 195 mmbn1s {
 	end
 }
-script 196 mmbn1 {
+script 196 mmbn1-lc {
 	flagClear
 		flag = 211
 	msgOpen
@@ -660,7 +660,7 @@ script 196 mmbn1 {
 		flag = 211
 	waitHold
 }
-script 197 mmbn1 {
+script 197 mmbn1-lc {
 	msgOpenQuick
 	"Bateria instalada."
 	keyWait
@@ -679,7 +679,7 @@ script 197 mmbn1 {
 	end
 		delay = 5
 }
-script 200 mmbn1 {
+script 200 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -707,7 +707,7 @@ script 200 mmbn1 {
 	end
 		delay = 5
 }
-script 201 mmbn1 {
+script 201 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -728,7 +728,7 @@ script 201 mmbn1 {
 	end
 		delay = 5
 }
-script 202 mmbn1 {
+script 202 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -749,127 +749,7 @@ script 202 mmbn1 {
 	end
 		delay = 5
 }
-script 203 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	end
-		delay = 5
-}
-script 204 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	end
-		delay = 5
-}
-script 205 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	end
-		delay = 5
-}
-script 206 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	end
-		delay = 5
-}
-script 207 mmbn1 {
+script 203 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -899,154 +779,10 @@ script 207 mmbn1 {
 		padLeft = false
 		item = 81
 	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
 	end
 		delay = 5
 }
-script 208 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	end
-		delay = 5
-}
-script 209 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	end
-		delay = 5
-}
-script 210 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	end
-		delay = 5
-}
-script 211 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	end
-		delay = 5
-}
-script 212 mmbn1 {
+script 204 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1064,22 +800,10 @@ script 212 mmbn1 {
 		padLeft = false
 		item = 82
 	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
 	end
 		delay = 5
 }
-script 213 mmbn1 {
+script 205 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1109,22 +833,10 @@ script 213 mmbn1 {
 		padLeft = false
 		item = 82
 	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
 	end
 		delay = 5
 }
-script 214 mmbn1 {
+script 206 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1154,332 +866,10 @@ script 214 mmbn1 {
 		padLeft = false
 		item = 82
 	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
 	end
 		delay = 5
 }
-script 215 mmbn1 {
-	msgOpenQuick
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	end
-		delay = 5
-}
-script 216 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 217 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 218 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 219 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 220 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 221 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 222 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 223 mmbn1 {
+script 207 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1521,6 +911,325 @@ script 223 mmbn1 {
 		padLeft = false
 		item = 82
 	keyWait
+	end
+		delay = 5
+}
+script 208 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 209 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 210 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 211 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 212 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 213 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 214 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 215 mmbn1-lc {
+	msgOpenQuick
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	end
+		delay = 5
+}
+script 216 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
 	clearMsg
 		delay = 0
 	"""
@@ -1536,7 +1245,298 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 217 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 218 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 219 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 220 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 221 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 222 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 223 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 224 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1569,7 +1569,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1614,7 +1614,7 @@ script 225 mmbn1 {
 	end
 		delay = 5
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1659,7 +1659,7 @@ script 226 mmbn1 {
 	end
 		delay = 5
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1716,7 +1716,7 @@ script 227 mmbn1 {
 	end
 		delay = 5
 }
-script 228 mmbn1 {
+script 228 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1761,7 +1761,7 @@ script 228 mmbn1 {
 	end
 		delay = 5
 }
-script 229 mmbn1 {
+script 229 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
@@ -1818,80 +1818,11 @@ script 229 mmbn1 {
 	end
 		delay = 5
 }
-script 230 mmbn1 {
+script 230 mmbn1-lc {
 	msgOpenQuick
 	soundPlay
 		track = 195
 	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "B"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 81
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "C"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 82
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "D"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 83
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "E"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 84
-	keyWait
-	end
-		delay = 5
-}
-script 231 mmbn1 {
-	msgOpenQuick
-	soundPlay
-		track = 195
-	"Bateria instalada."
-	keyWait
-	clearMsg
-		delay = 0
-	"""
-	Baterias "A"
-	restantes: 
-	"""
-	printItemAmount
-		minLength = 0
-		padZeros = false
-		padLeft = false
-		item = 80
 	keyWait
 	clearMsg
 		delay = 0
@@ -1944,7 +1875,76 @@ script 231 mmbn1 {
 	end
 		delay = 5
 }
-script 235 mmbn1 {
+script 231 mmbn1-lc {
+	msgOpenQuick
+	soundPlay
+		track = 195
+	"Bateria instalada."
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "A"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 80
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "B"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 81
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "C"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 82
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "D"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 83
+	keyWait
+	clearMsg
+		delay = 0
+	"""
+	Baterias "E"
+	restantes: 
+	"""
+	printItemAmount
+		minLength = 0
+		padZeros = false
+		padLeft = false
+		item = 84
+	keyWait
+	end
+		delay = 5
+}
+script 235 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -1954,7 +1954,7 @@ script 235 mmbn1 {
 	"Recarregando!\n"
 	mugshotAnimate
 		animation = 1
-	"*zzzzppppt*"
+	"Zzzzppt!"
 	keyWait
 	clearMsg
 		delay = 0
@@ -1969,7 +1969,7 @@ script 235 mmbn1 {
 	jump
 		target = 236
 }
-script 236 mmbn1 {
+script 236 mmbn1-lc {
 	checkItem
 		item = 9
 		amount = 1
@@ -1982,7 +1982,7 @@ script 236 mmbn1 {
 	jump
 		target = 237
 }
-script 237 mmbn1 {
+script 237 mmbn1-lc {
 	checkItem
 		item = 10
 		amount = 1
@@ -1995,7 +1995,7 @@ script 237 mmbn1 {
 	jump
 		target = 238
 }
-script 238 mmbn1 {
+script 238 mmbn1-lc {
 	checkItem
 		item = 11
 		amount = 1
@@ -2008,7 +2008,7 @@ script 238 mmbn1 {
 	jump
 		target = 239
 }
-script 239 mmbn1 {
+script 239 mmbn1-lc {
 	checkItem
 		item = 12
 		amount = 1
@@ -2021,7 +2021,7 @@ script 239 mmbn1 {
 	jump
 		target = 240
 }
-script 240 mmbn1 {
+script 240 mmbn1-lc {
 	checkItem
 		item = 13
 		amount = 1
@@ -2034,7 +2034,7 @@ script 240 mmbn1 {
 	jump
 		target = 241
 }
-script 241 mmbn1 {
+script 241 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -2048,7 +2048,7 @@ script 241 mmbn1 {
 	end
 		delay = 5
 }
-script 242 mmbn1 {
+script 242 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -2077,7 +2077,7 @@ script 242 mmbn1 {
 	end
 		delay = 5
 }
-script 246 mmbn1 {
+script 246 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -2103,7 +2103,7 @@ script 246 mmbn1 {
 	end
 		delay = 5
 }
-script 247 mmbn1 {
+script 247 mmbn1-lc {
 	flagClear
 		flag = 221
 	msgOpen

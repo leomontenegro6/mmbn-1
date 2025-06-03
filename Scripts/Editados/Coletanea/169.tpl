@@ -1,6 +1,6 @@
 @size 229
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -17,7 +17,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -44,7 +44,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 67
@@ -106,25 +106,25 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	flagSet
 		flag = 49
 	end
 		delay = 0
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	flagSet
 		flag = 50
 	end
 		delay = 0
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	flagSet
 		flag = 52
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Parece que é
@@ -135,7 +135,7 @@ script 220 mmbn1 {
 	end
 		delay = 0
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Máquina de vendas
@@ -146,7 +146,7 @@ script 221 mmbn1 {
 	end
 		delay = 0
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Não vai funcionar
@@ -156,7 +156,7 @@ script 222 mmbn1 {
 	end
 		delay = 0
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 67
@@ -170,7 +170,7 @@ script 223 mmbn1 {
 		animation = 2
 	"""
 	Lan! Você tem que
-	apertar esse botão!
+	apertar o botão!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -178,7 +178,7 @@ script 223 mmbn1 {
 	end
 		delay = 0
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Não está
@@ -188,7 +188,7 @@ script 224 mmbn1 {
 	end
 		delay = 0
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	checkChapter
 		lower = 65
 		upper = 67
@@ -224,7 +224,7 @@ script 225 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Recep SciLab\n"
+	"Recep.SciLab\n"
 	option
 		left = 1
 		right = 1
@@ -253,19 +253,19 @@ script 225 mmbn1 {
 	end
 		delay = 0
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	flagSet
 		flag = 49
 	end
 		delay = 0
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	flagSet
 		flag = 50
 	end
 		delay = 0
 }
-script 228 mmbn1 {
+script 228 mmbn1-lc {
 	flagSet
 		flag = 52
 	end

@@ -1,6 +1,6 @@
 @size 55
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -18,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 1
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -38,7 +38,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -54,7 +54,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -84,7 +84,7 @@ script 7 mmbn1 {
 	end
 		delay = 1
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -113,7 +113,7 @@ script 8 mmbn1 {
 	end
 		delay = 1
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -143,7 +143,7 @@ script 9 mmbn1 {
 	end
 		delay = 1
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -196,7 +196,7 @@ script 10 mmbn1 {
 	end
 		delay = 1
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -228,7 +228,7 @@ script 20 mmbn1 {
 		animation = 2
 	"""
 	Aperte [SwitchR]
-	para ver explicação
+	para ver a descrição
 	do chip.
 	"""
 	mugshotAnimate
@@ -237,7 +237,7 @@ script 20 mmbn1 {
 	end
 		delay = 1
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -265,7 +265,7 @@ script 21 mmbn1 {
 	end
 		delay = 1
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -282,7 +282,7 @@ script 22 mmbn1 {
 	end
 		delay = 1
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -302,7 +302,7 @@ script 23 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	mas como podemos
+	mas,como podemos
 	adicionar outro,
 	selecione-o.
 	"""
@@ -312,7 +312,7 @@ script 23 mmbn1 {
 	end
 		delay = 1
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -330,7 +330,7 @@ script 24 mmbn1 {
 	end
 		delay = 1
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -351,7 +351,7 @@ script 25 mmbn1 {
 	"""
 	É possível lutar
 	apenas com seu
-	Atirador,
+	MegaTiro,
 	"""
 	mugshotAnimate
 		animation = 1
@@ -371,7 +371,7 @@ script 25 mmbn1 {
 	end
 		delay = 1
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -389,7 +389,7 @@ script 26 mmbn1 {
 	end
 		delay = 1
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -407,7 +407,7 @@ script 35 mmbn1 {
 	end
 		delay = 1
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -415,9 +415,9 @@ script 36 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Daria para lutar com
-	esse chip,mas vamos
-	continuar.
+	Dá para lutar com
+	esse chip. Pode
+	prosseguir.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -425,7 +425,7 @@ script 36 mmbn1 {
 	end
 		delay = 1
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -443,7 +443,7 @@ script 37 mmbn1 {
 	end
 		delay = 1
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -453,7 +453,7 @@ script 40 mmbn1 {
 	"""
 	Agora,vou explicar
 	como se luta
-	enquanto testamos.
+	enquanto lutamos.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -487,7 +487,7 @@ script 40 mmbn1 {
 	jump
 		target = 41
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotAnimate
 		animation = 2
 	"""
@@ -513,7 +513,7 @@ script 41 mmbn1 {
 	end
 		delay = 1
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -533,8 +533,8 @@ script 42 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Você só pode usar um
-	por vez,então
+	Você só pode usá-los
+	uma vez cada,então,
 	planeje bem!
 	"""
 	mugshotAnimate
@@ -543,7 +543,7 @@ script 42 mmbn1 {
 	end
 		delay = 1
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -560,7 +560,7 @@ script 43 mmbn1 {
 	end
 		delay = 1
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -613,7 +613,7 @@ script 44 mmbn1 {
 	end
 		delay = 1
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0
@@ -631,7 +631,7 @@ script 45 mmbn1 {
 	end
 		delay = 1
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -660,7 +660,7 @@ script 46 mmbn1 {
 	end
 		delay = 1
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 0

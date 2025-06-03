@@ -1,6 +1,6 @@
 @size 10
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -45,8 +45,8 @@ script 0 mmbn1 {
 		animation = 2
 	"""
 	Então,nós deixamos
-	o ar da loja na
-	temperatura certa!
+	o ar da loja no
+	nível certo!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -54,7 +54,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -72,7 +72,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou

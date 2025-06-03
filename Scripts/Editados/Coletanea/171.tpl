@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 67
 		upper = 67
@@ -35,7 +35,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -65,7 +65,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -88,7 +88,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -103,7 +103,7 @@ script 11 mmbn1 {
 	"""
 	O programa de gestão
 	de eletricidade foi
-	apagado
+	apagado e perdemos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -113,9 +113,9 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	e perdemos energia.
-	Mas temos o sufici-
-	ente para executar!
+	energia. Mas temos o
+	suficiente para as
+	operações daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -123,7 +123,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -141,7 +141,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -151,7 +151,7 @@ script 16 mmbn1 {
 	"""
 	O programa de gestão
 	de eletricidade foi
-	apagado
+	apagado e perdemos
 	"""
 	mugshotAnimate
 		animation = 1
@@ -161,9 +161,9 @@ script 16 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	e perdemos energia.
-	Mas temos o sufici-
-	ente para executar!
+	energia. Mas temos o
+	suficiente para as
+	operações daqui.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -171,7 +171,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -196,7 +196,7 @@ script 17 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	O computador que
@@ -206,7 +206,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Normalmente,o
@@ -217,7 +217,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	O monitor é conec-
@@ -228,7 +228,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Alguém escreveu no
@@ -245,7 +245,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"Está trancada."
 	keyWait

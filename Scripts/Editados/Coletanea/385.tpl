@@ -1,6 +1,6 @@
 @size 256
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -11,7 +11,7 @@ script 0 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -22,7 +22,7 @@ script 1 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -33,7 +33,7 @@ script 2 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -44,7 +44,7 @@ script 3 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -55,7 +55,7 @@ script 4 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -66,7 +66,7 @@ script 5 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -77,7 +77,7 @@ script 6 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -88,7 +88,7 @@ script 7 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -99,18 +99,18 @@ script 8 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Bomba com\n  explosão\n  Dist=3"
+	"  Bomba tão\n  potente\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -121,7 +121,7 @@ script 10 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -132,7 +132,7 @@ script 11 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -143,7 +143,7 @@ script 12 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -154,7 +154,7 @@ script 13 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -165,7 +165,7 @@ script 14 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -176,7 +176,7 @@ script 15 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -187,7 +187,7 @@ script 16 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -198,7 +198,7 @@ script 17 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -209,7 +209,7 @@ script 18 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -220,7 +220,7 @@ script 19 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -231,7 +231,7 @@ script 20 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -242,7 +242,7 @@ script 21 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -253,7 +253,7 @@ script 22 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -264,7 +264,7 @@ script 23 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -275,40 +275,40 @@ script 24 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Corta pela\n  coluna\n  Dist=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Corta pela\n  coluna\n  Dist=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Corta pela\n  coluna\n  Dist=1"
+	"  Corta\n  coluna\n  Dist=1"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -319,7 +319,7 @@ script 28 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 29 mmbn1 {
+script 29 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -330,7 +330,7 @@ script 29 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -341,7 +341,7 @@ script 30 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -352,7 +352,7 @@ script 31 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -363,18 +363,18 @@ script 32 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 33 mmbn1 {
+script 33 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Cavaleiro\n  lendário\n  Dist=3"
+	"  Espada\n  lendária\n  Dist=3"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 34 mmbn1 {
+script 34 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -385,7 +385,7 @@ script 34 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -395,7 +395,7 @@ script 35 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -405,18 +405,7 @@ script 36 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 37 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Rajada de\n  3 flechas\n  explosivas"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 38 mmbn1 {
+script 37 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -427,7 +416,7 @@ script 38 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 39 mmbn1 {
+script 38 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -438,7 +427,18 @@ script 39 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 40 mmbn1 {
+script 39 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Rajada de\n  3 flechas\n  explosivas"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 40 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -449,7 +449,7 @@ script 40 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -460,7 +460,7 @@ script 41 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -471,7 +471,7 @@ script 42 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -482,7 +482,7 @@ script 43 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -493,7 +493,7 @@ script 44 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -504,7 +504,7 @@ script 45 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -515,7 +515,7 @@ script 46 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -525,7 +525,7 @@ script 47 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 48 mmbn1 {
+script 48 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -535,7 +535,7 @@ script 48 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 49 mmbn1 {
+script 49 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -546,7 +546,7 @@ script 49 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -557,7 +557,7 @@ script 50 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -568,7 +568,7 @@ script 51 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -579,7 +579,7 @@ script 52 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -589,7 +589,7 @@ script 53 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -599,7 +599,7 @@ script 54 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -610,7 +610,7 @@ script 55 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -620,7 +620,7 @@ script 56 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -630,18 +630,7 @@ script 57 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 58 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Rato que\n  dobra\n  uma vez"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 59 mmbn1 {
+script 58 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -652,7 +641,7 @@ script 59 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 60 mmbn1 {
+script 59 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -663,7 +652,18 @@ script 60 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 61 mmbn1 {
+script 60 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Rato que\n  dobra\n  uma vez"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 61 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -674,7 +674,7 @@ script 61 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -685,7 +685,7 @@ script 62 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -696,7 +696,7 @@ script 63 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -707,7 +707,7 @@ script 64 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -718,7 +718,7 @@ script 65 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 66 mmbn1 {
+script 66 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -728,7 +728,7 @@ script 66 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 67 mmbn1 {
+script 67 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -739,7 +739,7 @@ script 67 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 68 mmbn1 {
+script 68 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -750,7 +750,7 @@ script 68 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 69 mmbn1 {
+script 69 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -761,7 +761,7 @@ script 69 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -772,7 +772,7 @@ script 70 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -783,7 +783,7 @@ script 71 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -794,7 +794,7 @@ script 72 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -805,7 +805,7 @@ script 73 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -816,7 +816,7 @@ script 74 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 75 mmbn1 {
+script 75 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -826,7 +826,7 @@ script 75 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 76 mmbn1 {
+script 76 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -837,7 +837,7 @@ script 76 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 77 mmbn1 {
+script 77 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -847,7 +847,7 @@ script 77 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 78 mmbn1 {
+script 78 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -857,7 +857,7 @@ script 78 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 79 mmbn1 {
+script 79 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -868,7 +868,7 @@ script 79 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 80 mmbn1 {
+script 80 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -879,7 +879,7 @@ script 80 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 81 mmbn1 {
+script 81 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -889,18 +889,18 @@ script 81 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 82 mmbn1 {
+script 82 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
 		delay = 0
 	msgOpenQuick
-	"  Fuja de\n  inimigos\n  maiores"
+	"  Fuja de\n  inimigos"
 	flagSet
 		flag = 1030
 	waitHold
 }
-script 83 mmbn1 {
+script 83 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -911,7 +911,7 @@ script 83 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 84 mmbn1 {
+script 84 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -922,7 +922,7 @@ script 84 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 85 mmbn1 {
+script 85 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -933,7 +933,7 @@ script 85 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 86 mmbn1 {
+script 86 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -944,7 +944,7 @@ script 86 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 87 mmbn1 {
+script 87 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -955,7 +955,7 @@ script 87 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 88 mmbn1 {
+script 88 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -966,7 +966,7 @@ script 88 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 89 mmbn1 {
+script 89 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -976,7 +976,7 @@ script 89 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 90 mmbn1 {
+script 90 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -986,18 +986,7 @@ script 90 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 91 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Chove de\n  cima-baixo\n  1 coluna"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 92 mmbn1 {
+script 91 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1008,7 +997,7 @@ script 92 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 93 mmbn1 {
+script 92 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1019,7 +1008,18 @@ script 93 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 94 mmbn1 {
+script 93 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Chove de\n  cima-baixo\n  1 coluna"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 94 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1030,7 +1030,7 @@ script 94 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 95 mmbn1 {
+script 95 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1041,7 +1041,7 @@ script 95 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 96 mmbn1 {
+script 96 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1051,18 +1051,7 @@ script 96 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 97 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Põe bomba-\n  relógio\n  no inimigo"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 98 mmbn1 {
+script 97 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1073,7 +1062,7 @@ script 98 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 99 mmbn1 {
+script 98 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1084,7 +1073,18 @@ script 99 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 100 mmbn1 {
+script 99 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Põe bomba-\n  relógio\n  no inimigo"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 100 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1095,7 +1095,7 @@ script 100 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 101 mmbn1 {
+script 101 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1106,7 +1106,7 @@ script 101 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 102 mmbn1 {
+script 102 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1117,7 +1117,7 @@ script 102 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 103 mmbn1 {
+script 103 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1128,7 +1128,7 @@ script 103 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 104 mmbn1 {
+script 104 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1138,18 +1138,7 @@ script 104 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 105 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Esmaga via\n  controle\n  remoto!"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 106 mmbn1 {
+script 105 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1160,7 +1149,7 @@ script 106 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 107 mmbn1 {
+script 106 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1171,7 +1160,18 @@ script 107 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 108 mmbn1 {
+script 107 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Esmaga via\n  controle\n  remoto!"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 108 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1182,7 +1182,7 @@ script 108 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 109 mmbn1 {
+script 109 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1193,7 +1193,7 @@ script 109 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1204,7 +1204,7 @@ script 110 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 111 mmbn1 {
+script 111 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1215,7 +1215,7 @@ script 111 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 112 mmbn1 {
+script 112 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1226,7 +1226,7 @@ script 112 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 113 mmbn1 {
+script 113 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1237,7 +1237,7 @@ script 113 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 114 mmbn1 {
+script 114 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1248,7 +1248,7 @@ script 114 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 115 mmbn1 {
+script 115 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1259,7 +1259,7 @@ script 115 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 116 mmbn1 {
+script 116 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1270,7 +1270,7 @@ script 116 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 117 mmbn1 {
+script 117 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1281,7 +1281,7 @@ script 117 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 118 mmbn1 {
+script 118 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1292,7 +1292,7 @@ script 118 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 119 mmbn1 {
+script 119 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1303,7 +1303,7 @@ script 119 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 120 mmbn1 {
+script 120 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1313,18 +1313,7 @@ script 120 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 121 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Drena PV\n  do\n  inimigo"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 122 mmbn1 {
+script 121 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1335,7 +1324,7 @@ script 122 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 123 mmbn1 {
+script 122 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1346,7 +1335,18 @@ script 123 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 124 mmbn1 {
+script 123 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Drena PV\n  do\n  inimigo"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 124 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1357,7 +1357,7 @@ script 124 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 125 mmbn1 {
+script 125 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1368,7 +1368,7 @@ script 125 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 126 mmbn1 {
+script 126 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1379,7 +1379,7 @@ script 126 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 127 mmbn1 {
+script 127 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1390,7 +1390,7 @@ script 127 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 128 mmbn1 {
+script 128 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1401,7 +1401,7 @@ script 128 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 129 mmbn1 {
+script 129 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1412,7 +1412,7 @@ script 129 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 130 mmbn1 {
+script 130 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1423,7 +1423,7 @@ script 130 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 131 mmbn1 {
+script 131 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1434,7 +1434,7 @@ script 131 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 132 mmbn1 {
+script 132 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1445,7 +1445,7 @@ script 132 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 133 mmbn1 {
+script 133 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1456,7 +1456,7 @@ script 133 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 134 mmbn1 {
+script 134 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1467,7 +1467,7 @@ script 134 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 135 mmbn1 {
+script 135 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1478,7 +1478,7 @@ script 135 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 136 mmbn1 {
+script 136 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1489,7 +1489,7 @@ script 136 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 137 mmbn1 {
+script 137 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1500,7 +1500,7 @@ script 137 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 138 mmbn1 {
+script 138 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1511,7 +1511,7 @@ script 138 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 139 mmbn1 {
+script 139 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1522,7 +1522,7 @@ script 139 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 140 mmbn1 {
+script 140 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1533,7 +1533,7 @@ script 140 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 141 mmbn1 {
+script 141 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1544,7 +1544,7 @@ script 141 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 142 mmbn1 {
+script 142 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1555,7 +1555,7 @@ script 142 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 143 mmbn1 {
+script 143 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1565,7 +1565,7 @@ script 143 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 144 mmbn1 {
+script 144 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1575,7 +1575,7 @@ script 144 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 145 mmbn1 {
+script 145 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1586,7 +1586,7 @@ script 145 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 146 mmbn1 {
+script 146 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1597,7 +1597,7 @@ script 146 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 147 mmbn1 {
+script 147 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1608,7 +1608,7 @@ script 147 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 148 mmbn1 {
+script 148 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1619,7 +1619,7 @@ script 148 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 149 mmbn1 {
+script 149 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1630,7 +1630,7 @@ script 149 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 150 mmbn1 {
+script 150 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1641,7 +1641,7 @@ script 150 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 151 mmbn1 {
+script 151 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1652,7 +1652,7 @@ script 151 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 152 mmbn1 {
+script 152 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1663,7 +1663,7 @@ script 152 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 153 mmbn1 {
+script 153 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1674,7 +1674,7 @@ script 153 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 154 mmbn1 {
+script 154 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1684,7 +1684,7 @@ script 154 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 155 mmbn1 {
+script 155 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1694,7 +1694,7 @@ script 155 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 156 mmbn1 {
+script 156 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1704,18 +1704,7 @@ script 156 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 157 mmbn1 {
-	soundDisableTextSFX
-	controlLock
-	textSpeed
-		delay = 0
-	msgOpenQuick
-	"  Fogo mág.\n  =deleção\n  imediata?!"
-	flagSet
-		flag = 1030
-	waitHold
-}
-script 158 mmbn1 {
+script 157 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1726,7 +1715,7 @@ script 158 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 159 mmbn1 {
+script 158 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1737,7 +1726,18 @@ script 159 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 160 mmbn1 {
+script 159 mmbn1-lc {
+	soundDisableTextSFX
+	controlLock
+	textSpeed
+		delay = 0
+	msgOpenQuick
+	"  Fogo mág.\n  =deleção\n  imediata?!"
+	flagSet
+		flag = 1030
+	waitHold
+}
+script 160 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1748,7 +1748,7 @@ script 160 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 161 mmbn1 {
+script 161 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1759,7 +1759,7 @@ script 161 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 162 mmbn1 {
+script 162 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1770,7 +1770,7 @@ script 162 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 163 mmbn1 {
+script 163 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1781,7 +1781,7 @@ script 163 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 164 mmbn1 {
+script 164 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1792,7 +1792,7 @@ script 164 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 165 mmbn1 {
+script 165 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1803,7 +1803,7 @@ script 165 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 166 mmbn1 {
+script 166 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1814,7 +1814,7 @@ script 166 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 167 mmbn1 {
+script 167 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1825,7 +1825,7 @@ script 167 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 168 mmbn1 {
+script 168 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1836,7 +1836,7 @@ script 168 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 169 mmbn1 {
+script 169 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1847,7 +1847,7 @@ script 169 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 170 mmbn1 {
+script 170 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1858,7 +1858,7 @@ script 170 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 171 mmbn1 {
+script 171 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1869,7 +1869,7 @@ script 171 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 172 mmbn1 {
+script 172 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1880,7 +1880,7 @@ script 172 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 173 mmbn1 {
+script 173 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1891,7 +1891,7 @@ script 173 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 174 mmbn1 {
+script 174 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1902,7 +1902,7 @@ script 174 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 175 mmbn1 {
+script 175 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1913,7 +1913,7 @@ script 175 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 176 mmbn1 {
+script 176 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1924,7 +1924,7 @@ script 176 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 177 mmbn1 {
+script 177 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1935,7 +1935,7 @@ script 177 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 178 mmbn1 {
+script 178 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1946,7 +1946,7 @@ script 178 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 179 mmbn1 {
+script 179 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1957,7 +1957,7 @@ script 179 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 180 mmbn1 {
+script 180 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1968,7 +1968,7 @@ script 180 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 181 mmbn1 {
+script 181 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1979,7 +1979,7 @@ script 181 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 182 mmbn1 {
+script 182 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -1990,7 +1990,7 @@ script 182 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 183 mmbn1 {
+script 183 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2001,7 +2001,7 @@ script 183 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 184 mmbn1 {
+script 184 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2012,7 +2012,7 @@ script 184 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 185 mmbn1 {
+script 185 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2023,7 +2023,7 @@ script 185 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 186 mmbn1 {
+script 186 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2034,7 +2034,7 @@ script 186 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 187 mmbn1 {
+script 187 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2045,7 +2045,7 @@ script 187 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 188 mmbn1 {
+script 188 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2056,7 +2056,7 @@ script 188 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 189 mmbn1 {
+script 189 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2067,7 +2067,7 @@ script 189 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2078,7 +2078,7 @@ script 190 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2089,7 +2089,7 @@ script 191 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2100,7 +2100,7 @@ script 192 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2111,7 +2111,7 @@ script 193 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2122,7 +2122,7 @@ script 194 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 195 mmbn1 {
+script 195 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2133,7 +2133,7 @@ script 195 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 196 mmbn1 {
+script 196 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2144,7 +2144,7 @@ script 196 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 197 mmbn1 {
+script 197 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2155,7 +2155,7 @@ script 197 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 198 mmbn1 {
+script 198 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2166,7 +2166,7 @@ script 198 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 199 mmbn1 {
+script 199 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2177,7 +2177,7 @@ script 199 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 200 mmbn1 {
+script 200 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2187,7 +2187,7 @@ script 200 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 201 mmbn1 {
+script 201 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2197,7 +2197,7 @@ script 201 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 202 mmbn1 {
+script 202 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2207,7 +2207,7 @@ script 202 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 203 mmbn1 {
+script 203 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2217,7 +2217,7 @@ script 203 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 204 mmbn1 {
+script 204 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2227,7 +2227,7 @@ script 204 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 205 mmbn1 {
+script 205 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2237,7 +2237,7 @@ script 205 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 206 mmbn1 {
+script 206 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2247,7 +2247,7 @@ script 206 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 207 mmbn1 {
+script 207 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2257,7 +2257,7 @@ script 207 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 208 mmbn1 {
+script 208 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2267,7 +2267,7 @@ script 208 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 209 mmbn1 {
+script 209 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2277,7 +2277,7 @@ script 209 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 210 mmbn1 {
+script 210 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2287,7 +2287,7 @@ script 210 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 211 mmbn1 {
+script 211 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2297,7 +2297,7 @@ script 211 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 212 mmbn1 {
+script 212 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2307,7 +2307,7 @@ script 212 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 213 mmbn1 {
+script 213 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2317,7 +2317,7 @@ script 213 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 214 mmbn1 {
+script 214 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2327,7 +2327,7 @@ script 214 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 215 mmbn1 {
+script 215 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2337,7 +2337,7 @@ script 215 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 216 mmbn1 {
+script 216 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2347,7 +2347,7 @@ script 216 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 217 mmbn1 {
+script 217 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2357,7 +2357,7 @@ script 217 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 218 mmbn1 {
+script 218 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2367,7 +2367,7 @@ script 218 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 219 mmbn1 {
+script 219 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2377,7 +2377,7 @@ script 219 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2387,7 +2387,7 @@ script 220 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2397,7 +2397,7 @@ script 221 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2407,7 +2407,7 @@ script 222 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2417,7 +2417,7 @@ script 223 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2427,7 +2427,7 @@ script 224 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2437,7 +2437,7 @@ script 225 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2447,7 +2447,7 @@ script 226 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2457,7 +2457,7 @@ script 227 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 228 mmbn1 {
+script 228 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2467,7 +2467,7 @@ script 228 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 229 mmbn1 {
+script 229 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2477,7 +2477,7 @@ script 229 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 230 mmbn1 {
+script 230 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2487,7 +2487,7 @@ script 230 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 231 mmbn1 {
+script 231 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2497,7 +2497,7 @@ script 231 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 232 mmbn1 {
+script 232 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2507,7 +2507,7 @@ script 232 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 233 mmbn1 {
+script 233 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2517,7 +2517,7 @@ script 233 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 234 mmbn1 {
+script 234 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2527,7 +2527,7 @@ script 234 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 235 mmbn1 {
+script 235 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2537,7 +2537,7 @@ script 235 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 236 mmbn1 {
+script 236 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2547,7 +2547,7 @@ script 236 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 237 mmbn1 {
+script 237 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2557,7 +2557,7 @@ script 237 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 238 mmbn1 {
+script 238 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2567,7 +2567,7 @@ script 238 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 239 mmbn1 {
+script 239 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2577,7 +2577,7 @@ script 239 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 240 mmbn1 {
+script 240 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2588,7 +2588,7 @@ script 240 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 241 mmbn1 {
+script 241 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2599,7 +2599,7 @@ script 241 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 242 mmbn1 {
+script 242 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2609,7 +2609,7 @@ script 242 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 243 mmbn1 {
+script 243 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2619,7 +2619,7 @@ script 243 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 244 mmbn1 {
+script 244 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2634,7 +2634,7 @@ script 244 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 245 mmbn1 {
+script 245 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2649,7 +2649,7 @@ script 245 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 246 mmbn1 {
+script 246 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2664,7 +2664,7 @@ script 246 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 247 mmbn1 {
+script 247 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2674,7 +2674,7 @@ script 247 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 248 mmbn1 {
+script 248 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2684,7 +2684,7 @@ script 248 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 249 mmbn1 {
+script 249 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2694,7 +2694,7 @@ script 249 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 250 mmbn1 {
+script 250 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2704,7 +2704,7 @@ script 250 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 251 mmbn1 {
+script 251 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2714,7 +2714,7 @@ script 251 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 252 mmbn1 {
+script 252 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2724,7 +2724,7 @@ script 252 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 253 mmbn1 {
+script 253 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2734,7 +2734,7 @@ script 253 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 254 mmbn1 {
+script 254 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed
@@ -2744,7 +2744,7 @@ script 254 mmbn1 {
 		flag = 1030
 	waitHold
 }
-script 255 mmbn1 {
+script 255 mmbn1-lc {
 	soundDisableTextSFX
 	controlLock
 	textSpeed

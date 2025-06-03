@@ -1,6 +1,6 @@
 @size 8
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Passou-se um mês
@@ -19,15 +19,15 @@ script 0 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	A paz não durou
-	muito no Bairro
-	ACDC...
+	Naturalmente,a paz
+	não durou muito no
+	Bairro ACDC...
 	"""
 	keyWait
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -43,7 +43,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -57,7 +57,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -76,7 +76,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -92,7 +92,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -108,7 +108,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -128,7 +128,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -136,8 +136,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,cara,tá me
-	zoando!
+	Ah,cara!
+	Tá me zoando!
 	"""
 	mugshotAnimate
 		animation = 1

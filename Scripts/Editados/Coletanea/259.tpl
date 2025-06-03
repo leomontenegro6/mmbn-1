@@ -1,6 +1,6 @@
 @size 3
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Vários dias após o
@@ -11,7 +11,7 @@ script 0 mmbn1 {
 	end
 		delay = 10
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	msgOpen
 	soundDisableTextSFX
 	"*tap*"
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	end
 		delay = 10
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 1
@@ -61,10 +61,10 @@ script 2 mmbn1 {
 	"."
 	waitSkip
 		frames = 30
-	"."
+	". "
 	waitSkip
 		frames = 30
-	"*sorriso*"
+	"He."
 	keyWait
 	end
 		delay = 10

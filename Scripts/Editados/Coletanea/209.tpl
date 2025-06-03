@@ -1,10 +1,11 @@
 @size 20
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
-	Parece ter conexão
-	pela net...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
@@ -17,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 7
 	msgOpen
@@ -37,7 +38,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -86,7 +87,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChipCode
 		chip = 68
 		code = L
@@ -132,7 +133,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -150,7 +151,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	checkFlag
 		flag = 227
 		jumpIfTrue = 18
@@ -210,7 +211,7 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -244,7 +245,7 @@ script 16 mmbn1 {
 	jump
 		target = 17
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -260,9 +261,9 @@ script 17 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Lan,vamos ver se
-	sua mãe fez um lan-
-	chinho pra gente!
+	Bom,Lan,vamos ver se
+	a sua mãe já termi-
+	nou aquele lanche!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -270,7 +271,7 @@ script 17 mmbn1 {
 	end
 		delay = 5
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	mugshotShow
 		mugshot = Glide
 		palette = 0

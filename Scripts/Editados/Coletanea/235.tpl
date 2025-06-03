@@ -1,6 +1,6 @@
 @size 66
 
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -23,8 +23,8 @@ script 30 mmbn1 {
 			amount = 10000
 		]
 	"""
-	MegaMan pegou 10.000
-	zennys!
+	MegaMan pegou
+	10.000 zennys!
 	"""
 	playerFinish
 	playerUnlock
@@ -32,7 +32,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 777
@@ -52,7 +52,7 @@ script 50 mmbn1 {
 	end
 		delay = 0
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpen
 	startGiveRandomChipCode
 		jumpIfAll = continue
@@ -113,7 +113,7 @@ script 51 mmbn1 {
 	end
 		delay = 0
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpen
 	startGiveRandomZenny
 		jump = continue
@@ -153,7 +153,7 @@ script 52 mmbn1 {
 	end
 		delay = 0
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	msgOpen
 	"""
 	Era um vírus
@@ -167,7 +167,7 @@ script 53 mmbn1 {
 	end
 		delay = 0
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 778
@@ -187,19 +187,19 @@ script 54 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	jump
 		target = 51
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	jump
 		target = 52
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	jump
 		target = 53
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 779
@@ -219,19 +219,19 @@ script 58 mmbn1 {
 	end
 		delay = 0
 }
-script 59 mmbn1 {
+script 59 mmbn1-lc {
 	jump
 		target = 51
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	jump
 		target = 52
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	jump
 		target = 53
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpen
 	flagSet
 		flag = 780
@@ -251,15 +251,15 @@ script 62 mmbn1 {
 	end
 		delay = 0
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	jump
 		target = 51
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	jump
 		target = 52
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	jump
 		target = 53
 }

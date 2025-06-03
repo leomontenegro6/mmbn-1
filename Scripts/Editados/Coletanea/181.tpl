@@ -1,6 +1,6 @@
 @size 31
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	Esta porta está
@@ -29,7 +29,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -46,7 +46,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -68,7 +68,7 @@ script 2 mmbn1 {
 		jumpIfSome = continue
 	"""
 	MegaMan adquiriu o
-	PowerUp:"
+	PowerUp: "
 	"""
 	printItem
 		buffer = 0
@@ -80,7 +80,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -119,7 +119,7 @@ script 3 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	checkFlag
 		flag = 162
 		jumpIfTrue = 7
@@ -196,7 +196,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgClose
 	passcodeStart
 		pickRandom = true
@@ -209,7 +209,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	Esta porta está
@@ -259,7 +259,7 @@ script 7 mmbn1 {
 	end
 		delay = 5
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	msgOpen
 	"""
 	Abortar procedimento
@@ -294,7 +294,7 @@ script 8 mmbn1 {
 	end
 		delay = 5
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	msgOpen
 	"""
 	Finalizar procedi-
@@ -329,7 +329,7 @@ script 9 mmbn1 {
 	end
 		delay = 5
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	passcodeCheck
 		jumpIfTooLow = continue
 		jumpIfTooHigh = 11
@@ -356,7 +356,7 @@ script 10 mmbn1 {
 	jump
 		target = 18
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -375,7 +375,7 @@ script 11 mmbn1 {
 	jump
 		target = 18
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -399,7 +399,7 @@ script 14 mmbn1 {
 	jump
 		target = 18
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -423,7 +423,7 @@ script 15 mmbn1 {
 	jump
 		target = 18
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -447,7 +447,7 @@ script 16 mmbn1 {
 	jump
 		target = 18
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	msgOpen
 	soundPlay
 		track = 108
@@ -471,7 +471,7 @@ script 17 mmbn1 {
 	jump
 		target = 18
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	msgOpen
 	"Tentar de novo?\n"
 	option
@@ -502,7 +502,7 @@ script 18 mmbn1 {
 	end
 		delay = 5
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -523,7 +523,7 @@ script 20 mmbn1 {
 	jump
 		target = 6
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -544,7 +544,7 @@ script 21 mmbn1 {
 	jump
 		target = 6
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -565,7 +565,7 @@ script 22 mmbn1 {
 	jump
 		target = 6
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	msgOpen
 	"""
 	Número de tentativas
@@ -586,7 +586,7 @@ script 23 mmbn1 {
 	jump
 		target = 6
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	msgOpen
 	"""
 	Senha aceita.
@@ -598,7 +598,7 @@ script 25 mmbn1 {
 	jump
 		target = 26
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -623,7 +623,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	checkFlag
 		flag = 193
 		jumpIfTrue = continue
@@ -635,13 +635,13 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	flagSet
 		flag = 184
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0

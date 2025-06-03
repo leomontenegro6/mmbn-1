@@ -1,6 +1,6 @@
 @size 3
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -21,7 +21,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 84
@@ -67,14 +67,17 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Alô,ah! Alô,ah!"
+	"""
+	For-ça!
+	For-ça!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait

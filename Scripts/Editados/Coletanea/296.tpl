@@ -1,6 +1,6 @@
 @size 11
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -31,7 +31,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -48,7 +48,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -60,7 +60,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -68,8 +68,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ahh... Que família
-	bonita!
+	Ahh... Nada como
+	uma família feliz!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -79,14 +79,14 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"É,bonita mesmo..."
+	"É,feliz mesmo..."
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -95,7 +95,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -115,7 +115,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -131,7 +131,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -171,7 +171,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -191,7 +191,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -205,7 +205,7 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpen
 	"""
 	E assim,Lan e
@@ -216,24 +216,24 @@ script 10 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	a WWW fica cada vez
-	mais perto de
+	a WWW ficava cada
+	vez mais perto de
 	controlar a net!
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	E afinal,por que
-	ela está coletando
+	E,afinal,por que
+	ela estava coletando
 	os superprogramas?
 	"""
 	keyWait
 	clearMsg
 		delay = 0
 	"""
-	Caberá a aos dois
-	impedir a WWW e
+	Caberá aos dois
+	deter a WWW e
 	trazer paz à rede!
 	"""
 	keyWait

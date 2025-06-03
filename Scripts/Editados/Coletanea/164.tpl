@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -18,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -37,7 +37,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 51
 		upper = 52
@@ -71,7 +71,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpen
 	"Um ponto de ônibus."
 	waitSkip
@@ -85,7 +85,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -103,7 +103,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -128,7 +128,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -136,7 +136,7 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	O ônibus passou
+	O ônibus passa
 	pelo semáforo
 	nesta esquina.
 	"""
@@ -169,7 +169,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = YoungWoman
 		palette = 0
@@ -187,7 +187,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -222,7 +222,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -251,7 +251,7 @@ script 22 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -261,7 +261,7 @@ script 25 mmbn1 {
 	"""
 	Disseram que o
 	cursinho de verão
-	tá fechado!
+	fechou!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -280,7 +280,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Uma placa do
@@ -290,7 +290,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Você não pode se
@@ -301,7 +301,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 95
@@ -329,7 +329,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Esse semáforo tem

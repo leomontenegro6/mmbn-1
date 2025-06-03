@@ -1,6 +1,6 @@
 @size 6
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -26,7 +26,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -47,8 +47,8 @@ script 1 mmbn1 {
 		animation = 2
 	"""
 	É isso... Nossa
-	luta final contra
-	o vírus...
+	deleção de vírus
+	suprema...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -69,7 +69,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0

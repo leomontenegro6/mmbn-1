@@ -1,6 +1,6 @@
 @size 12
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Mom
 		palette = 0
@@ -28,7 +28,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -36,9 +36,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Olha só,Lan!
-	Você fez um bom
-	trabalho!
+	Lan! Você mandou
+	muito bem!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -48,7 +47,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -76,7 +75,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -104,14 +103,14 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"É..."
+|	"É..."
 	mugshotAnimate
 		animation = 1
 	waitSkip
@@ -131,7 +130,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -172,14 +171,14 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Mas MegaMan"
+	"Mas,MegaMan"
 	mugshotAnimate
 		animation = 1
 	"..."
@@ -209,7 +208,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -229,7 +228,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -276,7 +275,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -285,7 +284,7 @@ script 9 mmbn1 {
 		animation = 2
 	"""
 	Você tá com fome
-	numa hora dessas?!
+	numa hora destas?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -295,7 +294,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -303,9 +302,8 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Ah,é que pensar
-	nisso tudo me deu
-	uma fome...
+	Vai,só um
+	pedacinhooo...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -313,9 +311,9 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	msgOpen
-	"Prossiga..."
+	"\nContinua..."
 	keyWait
 	end
 		delay = 5

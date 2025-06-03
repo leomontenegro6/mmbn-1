@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -32,7 +32,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -48,7 +48,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = PigtailsGirl
 		palette = 0
@@ -65,7 +65,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = SternMan
 		palette = 0
@@ -82,7 +82,7 @@ script 3 mmbn1 {
 	end
 		delay = 5
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta. Seus
@@ -93,7 +93,7 @@ script 4 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta. Seus
@@ -104,7 +104,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgOpen
 	"""
 	Há algo de muito
@@ -115,7 +115,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta. Seus
@@ -126,7 +126,7 @@ script 7 mmbn1 {
 	end
 		delay = 5
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	msgOpen
 	"""
 	Sem resposta. Seus
@@ -137,7 +137,7 @@ script 8 mmbn1 {
 	end
 		delay = 5
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	msgOpen
 	"""
 	Há algo de muito
@@ -148,7 +148,7 @@ script 9 mmbn1 {
 	end
 		delay = 5
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = PigtailsGirl
 		palette = 0
@@ -166,7 +166,7 @@ script 10 mmbn1 {
 	end
 		delay = 5
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -184,7 +184,7 @@ script 11 mmbn1 {
 	end
 		delay = 5
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -209,7 +209,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1064
 		jumpIfTrue = 194
@@ -265,7 +265,7 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	checkFlag
 		flag = 1073
 		jumpIfTrue = 195
@@ -329,7 +329,7 @@ script 191 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Nem!!\n"
+	"Nem!\n"
 	select
 		default = 0
 		disableB = false
@@ -342,7 +342,7 @@ script 191 mmbn1 {
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	checkChipCodePack
 		chip = 31
 		code = G
@@ -404,7 +404,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -422,7 +422,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -439,7 +439,7 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 195 mmbn1 {
+script 195 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -502,7 +502,7 @@ script 195 mmbn1 {
 	end
 		delay = 5
 }
-script 196 mmbn1 {
+script 196 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -530,7 +530,7 @@ script 196 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Alguém escreveu no
@@ -548,7 +548,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Aqui tem livros
@@ -565,7 +565,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Essas mesas são
@@ -576,7 +576,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Mesmo numa sociedade
@@ -594,7 +594,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	As ipoméias costumam
@@ -605,7 +605,7 @@ script 224 mmbn1 {
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	Não pode comer se-
@@ -616,7 +616,7 @@ script 225 mmbn1 {
 	end
 		delay = 5
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	msgOpen
 	"""
 	Este livro não tem
@@ -634,7 +634,7 @@ script 226 mmbn1 {
 	end
 		delay = 5
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	msgOpen
 	"""
 	Essa é a mesa da
@@ -644,7 +644,7 @@ script 227 mmbn1 {
 	end
 		delay = 5
 }
-script 228 mmbn1 {
+script 228 mmbn1-lc {
 	checkChapter
 		lower = 32
 		upper = 95
@@ -676,7 +676,7 @@ script 228 mmbn1 {
 	end
 		delay = 5
 }
-script 229 mmbn1 {
+script 229 mmbn1-lc {
 	msgOpen
 	"""
 	Um cronograma para

@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 223
 	checkFlag
@@ -64,7 +64,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -72,9 +72,9 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hã? A porta da sala
-	de controle está
-	aberta agora.
+	Hã? Parece que a
+	porta da sala de
+	controle se abriu.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -95,7 +95,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -114,7 +114,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -159,7 +159,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -172,8 +172,8 @@ script 11 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Bem assustador quan-
-	do um prédio inteiro
+	Dá um medo quando
+	um prédio inteiro
 	sai de controle!
 	"""
 	mugshotAnimate
@@ -182,7 +182,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -200,7 +200,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -229,7 +229,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1072
 		jumpIfTrue = 204
@@ -310,7 +310,7 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -328,7 +328,7 @@ script 191 mmbn1 {
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -389,7 +389,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -461,7 +461,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -533,7 +533,7 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 195 mmbn1 {
+script 195 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -605,7 +605,7 @@ script 195 mmbn1 {
 	end
 		delay = 5
 }
-script 196 mmbn1 {
+script 196 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -677,7 +677,7 @@ script 196 mmbn1 {
 	end
 		delay = 5
 }
-script 197 mmbn1 {
+script 197 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -748,7 +748,7 @@ script 197 mmbn1 {
 	end
 		delay = 5
 }
-script 198 mmbn1 {
+script 198 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -820,7 +820,7 @@ script 198 mmbn1 {
 	end
 		delay = 5
 }
-script 199 mmbn1 {
+script 199 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -862,7 +862,7 @@ script 199 mmbn1 {
 		down = 1
 	space
 		count = 2
-	"Bloco2\n"
+	"Bloco 2\n"
 	option
 		left = 1
 		right = 1
@@ -870,7 +870,7 @@ script 199 mmbn1 {
 		down = 2
 	space
 		count = 2
-	"Bloco3\n"
+	"Bloco 3\n"
 	option
 		left = 2
 		right = 2
@@ -878,7 +878,7 @@ script 199 mmbn1 {
 		down = 0
 	space
 		count = 2
-	"Bloco4"
+	"Bloco 4"
 	select
 		default = 0
 		disableB = true
@@ -892,7 +892,7 @@ script 199 mmbn1 {
 	end
 		delay = 5
 }
-script 200 mmbn1 {
+script 200 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -964,7 +964,7 @@ script 200 mmbn1 {
 	end
 		delay = 5
 }
-script 201 mmbn1 {
+script 201 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1035,7 +1035,7 @@ script 201 mmbn1 {
 	end
 		delay = 5
 }
-script 202 mmbn1 {
+script 202 mmbn1-lc {
 	flagSet
 		flag = 1072
 	mugshotShow
@@ -1096,7 +1096,7 @@ script 202 mmbn1 {
 	end
 		delay = 5
 }
-script 203 mmbn1 {
+script 203 mmbn1-lc {
 	soundPlay
 		track = 108
 	mugshotShow
@@ -1124,7 +1124,7 @@ script 203 mmbn1 {
 	end
 		delay = 5
 }
-script 204 mmbn1 {
+script 204 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -1142,7 +1142,7 @@ script 204 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Fortemente trancado.
@@ -1153,7 +1153,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 95
@@ -1173,14 +1173,14 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"Está trancado..."
 	keyWait
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	msgOpen
 	"""
 	Somente funcionários

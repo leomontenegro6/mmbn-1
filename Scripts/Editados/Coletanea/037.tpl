@@ -1,6 +1,6 @@
 @size 230
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 34
 		upper = 34
@@ -66,7 +66,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkFlag
 		flag = 226
 		jumpIfTrue = 3
@@ -99,7 +99,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -113,7 +113,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -127,7 +127,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 105 mmbn1 {
+script 105 mmbn1-lc {
 	checkFlag
 		flag = 190
 		jumpIfTrue = 108
@@ -164,7 +164,7 @@ script 105 mmbn1 {
 	end
 		delay = 0
 }
-script 106 mmbn1 {
+script 106 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -193,7 +193,7 @@ script 106 mmbn1 {
 script 107 mmbn1s {
 	end
 }
-script 108 mmbn1 {
+script 108 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -202,8 +202,8 @@ script 108 mmbn1 {
 		animation = 2
 	"""
 	Vamos nos esconder e
-	entrar na net quando
-	todo mundo
+	entrar na Rede
+	quando todo mundo
 	"""
 	mugshotAnimate
 		animation = 1
@@ -219,7 +219,7 @@ script 108 mmbn1 {
 	end
 		delay = 0
 }
-script 110 mmbn1 {
+script 110 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -236,7 +236,7 @@ script 110 mmbn1 {
 	end
 		delay = 0
 }
-script 115 mmbn1 {
+script 115 mmbn1-lc {
 	checkFlag
 		flag = 176
 		jumpIfTrue = 117
@@ -264,7 +264,7 @@ script 115 mmbn1 {
 script 116 mmbn1s {
 	end
 }
-script 117 mmbn1 {
+script 117 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -281,7 +281,7 @@ script 117 mmbn1 {
 	end
 		delay = 0
 }
-script 120 mmbn1 {
+script 120 mmbn1-lc {
 	checkFlag
 		flag = 217
 		jumpIfTrue = 121
@@ -293,7 +293,7 @@ script 120 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Bora falar com o
+	Bora avisar pro
 	Froid sobre o filho
 	dele!
 	"""
@@ -303,7 +303,7 @@ script 120 mmbn1 {
 	end
 		delay = 0
 }
-script 121 mmbn1 {
+script 121 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -321,7 +321,7 @@ script 121 mmbn1 {
 	end
 		delay = 0
 }
-script 125 mmbn1 {
+script 125 mmbn1-lc {
 	checkFlag
 		flag = 202
 		jumpIfTrue = 129
@@ -354,7 +354,7 @@ script 125 mmbn1 {
 	end
 		delay = 0
 }
-script 126 mmbn1 {
+script 126 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -372,7 +372,7 @@ script 126 mmbn1 {
 	end
 		delay = 0
 }
-script 127 mmbn1 {
+script 127 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -390,7 +390,7 @@ script 127 mmbn1 {
 	end
 		delay = 0
 }
-script 128 mmbn1 {
+script 128 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -416,7 +416,7 @@ script 128 mmbn1 {
 	end
 		delay = 0
 }
-script 129 mmbn1 {
+script 129 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -442,7 +442,7 @@ script 129 mmbn1 {
 	end
 		delay = 0
 }
-script 165 mmbn1 {
+script 165 mmbn1-lc {
 	checkFlag
 		flag = 159
 		jumpIfTrue = 169
@@ -476,7 +476,7 @@ script 165 mmbn1 {
 	end
 		delay = 0
 }
-script 166 mmbn1 {
+script 166 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -494,7 +494,7 @@ script 166 mmbn1 {
 	end
 		delay = 0
 }
-script 167 mmbn1 {
+script 167 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -512,7 +512,7 @@ script 167 mmbn1 {
 	end
 		delay = 0
 }
-script 168 mmbn1 {
+script 168 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -529,7 +529,7 @@ script 168 mmbn1 {
 	end
 		delay = 0
 }
-script 169 mmbn1 {
+script 169 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -547,7 +547,7 @@ script 169 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 113
 		jumpIfTrue = 191
@@ -573,7 +573,7 @@ script 190 mmbn1 {
 	end
 		delay = 0
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	checkFlag
 		flag = 148
 		jumpIfTrue = 192
@@ -595,7 +595,7 @@ script 191 mmbn1 {
 	end
 		delay = 0
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	checkFlag
 		flag = 151
 		jumpIfTrue = 193
@@ -617,7 +617,7 @@ script 192 mmbn1 {
 	end
 		delay = 0
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	checkItem
 		item = 52
 		amount = 1
@@ -641,7 +641,7 @@ script 193 mmbn1 {
 	end
 		delay = 0
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -659,7 +659,7 @@ script 194 mmbn1 {
 	end
 		delay = 0
 }
-script 200 mmbn1 {
+script 200 mmbn1-lc {
 	checkFlag
 		flag = 152
 		jumpIfTrue = 201
@@ -681,7 +681,7 @@ script 200 mmbn1 {
 	end
 		delay = 0
 }
-script 201 mmbn1 {
+script 201 mmbn1-lc {
 	checkItem
 		item = 53
 		amount = 1
@@ -705,7 +705,7 @@ script 201 mmbn1 {
 	end
 		delay = 0
 }
-script 202 mmbn1 {
+script 202 mmbn1-lc {
 	checkFlag
 		flag = 153
 		jumpIfTrue = 203
@@ -735,7 +735,7 @@ script 202 mmbn1 {
 	end
 		delay = 0
 }
-script 203 mmbn1 {
+script 203 mmbn1-lc {
 	checkItem
 		item = 54
 		amount = 1
@@ -759,7 +759,7 @@ script 203 mmbn1 {
 	end
 		delay = 0
 }
-script 204 mmbn1 {
+script 204 mmbn1-lc {
 	checkFlag
 		flag = 145
 		jumpIfTrue = 205
@@ -781,7 +781,7 @@ script 204 mmbn1 {
 	end
 		delay = 0
 }
-script 205 mmbn1 {
+script 205 mmbn1-lc {
 	checkItem
 		item = 55
 		amount = 1
@@ -805,7 +805,7 @@ script 205 mmbn1 {
 	end
 		delay = 0
 }
-script 206 mmbn1 {
+script 206 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -823,7 +823,7 @@ script 206 mmbn1 {
 	end
 		delay = 0
 }
-script 210 mmbn1 {
+script 210 mmbn1-lc {
 	checkFlag
 		flag = 159
 		jumpIfTrue = 211
@@ -845,7 +845,7 @@ script 210 mmbn1 {
 	end
 		delay = 0
 }
-script 211 mmbn1 {
+script 211 mmbn1-lc {
 	checkFlag
 		flag = 158
 		jumpIfTrue = 212
@@ -867,7 +867,7 @@ script 211 mmbn1 {
 	end
 		delay = 0
 }
-script 212 mmbn1 {
+script 212 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -885,7 +885,7 @@ script 212 mmbn1 {
 	end
 		delay = 0
 }
-script 215 mmbn1 {
+script 215 mmbn1-lc {
 	checkFlag
 		flag = 114
 		jumpIfTrue = 216
@@ -913,7 +913,7 @@ script 215 mmbn1 {
 	end
 		delay = 0
 }
-script 216 mmbn1 {
+script 216 mmbn1-lc {
 	checkItem
 		item = 15
 		amount = 1
@@ -937,7 +937,7 @@ script 216 mmbn1 {
 	end
 		delay = 0
 }
-script 217 mmbn1 {
+script 217 mmbn1-lc {
 	checkFlag
 		flag = 165
 		jumpIfTrue = 218
@@ -970,7 +970,7 @@ script 217 mmbn1 {
 	end
 		delay = 0
 }
-script 218 mmbn1 {
+script 218 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -988,7 +988,7 @@ script 218 mmbn1 {
 	end
 		delay = 0
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	checkFlag
 		flag = 170
 		jumpIfTrue = 226
@@ -1010,7 +1010,7 @@ script 225 mmbn1 {
 	end
 		delay = 0
 }
-script 226 mmbn1 {
+script 226 mmbn1-lc {
 	checkFlag
 		flag = 175
 		jumpIfTrue = 227
@@ -1031,7 +1031,7 @@ script 226 mmbn1 {
 	end
 		delay = 0
 }
-script 227 mmbn1 {
+script 227 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0

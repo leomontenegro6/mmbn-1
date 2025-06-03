@@ -1,6 +1,6 @@
 @size 10
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -41,19 +41,19 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	clearMsg
 		delay = 5
 	mugshotAnimate
 		animation = 2
-	"OK! É pra já!"
+	"OK! Beleza!"
 	mugshotAnimate
 		animation = 1
 	keyWait
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -70,7 +70,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -100,7 +100,7 @@ script 6 mmbn1 {
 	end
 		delay = 5
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0

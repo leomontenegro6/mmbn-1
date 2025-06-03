@@ -1,6 +1,6 @@
 @size 5
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -16,14 +16,14 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Uh... Ai"
+	"Uhn... Ai"
 	mugshotAnimate
 		animation = 1
 	"...\n"
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	"\n"
 	mugshotAnimate
 		animation = 2
-	"Obrigada,MegaMan!"
+	"Obrigada,Mega!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -49,7 +49,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -68,7 +68,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Roll
 		palette = 0
@@ -88,7 +88,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0

@@ -1,6 +1,6 @@
 @size 17
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = ColorMan
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = ProtoMan
 		palette = 0
@@ -47,7 +47,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = ColorMan
 		palette = 0
@@ -55,7 +55,7 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hi hi.Não temos
+	Hi hi. Não temos
 	tempo para brincar
 	com você agora.
 	"""
@@ -79,14 +79,14 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMadd
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Vamos embora!"
+	"Vamos indo!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -95,7 +95,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = ColorMan
 		palette = 0
@@ -120,7 +120,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = ProtoMan
 		palette = 0
@@ -130,7 +130,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -149,7 +149,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = ProtoMan
 		palette = 0
@@ -169,7 +169,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -185,14 +185,18 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Quem é você Afinal? "
+	"""
+	Quem é você,afinal?
+	E como sabe o meu
+	nome?!
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -201,7 +205,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -218,7 +222,7 @@ script 10 mmbn1 {
 		animation = 2
 	"""
 	Por que eles querem
-	o programa de água?
+	o Aquaprograma?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -228,7 +232,7 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -248,7 +252,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = ProtoMan
 		palette = 0
@@ -265,7 +269,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 0
@@ -273,9 +277,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	... usamos aquele
-	programa para fazer
-	água com bom gosto.
+	... usávamos aquele
+	programa para dar à
+	água um gosto bem.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -287,7 +291,7 @@ script 13 mmbn1 {
 	"""
 	Mas não acho que
 	seja por isso que a
-	WWW o queira.
+	WWW o quisesse.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -297,7 +301,7 @@ script 13 mmbn1 {
 	jump
 		target = 14
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -313,7 +317,7 @@ script 14 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -341,14 +345,14 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"É pra já!"
+	"Tá bom!"
 	mugshotAnimate
 		animation = 1
 	keyWait

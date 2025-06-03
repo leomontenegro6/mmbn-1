@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 83
@@ -39,7 +39,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 83
@@ -77,7 +77,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 80
 		upper = 80
@@ -188,7 +188,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -206,7 +206,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -223,7 +223,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = Girl
 		palette = 0
@@ -252,7 +252,7 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -295,7 +295,7 @@ script 28 mmbn1 {
 	end
 		delay = 0
 }
-script 29 mmbn1 {
+script 29 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -312,7 +312,7 @@ script 29 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -342,7 +342,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 		palette = 0
@@ -359,7 +359,7 @@ script 35 mmbn1 {
 	end
 		delay = 0
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	mugshotShow
 		mugshot = Girl
 		palette = 0
@@ -388,7 +388,7 @@ script 36 mmbn1 {
 	end
 		delay = 0
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -426,7 +426,7 @@ script 37 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	checkItem
 		item = 54
 		amount = 1
@@ -476,7 +476,7 @@ script 40 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	checkFlag
 		flag = 153
 		jumpIfTrue = 42
@@ -547,8 +547,8 @@ script 41 mmbn1 {
 		animation = 2
 	"""
 	É,eu sei como
-	desbloquear algumas
-	das travas...
+	abrir alguns dos
+	bloqueios...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -569,7 +569,7 @@ script 41 mmbn1 {
 	jump
 		target = 44
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -588,7 +588,7 @@ script 42 mmbn1 {
 	jump
 		target = 44
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -596,7 +596,7 @@ script 43 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	O fato de eu ter um
+	O fato de eu ter uma
 	irmã gêmea é um dos
 	"""
 	mugshotAnimate
@@ -628,7 +628,7 @@ script 43 mmbn1 {
 	end
 		delay = 0
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	checkLibrary
 		lower = 60
 		upper = 177
@@ -693,7 +693,7 @@ script 44 mmbn1 {
 	end
 		delay = 0
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -744,7 +744,7 @@ script 45 mmbn1 {
 	end
 		delay = 0
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -795,7 +795,7 @@ script 46 mmbn1 {
 	end
 		delay = 0
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -813,9 +813,8 @@ script 47 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Eu acho que você
-	está pronto,
-	agora...
+	Acho que você está
+	pronto,agora...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -826,8 +825,8 @@ script 47 mmbn1 {
 		animation = 2
 	"""
 	Aqui está a chave
-	para abrir a
-	fechadura!
+	para abrir o
+	bloqueio!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -837,7 +836,7 @@ script 47 mmbn1 {
 	jump
 		target = 48
 }
-script 48 mmbn1 {
+script 48 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -866,7 +865,7 @@ script 48 mmbn1 {
 	jump
 		target = 49
 }
-script 49 mmbn1 {
+script 49 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -902,7 +901,7 @@ script 49 mmbn1 {
 	end
 		delay = 0
 }
-script 190 mmbn1 {
+script 190 mmbn1-lc {
 	checkFlag
 		flag = 1071
 		jumpIfTrue = 199
@@ -983,21 +982,21 @@ script 190 mmbn1 {
 	end
 		delay = 5
 }
-script 191 mmbn1 {
+script 191 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Até então!"
+	"Falou!"
 	mugshotAnimate
 		animation = 1
 	keyWait
 	end
 		delay = 5
 }
-script 192 mmbn1 {
+script 192 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1059,7 +1058,7 @@ script 192 mmbn1 {
 	end
 		delay = 5
 }
-script 193 mmbn1 {
+script 193 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1131,7 +1130,7 @@ script 193 mmbn1 {
 	end
 		delay = 5
 }
-script 194 mmbn1 {
+script 194 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1202,7 +1201,7 @@ script 194 mmbn1 {
 	end
 		delay = 5
 }
-script 195 mmbn1 {
+script 195 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1282,7 +1281,7 @@ script 195 mmbn1 {
 	end
 		delay = 5
 }
-script 196 mmbn1 {
+script 196 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1362,7 +1361,7 @@ script 196 mmbn1 {
 	end
 		delay = 5
 }
-script 197 mmbn1 {
+script 197 mmbn1-lc {
 	flagSet
 		flag = 1071
 	mugshotShow
@@ -1425,7 +1424,7 @@ script 197 mmbn1 {
 	end
 		delay = 5
 }
-script 198 mmbn1 {
+script 198 mmbn1-lc {
 	soundPlay
 		track = 108
 	mugshotShow
@@ -1456,7 +1455,7 @@ script 198 mmbn1 {
 	end
 		delay = 5
 }
-script 199 mmbn1 {
+script 199 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -1486,7 +1485,7 @@ script 199 mmbn1 {
 	end
 		delay = 5
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	Você não sabe resol-
@@ -1505,7 +1504,7 @@ script 220 mmbn1 {
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Diferente das mesas
@@ -1516,14 +1515,14 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"Está trancada."
 	keyWait
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	checkFlag
 		flag = 742
 		jumpIfTrue = 224
@@ -1531,7 +1530,7 @@ script 223 mmbn1 {
 	msgOpen
 	"""
 	Tem algo brilhando
-	neste armário...
+	nesse armário...
 	"""
 	keyWait
 	clearMsg
@@ -1566,14 +1565,14 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"Não há mais nada."
 	keyWait
 	end
 		delay = 5
 }
-script 225 mmbn1 {
+script 225 mmbn1-lc {
 	msgOpen
 	"""
 	É divertido

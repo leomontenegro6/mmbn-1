@@ -1,6 +1,6 @@
 @size 78
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Os crimes da WWW
@@ -22,7 +22,7 @@ script 0 mmbn1 {
 	jump
 		target = 64
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Dad
 		palette = 1
@@ -74,7 +74,7 @@ script 1 mmbn1 {
 	jump
 		target = 64
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Dad
 		palette = 1
@@ -138,7 +138,7 @@ script 2 mmbn1 {
 	jump
 		target = 64
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpenQuick
 	"""
 	NetCrimes estudantis
@@ -149,8 +149,8 @@ script 3 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Por algum motivo,
-	sua fonte ainda é
+	A fonte para
+	essa alta segue
 	desconhecida.
 	"""
 	keyWait
@@ -161,7 +161,7 @@ script 3 mmbn1 {
 	jump
 		target = 64
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 1
@@ -186,7 +186,7 @@ script 4 mmbn1 {
 	jump
 		target = 64
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Dex
 		palette = 1
@@ -204,7 +204,7 @@ script 5 mmbn1 {
 	jump
 		target = 64
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Tempos difíceis.
@@ -226,7 +226,7 @@ script 6 mmbn1 {
 	jump
 		target = 64
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = Dad
 		palette = 1
@@ -308,7 +308,7 @@ script 7 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	OBS: Sempre escute
+	OBS: Obedeça sempre
 	à sua mãe!
 	"""
 	keyWait
@@ -319,7 +319,7 @@ script 7 mmbn1 {
 	jump
 		target = 64
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 1
@@ -369,7 +369,7 @@ script 8 mmbn1 {
 	jump
 		target = 64
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 1
@@ -418,11 +418,12 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Notícias: Metrolinha
-	ACDC inaugura hoje!
+	ACDC-Distrito Den
+	inaugura hoje!
 	"""
 	keyWait
 	clearMsg
@@ -432,7 +433,7 @@ script 10 mmbn1 {
 	jump
 		target = 64
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 1
@@ -506,7 +507,7 @@ script 11 mmbn1 {
 	jump
 		target = 64
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMadd
 		palette = 1
@@ -528,7 +529,7 @@ script 12 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	É só instalá-los
+	É só instalá-lo
 	em seus carros e
 	voilá!
 	"""
@@ -556,14 +557,14 @@ script 12 mmbn1 {
 	jump
 		target = 64
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 1
 	msgOpenQuick
 	"""
 	Eu ouvi que o ônibus
-	vai explodir. É
+	vai explodir! É
 	verdade?!
 	"""
 	keyWait
@@ -581,7 +582,7 @@ script 13 mmbn1 {
 	jump
 		target = 64
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	flagSet
 		flag = 113
 	mugshotShow
@@ -628,7 +629,7 @@ script 14 mmbn1 {
 	jump
 		target = 64
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Mayl
 		palette = 1
@@ -673,7 +674,7 @@ script 15 mmbn1 {
 	jump
 		target = 64
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	flagSet
 		flag = 152
 	mugshotShow
@@ -725,7 +726,7 @@ script 16 mmbn1 {
 	jump
 		target = 64
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	flagSet
 		flag = 114
 	mugshotShow
@@ -758,8 +759,8 @@ script 17 mmbn1 {
 		delay = 0
 	"""
 	Mas os agentes da
-	WWW estão andando
-	por DenCity...
+	WWW conseguem aces-
+	sar DenCity,então...
 	"""
 	keyWait
 	clearMsg
@@ -769,13 +770,13 @@ script 17 mmbn1 {
 	jump
 		target = 64
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 1
 	msgOpenQuick
 	"""
-	Volte ao Sistema
+	Venha ao Sistema
 	Hídrico. Tenho uma
 	coisa para você!
 	"""
@@ -787,7 +788,7 @@ script 18 mmbn1 {
 	jump
 		target = 64
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	mugshotShow
 		mugshot = DrFroid
 		palette = 1
@@ -857,7 +858,7 @@ script 19 mmbn1 {
 	jump
 		target = 64
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	msgOpenQuick
 	"""
 	NetLutadores:
@@ -887,7 +888,7 @@ script 20 mmbn1 {
 	jump
 		target = 64
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 1
@@ -929,12 +930,12 @@ script 21 mmbn1 {
 	jump
 		target = 64
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	msgOpenQuick
 	"""
 	O sistema de piloto
-	automático do Dis-
-	trito foi hackeado!
+	automático de Den-
+	City foi hackeado!
 	"""
 	keyWait
 	clearMsg
@@ -982,7 +983,7 @@ script 22 mmbn1 {
 	jump
 		target = 64
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Dicas sobre Programa
@@ -993,9 +994,9 @@ script 23 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	chips de mesmo
-	código (como Bombs
-	B).
+	séries de chips de
+	mesmo código (como
+	Bombas B).
 	"""
 	keyWait
 	clearMsg
@@ -1017,8 +1018,8 @@ script 23 mmbn1 {
 		delay = 0
 	"""
 	Parece que é preciso
-	1 a mais para criar
-	o P.A.!
+	mais 1 chip "A" para
+	criar o P.A.!
 	"""
 	keyWait
 	clearMsg
@@ -1036,7 +1037,7 @@ script 23 mmbn1 {
 	jump
 		target = 64
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Eu lutei com um
@@ -1063,7 +1064,7 @@ script 24 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Mas quando ataca,
+	Mas,quando ataca,
 	um pedaço dele sai
 	da aura...
 	"""
@@ -1071,9 +1072,8 @@ script 24 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Talvez atacar isso
-	com um Atirador
-	resolva?
+	Talvez atacar esse
+	pedaço resolva?
 	"""
 	keyWait
 	clearMsg
@@ -1090,7 +1090,7 @@ script 24 mmbn1 {
 	jump
 		target = 64
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Mais informações
@@ -1128,7 +1128,7 @@ script 25 mmbn1 {
 	jump
 		target = 64
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Eu achei um vírus de
@@ -1174,7 +1174,7 @@ script 26 mmbn1 {
 	jump
 		target = 64
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Algúem já viu um
@@ -1212,7 +1212,7 @@ script 27 mmbn1 {
 	jump
 		target = 64
 }
-script 28 mmbn1 {
+script 28 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 1
@@ -1246,7 +1246,7 @@ script 28 mmbn1 {
 	jump
 		target = 64
 }
-script 29 mmbn1 {
+script 29 mmbn1-lc {
 	mugshotShow
 		mugshot = Dad
 		palette = 1
@@ -1290,9 +1290,9 @@ script 29 mmbn1 {
 	clearMsg
 		delay = 0
 	"""
-	Abraço pra sua mãe,
-	e avise-a sobre o
-	jantar!
+	Um beijo pra sua
+	mãe,e avise-a
+	sobre o jantar!
 	"""
 	keyWait
 	clearMsg
@@ -1306,7 +1306,7 @@ script 29 mmbn1 {
 	jump
 		target = 64
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = Dad
 		palette = 1
@@ -1324,7 +1324,7 @@ script 30 mmbn1 {
 	jump
 		target = 64
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	msgOpenQuick
 	"""
 	Viram a transmissão
@@ -1400,8 +1400,8 @@ script 31 mmbn1 {
 		delay = 0
 	"""
 	Talvez tenha a ver
-	com a WWW ou o
-	caos... Vai saber?
+	com a WWW ou a Fase
+	Final... Vai saber?
 	"""
 	keyWait
 	clearMsg
@@ -1419,7 +1419,7 @@ script 31 mmbn1 {
 	jump
 		target = 64
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 1
@@ -1473,7 +1473,7 @@ script 32 mmbn1 {
 	jump
 		target = 64
 }
-script 33 mmbn1 {
+script 33 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1481,7 +1481,7 @@ script 33 mmbn1 {
 	jump
 		target = 64
 }
-script 34 mmbn1 {
+script 34 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1489,7 +1489,7 @@ script 34 mmbn1 {
 	jump
 		target = 64
 }
-script 35 mmbn1 {
+script 35 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1497,7 +1497,7 @@ script 35 mmbn1 {
 	jump
 		target = 64
 }
-script 36 mmbn1 {
+script 36 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1505,7 +1505,7 @@ script 36 mmbn1 {
 	jump
 		target = 64
 }
-script 37 mmbn1 {
+script 37 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1513,7 +1513,7 @@ script 37 mmbn1 {
 	jump
 		target = 64
 }
-script 38 mmbn1 {
+script 38 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1521,7 +1521,7 @@ script 38 mmbn1 {
 	jump
 		target = 64
 }
-script 39 mmbn1 {
+script 39 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1529,7 +1529,7 @@ script 39 mmbn1 {
 	jump
 		target = 64
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1537,7 +1537,7 @@ script 40 mmbn1 {
 	jump
 		target = 64
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1545,7 +1545,7 @@ script 41 mmbn1 {
 	jump
 		target = 64
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1553,7 +1553,7 @@ script 42 mmbn1 {
 	jump
 		target = 64
 }
-script 43 mmbn1 {
+script 43 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1561,7 +1561,7 @@ script 43 mmbn1 {
 	jump
 		target = 64
 }
-script 44 mmbn1 {
+script 44 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1569,7 +1569,7 @@ script 44 mmbn1 {
 	jump
 		target = 64
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1577,7 +1577,7 @@ script 45 mmbn1 {
 	jump
 		target = 64
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1585,7 +1585,7 @@ script 46 mmbn1 {
 	jump
 		target = 64
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1593,7 +1593,7 @@ script 47 mmbn1 {
 	jump
 		target = 64
 }
-script 48 mmbn1 {
+script 48 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1601,7 +1601,7 @@ script 48 mmbn1 {
 	jump
 		target = 64
 }
-script 49 mmbn1 {
+script 49 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1609,7 +1609,7 @@ script 49 mmbn1 {
 	jump
 		target = 64
 }
-script 50 mmbn1 {
+script 50 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1617,7 +1617,7 @@ script 50 mmbn1 {
 	jump
 		target = 64
 }
-script 51 mmbn1 {
+script 51 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1625,7 +1625,7 @@ script 51 mmbn1 {
 	jump
 		target = 64
 }
-script 52 mmbn1 {
+script 52 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1633,7 +1633,7 @@ script 52 mmbn1 {
 	jump
 		target = 64
 }
-script 53 mmbn1 {
+script 53 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1641,7 +1641,7 @@ script 53 mmbn1 {
 	jump
 		target = 64
 }
-script 54 mmbn1 {
+script 54 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1649,7 +1649,7 @@ script 54 mmbn1 {
 	jump
 		target = 64
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1657,7 +1657,7 @@ script 55 mmbn1 {
 	jump
 		target = 64
 }
-script 56 mmbn1 {
+script 56 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1665,7 +1665,7 @@ script 56 mmbn1 {
 	jump
 		target = 64
 }
-script 57 mmbn1 {
+script 57 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1673,7 +1673,7 @@ script 57 mmbn1 {
 	jump
 		target = 64
 }
-script 58 mmbn1 {
+script 58 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1681,7 +1681,7 @@ script 58 mmbn1 {
 	jump
 		target = 64
 }
-script 59 mmbn1 {
+script 59 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1689,7 +1689,7 @@ script 59 mmbn1 {
 	jump
 		target = 64
 }
-script 60 mmbn1 {
+script 60 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1697,7 +1697,7 @@ script 60 mmbn1 {
 	jump
 		target = 64
 }
-script 61 mmbn1 {
+script 61 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1705,7 +1705,7 @@ script 61 mmbn1 {
 	jump
 		target = 64
 }
-script 62 mmbn1 {
+script 62 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1713,7 +1713,7 @@ script 62 mmbn1 {
 	jump
 		target = 64
 }
-script 63 mmbn1 {
+script 63 mmbn1-lc {
 	msgOpenQuick
 	keyWait
 	clearMsg
@@ -1721,7 +1721,7 @@ script 63 mmbn1 {
 	jump
 		target = 64
 }
-script 64 mmbn1 {
+script 64 mmbn1-lc {
 	soundDisableTextSFX
 	textSpeed
 		delay = 0
@@ -1738,13 +1738,13 @@ script 64 mmbn1 {
 		animation = 1
 	waitHold
 }
-script 65 mmbn1 {
+script 65 mmbn1-lc {
 	flagClear
 		flag = 591
 	jump
 		target = 64
 }
-script 70 mmbn1 {
+script 70 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1752,7 +1752,7 @@ script 70 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Responder este
+	Responder a este
 	e-mail?
 	"""
 	mugshotAnimate
@@ -1783,7 +1783,7 @@ script 70 mmbn1 {
 			jump = 71
 		]
 }
-script 71 mmbn1 {
+script 71 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1803,7 +1803,7 @@ script 71 mmbn1 {
 	jump
 		target = 64
 }
-script 72 mmbn1 {
+script 72 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1822,7 +1822,7 @@ script 72 mmbn1 {
 	jump
 		target = 73
 }
-script 73 mmbn1 {
+script 73 mmbn1-lc {
 	msgOpen
 	option
 		left = 0
@@ -1849,7 +1849,7 @@ script 73 mmbn1 {
 			jump = 74
 		]
 }
-script 74 mmbn1 {
+script 74 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1879,7 +1879,7 @@ script 74 mmbn1 {
 	jump
 		target = 73
 }
-script 75 mmbn1 {
+script 75 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -1898,7 +1898,7 @@ script 75 mmbn1 {
 	jump
 		target = 76
 }
-script 76 mmbn1 {
+script 76 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	"."
@@ -1933,7 +1933,7 @@ script 76 mmbn1 {
 	jump
 		target = 77
 }
-script 77 mmbn1 {
+script 77 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0

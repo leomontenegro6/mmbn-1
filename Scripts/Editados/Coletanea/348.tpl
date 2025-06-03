@@ -1,6 +1,6 @@
 @size 9
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -20,7 +20,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -32,7 +32,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -52,7 +52,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -85,7 +85,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -97,7 +97,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -141,7 +141,7 @@ script 5 mmbn1 {
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0
@@ -150,8 +150,8 @@ script 6 mmbn1 {
 		animation = 2
 	"""
 	O senhor quer di-
-	zer... que o caos
-	está para começar?
+	zer... que a Fase
+	Final irá começar?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -161,7 +161,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -211,7 +211,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Yahoot
 		palette = 0

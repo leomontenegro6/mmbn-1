@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -40,7 +40,7 @@ script 0 mmbn1 {
 		animation = 2
 	"""
 	É por aqui que
-	fornecemos à água.
+	fornecemos a água.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -52,7 +52,7 @@ script 0 mmbn1 {
 	"""
 	Mas o programa de
 	sucção parece estar
-	com um erro.
+	com erro.
 	"""
 	mugshotAnimate
 		animation = 1
@@ -60,7 +60,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -98,7 +98,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 48
 		upper = 55
@@ -147,7 +147,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -187,7 +187,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -216,7 +216,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -257,7 +257,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -297,7 +297,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -326,7 +326,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -367,7 +367,7 @@ script 22 mmbn1 {
 	end
 		delay = 0
 }
-script 30 mmbn1 {
+script 30 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -414,7 +414,7 @@ script 30 mmbn1 {
 	end
 		delay = 0
 }
-script 31 mmbn1 {
+script 31 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -443,7 +443,7 @@ script 31 mmbn1 {
 	end
 		delay = 0
 }
-script 32 mmbn1 {
+script 32 mmbn1-lc {
 	mugshotShow
 		mugshot = MiddleAgedMan
 		palette = 0
@@ -472,7 +472,7 @@ script 32 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
 	A porta está

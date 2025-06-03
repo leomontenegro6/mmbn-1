@@ -1,6 +1,6 @@
 @size 26
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 0
@@ -16,7 +16,7 @@ script 0 mmbn1 {
 	jump
 		target = 20
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = OldMan
 		palette = 0
@@ -34,7 +34,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = MsMari
 		palette = 2
@@ -60,7 +60,7 @@ script 2 mmbn1 {
 	end
 		delay = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	Está firmemente
@@ -80,7 +80,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -97,7 +97,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -122,7 +122,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	checkChipCode
 		chip = 162
 		code = R
@@ -148,7 +148,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	playerLock
@@ -182,7 +182,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -190,7 +190,7 @@ script 10 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Não vai perder,
+	Não vá perder,
 	hein!
 	"""
 	mugshotAnimate
@@ -199,7 +199,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Yai
 		palette = 0
@@ -217,7 +217,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -258,7 +258,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkFlag
 		flag = 41
 		jumpIfTrue = 23
@@ -283,7 +283,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 0
@@ -301,7 +301,7 @@ script 22 mmbn1 {
 	end
 		delay = 0
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 0
@@ -319,7 +319,7 @@ script 23 mmbn1 {
 	end
 		delay = 0
 }
-script 24 mmbn1 {
+script 24 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 0
@@ -337,7 +337,7 @@ script 24 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = Higsby
 		palette = 0

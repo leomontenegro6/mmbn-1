@@ -1,6 +1,6 @@
 @size 8
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -22,7 +22,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -40,7 +40,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -58,7 +58,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -66,8 +66,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	MegaMan!! Você tá
-	bem?!
+	MegaMan!!
+	Você tá bem?!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -77,7 +77,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -94,7 +94,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -114,7 +114,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Scientist
 		palette = 0
@@ -128,7 +128,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkFlag
 		flag = 209
 		jumpIfTrue = 5
@@ -140,8 +140,8 @@ script 7 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Bom,é agora ou
-	nunca! Pronto...?
+	Bom,agora é tudo
+	ou nada! Pronto...?
 	Lá vai!!
 	"""
 	mugshotAnimate

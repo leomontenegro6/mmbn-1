@@ -1,6 +1,6 @@
 @size 21
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -8,8 +8,7 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Bom,tem água,
-	mas...
+	Bom,tem água,mas...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -19,7 +18,7 @@ script 0 mmbn1 {
 	jump
 		target = 1
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -27,8 +26,8 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Parece bem
-	desagradável...
+	Parece
+	nojentíssima...
 	"""
 	mugshotAnimate
 		animation = 1
@@ -36,7 +35,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -57,7 +56,7 @@ script 2 mmbn1 {
 	end
 		delay = 30
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -65,8 +64,8 @@ script 3 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Água!! Preciso
-	beber!
+	Água!!
+	Preciso beber!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -74,7 +73,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -90,7 +89,7 @@ script 4 mmbn1 {
 	jump
 		target = 5
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -109,7 +108,7 @@ script 5 mmbn1 {
 	jump
 		target = 6
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -150,7 +149,7 @@ script 6 mmbn1 {
 	jump
 		target = 7
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	flagSet
 		flag = 246
 	mugshotShow
@@ -168,7 +167,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -186,7 +185,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -202,7 +201,7 @@ script 9 mmbn1 {
 	jump
 		target = 10
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	flagSet
@@ -214,14 +213,14 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
 	msgOpen
 	mugshotAnimate
 		animation = 2
-	"Isso foi obra sua!"
+	"Olha só o que você\nfez!"
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -230,7 +229,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -246,7 +245,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -256,7 +255,7 @@ script 13 mmbn1 {
 	"""
 	Pessoas estão beben-
 	do a água poluída
-	por todo o lugar
+	por todo canto
 	"""
 	mugshotAnimate
 		animation = 1
@@ -269,9 +268,9 @@ script 13 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	O real problema está
-	no programa de fil-
-	tragem da água!
+	O verdadeiro proble-
+	ma é no programa de
+	filtragem da água!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -292,7 +291,7 @@ script 13 mmbn1 {
 	jump
 		target = 14
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -308,7 +307,7 @@ script 14 mmbn1 {
 	jump
 		target = 15
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = Chaud
 		palette = 0
@@ -327,7 +326,7 @@ script 15 mmbn1 {
 	jump
 		target = 16
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	soundPlay
@@ -339,7 +338,7 @@ script 16 mmbn1 {
 	jump
 		target = 17
 }
-script 17 mmbn1 {
+script 17 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -358,7 +357,7 @@ script 17 mmbn1 {
 	jump
 		target = 18
 }
-script 18 mmbn1 {
+script 18 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -378,7 +377,7 @@ script 18 mmbn1 {
 	jump
 		target = 19
 }
-script 19 mmbn1 {
+script 19 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -394,7 +393,7 @@ script 19 mmbn1 {
 	jump
 		target = 20
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0

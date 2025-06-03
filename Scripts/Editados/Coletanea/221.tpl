@@ -1,6 +1,6 @@
 @size 10
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = MrProg
 		palette = 0
@@ -8,9 +8,9 @@ script 0 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Hoje,estou lidando
-	com os recursos de
-	troca de canal!
+	Hoje,estou
+	encarregado de
+	trocar de canal!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -18,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 5
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -71,7 +71,7 @@ script 1 mmbn1 {
 	end
 		delay = 5
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou

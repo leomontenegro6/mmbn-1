@@ -1,6 +1,6 @@
 @size 235
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -32,7 +32,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -76,7 +76,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 71
@@ -113,7 +113,7 @@ script 2 mmbn1 {
 	"""
 	Os semáforos mudam
 	de acordo com o
-	tráfego,então
+	trânsito,então
 	"""
 	mugshotAnimate
 		animation = 1
@@ -133,7 +133,7 @@ script 2 mmbn1 {
 	end
 		delay = 0
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	msgOpen
 	"Um ponto de ônibus."
 	mugshotAnimate
@@ -151,7 +151,7 @@ script 3 mmbn1 {
 	end
 		delay = 0
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -169,7 +169,7 @@ script 4 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	flagAddMail
 		flag = 12
 	mugshotShow
@@ -189,7 +189,7 @@ script 10 mmbn1 {
 	end
 		delay = 0
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	checkFlag
 		flag = 588
 		jumpIfTrue = continue
@@ -211,7 +211,7 @@ script 11 mmbn1 {
 	end
 		delay = 0
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -229,7 +229,7 @@ script 12 mmbn1 {
 	end
 		delay = 0
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	controlLock
 	textSpeed
 		delay = 1
@@ -254,7 +254,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -274,7 +274,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = OldWoman
 		palette = 0
@@ -284,7 +284,7 @@ script 15 mmbn1 {
 	"""
 	Tudo correu
 	exatamente como
-	previ!
+	eu previ!
 	"""
 	mugshotAnimate
 		animation = 1
@@ -292,7 +292,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 16 mmbn1 {
+script 16 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -332,7 +332,7 @@ script 16 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -350,7 +350,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = OldWoman
 		palette = 0
@@ -372,7 +372,7 @@ script 26 mmbn1 {
 	end
 		delay = 0
 }
-script 27 mmbn1 {
+script 27 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -386,7 +386,7 @@ script 27 mmbn1 {
 	end
 		delay = 0
 }
-script 40 mmbn1 {
+script 40 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -415,7 +415,7 @@ script 40 mmbn1 {
 	end
 		delay = 0
 }
-script 41 mmbn1 {
+script 41 mmbn1-lc {
 	mugshotShow
 		mugshot = OldWoman
 		palette = 0
@@ -444,7 +444,7 @@ script 41 mmbn1 {
 	end
 		delay = 0
 }
-script 42 mmbn1 {
+script 42 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -472,7 +472,7 @@ script 42 mmbn1 {
 	end
 		delay = 0
 }
-script 45 mmbn1 {
+script 45 mmbn1-lc {
 	mugshotShow
 		mugshot = BlueShirtBoy
 		palette = 0
@@ -501,7 +501,7 @@ script 45 mmbn1 {
 	end
 		delay = 0
 }
-script 46 mmbn1 {
+script 46 mmbn1-lc {
 	mugshotShow
 		mugshot = OldWoman
 		palette = 0
@@ -530,7 +530,7 @@ script 46 mmbn1 {
 	end
 		delay = 0
 }
-script 47 mmbn1 {
+script 47 mmbn1-lc {
 	checkChapter
 		lower = 83
 		upper = 84
@@ -563,7 +563,7 @@ script 47 mmbn1 {
 	end
 		delay = 0
 }
-script 55 mmbn1 {
+script 55 mmbn1-lc {
 	mugshotShow
 		mugshot = Man
 		palette = 0
@@ -602,18 +602,18 @@ script 55 mmbn1 {
 	end
 		delay = 0
 }
-script 220 mmbn1 {
+script 220 mmbn1-lc {
 	msgOpen
 	"""
-	É uma loja de
-	conserto de PET. Em
-	promoção agora
+	Uma loja de conserto
+	de PETs. Estão com
+	promoção agora.
 	"""
 	keyWait
 	end
 		delay = 5
 }
-script 221 mmbn1 {
+script 221 mmbn1-lc {
 	msgOpen
 	"""
 	Aromas maravilhosos
@@ -624,7 +624,7 @@ script 221 mmbn1 {
 	end
 		delay = 5
 }
-script 222 mmbn1 {
+script 222 mmbn1-lc {
 	msgOpen
 	"""
 	Não dá para se
@@ -635,7 +635,7 @@ script 222 mmbn1 {
 	end
 		delay = 5
 }
-script 223 mmbn1 {
+script 223 mmbn1-lc {
 	checkChapter
 		lower = 64
 		upper = 95
@@ -661,7 +661,7 @@ script 223 mmbn1 {
 	end
 		delay = 5
 }
-script 224 mmbn1 {
+script 224 mmbn1-lc {
 	msgOpen
 	"""
 	Este semáforo tem

@@ -1,6 +1,6 @@
 @size 27
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -34,7 +34,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -73,14 +73,14 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"A água parou!"
 	keyWait
 	end
 		delay = 0
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	msgOpen
 	"""
 	A água começou a
@@ -90,7 +90,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	checkItem
 		item = 5
 		amount = 1
@@ -105,7 +105,7 @@ script 7 mmbn1 {
 	jump
 		target = 8
 }
-script 8 mmbn1 {
+script 8 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -124,7 +124,7 @@ script 8 mmbn1 {
 	jump
 		target = 9
 }
-script 9 mmbn1 {
+script 9 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -141,7 +141,7 @@ script 9 mmbn1 {
 	end
 		delay = 0
 }
-script 10 mmbn1 {
+script 10 mmbn1-lc {
 	msgOpen
 	"Está sem a manivela!"
 	keyWait
@@ -150,7 +150,7 @@ script 10 mmbn1 {
 	jump
 		target = 11
 }
-script 11 mmbn1 {
+script 11 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -170,7 +170,7 @@ script 11 mmbn1 {
 	jump
 		target = 12
 }
-script 12 mmbn1 {
+script 12 mmbn1-lc {
 	mugshotShow
 		mugshot = Lan
 		palette = 0
@@ -186,7 +186,7 @@ script 12 mmbn1 {
 	jump
 		target = 13
 }
-script 13 mmbn1 {
+script 13 mmbn1-lc {
 	mugshotHide
 	msgOpen
 	checkTakeItem
@@ -210,7 +210,7 @@ script 13 mmbn1 {
 	end
 		delay = 0
 }
-script 14 mmbn1 {
+script 14 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan girou a
@@ -220,7 +220,7 @@ script 14 mmbn1 {
 	end
 		delay = 0
 }
-script 15 mmbn1 {
+script 15 mmbn1-lc {
 	mugshotShow
 		mugshot = MegaMan
 		palette = 0
@@ -238,7 +238,7 @@ script 15 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	mugshotShow
 		mugshot = ColorMan
 		palette = 0
@@ -267,7 +267,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkChapter
 		lower = 39
 		upper = 39
@@ -326,7 +326,7 @@ script 21 mmbn1 {
 	end
 		delay = 0
 }
-script 25 mmbn1 {
+script 25 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -343,7 +343,7 @@ script 25 mmbn1 {
 	end
 		delay = 0
 }
-script 26 mmbn1 {
+script 26 mmbn1-lc {
 	mugshotShow
 		mugshot = NormalNaviYellow
 		palette = 0
@@ -351,9 +351,9 @@ script 26 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Desculpe pelos
+	Lamentamos pelos
 	problemas que
-	jogamos em você!
+	andamos tendo!
 	"""
 	mugshotAnimate
 		animation = 1

@@ -1,10 +1,11 @@
 @size 24
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	msgOpen
 	"""
-	Parece ter conexão
-	para a rede...
+	Parece ser uma
+	conexão para a
+	Rede...
 	"""
 	keyWait
 	clearMsg
@@ -17,7 +18,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	flagSet
 		flag = 6
 	msgOpen
@@ -37,7 +38,7 @@ script 1 mmbn1 {
 	end
 		delay = 0
 }
-script 5 mmbn1 {
+script 5 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -87,7 +88,7 @@ script 5 mmbn1 {
 	end
 		delay = 5
 }
-script 6 mmbn1 {
+script 6 mmbn1-lc {
 	checkChipCode
 		chip = 69
 		code = L
@@ -133,7 +134,7 @@ script 6 mmbn1 {
 	end
 		delay = 0
 }
-script 7 mmbn1 {
+script 7 mmbn1-lc {
 	msgOpen
 	"""
 	MegaMan acessou
@@ -151,7 +152,7 @@ script 7 mmbn1 {
 	end
 		delay = 0
 }
-script 20 mmbn1 {
+script 20 mmbn1-lc {
 	checkFlag
 		flag = 147
 		jumpIfTrue = 23
@@ -169,9 +170,9 @@ script 20 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	Oi,MegaMan! Você
-	respondeu ao nosso
-	e-mail?
+	Oi,Mega!
+	Você respondeu ao
+	nosso e-mail?
 	"""
 	mugshotAnimate
 		animation = 1
@@ -181,7 +182,7 @@ script 20 mmbn1 {
 	end
 		delay = 0
 }
-script 21 mmbn1 {
+script 21 mmbn1-lc {
 	checkFlag
 		flag = 147
 		jumpIfTrue = 23
@@ -204,7 +205,7 @@ script 21 mmbn1 {
 	jump
 		target = 22
 }
-script 22 mmbn1 {
+script 22 mmbn1-lc {
 	mugshotHide
 	checkTakeItem
 		item = 7
@@ -227,7 +228,7 @@ script 22 mmbn1 {
 	jump
 		target = 23
 }
-script 23 mmbn1 {
+script 23 mmbn1-lc {
 	flagSet
 		flag = 147
 	mugshotShow

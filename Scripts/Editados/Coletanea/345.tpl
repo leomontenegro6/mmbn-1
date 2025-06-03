@@ -1,6 +1,6 @@
 @size 5
 
-script 0 mmbn1 {
+script 0 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -68,7 +68,7 @@ script 0 mmbn1 {
 	end
 		delay = 0
 }
-script 1 mmbn1 {
+script 1 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -76,7 +76,7 @@ script 1 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	E combinando os 4
+	E,combinando os 4
 	programas,
 	"""
 	flagClear
@@ -95,7 +95,7 @@ script 1 mmbn1 {
 	jump
 		target = 2
 }
-script 2 mmbn1 {
+script 2 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -112,7 +112,7 @@ script 2 mmbn1 {
 	mugshotAnimate
 		animation = 2
 	"""
-	E uma vez realiza-
+	E,uma vez realiza-
 	da... 
 	"""
 	mugshotAnimate
@@ -133,7 +133,7 @@ script 2 mmbn1 {
 	jump
 		target = 3
 }
-script 3 mmbn1 {
+script 3 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
@@ -153,7 +153,7 @@ script 3 mmbn1 {
 	jump
 		target = 4
 }
-script 4 mmbn1 {
+script 4 mmbn1-lc {
 	mugshotShow
 		mugshot = LordWily
 		palette = 0
