@@ -1,4 +1,5 @@
 - Checar por textos em inglês programaticamente via script.
 - Aplicar revisão ortográfica programaticamente via LanguageTool depois.
-- Modificar fonte do jogo para ficar mais similar à do MMBN2 sem VWF.
+- Atualizar versão do TextPet, pra agilizar compilações de roms e teste ingame depois.
+- Corrigir bug menor no copyright da tela-título, onde uma das OAMs tá posicionada 2 píxels mais à esquerda do que deveria.
 - Editar gráficos dos menus.

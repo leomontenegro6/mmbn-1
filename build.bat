@@ -16,4 +16,7 @@ echo ==Aplicando patches extras na rom modificada:==
 echo ==Graficos diversos.==
 .\Ferramentas\armips.exe .\Asm\graficos.asm
 
+echo ==Expandindo rom para 16mb==
+.\Ferramentas\armips.exe .\Asm\expansor_rom.asm
+
 echo Done.

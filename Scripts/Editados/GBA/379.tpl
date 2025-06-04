@@ -1212,7 +1212,7 @@ script 26 mmbn1 {
 script 27 mmbn1 {
 	msgOpenQuick
 	"""
-	Algúem já viu um
+	Alguém já viu um
 	vírus que se parece
 	com uma lagarta?
 	"""
