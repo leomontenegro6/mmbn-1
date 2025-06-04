@@ -8,7 +8,7 @@ $graficos = [
 ];
 
 foreach($graficos as $g){
-    $caminho = "Gráficos/Originais/{$g->offset} - {$g->nome}.gba";
+    $caminho = "Graficos/Originais/{$g->offset} - {$g->nome}.gba";
     $offset_decimal = hexdec(str_replace('0x', '', $g->offset));
     $tiles = explode('x', $g->tiles);
     $tamanho = $tiles[0] * $tiles[1] * 32;
