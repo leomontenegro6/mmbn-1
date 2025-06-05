@@ -55,8 +55,8 @@ Revisão: 90%
 
 # Imagens
 
-![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-3-traducao-ptbr/master/Screenshots/GIF/1.gif "Imagem 1") ![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-3-traducao-ptbr/master/Screenshots/GIF/2.gif "Imagem 2")
-![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-3-traducao-ptbr/master/Screenshots/GIF/3.gif "Imagem 3") ![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-3-traducao-ptbr/master/Screenshots/GIF/4.gif "Imagem 4")
+![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-1-traducao-ptbr/master/Screenshots/GIF/1.gif "Imagem 1") ![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-1-traducao-ptbr/master/Screenshots/GIF/2.gif "Imagem 2")
+![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-1-traducao-ptbr/master/Screenshots/GIF/3.gif "Imagem 3") ![alt text](https://raw.githubusercontent.com/leomontenegro6/mmbn-1-traducao-ptbr/master/Screenshots/GIF/4.gif "Imagem 4")
 
 # Patch
 
