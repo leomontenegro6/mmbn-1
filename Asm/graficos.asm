@@ -14,5 +14,11 @@
     .incbin "Graficos/Editados/0x7B5018 - New Game Continue.gba"
 .org 0x087B54D8
     .incbin "Graficos/Editados/0x7B54D8 - Copyright.gba"
+
+; Alterando posição de uma das OAMs dos créditos, de modo a aumentar
+; sua posição x de 126 pra 128 píxels, assim evitando que ela sobreponha
+; as outras.
+.org 0x0801092E
+    .stringn 0x80
 			
 .close
