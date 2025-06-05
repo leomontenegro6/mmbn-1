@@ -1,4 +1,4 @@
-[img]CAPA[/img]
+[img]https://i.imgur.com/iKZW3Wx.jpeg[/img]
 
 —————————————————–
 [b]Informações[/b]
@@ -96,10 +96,10 @@ Changelog
 [b]Imagens[/b]
 —————————————————–
 
-[img][/img] [img][/img] [img][/img]
-[img][/img] [img][/img] [img][/img]
-[img][/img] [img][/img] [img][/img]
-[img][/img] [img][/img] [img][/img]
+[img]https://i.imgur.com/qU31zfb.png[/img] [img]https://i.imgur.com/jtmi1hQ.png[/img] [img]https://i.imgur.com/QjpKNnt.png[/img]
+[img]https://i.imgur.com/acocNGo.png[/img] [img]https://i.imgur.com/gNM2hpF.png[/img] [img]https://i.imgur.com/V33T5wx.png[/img]
+[img]https://i.imgur.com/S8xC3TY.png[/img] [img]https://i.imgur.com/ifE52M1.png[/img] [img]https://i.imgur.com/WllFUd2.png[/img]
+[img]https://i.imgur.com/6y4RxPF.png[/img] [img]https://i.imgur.com/JZNahAu.png[/img] [img]https://i.imgur.com/AjUd8Av.png[/img]
 
 —————————————————–
 [b][i]Patch[/i][/b]
