@@ -1,0 +1,144 @@
+[img]https://i.imgur.com/mDB4tMv.png[/img]
+
+—————————————————–
+[b]Informações[/b]
+—————————————————–
+
+[b]Nome do jogo[/b]: MegaMan Battle Network Legacy Collection
+[b]Versão[/b]: Americana
+[b]Plataforma[/b]: PC
+[b]Desenvolvedora[/b]: Capcom, Capcom Production Studio 2
+[b]Distribuidora[/b]: Capcom
+[b]Gênero[/b]: RPG / Ação / Tática
+[b]Jogadores[/b]: 1
+
+—————————————————–
+[b]Enredo[/b]
+—————————————————–
+
+O ano é 200X. O rápido crescimento da tecnologia da internet deu origem à Sociedade em Rede. As pessoas carregam consigo PETs, dispositivos móveis equipados com programas sencientes chamados NetNavis, que usam para desfrutar dos muitos benefícios que a rede oferece.
+
+Mas, embora a rede tenha melhorado seu modo de vida, também trouxe consigo novas oportunidades para o crime cibernético. O protagonista, Lan Hikari, e seu NetNavi, MegaMan.EXE, devem trabalhar juntos para resolver inúmeros incidentes.
+
+—————————————————–
+[b]Sobre a tradução[/b]
+—————————————————–
+
+Esse projeto começou de maneira "engraçada": Immegax apostou com um amigo que se ele traduzisse os jogos de MegaMan Battle Network, seu amigo jogaria todos eles. Ele começou com um grupo pequeno, eventualmente sendo batizado de "MegaSpace", de 3 pessoas, sendo elas o Immegax, MaryWolf e Hikare Netto. Com o grupo formado, eles tentaram inicialmente traduzir o MMBN1 dentro da Legacy Collection.
+
+Algum tempo depois, eles descobriram que Sahgo havia traduzido o primeiro e segundo jogos já, então ele formou uma parceria com Sahgo e eu, com a ideia de simultaneamente traduzir tanto os jogos originais de GBA como as versões dentro da coletânea, fazendo o devido port de textos de uma para outra e vice-versa. Com o tempo, eles aprenderam a usar a ferramenta [url=https://github.com/Prof9/TextPet]TextPet[/url], do Prof.9, e em seguida aprenderam a editar os gráficos em HD da coletânea graças à ajuda dos colegas franceses "Schneitizel S. Sekai" e "Ashley A. Sekai".
+
+Tendo a parte das ferramentas resolvidas, deu-se início à tradução. O MMBN1 foi retraduzido pelo Immegax e revisado pelo Sahgo, que optou por uma tradução do zero ao invés do porte da tradução antiga de 2015, e que resultou também [url=https://www.romhacking.net.br/index.php?topic=3054]no relançamento do MMBN1 de GBA[/url]. Em seguida, Sahgo trabalhou no port dos scripts do MMBN2 para a coletânea, o que deu um certo trabalho porque não há fontes VWF nos textos da coletânea, então os textos tiveram que ser todos adaptados para janelas de até 20 caracteres, e descrições de chips de 10 caracteres por linha. Por fim, no MMBN3 foi o inverso, com os textos sendo traduzidos primeiro na coletânea e só depois adaptados pra versão de GBA com as fontes VWF.
+
+Um tempo depois, após eu ter zerado MMBN2 mais cedo esse ano e feito uma revisão ingame nele, e depois de ter lançado a versão 1.0 do MMBN3, conseguimos aplicar todas essas correções dentro da coletânea. Para encerrar, foi possível também fazer uma dublagem das vozes do modelo 3D do MegaMan.EXE na coletânea, graças a uma parceria entre Sahgo e DanPhones, dublador do Vent na dublagem do MegaMan ZX na coletânea, que ficou um trabalho muito legal.
+
+Após todo esse trampo, isso resultou no volume 1 da Legacy Collection totalmente traduzido. Foi um trabalho de muitas pessoas que fizeram com muita paixão pela série. Espero que apreciem este trabalho, da mesma forma que seus criadores também o fizeram.
+
+—————————————————–
+[b]Equipe[/b]
+—————————————————–
+
+[list]
+[li][b]Immegax[/b]: Hacking, gráficos, tradução, direção de dublagem, revisão e teste;[/li]
+[li][b]Marywolf[/b]: Tradução e gráficos;[/li]
+[li][b]Hikare Netto[/b]: Revisão e teste;[/li]
+[li][b]Sahgo[/b]: Tradução, revisão e teste;[/li]
+[li][b]Solid One[/b]: Romhacking geral, gráficos e revisão;[/li]
+[li][b]Bru[/b]: Revisão e direção de dublagem;[/li]
+[li][b]Romy[/b]: Revisão;[/li]
+[li][b]Colet[/b]: Revisão;[/li]
+[li][b]DanPhones[/b]: Dublagem do modelo 3D do MegaMan.EXE;[/li]
+[li][b]Malta The Red[/b]: Direção de dublagem;[/li]
+[/list]
+
+—————————————————–
+[b][i]Status[/i] da Tradução[/b]
+—————————————————–
+
+[b]Textos[/b]: 100%
+[b]Acentos[/b]: 100%
+[b]Gráficos[/b]: 80%
+[b]Revisão[/b]: 90%
+
+—————————————————–
+[b]Ferramentas Utilizadas[/b]
+—————————————————–
+
+[list]
+[li][b][url=https://mh-nexus.de/en/hxd/]HxD Hex Editor[/url][/b] : Editor hexadecimal usado para edições diversas;[/li]
+[li][b][url=https://www.romhacking.net/utilities/291/]WindHex[/url][/b] : Editor hexadecimal usado para edições diversas;[/li]
+[li][b][url=https://github.com/Prof9/TextPet]TextPet[/url][/b] : Tool criada pelo romhacker espanhol Prof. 9 e usada para editar textos do jogo;[/li]
+[li][b][url=https://www.romhacking.net/utilities/991/]Tile Molester Mod[/url][/b] : Editor de tiles usado para edição dos gráficos do jogo.[/li]
+[li][b][url=https://github.com/Kingcom/armips]armips assembler[/url][/b] : Ferramenta utilizada para remontar a rom, após edições.[/li]
+[li][b][url=https://github.com/leomontenegro6/mmbn-dialog-previewer]MMBN Dialog Previewer[/url][/b] : Extensão do VSCode criada para facilitar a tradução de scripts pela ferramenta TextPet;[/li]
+[/list]
+
+—————————————————–
+Changelog
+—————————————————–
+
+[b]Versão 1.0[/b]: 07/06/2025
+ Primeiro lançamento.
+
+—————————————————–
+[b]Agradecimentos[/b]
+—————————————————–
+
+[list]
+[li]Capcom, por ter lançado o jogo;[/li]
+[li]Sahgo por todo o trampo de tradução das versões de GBA até o momento;[/li]
+[li]Todos do grupo "MegaSpace", por auxiliar em algumas partes de romhacking em gráficos não-HD;[/li]
+[li]Prof.9, por ter criado a ferramenta TextPet;[/li]
+[li]Schneitizel S. Sekai e Ashley A. Sekai, pela ajuda técnica ao Immegax;[/li]
+[li]Weegee, TKK e Greiga master, pelos mugshots e outras correções internas nos jogos;[/li]
+[/list]
+
+—————————————————–
+[b]Imagens[/b]
+—————————————————–
+
+[img]https://i.imgur.com/jYzjBNF.png[/img]
+[img]https://i.imgur.com/97BJdnA.png[/img]
+[img]https://i.imgur.com/oZ3Ay9W.png[/img]
+[img]https://i.imgur.com/aDvERII.png[/img]
+[img]https://i.imgur.com/kmBhHWI.png[/img]
+[img]https://i.imgur.com/UIcXkMG.png[/img]
+[img]https://i.imgur.com/G0nJcJ2.png[/img]
+[img]https://i.imgur.com/tbwihxo.png[/img]
+[img]https://i.imgur.com/GKEvs6B.png[/img]
+[img]https://i.imgur.com/ROjwoKT.png[/img]
+[img]https://i.imgur.com/3JAbuZY.png[/img]
+[img]https://i.imgur.com/hfsqz2S.png[/img]
+[img]https://i.imgur.com/y22I3rD.png[/img]
+[img]https://i.imgur.com/nPu3IYc.png[/img]
+[img]https://i.imgur.com/A7RisCN.png[/img]
+[img]https://i.imgur.com/KKwjsiH.png[/img]
+
+—————————————————–
+[b][i]Patch[/i][/b]
+—————————————————–
+
+Segue abaixo o patch da tradução, para download. Está em formato de um arquivo zipado, contendo todos os assets traduzidos que precisam ser substituídos na versão de PC.
+
+Para aplicar o patch de tradução, siga os passos simples abaixo:
+
+1. Navegue até o diretório onde o jogo foi instalado, que geralmente é: 
+
+"(Unidade de Instalação):\SteamLibrary\steamapps\common\MegaMan_BattleNetwork_LegacyCollection_Vol1"
+
+2. Copie e cole as pastas do patch de tradução dentro deste diretório.
+
+3. Após inserir as pastas, inicie o jogo normalmente. Uma tela de opções será exibida.
+
+4. Clique em "XamlLoader-FR", "OSS Mugshots" e "Dublagem Modelo 3D", selecione "enable" e, em seguida, clique em "play". (Os outros mods são opcionais)
+
+Agora é só aproveitar o jogo! Lembre-se de que o patch está em versão beta e pode conter alguns erros de tradução. Caso encontre algum problema, por favor, reporte-nos imediatamente.
+
+Mods Opcionais:
+
+- HubStyle cor correta: Deixa o sprite do MegaMan na cor verde quando ele está no hub estilo
+- Upscale: Aumenta a qualidade da tela, porém os textos ficam um pouco pixelados
+- Immega mod: Substitui as cores do MegaMan para as cores do Immega
+- RNG consertado: Conserta erros de RNG do MMBN 1 ao 3 ao coletar um chip
+
+[url=https://www.mediafire.com/file/vm3s0nmn2vta86j/MegaMan+Battle+Network+vol+1+PT-BR.rar/file][i]Download[/i][/url]
